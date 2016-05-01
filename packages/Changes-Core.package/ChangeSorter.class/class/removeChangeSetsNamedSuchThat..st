@@ -1,0 +1,4 @@
+deprecated
+removeChangeSetsNamedSuchThat: nameBlock
+
+	^ ChangesOrganizer removeChangeSetsNamedSuchThat: nameBlock

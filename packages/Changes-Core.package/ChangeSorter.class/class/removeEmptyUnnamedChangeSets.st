@@ -1,0 +1,4 @@
+deprecated
+removeEmptyUnnamedChangeSets
+
+	^ ChangesOrganizer removeEmptyUnnamedChangeSets

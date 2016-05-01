@@ -1,0 +1,4 @@
+menu
+changeSetMenuForModification: aMenu
+
+	^ aMenu

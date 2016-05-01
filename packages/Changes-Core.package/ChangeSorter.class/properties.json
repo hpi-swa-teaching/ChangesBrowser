@@ -1,0 +1,18 @@
+{
+	"category" : "Changes-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "wiz 2/3/2010 23:38",
+	"instvars" : [
+		"parent",
+		"myChangeSet",
+		"currentClassName",
+		"currentSelector",
+		"priorChangeSetList" ],
+	"name" : "ChangeSorter",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

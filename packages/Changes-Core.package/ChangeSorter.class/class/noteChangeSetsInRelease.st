@@ -1,0 +1,4 @@
+deprecated
+noteChangeSetsInRelease
+
+	^ ChangesOrganizer noteChangeSetsInRelease

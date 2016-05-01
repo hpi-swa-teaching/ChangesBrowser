@@ -1,0 +1,3 @@
+enumerating
+changeSetsNamedSuchThat: nameBlock
+	^ChangeSet changeSetsNamedSuchThat: nameBlock

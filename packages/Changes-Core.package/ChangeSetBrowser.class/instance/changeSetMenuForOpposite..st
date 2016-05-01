@@ -1,0 +1,4 @@
+menu
+changeSetMenuForOpposite: aMenu
+
+	^ aMenu

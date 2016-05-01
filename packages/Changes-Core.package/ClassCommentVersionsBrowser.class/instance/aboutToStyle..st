@@ -1,0 +1,4 @@
+contents
+aboutToStyle: aStyler
+
+	^false

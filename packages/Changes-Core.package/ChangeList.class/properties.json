@@ -1,0 +1,20 @@
+{
+	"category" : "Changes-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"changeList",
+		"list",
+		"listIndex",
+		"listSelections",
+		"file",
+		"lostMethodPointer",
+		"showsVersions" ],
+	"name" : "ChangeList",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

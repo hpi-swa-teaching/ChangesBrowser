@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"open" : "sw 3/24/1999 17:50",
+		"prototypicalToolWindow" : "ar 8/7/2009 22:20",
+		"registerInFlapsRegistry" : "asm 4/10/2003 12:44",
+		"unload" : "asm 4/11/2003 12:33",
+		"windowColorSpecification" : "sw 2/26/2002 14:12" },
+	"instance" : {
+		"buildWith:" : "ar 9/6/2009 16:07",
+		"isLeftSide:" : "",
+		"labelString" : "ar 1/4/2010 02:01",
+		"modelWakeUp" : "tk 5/8/1998 16:30",
+		"okToChange" : "di 5/20/1998 21:44",
+		"open" : "ar 8/7/2009 22:23",
+		"other:" : "",
+		"release" : "" } }

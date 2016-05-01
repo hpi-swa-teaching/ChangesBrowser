@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfChanges",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfChanges",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
