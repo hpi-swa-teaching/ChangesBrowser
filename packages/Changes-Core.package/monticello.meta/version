@@ -1,1 +1,1 @@
-(name 'Changes-Core-FS.1' message 'initial commit - legacy code' id '994ad54c-6b03-3a4d-9e90-8e56055009a4' date '1 May 2016' time '5:22:56.186716 pm' author 'FS' ancestors () stepChildren ())
+(name 'Changes-Core-FS.2' message 'added a simple, non-functioning UI' id 'c9bceab3-51f1-854c-be47-4e3e2036ed31' date '3 May 2016' time '12:23:50.837796 pm' author 'FS' ancestors ((name 'Changes-Core-FS.1' message 'initial commit - legacy code' id '994ad54c-6b03-3a4d-9e90-8e56055009a4' date '1 May 2016' time '5:22:56.186716 pm' author 'FS' ancestors () stepChildren ())) stepChildren ())
