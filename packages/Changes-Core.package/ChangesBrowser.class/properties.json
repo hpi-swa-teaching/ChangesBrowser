@@ -3,13 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ChangeSetNamesInRelease",
+		"RecentUpdateMarker" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"CloseButton",
-		"VersionList" ],
-	"name" : "ChangesBrowserUi",
+		"ui" ],
+	"name" : "ChangesBrowser",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "Morph",
 	"type" : "normal" }
