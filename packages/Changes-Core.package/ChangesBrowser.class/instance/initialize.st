@@ -5,4 +5,5 @@ initialize
 	self ui setupUi: self.
 	self 
 		initializeCloseButton;
-		initializeList.
+		initializeList;
+		initializeBrowseCurrentButton.

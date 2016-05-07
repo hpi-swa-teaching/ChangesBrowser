@@ -6,13 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"list",
-		"selectedIndex",
-		"positions",
-		"changesFile",
-		"endPosition" ],
-	"name" : "VersionListModel",
+		"browseCurrentButton",
+		"listView",
+		"CloseButton" ],
+	"name" : "ChangesBrowserUi",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "UserInterface",
 	"type" : "normal" }
