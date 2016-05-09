@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"browseCurrentButton",
 		"listView",
-		"CloseButton" ],
+		"browseCurrentButton",
+		"closePushButton" ],
 	"name" : "ChangesBrowserUi",
 	"pools" : [
 		 ],

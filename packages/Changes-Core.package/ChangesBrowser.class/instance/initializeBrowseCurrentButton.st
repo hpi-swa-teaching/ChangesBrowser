@@ -1,8 +1,9 @@
 initialization
 initializeBrowseCurrentButton
 
-	self ui browseCurrentButton
+	"self ui browseCurrentButton
 		color: Color lightBlue;
 		label: 'Browse';
 		target: self;
-		actionSelector: #browseCurrentlySelectedChangeFile.
+		actionSelector: #browseCurrentlySelectedChangeFile."
+	self connect: (self ui browseCurrentButton) signal: #clicked: to: self selector: #browseCurrentlySelectedChangeFile.

@@ -1,11 +1,12 @@
 {
 	"class" : {
-		 },
+		"open" : "FS 5/9/2016 17:05" },
 	"instance" : {
-		"browseCurrentlySelectedChangeFile" : "FS 5/7/2016 17:42",
-		"initialize" : "FS 5/7/2016 17:40",
-		"initializeBrowseCurrentButton" : "FS 5/7/2016 17:43",
-		"initializeCloseButton" : "FS 5/6/2016 12:06",
+		"browseCurrentlySelectedChangeFile" : "FS 5/9/2016 18:08",
+		"close" : "FS 5/9/2016 18:03",
+		"initialize" : "FS 5/9/2016 18:08",
+		"initializeBrowseCurrentButton" : "FS 5/9/2016 18:05",
+		"initializeClosePushButton" : "FS 5/9/2016 18:03",
 		"initializeList" : "FS 5/7/2016 17:42",
 		"ui" : "FS 5/5/2016 23:44",
 		"versionListModel" : "FS 5/7/2016 17:42",

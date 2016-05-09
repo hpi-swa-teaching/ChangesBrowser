@@ -1,5 +1,5 @@
 accessing
-CloseButton
+closePushButton
 	"No description given."
 	
-	^ CloseButton
+	^ closePushButton
