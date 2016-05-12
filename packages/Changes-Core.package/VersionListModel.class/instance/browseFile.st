@@ -1,4 +1,4 @@
 as yet unclassified
 browseFile
 
-	ChangeList browseRecent: (endPosition - positions at: selectedIndex) on: changesFile.
+	self changesBrowser changeList: (ChangeList browseRecent: (endPosition - positions at: selectedIndex) on: changesFile).

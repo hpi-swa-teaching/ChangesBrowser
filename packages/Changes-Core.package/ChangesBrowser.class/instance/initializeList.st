@@ -3,11 +3,13 @@ initializeList
 	| model logTuple|
 	logTuple := ChangeList browseRecentLog.
 	model := VersionListModel new list: logTuple first.
-	model positions: (logTuple at: 2).
-	model endPosition: (logTuple at: 3).
-	model changesFile: (logTuple at: 4).
+	model 
+		positions: (logTuple at: 2);
+		endPosition: (logTuple at: 3);
+		changesFile: (logTuple at: 4);
+		changesBrowser: self.
 	self versionListModel: model.
-	self ui listView 
+	self ui versionListView 
 		on: model
 		list: #list
 		selected: #listIndex

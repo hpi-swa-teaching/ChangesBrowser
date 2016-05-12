@@ -1,5 +1,5 @@
 as yet unclassified
 browseCurrentlySelectedChangeFile
 
-	self close.
+	"self close."
 	self versionListModel browseFile.

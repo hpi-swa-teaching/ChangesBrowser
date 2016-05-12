@@ -10,7 +10,8 @@
 		"selectedIndex",
 		"positions",
 		"changesFile",
-		"endPosition" ],
+		"endPosition",
+		"changesBrowser" ],
 	"name" : "VersionListModel",
 	"pools" : [
 		 ],

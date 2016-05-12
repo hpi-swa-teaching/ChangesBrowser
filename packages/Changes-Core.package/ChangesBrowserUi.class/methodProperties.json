@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browseCurrentButton" : "FS 5/9/2016 18:07",
-		"closePushButton" : "FS 5/9/2016 18:07",
-		"initializePanel" : "FS 5/9/2016 18:07",
-		"listView" : "FS 5/9/2016 18:07" } }
+		"browseCurrentButton" : "FS 5/10/2016 11:52",
+		"changesListView" : "FS 5/10/2016 11:52",
+		"closePushButton" : "FS 5/10/2016 11:52",
+		"initializePanel" : "FS 5/10/2016 11:52",
+		"versionListView" : "FS 5/10/2016 11:52" } }
