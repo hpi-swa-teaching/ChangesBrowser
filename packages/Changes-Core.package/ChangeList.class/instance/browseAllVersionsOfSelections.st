@@ -5,12 +5,12 @@ browseAllVersionsOfSelections
 	oldSelection := self listIndex.
 	aList := OrderedCollection new.
 	Cursor read showWhile: [
-		1 to: changeList size do: [:i |
-			(listSelections at: i) ifTrue: [
-				listIndex := i.
+		1 to: self changeList size do: [:i |
+			(self listSelections at: i) ifTrue: [
+				self listIndex: i.
 				self browseVersions.
 				aList add: i.
 				]]].
-	listIndex := oldSelection.
+	self listIndex: oldSelection.
 
 	aList size = 0 ifTrue: [^ self inform: 'no selected methods have in-memory counterparts'].

@@ -7,19 +7,19 @@ removeDoIts
 	newChangeList := OrderedCollection new.
 	newList := OrderedCollection new.
 
-	changeList with: list do:
+	self changeList with: self list do:
 		[:chRec :str |
 			(chRec type ~~ #doIt or:
 				[str endsWith: 'initialize'])
 					ifTrue:
 						[newChangeList add: chRec.
 						newList add: str]].
-	newChangeList size < changeList size
+	newChangeList size < self changeList size
 		ifTrue:
-			[changeList := newChangeList.
-			list := newList.
-			listIndex := 0.
-			listSelections := Array new: list size withAll: false].
+			[self changeList: newChangeList.
+			self list: newList.
+			self listIndex: 0.
+			self listSelections: (Array new: self list size withAll: false)].
 	self changed: #list.
 
 	

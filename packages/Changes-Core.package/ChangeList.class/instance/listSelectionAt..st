@@ -1,3 +1,4 @@
 viewing access
 listSelectionAt: index
-	^ listSelections at: index
+
+	^ self listSelections at: index

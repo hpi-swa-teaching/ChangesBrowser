@@ -1,8 +1,10 @@
 accessing
-changeList: anObject
-	changeList := anObject.
+changeList: aChangeList
+
+	changeList := aChangeList.
+	aChangeList addDependent: self.
 	self ui changesListView 
-		on: changeList
+		on: self changeList
 		list: #list
 		selected: #listIndex
 		changeSelected: #listIndex:

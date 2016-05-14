@@ -3,21 +3,21 @@ selectUnchangedDefinitions
 	"Selects all recognizable definitions for which there is already a definition in the current image, whose source is exactly the same."
 	| change class tokens |
 	Cursor read showWhile: 
-	[1 to: changeList size do:
-		[:i | change := changeList at: i.
-		listSelections at: i put: false.
+	[1 to: self changeList size do:
+		[:i | change := self changeList at: i.
+		self listSelections at: i put: false.
 
 		(change type = #method
 		 and: [(class := change methodClass) notNil
 		 and: [class includesSelector: change methodSelector]]) ifTrue:
-			[listSelections
+			[self listSelections
 				at: i
 				put: change string withBlanksCondensed
 					= (class sourceCodeAt: change methodSelector) asString withBlanksCondensed].
 
 		(change type == #classComment
 		and: [(class := change commentClass) notNil]) ifTrue:
-			[listSelections at: i put: change string = class comment asString].
+			[self listSelections at: i put: change string = class comment asString].
 
 		change type == #doIt ifTrue:
 			[tokens := Scanner new scanTokens: change string.
@@ -28,7 +28,7 @@ selectUnchangedDefinitions
 					asSet size >= 3
 			 and: [(class := Smalltalk at: tokens third ifAbsent: []) notNil
 			 and: [class isBehavior]]) ifTrue:
-				[listSelections
+				[self listSelections
 					at: i
 					put: change string withBlanksCondensed
 						= class definition withBlanksCondensed].
@@ -38,7 +38,7 @@ selectUnchangedDefinitions
 			 and: [tokens third == #instanceVariableNames:
 			 and: [(class := Smalltalk at: tokens first ifAbsent: []) notNil
 			 and: [class isBehavior]]]]) ifTrue:
-				[listSelections
+				[self listSelections
 					at: i
 					put: change string withBlanksCondensed
 						= class class definition withBlanksCondensed].
@@ -47,13 +47,13 @@ selectUnchangedDefinitions
 			 and: [tokens second == #removeSelector:
 			 and: [(class := Smalltalk at: tokens first ifAbsent: []) isNil
 			 	or: [class isBehavior and: [(class includesSelector: tokens third) not]]]]) ifTrue:
-				[listSelections at: i put: true].
+				[self listSelections at: i put: true].
 
 			(tokens size = 4
 			 and: [tokens second == #class
 			 and: [tokens third == #removeSelector:
 			 and: [(class := Smalltalk at: tokens first ifAbsent: []) isNil
 			 	or: [class isBehavior and: [(class class includesSelector: tokens fourth) not]]]]]) ifTrue:
-				[listSelections at: i put: true]]]].
+				[self listSelections at: i put: true]]]].
 
 	self changed: #allSelections

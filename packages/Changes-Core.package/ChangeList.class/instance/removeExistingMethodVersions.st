@@ -5,7 +5,7 @@ removeExistingMethodVersions
 	newChangeList := OrderedCollection new.
 	newList := OrderedCollection new.
 
-	changeList with: list do:[:chRec :strNstamp | 
+	self changeList with: list do:[:chRec :strNstamp | 
 			| str keep cls sel |
 			keep := true.
 			(cls := chRec methodClass) ifNotNil:[
@@ -16,10 +16,10 @@ removeExistingMethodVersions
 			keep ifTrue:[
 					newChangeList add: chRec.
 					newList add: strNstamp]].
-	newChangeList size < changeList size
+	newChangeList size < self changeList size
 		ifTrue:
-			[changeList := newChangeList.
-			list := newList.
-			listIndex := 0.
-			listSelections := Array new: list size withAll: false].
+			[self changeList: newChangeList.
+			self list: newList.
+			self listIndex: 0.
+			self listSelections: (Array new: self list size withAll: false)].
 	self changed: #list

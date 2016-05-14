@@ -3,9 +3,9 @@ compareToCurrentVersion
 	"If the current selection corresponds to a method in the system, then spawn a window showing the diffs as text"
 
 	| change class s1 s2 |
-	listIndex = 0
+	self listIndex = 0
 		ifTrue: [^ self].
-	change := changeList at: listIndex.
+	change := self changeList at: self listIndex.
 	((class := change methodClass) notNil
 			and: [class includesSelector: change methodSelector])
 		ifTrue: [s1 := (class sourceCodeAt: change methodSelector) asString.

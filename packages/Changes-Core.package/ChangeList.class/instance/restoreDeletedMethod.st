@@ -4,10 +4,10 @@ restoreDeletedMethod
 	| dummyMethod class selector |
 	dummyMethod := CompiledMethod toReturnSelfTrailerBytes: 
 		(CompiledMethodTrailer new sourcePointer: lostMethodPointer).
-	class := (changeList at: listIndex) methodClass.
-	selector := (changeList at: listIndex) methodSelector.
+	class := (self changeList at: self listIndex) methodClass.
+	selector := (self changeList at: self listIndex) methodSelector.
 	class addSelectorSilently: selector withMethod: dummyMethod.
-	(changeList at: listIndex) fileIn.
+	(self changeList at: self listIndex) fileIn.
 	"IF for some reason, the dummy remains, remove it, but (N.B.!) we might not get control back if the compile (fileIn above) fails."
 	(class compiledMethodAt: selector) == dummyMethod
 		ifTrue: [class basicRemoveSelector: selector].

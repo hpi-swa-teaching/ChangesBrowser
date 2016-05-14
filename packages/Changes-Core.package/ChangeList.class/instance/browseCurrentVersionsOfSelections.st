@@ -4,10 +4,10 @@ browseCurrentVersionsOfSelections
 	| aList |
 	aList := OrderedCollection new.
 	Cursor read showWhile: [
-		1 to: changeList size do: [:i |
-			(listSelections at: i) ifTrue: [
+		1 to: self changeList size do: [:i |
+			(self listSelections at: i) ifTrue: [
 				| aClass aChange |
-				aChange := changeList at: i.
+				aChange := self changeList at: i.
 				(aChange type = #method
 					and: [(aClass := aChange methodClass) notNil
 					and: [aClass includesSelector: aChange methodSelector]])

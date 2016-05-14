@@ -4,10 +4,10 @@ destroyCurrentCodeOfSelections
 
 	|  aClass aChange aList |
 	aList := OrderedCollection new.
-	1 to: changeList size do:
+	1 to: self changeList size do:
 		[:index |
-			(listSelections at: index) ifTrue:
-				[aChange := changeList at: index.
+			(self listSelections at: index) ifTrue:
+				[aChange := self changeList at: index.
 				(aChange type = #method
 					and: [(aClass := aChange methodClass) notNil
 					and: [aClass includesSelector: aChange methodSelector]])

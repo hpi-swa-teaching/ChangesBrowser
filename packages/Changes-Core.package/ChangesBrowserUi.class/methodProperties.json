@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browseCurrentButton" : "FS 5/10/2016 11:52",
-		"changesListView" : "FS 5/10/2016 11:52",
-		"closePushButton" : "FS 5/10/2016 11:52",
-		"initializePanel" : "FS 5/10/2016 11:52",
-		"versionListView" : "FS 5/10/2016 11:52" } }
+		"browseCurrentButton" : "PG 5/14/2016 17:32",
+		"changesListView" : "PG 5/14/2016 17:32",
+		"closePushButton" : "PG 5/14/2016 17:32",
+		"diffScreen" : "PG 5/14/2016 17:32",
+		"initializePanel" : "PG 5/14/2016 17:32",
+		"resetToVersionPushButton" : "PG 5/14/2016 17:32",
+		"versionListView" : "PG 5/14/2016 17:32" } }

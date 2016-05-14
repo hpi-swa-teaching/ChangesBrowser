@@ -1,3 +1,4 @@
 accessing
-endPosition: anObject
-	endPosition := anObject
+endPosition: anInteger
+
+	endPosition := anInteger

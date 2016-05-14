@@ -7,16 +7,16 @@ removeSelections
 	newChangeList := OrderedCollection new.
 	newList := OrderedCollection new.
 
-	1 to: changeList size do:
-		[:i | (listSelections at: i) ifFalse:
-			[newChangeList add: (changeList at: i).
-			newList add: (list at: i)]].
-	newChangeList size < changeList size
+	1 to: self changeList size do:
+		[:i | (self listSelections at: i) ifFalse:
+			[newChangeList add: (self changeList at: i).
+			newList add: (self list at: i)]].
+	newChangeList size < self changeList size
 		ifTrue:
-			[changeList := newChangeList.
-			list := newList.
-			listIndex := 0.
-			listSelections := Array new: list size withAll: false].
+			[self changeList: newChangeList.
+			self list: newList.
+			self listIndex: 0.
+			self listSelections: (Array new: self list size withAll: false)].
 	self changed: #list
 
 	

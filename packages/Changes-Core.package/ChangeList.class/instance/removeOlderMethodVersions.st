@@ -6,17 +6,17 @@ removeOlderMethodVersions
 	newList := OrderedCollection new.
 	found := OrderedCollection new.
 
-	changeList reverseWith: list do:
+	self changeList reverseWith: self list do:
 		[:chRec :strNstamp | | str | str := strNstamp copyUpTo: $;.
 			(found includes: str)
 				ifFalse:
 					[found add: str.
 					newChangeList add: chRec.
 					newList add: strNstamp]].
-	newChangeList size < changeList size
+	newChangeList size < self changeList size
 		ifTrue:
-			[changeList := newChangeList reversed.
-			list := newList reversed.
-			listIndex := 0.
-			listSelections := Array new: list size withAll: false].
+			[self changeList: newChangeList reversed.
+			self list: newList reversed.
+			self listIndex: 0.
+			self listSelections: (Array new: self list size withAll: false)].
 	self changed: #list

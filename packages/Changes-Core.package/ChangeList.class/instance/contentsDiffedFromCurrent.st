@@ -3,9 +3,9 @@ contentsDiffedFromCurrent
 	"Answer the contents diffed forward from current (in-memory) method version"
 
 	| aChange aClass |
-	listIndex = 0
+	self listIndex = 0
 		ifTrue: [^ ''].
-	aChange := changeList at: listIndex.
+	aChange := self changeList at: self listIndex.
 	 (aChange type == #method
 	 and: [(aClass := aChange methodClass) notNil
 	 and: [aClass includesSelector: aChange methodSelector]]) ifTrue:
@@ -37,4 +37,4 @@ contentsDiffedFromCurrent
 	and: [(aClass := aChange commentClass) notNil]) ifTrue:
 		[^ClassDiffBuilder buildDisplayPatchFrom: aClass comment asString to: aChange string].
 
-	^(changeList at: listIndex) text
+	^(self changeList at: self listIndex) text

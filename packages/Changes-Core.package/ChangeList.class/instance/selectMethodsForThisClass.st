@@ -5,5 +5,5 @@ selectMethodsForThisClass
 		[:name|
 		self selectSuchThat:
 			(Sensor leftShiftDown
-				ifTrue: [[:change :index| (listSelections at: index) or: [change methodClassName = name]]]
+				ifTrue: [[:change :index| (self listSelections at: index) or: [change methodClassName = name]]]
 				ifFalse: [[:change| change methodClassName = name]])]

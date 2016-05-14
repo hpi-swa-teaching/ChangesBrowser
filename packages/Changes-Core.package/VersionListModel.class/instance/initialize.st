@@ -1,3 +1,4 @@
 accessing
 initialize
-	selectedIndex := 1.
+
+	self selectedIndex: 1.

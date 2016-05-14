@@ -1,28 +1,28 @@
 scanning
 scanFile: aFile from: startPosition to: stopPosition
 	
-	file := aFile.
-	changeList := OrderedCollection new.
-	list := OrderedCollection new.
-	listIndex := 0.
-	file position: startPosition.
+	self file: aFile.
+	self changeList: OrderedCollection new.
+	self list: OrderedCollection new.
+	self listIndex: 0.
+	self file position: startPosition.
 'Scanning ', aFile localName, '...'
 	displayProgressFrom: startPosition to: stopPosition
 	during: [:bar | | prevChar itemPosition item |
-	[file position < stopPosition]
+	[self file position < stopPosition]
 		whileTrue:
-		[bar value: file position.
-		[file atEnd not and: [file peek isSeparator]]
-				whileTrue: [prevChar := file next].
-		(file peekFor: $!)
+		[bar value: self file position.
+		[self file atEnd not and: [self file peek isSeparator]]
+				whileTrue: [prevChar := self file next].
+		(self file peekFor: $!)
 		ifTrue:
 			[(prevChar = Character cr or: [prevChar = Character lf])
 				ifTrue: [self scanCategory]]
 		ifFalse:
-			[itemPosition := file position.
-			item := file nextChunk.
-			file skipStyleChunk.
+			[itemPosition := self file position.
+			item := self file nextChunk.
+			self file skipStyleChunk.
 			item size > 0 ifTrue:
-				[self addItem: (ChangeRecord new file: file position: itemPosition type: #doIt)
+				[self addItem: (ChangeRecord new file: self file position: itemPosition type: #doIt)
 					text: 'do it: ' , (item contractTo: 50)]]]].
-	listSelections := Array new: list size withAll: false
+	self listSelections: (Array new: list size withAll: false)

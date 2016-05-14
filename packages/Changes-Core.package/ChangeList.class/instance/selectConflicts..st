@@ -5,18 +5,18 @@ selectConflicts: changeSetOrList
 	[ | change class |
 	(changeSetOrList isKindOf: ChangeSet) ifTrue: [
 	1 to: changeList size do:
-		[:i | change := changeList at: i.
-		listSelections at: i put:
+		[:i | change := self changeList at: i.
+		self listSelections at: i put:
 			(change type = #method
 			and: [(class := change methodClass) notNil
 			and: [(changeSetOrList atSelector: change methodSelector
 						class: class) ~~ #none]])]]
 	ifFalse: ["a ChangeList"
-	1 to: changeList size do:
+	1 to: self changeList size do:
 		[:i | change := changeList at: i.
-		listSelections at: i put:
+		self listSelections at: i put:
 			(change type = #method
 			and: [(class := change methodClass) notNil
-			and: [changeSetOrList list includes: (list at: i)]])]]
+			and: [changeSetOrList list includes: (self list at: i)]])]]
 	].
 	self changed: #allSelections

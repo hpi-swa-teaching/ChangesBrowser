@@ -1,3 +1,4 @@
 accessing
-versionListModel: anObject
-	versionListModel := anObject
+versionListModel: aVersionListModel
+
+	versionListModel := aVersionListModel

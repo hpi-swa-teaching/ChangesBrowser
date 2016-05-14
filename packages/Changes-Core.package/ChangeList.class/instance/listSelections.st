@@ -1,6 +1,7 @@
 accessing
 listSelections
+
 	listSelections ifNil: [
-		list ifNotNil: [
-			listSelections := Array new: list size withAll: false]].
+		self list ifNotNil: [
+			self listSelections: (Array new: list size withAll: false)]].
 	^ listSelections

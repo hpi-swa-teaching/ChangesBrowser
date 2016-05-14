@@ -7,7 +7,7 @@ initialize
 			[self defaultDiffsSymbol]
 		ifFalse:
 			[#source].
-	changeList := OrderedCollection new.
-	list := OrderedCollection new.
-	listIndex := 0.
+	self changeList: OrderedCollection new.
+	self list: OrderedCollection new.
+	self listIndex: 0.
 	super initialize

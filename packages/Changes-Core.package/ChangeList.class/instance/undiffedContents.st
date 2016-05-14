@@ -1,5 +1,5 @@
 viewing access
 undiffedContents
-	^ listIndex = 0
+	^ self listIndex = 0
 		ifTrue: ['']
-		ifFalse: [(changeList at: listIndex) text]
+		ifFalse: [(self changeList at: self listIndex) text]

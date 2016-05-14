@@ -1,5 +1,5 @@
 menu actions
 selectAll
-	listIndex := 0.
-	listSelections atAllPut: true.
+	self listIndex: 0.
+	self listSelections atAllPut: true.
 	self changed: #allSelections

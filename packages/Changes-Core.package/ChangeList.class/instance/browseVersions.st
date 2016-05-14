@@ -1,9 +1,9 @@
 menu actions
 browseVersions
 	| change class browser |
-	listIndex = 0
+	self listIndex = 0
 		ifTrue: [^ nil ].
-	change := changeList at: listIndex.
+	change := self changeList at: self listIndex.
 	((class := change methodClass) notNil
 			and: [class includesSelector: change methodSelector])
 		ifFalse: [ ^nil ].
