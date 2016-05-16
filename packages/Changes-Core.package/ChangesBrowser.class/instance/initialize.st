@@ -6,4 +6,5 @@ initialize
 	self 
 		initializeClosePushButton;
 		initializeVersionList;
-		initializeBrowseCurrentButton.
+		initializeBrowseCurrentButton;
+		initializeResetToVersionPushButton.

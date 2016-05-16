@@ -1,4 +1,4 @@
 accessing
 changeList: anOrderedCollection
 
-	changeList := anOrderedCollection
+	changeList := anOrderedCollection.
