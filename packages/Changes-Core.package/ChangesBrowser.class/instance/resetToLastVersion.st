@@ -1,9 +1,10 @@
 as yet unclassified
-resetToSelectedVersion
+resetToLastVersion
 
 	| changeList listOfChangeRecords |
 "	Smalltalk snapshot: true andQuit: false."
-	changeList := self versionListModel getChangeListForSelectedVersion.
+"	self halt."
+	changeList := self versionListModel getChangeListForLatestVersion.
 	listOfChangeRecords := changeList changeList
 		select: [:changeRecord | changeRecord type == #method].
 	listOfChangeRecords reversed

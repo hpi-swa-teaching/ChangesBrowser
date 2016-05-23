@@ -3,4 +3,4 @@ browseFile
 
 	self changesBrowser
 		updateChangeListViewWith: (ChangeList browseRecent: (self endPosition - self positions at: self selectedIndex)
-					+ VersionListModel positionInFileCorrection on: self changesFile)
+					+ VersionListModel positionInFileCorrection)

@@ -8,6 +8,7 @@
 	"instvars" : [
 		"browseCurrentButton",
 		"resetToVersionPushButton",
+		"oneClickResetButton",
 		"closePushButton",
 		"diffScreen",
 		"changesListView",

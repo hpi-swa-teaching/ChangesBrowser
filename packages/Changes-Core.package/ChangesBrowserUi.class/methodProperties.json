@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browseCurrentButton" : "PG 5/14/2016 17:32",
-		"changesListView" : "PG 5/14/2016 17:32",
-		"closePushButton" : "PG 5/14/2016 17:32",
-		"diffScreen" : "PG 5/14/2016 17:32",
-		"initializePanel" : "PG 5/14/2016 17:32",
-		"resetToVersionPushButton" : "PG 5/14/2016 17:32",
-		"versionListView" : "PG 5/14/2016 17:32" } }
+		"browseCurrentButton" : "PG 5/18/2016 15:06",
+		"changesListView" : "PG 5/18/2016 15:06",
+		"closePushButton" : "PG 5/18/2016 15:06",
+		"diffScreen" : "PG 5/18/2016 15:06",
+		"initializePanel" : "PG 5/18/2016 15:06",
+		"oneClickResetButton" : "PG 5/18/2016 15:06",
+		"resetToVersionPushButton" : "PG 5/18/2016 15:06",
+		"versionListView" : "PG 5/18/2016 15:06" } }
