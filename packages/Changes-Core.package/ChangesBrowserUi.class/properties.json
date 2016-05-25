@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"changesListView",
 		"browseCurrentButton",
 		"resetToVersionPushButton",
 		"oneClickResetButton",
 		"closePushButton",
 		"diffScreen",
-		"changesListView",
 		"versionListView" ],
 	"name" : "ChangesBrowserUi",
 	"pools" : [

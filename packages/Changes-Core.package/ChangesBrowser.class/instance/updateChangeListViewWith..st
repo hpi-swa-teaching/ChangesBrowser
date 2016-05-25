@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 updateChangeListViewWith: aChangeList
 
 	self changeList: aChangeList.
@@ -6,7 +6,9 @@ updateChangeListViewWith: aChangeList
 	self ui changesListView 
 		on: self changeList
 		list: #list
-		selected: #listIndex
-		changeSelected: #listIndex:
+		primarySelection: #listIndex 
+		changePrimarySelection: #listIndex:
+		listSelection: #listSelectionAt:
+		changeListSelection: #listSelectionAt:put:
 		menu: #listMenu: 
 		keystroke: #arrowKey:from: .

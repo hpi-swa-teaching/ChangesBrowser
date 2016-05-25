@@ -1,4 +1,4 @@
 as yet unclassified
 dummyTestFunction
 
-	^6.
+	^ 'I changed it'
