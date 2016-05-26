@@ -1,6 +1,6 @@
 instance creation
 browseVersionsForClass: aClass selector: aSelector
-	self
+	^self
 		browseVersionsOf: (aClass compiledMethodAt: aSelector)
 		class: aClass
 		meta: aClass isMeta

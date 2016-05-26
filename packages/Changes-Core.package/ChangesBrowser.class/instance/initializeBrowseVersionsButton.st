@@ -5,4 +5,4 @@ initializeBrowseVersionsButton
 		connect: self ui browseVersionsButton
 		signal: #clicked:
 		to: self
-		selector: #browseVersions
+		selector: #browseVersionsOfSelectedMethod
