@@ -10,7 +10,4 @@ browseVersionsOf: method class: class meta: meta category: msgCategory selector:
 	sourcePointer ifNotNil:
 		[changeList setLostMethodPointer: sourcePointer].
 
-	self open: changeList name: 'Recent versions of ' ,
-selector multiSelect: false.
-
 	^browser
