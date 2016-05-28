@@ -8,5 +8,4 @@ initialize
 		initializeVersionList;
 		initializeBrowseCurrentButton;
 		initializeResetToVersionPushButton;
-		initializeOneClickResetButton;
-		initializeBrowseVersionsButton.
+		initializeOneClickResetButton.

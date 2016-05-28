@@ -1,4 +1,4 @@
 as yet unclassified
 dummyTestFunction
 
-	^ 'Me too'
+	^ 'Restore that after crash!'

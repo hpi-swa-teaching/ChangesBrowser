@@ -33,7 +33,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiButtonGroup new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (193@132).
+	unnamedMorph1 extent: (175@107).
 	unnamedMorph1 position: (61@359).
 	unnamedMorph1 hResizing: (#rigid).
 	unnamedMorph1 vResizing: (#rigid).
@@ -61,7 +61,7 @@ initializePanel
 	browseCurrentButton := UiPushButton new.
 	browseCurrentButton changeTableLayout.
 	browseCurrentButton extent: (103@20).
-	browseCurrentButton position: (107@364).
+	browseCurrentButton position: (98@364).
 	browseCurrentButton hResizing: (#shrinkWrap).
 	browseCurrentButton vResizing: (#shrinkWrap).
 	browseCurrentButton minWidth: (1).
@@ -94,7 +94,7 @@ initializePanel
 	resetToVersionPushButton := UiPushButton new.
 	resetToVersionPushButton changeTableLayout.
 	resetToVersionPushButton extent: (166@20).
-	resetToVersionPushButton position: (75@390).
+	resetToVersionPushButton position: (65@389).
 	resetToVersionPushButton hResizing: (#shrinkWrap).
 	resetToVersionPushButton vResizing: (#shrinkWrap).
 	resetToVersionPushButton minWidth: (1).
@@ -113,7 +113,7 @@ initializePanel
 	resetToVersionPushButton frameFractions: (0@0 corner: 1@1).
 	resetToVersionPushButton frameOffsets: (0@0 corner: 0@0).
 	resetToVersionPushButton balloonText: (nil).
-	resetToVersionPushButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	resetToVersionPushButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	resetToVersionPushButton enabled: (true).
 	resetToVersionPushButton setProperty: #iconByDesigner toValue: 'nil'.
 	resetToVersionPushButton icon: (nil).
@@ -127,7 +127,7 @@ initializePanel
 	oneClickResetButton := UiPushButton new.
 	oneClickResetButton changeTableLayout.
 	oneClickResetButton extent: (134@20).
-	oneClickResetButton position: (91@416).
+	oneClickResetButton position: (82@416).
 	oneClickResetButton hResizing: (#shrinkWrap).
 	oneClickResetButton vResizing: (#shrinkWrap).
 	oneClickResetButton minWidth: (1).
@@ -146,7 +146,7 @@ initializePanel
 	oneClickResetButton frameFractions: (0@0 corner: 1@1).
 	oneClickResetButton frameOffsets: (0@0 corner: 0@0).
 	oneClickResetButton balloonText: (nil).
-	oneClickResetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	oneClickResetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	oneClickResetButton enabled: (true).
 	oneClickResetButton setProperty: #iconByDesigner toValue: 'nil'.
 	oneClickResetButton icon: (nil).
@@ -157,43 +157,10 @@ initializePanel
 	oneClickResetButton autoExclusive: (true).
 	oneClickResetButton setProperty: #objectName toValue: 'oneClickResetButton'.
 	unnamedMorph1 addChild: oneClickResetButton.
-	browseVersionsButton := UiPushButton new.
-	browseVersionsButton changeTableLayout.
-	browseVersionsButton extent: (185@20).
-	browseVersionsButton position: (65@441).
-	browseVersionsButton hResizing: (#shrinkWrap).
-	browseVersionsButton vResizing: (#shrinkWrap).
-	browseVersionsButton minWidth: (1).
-	browseVersionsButton minHeight: (1).
-	browseVersionsButton cellInset: (4).
-	browseVersionsButton cellPositioning: (#center).
-	browseVersionsButton cellSpacing: (#none).
-	browseVersionsButton layoutInset: (2@0 corner: 2@0).
-	browseVersionsButton listCentering: (#topLeft).
-	browseVersionsButton listDirection: (#leftToRight).
-	browseVersionsButton listSpacing: (#none).
-	browseVersionsButton maxCellSize: (1073741823).
-	browseVersionsButton minCellSize: (0).
-	browseVersionsButton wrapCentering: (#topLeft).
-	browseVersionsButton wrapDirection: (#none).
-	browseVersionsButton frameFractions: (0@0 corner: 1@1).
-	browseVersionsButton frameOffsets: (0@0 corner: 0@0).
-	browseVersionsButton balloonText: (nil).
-	browseVersionsButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
-	browseVersionsButton enabled: (true).
-	browseVersionsButton setProperty: #iconByDesigner toValue: 'nil'.
-	browseVersionsButton icon: (nil).
-	browseVersionsButton text: ('Browse Versions of methods').
-	browseVersionsButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	browseVersionsButton checkable: (true).
-	browseVersionsButton checked: (false).
-	browseVersionsButton autoExclusive: (true).
-	browseVersionsButton setProperty: #objectName toValue: 'browseVersionsButton'.
-	unnamedMorph1 addChild: browseVersionsButton.
 	closePushButton := UiPushButton new.
 	closePushButton changeTableLayout.
 	closePushButton extent: (62@20).
-	closePushButton position: (127@468).
+	closePushButton position: (118@442).
 	closePushButton hResizing: (#shrinkWrap).
 	closePushButton vResizing: (#shrinkWrap).
 	closePushButton minWidth: (1).
@@ -245,7 +212,7 @@ initializePanel
 	changesListView frameFractions: (0@0 corner: 1@1).
 	changesListView frameOffsets: (0@0 corner: 0@0).
 	changesListView balloonText: (nil).
-	changesListView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	changesListView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	changesListView setProperty: #objectName toValue: 'changesListView'.
 	panel addChild: changesListView.
 	diffScreen := UiTextEdit new.
@@ -269,7 +236,7 @@ initializePanel
 	diffScreen frameFractions: (0@0 corner: 1@1).
 	diffScreen frameOffsets: (0@0 corner: 0@0).
 	diffScreen balloonText: (nil).
-	diffScreen balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	diffScreen balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	diffScreen widgetResizable: (true).
 	diffScreen horizontalScrollBarPolicy: (#alwaysOff).
 	diffScreen verticalScrollBarPolicy: (#asNeeded).
