@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"buttonGroup",
 		"browseCurrentButton",
 		"resetToVersionPushButton",
 		"oneClickResetButton",
+		"restoreSelectedMethodsButton",
 		"closePushButton",
 		"changesListView",
 		"diffScreen",

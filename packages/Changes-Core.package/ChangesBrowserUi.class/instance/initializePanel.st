@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 |
+	|  |
 	
 	panel := UiContainer new.
 	panel extent: (811@566).
@@ -31,37 +31,38 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	unnamedMorph1 := UiButtonGroup new.
-	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (175@107).
-	unnamedMorph1 position: (61@359).
-	unnamedMorph1 hResizing: (#rigid).
-	unnamedMorph1 vResizing: (#rigid).
-	unnamedMorph1 minWidth: (1).
-	unnamedMorph1 minHeight: (1).
-	unnamedMorph1 cellInset: (4).
-	unnamedMorph1 cellPositioning: (#center).
-	unnamedMorph1 cellSpacing: (#none).
-	unnamedMorph1 layoutInset: (4).
-	unnamedMorph1 listCentering: (#topLeft).
-	unnamedMorph1 listDirection: (#topToBottom).
-	unnamedMorph1 listSpacing: (#none).
-	unnamedMorph1 maxCellSize: (1073741823).
-	unnamedMorph1 minCellSize: (0).
-	unnamedMorph1 wrapCentering: (#topLeft).
-	unnamedMorph1 wrapDirection: (#none).
-	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph1 color: (Color transparent).
-	unnamedMorph1 borderWidth: (0).
-	unnamedMorph1 borderStyle2: (#simple).
-	unnamedMorph1 borderColor: (Color black).
+	buttonGroup := UiButtonGroup new.
+	buttonGroup changeTableLayout.
+	buttonGroup extent: (178@133).
+	buttonGroup position: (61@359).
+	buttonGroup hResizing: (#rigid).
+	buttonGroup vResizing: (#rigid).
+	buttonGroup minWidth: (1).
+	buttonGroup minHeight: (1).
+	buttonGroup cellInset: (4).
+	buttonGroup cellPositioning: (#center).
+	buttonGroup cellSpacing: (#none).
+	buttonGroup layoutInset: (4).
+	buttonGroup listCentering: (#topLeft).
+	buttonGroup listDirection: (#topToBottom).
+	buttonGroup listSpacing: (#none).
+	buttonGroup maxCellSize: (1073741823).
+	buttonGroup minCellSize: (0).
+	buttonGroup wrapCentering: (#topLeft).
+	buttonGroup wrapDirection: (#none).
+	buttonGroup frameFractions: (0@0 corner: 1@1).
+	buttonGroup frameOffsets: (0@0 corner: 0@0).
+	buttonGroup balloonText: (nil).
+	buttonGroup balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	buttonGroup color: (Color transparent).
+	buttonGroup borderWidth: (0).
+	buttonGroup borderStyle2: (#simple).
+	buttonGroup borderColor: (Color black).
+	buttonGroup setProperty: #objectName toValue: 'buttonGroup'.
 	browseCurrentButton := UiPushButton new.
 	browseCurrentButton changeTableLayout.
 	browseCurrentButton extent: (103@20).
-	browseCurrentButton position: (98@364).
+	browseCurrentButton position: (100@364).
 	browseCurrentButton hResizing: (#shrinkWrap).
 	browseCurrentButton vResizing: (#shrinkWrap).
 	browseCurrentButton minWidth: (1).
@@ -90,11 +91,11 @@ initializePanel
 	browseCurrentButton checked: (false).
 	browseCurrentButton autoExclusive: (true).
 	browseCurrentButton setProperty: #objectName toValue: 'browseCurrentButton'.
-	unnamedMorph1 addChild: browseCurrentButton.
+	buttonGroup addChild: browseCurrentButton.
 	resetToVersionPushButton := UiPushButton new.
 	resetToVersionPushButton changeTableLayout.
 	resetToVersionPushButton extent: (166@20).
-	resetToVersionPushButton position: (65@389).
+	resetToVersionPushButton position: (68@390).
 	resetToVersionPushButton hResizing: (#shrinkWrap).
 	resetToVersionPushButton vResizing: (#shrinkWrap).
 	resetToVersionPushButton minWidth: (1).
@@ -113,7 +114,7 @@ initializePanel
 	resetToVersionPushButton frameFractions: (0@0 corner: 1@1).
 	resetToVersionPushButton frameOffsets: (0@0 corner: 0@0).
 	resetToVersionPushButton balloonText: (nil).
-	resetToVersionPushButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	resetToVersionPushButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	resetToVersionPushButton enabled: (true).
 	resetToVersionPushButton setProperty: #iconByDesigner toValue: 'nil'.
 	resetToVersionPushButton icon: (nil).
@@ -123,11 +124,11 @@ initializePanel
 	resetToVersionPushButton checked: (false).
 	resetToVersionPushButton autoExclusive: (true).
 	resetToVersionPushButton setProperty: #objectName toValue: 'resetToVersionPushButton'.
-	unnamedMorph1 addChild: resetToVersionPushButton.
+	buttonGroup addChild: resetToVersionPushButton.
 	oneClickResetButton := UiPushButton new.
 	oneClickResetButton changeTableLayout.
 	oneClickResetButton extent: (134@20).
-	oneClickResetButton position: (82@416).
+	oneClickResetButton position: (84@416).
 	oneClickResetButton hResizing: (#shrinkWrap).
 	oneClickResetButton vResizing: (#shrinkWrap).
 	oneClickResetButton minWidth: (1).
@@ -146,7 +147,7 @@ initializePanel
 	oneClickResetButton frameFractions: (0@0 corner: 1@1).
 	oneClickResetButton frameOffsets: (0@0 corner: 0@0).
 	oneClickResetButton balloonText: (nil).
-	oneClickResetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	oneClickResetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	oneClickResetButton enabled: (true).
 	oneClickResetButton setProperty: #iconByDesigner toValue: 'nil'.
 	oneClickResetButton icon: (nil).
@@ -156,11 +157,44 @@ initializePanel
 	oneClickResetButton checked: (false).
 	oneClickResetButton autoExclusive: (true).
 	oneClickResetButton setProperty: #objectName toValue: 'oneClickResetButton'.
-	unnamedMorph1 addChild: oneClickResetButton.
+	buttonGroup addChild: oneClickResetButton.
+	restoreSelectedMethodsButton := UiPushButton new.
+	restoreSelectedMethodsButton changeTableLayout.
+	restoreSelectedMethodsButton extent: (171@20).
+	restoreSelectedMethodsButton position: (65@441).
+	restoreSelectedMethodsButton hResizing: (#shrinkWrap).
+	restoreSelectedMethodsButton vResizing: (#shrinkWrap).
+	restoreSelectedMethodsButton minWidth: (1).
+	restoreSelectedMethodsButton minHeight: (1).
+	restoreSelectedMethodsButton cellInset: (4).
+	restoreSelectedMethodsButton cellPositioning: (#center).
+	restoreSelectedMethodsButton cellSpacing: (#none).
+	restoreSelectedMethodsButton layoutInset: (2@0 corner: 2@0).
+	restoreSelectedMethodsButton listCentering: (#topLeft).
+	restoreSelectedMethodsButton listDirection: (#leftToRight).
+	restoreSelectedMethodsButton listSpacing: (#none).
+	restoreSelectedMethodsButton maxCellSize: (1073741823).
+	restoreSelectedMethodsButton minCellSize: (0).
+	restoreSelectedMethodsButton wrapCentering: (#topLeft).
+	restoreSelectedMethodsButton wrapDirection: (#none).
+	restoreSelectedMethodsButton frameFractions: (0@0 corner: 1@1).
+	restoreSelectedMethodsButton frameOffsets: (0@0 corner: 0@0).
+	restoreSelectedMethodsButton balloonText: (nil).
+	restoreSelectedMethodsButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	restoreSelectedMethodsButton enabled: (true).
+	restoreSelectedMethodsButton setProperty: #iconByDesigner toValue: 'nil'.
+	restoreSelectedMethodsButton icon: (nil).
+	restoreSelectedMethodsButton text: ('Restore selected methods').
+	restoreSelectedMethodsButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	restoreSelectedMethodsButton checkable: (true).
+	restoreSelectedMethodsButton checked: (false).
+	restoreSelectedMethodsButton autoExclusive: (true).
+	restoreSelectedMethodsButton setProperty: #objectName toValue: 'restoreSelectedMethodsButton'.
+	buttonGroup addChild: restoreSelectedMethodsButton.
 	closePushButton := UiPushButton new.
 	closePushButton changeTableLayout.
 	closePushButton extent: (62@20).
-	closePushButton position: (118@442).
+	closePushButton position: (120@468).
 	closePushButton hResizing: (#shrinkWrap).
 	closePushButton vResizing: (#shrinkWrap).
 	closePushButton minWidth: (1).
@@ -189,8 +223,8 @@ initializePanel
 	closePushButton checked: (false).
 	closePushButton autoExclusive: (true).
 	closePushButton setProperty: #objectName toValue: 'closePushButton'.
-	unnamedMorph1 addChild: closePushButton.
-	panel addChild: unnamedMorph1.
+	buttonGroup addChild: closePushButton.
+	panel addChild: buttonGroup.
 	changesListView := PluggableListMorphOfMany new.
 	changesListView extent: (470@275).
 	changesListView position: (320@10).
@@ -212,7 +246,7 @@ initializePanel
 	changesListView frameFractions: (0@0 corner: 1@1).
 	changesListView frameOffsets: (0@0 corner: 0@0).
 	changesListView balloonText: (nil).
-	changesListView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	changesListView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	changesListView setProperty: #objectName toValue: 'changesListView'.
 	panel addChild: changesListView.
 	diffScreen := UiTextEdit new.
@@ -236,7 +270,7 @@ initializePanel
 	diffScreen frameFractions: (0@0 corner: 1@1).
 	diffScreen frameOffsets: (0@0 corner: 0@0).
 	diffScreen balloonText: (nil).
-	diffScreen balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	diffScreen balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	diffScreen widgetResizable: (true).
 	diffScreen horizontalScrollBarPolicy: (#alwaysOff).
 	diffScreen verticalScrollBarPolicy: (#asNeeded).

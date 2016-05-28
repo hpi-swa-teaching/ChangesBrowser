@@ -1,4 +1,5 @@
 as yet unclassified
 dummyTestFunction
+"Just a dummy function, to test, wheter the restore works"
 
-	^ 'Restore that after crash!'
+	^ 'Version 3'
