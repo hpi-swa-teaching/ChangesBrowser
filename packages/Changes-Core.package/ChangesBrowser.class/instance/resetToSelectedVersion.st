@@ -16,8 +16,11 @@ resetToSelectedVersion
 	listOfChangeRecords 
 		do: [:changeRecord | listOfMethodsAndClasses add: {changeRecord methodSelector. changeRecord methodClass}].
 	listOfMethodsAndClasses
-		do: [:methodAndClass |
-			(self
+		do: [:methodAndClass | | changeRecord |
+			changeRecord := (self
 				getLastVersionOf: methodAndClass first
 				class: methodAndClass second
-				before: selectedTimeStamp) fileIn]
+				before: selectedTimeStamp).
+			changeRecord isNil
+				ifTrue: [methodAndClass second removeSelector: methodAndClass first]
+				ifFalse: [changeRecord fileIn]]
