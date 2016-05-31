@@ -7,4 +7,5 @@ baseline: spec
 			package: 'Changes-Tests' with: [ spec requires: #('default') ].
 		spec
 			group: 'default' with: #('Changes-Core');
-			group: 'Tests' with: #('Changes-Tests')].
+			group: 'Tests' with: #('Changes-Tests');
+			group: 'TravisCI' with: #('Tests')].
