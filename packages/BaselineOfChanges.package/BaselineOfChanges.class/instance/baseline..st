@@ -6,4 +6,5 @@ baseline: spec
 			package: 'Changes-Core';
 			package: 'Changes-Tests' with: [ spec requires: #('default') ].
 		spec
-			group: 'default' with: #('Changes-Core')].
+			group: 'default' with: #('Changes-Core');
+			group: 'Tests' with: #('Changes-Tests')].
