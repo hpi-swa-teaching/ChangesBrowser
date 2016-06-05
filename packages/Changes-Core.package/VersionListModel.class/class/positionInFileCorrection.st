@@ -1,4 +1,0 @@
-constants
-positionInFileCorrection
-
-	^ 20
