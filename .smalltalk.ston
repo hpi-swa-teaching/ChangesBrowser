@@ -1,6 +1,13 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
+      #configuration : 'Designer',
+      #repository : 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities',
+      #load : [ 'default' ],
+      #platforms : [ #squeak ],
+      #version: '1.2'
+    },
+    SCIMetacelloLoadSpec {
       #baseline : 'Changes',
       #directory : 'packages',
       #load : 'Tests',
