@@ -2,4 +2,4 @@ as yet unclassified
 dummyTestFunction
 "Just a dummy function, to test, wheter the restore works"
 
-	^ 'Version 9.'
+	^ 'Version 10.'
