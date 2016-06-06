@@ -1,6 +1,13 @@
 {
 	"class" : {
-		 },
+		"standardMockChangesFile" : "FS 6/3/2016 15:27",
+		"standardMockEndPosition" : "FS 6/3/2016 15:20",
+		"standardMockList" : "FS 6/3/2016 15:51",
+		"standardMockPositions" : "FS 6/3/2016 15:22" },
 	"instance" : {
-		"setUp" : "FS 5/31/2016 16:14",
+		"dummyClass" : "FS 6/3/2016 12:32",
+		"dummyClass:" : "FS 6/3/2016 12:32",
+		"mockChangesFile" : "FS 6/3/2016 12:32",
+		"mockChangesFile:" : "FS 6/3/2016 12:32",
+		"setUp" : "FS 6/3/2016 15:52",
 		"testInitialDummyFunction" : "FS 5/31/2016 11:40" } }

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dummyClass" ],
+		"dummyClass",
+		"mockChangesFile",
+		"changesBrowser" ],
 	"name" : "ChangesTest",
 	"pools" : [
 		 ],
