@@ -1,13 +1,17 @@
 {
 	"class" : {
 		"standardMockChangesFile" : "FS 6/3/2016 15:27",
-		"standardMockEndPosition" : "FS 6/3/2016 15:20",
-		"standardMockList" : "FS 6/3/2016 15:51",
-		"standardMockPositions" : "FS 6/3/2016 15:22" },
+		"standardMockEndPosition" : "FS 6/7/2016 19:18",
+		"standardMockList" : "FS 6/7/2016 19:18",
+		"standardMockPositions" : "FS 6/7/2016 19:23" },
 	"instance" : {
+		"changesBrowser" : "FS 6/7/2016 19:15",
+		"changesBrowser:" : "FS 6/7/2016 19:15",
 		"dummyClass" : "FS 6/3/2016 12:32",
 		"dummyClass:" : "FS 6/3/2016 12:32",
 		"mockChangesFile" : "FS 6/3/2016 12:32",
 		"mockChangesFile:" : "FS 6/3/2016 12:32",
-		"setUp" : "FS 6/3/2016 15:52",
+		"setUp" : "FS 6/7/2016 19:17",
+		"standardMockChangesFile" : "FS 6/7/2016 19:16",
+		"standardMockList" : "FS 6/7/2016 19:16",
 		"testInitialDummyFunction" : "FS 5/31/2016 11:40" } }

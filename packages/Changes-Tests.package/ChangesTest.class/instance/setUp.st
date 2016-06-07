@@ -4,8 +4,8 @@ setUp
 	dummyClass := ChangesDummyClass new.
 	self changesBrowser: ChangesBrowser new.
 	self changesBrowser versionListModel
-		list: self standardMockList;
-		changesFile: self standardMockChangesFile;
-		positions: self standardMockPositions;
-		endPosition: self standardMockEndPosition.
+		list: self class standardMockList;
+		changesFile: self class standardMockChangesFile;
+		positions: self class standardMockPositions;
+		endPosition: self class standardMockEndPosition.
 	self changesBrowser browseCurrentlySelectedChangeFile.
