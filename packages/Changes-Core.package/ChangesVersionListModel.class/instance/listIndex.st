@@ -1,0 +1,4 @@
+accessing
+listIndex
+
+	^ selectedIndex

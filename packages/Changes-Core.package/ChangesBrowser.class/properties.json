@@ -9,9 +9,10 @@
 	"instvars" : [
 		"ui",
 		"versionListModel",
-		"changeList" ],
+		"changeList",
+		"changeListView" ],
 	"name" : "ChangesBrowser",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "CodeHolder",
 	"type" : "normal" }

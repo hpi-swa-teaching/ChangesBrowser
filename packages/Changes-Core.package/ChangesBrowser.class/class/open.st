@@ -1,3 +1,3 @@
-as yet unclassified
+instance-creation
 open
-	self new openInWindowLabeled: 'Changes Browser'.
+	^ ToolBuilder open: self new.

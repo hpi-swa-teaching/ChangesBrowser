@@ -1,4 +1,5 @@
 as yet unclassified
 update: aValue
 
-	aValue == #listIndex ifTrue: [self ui diffScreen theText: self changeList contentsDiffedFromCurrent]
+	aValue == #listIndex ifTrue: [self contents: self changeList contentsDiffedFromCurrent].
+	self contentsChanged.

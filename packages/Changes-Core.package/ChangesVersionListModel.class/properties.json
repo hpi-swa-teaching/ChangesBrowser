@@ -1,0 +1,19 @@
+{
+	"category" : "Changes-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"list",
+		"selectedIndex",
+		"positions",
+		"changesFile",
+		"endPosition",
+		"changesBrowser" ],
+	"name" : "ChangesVersionListModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
