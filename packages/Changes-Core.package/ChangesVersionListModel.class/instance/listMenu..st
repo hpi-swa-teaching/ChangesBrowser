@@ -14,4 +14,5 @@ listMenu: aMenu
 		add: 'browse' target: targetClass selector: #browse;
 		add: 'inspect' target: targetClass selector: #inspect;
 		add: 'explore' target: targetClass selector: #explore.
-^ differentMenu
+	
+	^ differentMenu
