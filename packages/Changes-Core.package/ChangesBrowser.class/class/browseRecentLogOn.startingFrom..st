@@ -1,6 +1,6 @@
-public access
+as yet unclassified
 browseRecentLogOn: origChangesFile startingFrom: initialPos 
-	"Prompt with a menu of how far back to go when browsing a changes file."
+	"copied from ChangeList browseRecentLogOn:  startingFrom: "
 
 	| end banners positions pos chunk i changesFile |
 	changesFile := origChangesFile readOnlyCopy.
@@ -25,7 +25,4 @@ browseRecentLogOn: origChangesFile startingFrom: initialPos
 	banners size = 0 ifTrue: [^ self inform: 
 'this image has never been saved
 since changes were compressed' translated].
-
-	pos := UIManager default chooseFrom:  banners values: positions title: 'Browse as far back as...' translated.
-	pos ifNil: [^ self].
-	self browseRecent: end - pos on: origChangesFile
+	^ {banners . positions . end . origChangesFile}.
