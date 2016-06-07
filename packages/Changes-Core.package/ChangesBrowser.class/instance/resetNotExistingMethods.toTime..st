@@ -19,13 +19,13 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 					selector := aChangeRecord string copyFrom: positionOfSecondSpace + 2 to: aChangeRecord string size.
 					listOfRemovedMethodsWithClasses add: {selector. class}].
 
-			olderChangeRecords := (ChangeList browseRecent: (self versionListModel positions at: self versionListModel selectedIndex) - self versionListModel positions last) changeList reversed.
+			olderChangeRecords := (self class browseRecent: (self versionListModel positions at: self versionListModel selectedIndex) - self versionListModel positions last) changeList reversed.
 			listOfRemovedMethodsWithClasses
 				do: [:aMethodAndClass | | newestChangeRecordBeforeTimeStamp |
 					newestChangeRecordBeforeTimeStamp := olderChangeRecords detect: [:aChangeRecord |
 								aChangeRecord type == #method
 								and: [aChangeRecord methodSelector asSymbol == aMethodAndClass first asSymbol]
-								and: [aChangeRecord methodClass name = aMethodAndClass second]
+								and: [aChangeRecord method name = aMethodAndClass second]
 								and: [aChangeRecord timeStamp < aTimeStamp]]
 						ifNone: [newestChangeRecordBeforeTimeStamp := nil].
 					newestChangeRecordBeforeTimeStamp notNil ifTrue: [newestChangeRecordBeforeTimeStamp fileIn].]]

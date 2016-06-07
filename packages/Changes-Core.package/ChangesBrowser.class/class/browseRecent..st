@@ -1,7 +1,8 @@
-public access
-browseRecent: charCount on: origChangesFile 
-	"Opens a changeList on the end of the specified changes log file"
-	| changeList end changesFile |
+as yet unclassified
+browseRecent: charCount
+	"copied from ChangeList browseRecent: on: "
+	| changeList end changesFile origChangesFile |
+	origChangesFile := SourceFiles at: 2.
 	
 	changesFile := origChangesFile readOnlyCopy.
 	changesFile setConverterForCode.
@@ -12,8 +13,4 @@ browseRecent: charCount on: origChangesFile
 						from: (0 max: end - charCount)
 						to: end].
 	changesFile close.
-	^changeList.
-	"self
-		open: changeList
-		name: 'Recent changes'
-		multiSelect: true"
+	^ changeList.
