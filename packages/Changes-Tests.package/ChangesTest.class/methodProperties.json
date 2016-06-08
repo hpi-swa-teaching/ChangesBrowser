@@ -1,17 +1,22 @@
 {
 	"class" : {
-		"standardMockChangesFile" : "FS 6/3/2016 15:27",
+		"standardMockChangesFileV1" : "FS 6/8/2016 16:43",
+		"standardMockChangesFileV2" : "FS 6/8/2016 16:43",
 		"standardMockEndPosition" : "FS 6/7/2016 19:18",
-		"standardMockList" : "FS 6/7/2016 19:18",
-		"standardMockPositions" : "FS 6/7/2016 19:23" },
+		"standardMockList" : "FS 6/8/2016 15:11",
+		"standardMockPositions" : "FS 6/8/2016 16:44" },
 	"instance" : {
 		"changesBrowser" : "FS 6/7/2016 19:15",
 		"changesBrowser:" : "FS 6/7/2016 19:15",
 		"dummyClass" : "FS 6/3/2016 12:32",
 		"dummyClass:" : "FS 6/3/2016 12:32",
+		"loadFirstChangeFile" : "FS 6/8/2016 16:45",
+		"loadSecondChangeFile" : "FS 6/8/2016 16:45",
 		"mockChangesFile" : "FS 6/3/2016 12:32",
 		"mockChangesFile:" : "FS 6/3/2016 12:32",
-		"setUp" : "FS 6/7/2016 19:17",
+		"setUp" : "FS 6/8/2016 16:52",
 		"standardMockChangesFile" : "FS 6/7/2016 19:16",
 		"standardMockList" : "FS 6/7/2016 19:16",
-		"testInitialDummyFunction" : "FS 5/31/2016 11:40" } }
+		"tearDown" : "FS 6/8/2016 16:46",
+		"testChangeMethod" : "FS 6/8/2016 16:53",
+		"testInitialDummyFunction" : "FS 6/8/2016 16:46" } }

@@ -1,4 +1,4 @@
 dummyFunctions
 dummyFunction1
 
-	^ 'Initial version'
+	^ 'version 1'

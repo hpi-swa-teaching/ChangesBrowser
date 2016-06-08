@@ -1,4 +1,4 @@
 testing
 testInitialDummyFunction
 
-	self assert: dummyClass dummyFunction1 equals: 'Initial version'
+	self assert: dummyClass dummyFunction1 equals: 'version 1'
