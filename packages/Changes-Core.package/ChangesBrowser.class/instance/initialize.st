@@ -2,14 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self initializeVersionList;
-		changeList: ChangeList new.
-	"
-	self ui setupUi: self.
-	self 
-		initializeClosePushButton;
+	self
 		initializeVersionList;
-		initializeBrowseCurrentButton;
-		initializeResetToVersionPushButton;
-		initializeOneClickResetButton;
-		initializeResetSelectedMethodsButton."
+		changeList: ChangeList new.
