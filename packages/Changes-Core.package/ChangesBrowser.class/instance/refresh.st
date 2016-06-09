@@ -1,4 +1,4 @@
 as yet unclassified
 refresh
-	"TODO"
-	self halt.
+	self class open.
+	dependents first delete.
