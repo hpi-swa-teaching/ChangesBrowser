@@ -19,7 +19,7 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 					selector := aChangeRecord string copyFrom: positionOfSecondSpace + 2 to: aChangeRecord string size.
 					listOfRemovedMethodsWithClasses add: {selector. class}].
 
-			olderChangeRecords := (self class browseRecent: (self versionListModel positions at: self versionListModel selectedIndex) - self versionListModel positions last) changeList reversed.
+			olderChangeRecords := (ChangeList browseRecent: (self versionListModel positions at: self versionListModel selectedIndex) - self versionListModel positions last) changeList reversed.
 			listOfRemovedMethodsWithClasses
 				do: [:aMethodAndClass | | newestChangeRecordBeforeTimeStamp |
 					newestChangeRecordBeforeTimeStamp := olderChangeRecords detect: [:aChangeRecord |

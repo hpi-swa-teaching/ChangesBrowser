@@ -25,7 +25,10 @@ browseRecentLogOn: origChangesFile startingFrom: initialPos
 	banners size = 0 ifTrue: [^ self inform: 
 'this image has never been saved
 since changes were compressed' translated].
+	"change starts here"
+	^ {banners . positions . end . origChangesFile}.
+	"change ends here"
 
-	pos := UIManager default chooseFrom:  banners values: positions title: 'Browse as far back as...' translated.
+	"pos := UIManager default chooseFrom:  banners values: positions title: 'Browse as far back as...' translated.
 	pos ifNil: [^ self].
-	self browseRecent: end - pos on: origChangesFile
+	self browseRecent: end - pos on: origChangesFile"

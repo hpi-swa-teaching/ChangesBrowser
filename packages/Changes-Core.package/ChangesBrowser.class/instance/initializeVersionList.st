@@ -2,7 +2,7 @@ initialization
 initializeVersionList
 	
 	| model logTuple |
-	logTuple := self class browseRecentLog.
+	logTuple := ChangeList browseRecentLog.
 	model := ChangesVersionListModel new list: logTuple first.
 	model 
 		positions: (logTuple at: 2);
