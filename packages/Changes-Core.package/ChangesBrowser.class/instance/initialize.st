@@ -5,4 +5,5 @@ initialize
 	self
 		initializeVersionList;
 		changeList: ChangeList new;
+		versionSelected: true;
 		changeSelected: false.

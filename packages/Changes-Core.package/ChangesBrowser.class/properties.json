@@ -11,6 +11,7 @@
 		"versionListModel",
 		"changeList",
 		"changeListView",
+		"versionSelected",
 		"changeSelected" ],
 	"name" : "ChangesBrowser",
 	"pools" : [

@@ -1,3 +1,3 @@
 accessing
 versionSelected
-	^ true
+	^ versionSelected
