@@ -4,4 +4,5 @@ initialize
 	super initialize.
 	self
 		initializeVersionList;
-		changeList: ChangeList new.
+		changeList: ChangeList new;
+		changeSelected: false.

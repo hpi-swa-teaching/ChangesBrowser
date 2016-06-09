@@ -10,7 +10,8 @@
 		"ui",
 		"versionListModel",
 		"changeList",
-		"changeListView" ],
+		"changeListView",
+		"changeSelected" ],
 	"name" : "ChangesBrowser",
 	"pools" : [
 		 ],
