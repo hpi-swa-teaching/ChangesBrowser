@@ -8,9 +8,7 @@
 	"instvars" : [
 		"list",
 		"selectedIndex",
-		"positions",
-		"changesFile",
-		"endPosition",
+		"currentlyShownIndex",
 		"changesBrowser" ],
 	"name" : "ChangesVersionListModel",
 	"pools" : [

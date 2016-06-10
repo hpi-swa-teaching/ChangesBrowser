@@ -1,0 +1,4 @@
+updating
+updateCurrentlyShownChangeFile
+
+	self versionListModel updateFile.

@@ -1,4 +1,6 @@
-as yet unclassified
+updating
 refresh
-	self class open.
-	dependents first delete.
+	self versionListModel list: (ChangeList browseRecentLog first).
+	self updateCurrentlyShownChangeFile.
+	"self class open.
+	dependents first delete." "dependents first should always be the PluggableSystemWindow"

@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateChangeListViewWith: aChangeList
 
 	self changeList: aChangeList.

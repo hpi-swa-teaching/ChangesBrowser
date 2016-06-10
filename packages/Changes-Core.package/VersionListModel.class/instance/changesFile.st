@@ -1,4 +1,4 @@
 accessing
 changesFile
 
-	^ changesFile
+	^ ChangesBrowser browseRecentLog at: 4
