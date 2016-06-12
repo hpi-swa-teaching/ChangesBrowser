@@ -2,6 +2,10 @@ as yet unclassified
 resetToSelectedVersion
 
 	| changeList listOfChangeRecords selectedTimeStamp |
+	
+	Smalltalk snapshot: true andQuit: false.
+	
+	self refresh.
 
 	"Select all ChangeRecords, which were created after this version"
 	changeList := self versionListModel getChangeListForSelectedVersion.
@@ -13,4 +17,6 @@ resetToSelectedVersion
 	
 	self
 		resetClassesFrom: changeList toTime: selectedTimeStamp;
-		resetMethodsFrom: changeList toTime: selectedTimeStamp
+		resetMethodsFrom: changeList toTime: selectedTimeStamp.
+		
+	self refresh

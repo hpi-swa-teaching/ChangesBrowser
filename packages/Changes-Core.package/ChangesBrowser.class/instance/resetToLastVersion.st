@@ -7,4 +7,6 @@ resetToLastVersion
 	listOfChangeRecords := changeList changeList
 		select: [:changeRecord | changeRecord type == #method].
 	listOfChangeRecords reversed
-		do: [:changeRecord | changeRecord fileIn]
+		do: [:changeRecord | changeRecord fileIn].
+		
+	self refresh
