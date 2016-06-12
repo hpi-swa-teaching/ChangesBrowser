@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 browseCurrentlySelectedChangeFile
 
 	self versionListModel browseFile.

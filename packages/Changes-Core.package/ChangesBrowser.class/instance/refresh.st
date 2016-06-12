@@ -1,4 +1,4 @@
-updating
+actions
 refresh
 	self versionListModel list: (ChangeList browseRecentLog first).
 	self updateCurrentlyShownChangeFile.

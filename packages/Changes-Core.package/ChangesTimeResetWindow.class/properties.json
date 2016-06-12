@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"list",
-		"selectedIndex",
-		"changesBrowser" ],
-	"name" : "VersionListModel",
+		"changeBrowser",
+		"window",
+		"contents" ],
+	"name" : "ChangesTimeResetWindow",
 	"pools" : [
 		 ],
 	"super" : "Object",

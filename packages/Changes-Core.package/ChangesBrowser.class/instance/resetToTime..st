@@ -27,7 +27,6 @@ resetToTime: aTimeStamp
 									isBefore := false].
 							aTimeStamp < timeStamp
 								ifTrue: [isBefore := false]]]].
-self halt.
 	self resetToTime: timeStampForChangeList with: changeList.
 	1 to: indexOfMaxRecord
 		do: [:index | 
