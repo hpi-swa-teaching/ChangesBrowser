@@ -1,5 +1,5 @@
 as yet unclassified
-resetClassesFrom: aChangeList toTime: aTimeStamp 
+resetClassesFrom: aChangeList
 
 	| setOfAddedClasses |
 
