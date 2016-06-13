@@ -1,5 +1,5 @@
 as yet unclassified
-resetExistingMethods: aChangeList toTime: aTimeStamp
+resetExistingMethods: aChangeList
 
 	| listOfMethodsAndClasses listOfMethodRecords |
 

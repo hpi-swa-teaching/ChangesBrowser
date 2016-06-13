@@ -2,5 +2,5 @@ as yet unclassified
 resetMethodsFrom: aChangeList toTime: aTimeStamp 
 	
 	self
-		resetExistingMethods: aChangeList toTime: aTimeStamp;
+		resetExistingMethods: aChangeList;
 		resetNotExistingMethods: aChangeList toTime: aTimeStamp.
