@@ -7,7 +7,6 @@
 		"RecentUpdateMarker" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
 		"versionListModel",
 		"changeList",
 		"changeListView",

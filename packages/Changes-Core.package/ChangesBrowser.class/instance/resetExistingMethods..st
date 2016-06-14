@@ -14,4 +14,5 @@ resetExistingMethods: aChangeList
 			self
 				resetMethod: methodAndClass first
 				ofClass: methodAndClass second
-				toTime: methodAndClass third].
+				toTime: methodAndClass third
+				with: listOfMethodRecords].

@@ -1,12 +1,13 @@
 as yet unclassified
-resetMethod: aSelector ofClass: aClass toTime: aTimeStamp 
+resetMethod: aSelector ofClass: aClass toTime: aTimeStamp with: methodChanges
 	
 	| changeRecord |
 	
 	changeRecord := self
 				getLastVersionOf: aSelector
 				class: aClass
-				before: aTimeStamp.
+				before: aTimeStamp
+				notIn: methodChanges.
 	changeRecord isNil
 		ifTrue: [aClass removeSelector: aSelector]
 		ifFalse: [changeRecord fileIn]
