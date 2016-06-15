@@ -16,16 +16,13 @@ resetToTime: aTimeStamp
 			| timeStamp |
 			timeStamp := ChangesBrowser extractTimeStampFrom: (changeList changeList at: index).
 			timeStamp
-				ifNotNil: [(isBefore and: [newestTimeStamp < timeStamp])
-						ifTrue: [timeStamp < aTimeStamp
+				ifNotNil: [(isBefore and: [newestTimeStamp < timeStamp or: [newestTimeStamp = timeStamp]])
+						ifTrue: [(timeStamp < aTimeStamp or: [timeStamp = aTimeStamp])
 								ifTrue: [newestTimeStamp := timeStamp.
 									indexOfMaxRecord := index].
-							timeStamp = aTimeStamp
-								ifTrue: [newestTimeStamp := timeStamp.
-									indexOfMaxRecord := index.
-									isBefore := false].
 							aTimeStamp < timeStamp
 								ifTrue: [isBefore := false]]]].
+
 	self resetToTime: timeStampForChangeList with: changeList.
 	1 to: indexOfMaxRecord
 		do: [:index | 
