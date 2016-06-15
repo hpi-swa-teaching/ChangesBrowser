@@ -7,6 +7,6 @@ getChangeListForTime: aTimeStamp
 						extractTimeStamp: (self list at: currentIndex).
 			(extractedTimeStamp < aTimeStamp
 					or: [extractedTimeStamp = aTimeStamp])
-				ifTrue: [^ ChangeList
+				ifTrue: [^ ChangeListForChangesBrowser
 						browseRecent: (self endPosition - self positions at: currentIndex)]].
 	self inform: 'The selected time stamp is too old!'

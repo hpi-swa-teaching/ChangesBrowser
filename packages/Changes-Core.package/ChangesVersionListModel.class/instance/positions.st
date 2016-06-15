@@ -1,4 +1,4 @@
 accessing
 positions
 
-	^ ChangeList browseRecentLog at: 2
+	^ ChangeListForChangesBrowser browseRecentLog at: 2

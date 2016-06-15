@@ -1,4 +1,4 @@
 as yet unclassified
 getChangeListForLatestVersion
 
-	^ ChangeList browseRecent: (self endPosition - self positions first)
+	^ ChangeListForChangesBrowser browseRecent: (self endPosition - self positions first)

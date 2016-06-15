@@ -3,7 +3,7 @@ initializeVersionList
 	
 	| model logTuple |
 
-	logTuple := ChangeList browseRecentLog.
+	logTuple := ChangeListForChangesBrowser browseRecentLog.
 	model := ChangesVersionListModel new list: logTuple first.
 	model changesBrowser: self.
 	self versionListModel: model.

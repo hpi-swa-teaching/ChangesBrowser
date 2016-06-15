@@ -1,4 +1,4 @@
 accessing
 endPosition
 
-	^ ChangeList browseRecentLog at: 3
+	^ ChangeListForChangesBrowser browseRecentLog at: 3

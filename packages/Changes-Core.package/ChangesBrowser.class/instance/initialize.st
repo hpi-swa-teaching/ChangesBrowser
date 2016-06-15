@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	self
 		initializeVersionList;
-		changeList: ChangeList new;
+		changeList: ChangeListForChangesBrowser new;
 		versionSelected: true;
 		changeSelected: false.
