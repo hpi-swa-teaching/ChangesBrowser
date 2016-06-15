@@ -10,4 +10,4 @@ browseVersionsWithoutBrowserOf: method class: class meta: meta category: msgCate
 	sourcePointer ifNotNil:
 		[changeList setLostMethodPointer: sourcePointer].
 
-	^browser
+	^browser changeList

@@ -1,7 +1,12 @@
 instance creation
-versionsForSelector: aSelector class: aClass
-	
-	| method versionsBrowser |
+versionsForSelector: aSelector class: aClass 
+
+	| method |
 	method := aClass compiledMethodAt: aSelector ifAbsent: [^ 0].
-	versionsBrowser := self browseVersionsWithoutBrowserForClass: aClass selector: aSelector.
-	^ versionsBrowser changeList
+	^ self
+		browseVersionsWithoutBrowserOf: method
+		class: aClass
+		meta: aClass isMeta
+		category: (aClass organization categoryOfElement: aSelector)
+		selector: aSelector
+		lostMethodPointer: nil
