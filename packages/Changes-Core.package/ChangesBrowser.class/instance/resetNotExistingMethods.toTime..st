@@ -25,7 +25,7 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 					newestChangeRecordBeforeTimeStamp := olderChangeRecords detect: [:aChangeRecord |
 								aChangeRecord type == #method
 								and: [aChangeRecord methodSelector asSymbol == aMethodAndClass first asSymbol]
-								and: [aChangeRecord method name = aMethodAndClass second]
+								and: [aChangeRecord methodClassName = aMethodAndClass second]
 								and: [aChangeRecord timeStamp < aTimeStamp]]
 						ifNone: [newestChangeRecordBeforeTimeStamp := nil].
 					newestChangeRecordBeforeTimeStamp notNil ifTrue: [newestChangeRecordBeforeTimeStamp fileIn].]]

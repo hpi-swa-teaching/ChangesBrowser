@@ -11,7 +11,6 @@ resetToTime: aTimeStamp
 	changeList := self versionListModel getChangeListForTime: aTimeStamp.
 	timeStampForChangeList := ChangesBrowser extractTimeStampFrom: changeList changeList first.
 
-	"TODO"
 	1 to: changeList changeList size
 		do: [:index | 
 			| timeStamp |
