@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetNotExistingMethods: aChangeList toTime: aTimeStamp 
 
 	| listOfRemovedSelectorRecords listOfRemovedMethodsWithClasses olderChangeRecords |
@@ -25,7 +25,7 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 					newestChangeRecordBeforeTimeStamp := olderChangeRecords detect: [:aChangeRecord |
 								aChangeRecord type == #method
 								and: [aChangeRecord methodSelector asSymbol == aMethodAndClass first asSymbol]
-								and: [aChangeRecord methodClassName = aMethodAndClass second]
+								and: [aChangeRecord method name = aMethodAndClass second]
 								and: [aChangeRecord timeStamp < aTimeStamp]]
 						ifNone: [newestChangeRecordBeforeTimeStamp := nil].
 					newestChangeRecordBeforeTimeStamp notNil ifTrue: [newestChangeRecordBeforeTimeStamp fileIn].]]

@@ -1,4 +1,4 @@
-as yet unclassified
+browsing
 browseVersionsOfSelectedMethod
 	
 	| activeChangeRecord |

@@ -1,4 +1,4 @@
-actions
+button actions
 resetToLastVersion
 "Get all changes after the last version and file them in."
 	| changeList listOfChangeRecords |

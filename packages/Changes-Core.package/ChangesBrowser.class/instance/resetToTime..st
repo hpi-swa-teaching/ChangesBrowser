@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetToTime: aTimeStamp 
 
 	| changeList timeStampForChangeList newestTimeStamp indexOfMaxRecord isBefore |

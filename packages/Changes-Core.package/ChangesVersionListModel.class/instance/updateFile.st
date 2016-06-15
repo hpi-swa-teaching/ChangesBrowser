@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateFile
 	self currentlyShownIndex ifNotNil: 
 	[self changesBrowser

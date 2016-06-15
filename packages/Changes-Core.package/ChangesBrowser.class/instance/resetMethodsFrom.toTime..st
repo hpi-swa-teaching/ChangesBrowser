@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetMethodsFrom: aChangeList toTime: aTimeStamp 
 	
 	self

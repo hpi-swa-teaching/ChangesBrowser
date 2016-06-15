@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetMethod: aSelector ofClass: aClass toTime: aTimeStamp with: methodChanges
 	
 	| changeRecord |

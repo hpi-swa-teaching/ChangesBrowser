@@ -1,4 +1,4 @@
-initialization
+resetting
 resetSelectedMethods
 
 	| savedListSelections |

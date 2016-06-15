@@ -1,4 +1,4 @@
-as yet unclassified
+browsing
 getLastVersionOf: aSelector class: aClass before: aStamp notIn: methodChanges 
 
 	| changeList lastVersion priorChanges |

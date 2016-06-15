@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetToTime: aTimeStamp with: aChangeList
 
 	self

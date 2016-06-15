@@ -1,4 +1,4 @@
-as yet unclassified
+browsing
 getChangeListForLatestVersion
 
 	^ ChangeListForChangesBrowser browseRecent: (self endPosition - self positions first)

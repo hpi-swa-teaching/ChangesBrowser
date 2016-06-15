@@ -1,4 +1,4 @@
-as yet unclassified
+resetting
 resetExistingMethods: aChangeList
 
 	| listOfMethodsAndClasses listOfMethodRecords |

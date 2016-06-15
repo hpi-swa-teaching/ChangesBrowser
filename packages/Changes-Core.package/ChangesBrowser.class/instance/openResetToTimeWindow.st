@@ -1,4 +1,4 @@
-actions
+button actions
 openResetToTimeWindow
 	|window|
 	window := ChangesTimeResetWindow open.
