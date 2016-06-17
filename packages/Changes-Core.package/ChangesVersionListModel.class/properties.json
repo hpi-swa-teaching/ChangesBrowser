@@ -9,7 +9,9 @@
 		"list",
 		"selectedIndex",
 		"currentlyShownIndex",
-		"changesBrowser" ],
+		"changesBrowser",
+		"positions",
+		"endPosition" ],
 	"name" : "ChangesVersionListModel",
 	"pools" : [
 		 ],

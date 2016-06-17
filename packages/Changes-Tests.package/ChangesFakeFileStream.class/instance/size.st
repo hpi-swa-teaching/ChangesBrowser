@@ -1,0 +1,3 @@
+overwriting
+size
+	^ string size

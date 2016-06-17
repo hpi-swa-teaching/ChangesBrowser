@@ -11,7 +11,8 @@
 		"changeList",
 		"changeListView",
 		"versionSelected",
-		"changeSelected" ],
+		"changeSelected",
+		"changesFile" ],
 	"name" : "ChangesBrowser",
 	"pools" : [
 		 ],

@@ -1,9 +1,10 @@
 running
 loadFirstChangeFile
-
+	
+	self changesBrowser changesFile: self class mockV1.
 	self changesBrowser versionListModel
 		list: self class standardMockList;
-		changesFile: self class standardMockChangesFileV1;
 		positions: self class standardMockPositions;
-		endPosition: self class standardMockEndPosition.
+		endPosition: self class standardMockEndPosition;
+		selectedIndex: 1.
 	self changesBrowser browseCurrentlySelectedChangeFile

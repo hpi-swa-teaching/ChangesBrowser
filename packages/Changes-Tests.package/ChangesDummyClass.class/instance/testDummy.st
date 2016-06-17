@@ -1,4 +1,3 @@
 testing
-testDummy
-
-	
+testDummy 
+	^ 'testsRunning'

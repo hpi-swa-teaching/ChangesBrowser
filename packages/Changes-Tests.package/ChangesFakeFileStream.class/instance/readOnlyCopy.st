@@ -1,0 +1,3 @@
+overwriting
+readOnlyCopy 
+	^ self

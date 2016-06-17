@@ -6,4 +6,5 @@ initialize
 		initializeVersionList;
 		changeList: ChangeListForChangesBrowser new;
 		versionSelected: true;
-		changeSelected: false.
+		changeSelected: false;
+		changesFile: (SourceFiles at: 2).

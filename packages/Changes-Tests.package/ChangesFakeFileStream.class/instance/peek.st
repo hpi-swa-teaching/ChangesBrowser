@@ -1,0 +1,3 @@
+overwriting
+peek
+	^ self readNextCharacter
