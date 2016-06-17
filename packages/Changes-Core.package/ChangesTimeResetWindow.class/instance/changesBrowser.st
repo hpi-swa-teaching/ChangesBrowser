@@ -1,3 +1,3 @@
 accessing
-changeBrowser
+changesBrowser
 	^ changeBrowser

@@ -1,3 +1,3 @@
 accessing
-changeBrowser: anObject
+changesBrowser: anObject
 	changeBrowser := anObject

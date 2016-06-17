@@ -2,4 +2,4 @@ button actions
 openResetToTimeWindow
 	|window|
 	window := ChangesTimeResetWindow open.
-	window model changeBrowser: self.
+	window model changesBrowser: self.

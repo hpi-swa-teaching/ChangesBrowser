@@ -1,4 +1,4 @@
 button actions
 resetToSelectedTime
 	self close.
-	self changeBrowser resetToTime: (TimeStamp fromString: self contents asString).
+	self changesBrowser resetToTime: (TimeStamp fromString: self contents asString).

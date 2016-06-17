@@ -1,4 +1,4 @@
 building
 buttons
-	^ #(( 'Cancel' #close #true )
-		( 'Reset to selected time' #resetToSelectedTime #true ))
+	^ #(( 'Cancel' #close #alwaysEnabled )
+		( 'Reset to selected time' #resetToSelectedTime #alwaysEnabled ))

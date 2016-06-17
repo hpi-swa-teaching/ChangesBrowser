@@ -1,3 +1,3 @@
 accessing
-true
+alwaysEnabled
 	^ true
