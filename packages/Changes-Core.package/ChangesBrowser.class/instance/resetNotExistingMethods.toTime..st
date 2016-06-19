@@ -5,7 +5,7 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 
 	listOfRemovedSelectorRecords := aChangeList changeList
 				select: [:changeRecord | changeRecord type == #doIt
-						and: [changeRecord string matchesRegex: '[\w]+ (removeSelector\: #)([\w]|[\W])*']].
+						and: [changeRecord string matchesRegex: ChangesBrowser removeSelectorRegex]].
 	
 	listOfRemovedSelectorRecords isEmpty
 		ifFalse:[	"Do this check just for performance"			
@@ -27,5 +27,5 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 								and: [aChangeRecord methodSelector asSymbol == aMethodAndClass first asSymbol]
 								and: [aChangeRecord methodClassName = aMethodAndClass second]
 								and: [aChangeRecord timeStamp < aTimeStamp]]
-						ifNone: [newestChangeRecordBeforeTimeStamp := nil].
-					newestChangeRecordBeforeTimeStamp notNil ifTrue: [newestChangeRecordBeforeTimeStamp fileIn].]]
+						ifNone: [newestChangeRecordBeforeTimeStamp := NullChangeRecord new].
+					newestChangeRecordBeforeTimeStamp fileIn.]]

@@ -5,7 +5,7 @@ resetClassesFrom: aChangeList
 
 	setOfAddedClasses := Set new.
 	aChangeList changeList
-		do: [:aChangeRecord | (aChangeRecord string matchesRegex: '[\w]+ (subclass\: #)([\w]|[\W])*')
+		do: [:aChangeRecord | (aChangeRecord string matchesRegex: ChangesBrowser newClassesRegex)
 				ifTrue: [| subclass positionOfFirstSpace positionOfSecondSpace positionOfFirstBreak |
 					positionOfFirstSpace := aChangeRecord string findString: ' '.
 					positionOfSecondSpace := aChangeRecord string findString: ' ' startingAt: positionOfFirstSpace + 1.

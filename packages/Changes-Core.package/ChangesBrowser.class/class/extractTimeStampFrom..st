@@ -1,4 +1,4 @@
-instance-creation
+resetting
 extractTimeStampFrom: aChangeRecord 
 
 	aChangeRecord type == #method

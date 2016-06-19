@@ -1,4 +1,4 @@
-instance-creation
+resetting
 extractTimeStamp: aString 
 
 	((aString beginsWith: 'SNAPSHOT') or: [aString beginsWith: 'QUIT'] or: [aString beginsWith: '----'])
