@@ -1,3 +1,3 @@
 overwriting
 skipSeparators
-	self peek ifNotNil: [ self next isSeparator ifTrue: [ self skipSeparators ].]
+	[(self peek isNil not) and: [self peek isSeparator]] whileTrue: [self next].

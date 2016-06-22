@@ -1,6 +1,5 @@
 resetting
 extractTimeStampFrom: aChangeRecord 
-
 	aChangeRecord type == #method
 		ifTrue: [^ aChangeRecord timeStamp].
 

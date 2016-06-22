@@ -7,7 +7,7 @@ resetExistingMethods: aChangeList
 				select: [:changeRecord | changeRecord type == #method].
 	listOfMethodsAndClasses := Set new.
 	listOfMethodRecords
-		do: [:changeRecord | changeRecord methodClass = nil " nil means, that this methods comes from a class, which was created after the timeStamp"
+		do: [:changeRecord | changeRecord methodClass = nil " nil means that this methods comes from a class which was created after the timeStamp"
 				ifFalse: [listOfMethodsAndClasses add: {changeRecord methodSelector. changeRecord methodClass . changeRecord timeStamp}]].
 	listOfMethodsAndClasses
 		do: [:methodAndClass |

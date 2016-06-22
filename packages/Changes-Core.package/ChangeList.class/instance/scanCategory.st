@@ -5,7 +5,6 @@ scanCategory
 	| itemPosition item tokens stamp anIndex |
 	itemPosition := self file position.
 	item := self file nextChunk.
-
 	((item includesSubstring: 'commentStamp:')
 	or: [(item includesSubstring: 'methodsFor:')
 	or: [item endsWith: 'reorganize']]) ifFalse:

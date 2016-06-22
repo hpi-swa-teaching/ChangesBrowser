@@ -11,4 +11,5 @@ nextChunkText
 				ifTrue: [returnString := returnString , self next.]
 				ifFalse: [returnString := returnString , self next.
 					position := position + 1.]].
+	self next.
 	^ Text fromString: returnString

@@ -2,6 +2,7 @@ overwriting
 nextChunk
 	| returnString |
 	self skipSeparators.
+	"self next."
 	returnString := ''.
 	[(position == (string size - 1) and: self readNextCharacter ~~ $!)
 		or: (position < (string size - 1)
@@ -11,4 +12,5 @@ nextChunk
 				ifTrue: [returnString := returnString , self next.]
 				ifFalse: [returnString := returnString , self next.
 					position := position + 1.]].
+	self next.
 	^ returnString

@@ -12,7 +12,8 @@
 		"changeListView",
 		"versionSelected",
 		"changeSelected",
-		"changesFile" ],
+		"changesFile",
+		"testMode" ],
 	"name" : "ChangesBrowser",
 	"pools" : [
 		 ],

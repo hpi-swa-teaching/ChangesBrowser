@@ -1,6 +1,5 @@
 scanning
 scanFile: aFile from: startPosition to: stopPosition
-	
 	self file: aFile.
 	self changeList: OrderedCollection new.
 	self list: OrderedCollection new.

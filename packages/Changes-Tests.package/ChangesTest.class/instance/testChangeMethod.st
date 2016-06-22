@@ -4,8 +4,8 @@ testChangeMethod
 	self loadFirstChangeFile.
 	self changesBrowser changeListListSelectionAt: 2 put: true.
 	self changesBrowser resetSelectedMethods.
-	self assert: dummyClass dummyFunction1 equals: 'version 1'.
+	self assert: 'version 1' equals: dummyClass dummyFunction1.
 	self loadSecondChangeFile.
 	self changesBrowser changeListListSelectionAt: 2 put: true.
 	self changesBrowser resetSelectedMethods.
-	self assert: dummyClass dummyFunction1 equals: 'version 2'.
+	self assert: 'version 2' equals: dummyClass dummyFunction1.

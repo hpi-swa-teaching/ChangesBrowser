@@ -3,13 +3,12 @@ resetToTime: aTimeStamp
 
 	| changeList timeStampForChangeList newestTimeStamp indexOfMaxRecord isBefore |
 
-	Smalltalk snapshot: true andQuit: false.
-	self refresh.
+	self testMode ifFalse: [Smalltalk snapshot: true andQuit: false.
+	self refresh.].
 
 	isBefore := true.
-	indexOfMaxRecord := 0.
 	newestTimeStamp := TimeStamp fromString: '1 January 1000 00:00:00 am'.
-	changeList := self versionListModel getChangeListForTime: aTimeStamp.
+	changeList := self versionListModel getChangeListForTime: aTimeStamp fromFile: self changesFile.
 	timeStampForChangeList := ChangesBrowser extractTimeStampFrom: changeList changeList first.
 
 	1 to: changeList changeList size
@@ -31,4 +30,4 @@ resetToTime: aTimeStamp
 			changeRecord := changeList changeList at: index.
 			(changeRecord string beginsWith: 'self')
 				ifFalse: [changeRecord fileIn]].
-	self refresh
+	self testMode ifFalse: [self refresh.].
