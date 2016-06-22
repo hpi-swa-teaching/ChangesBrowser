@@ -7,6 +7,7 @@ resetToTime: aTimeStamp
 	self refresh.
 
 	isBefore := true.
+	indexOfMaxRecord := 0.
 	newestTimeStamp := TimeStamp fromString: '1 January 1000 00:00:00 am'.
 	changeList := self versionListModel getChangeListForTime: aTimeStamp.
 	timeStampForChangeList := ChangesBrowser extractTimeStampFrom: changeList changeList first.
