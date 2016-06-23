@@ -23,5 +23,4 @@ resetClassesFrom: aChangeList
 
 	setOfAddedClasses
 		do: [:aClass | Smalltalk removeClassNamed: aClass].
-	self halt.
-	self resetDeletedClasses: setOfRemovedClasses to: aChangeList changeList first.
+	self resetDeletedClasses: setOfRemovedClasses.

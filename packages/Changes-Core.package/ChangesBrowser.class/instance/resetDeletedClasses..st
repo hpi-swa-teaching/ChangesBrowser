@@ -38,6 +38,10 @@ resetDeletedClasses: anSet
 				do: [:currentIndex | 
 					| currentChangeRecord |
 					currentChangeRecord := wholeChangeList at: currentIndex.
+					"TODO: Clear RecordList, if it's a delete-Record, but not if it's the last record"
+"					(currentChangeRecord string
+								matchesRegex: (ChangesBrowser deletedClassRegexFor: aClassName))
+								ifTrue: [changeRecordsForClass := OrderedCollection new.]."
 					(currentChangeRecord type == #classComment and: [currentChangeRecord commentClass = aClassName])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord].
 					(currentChangeRecord type == #method and: [currentChangeRecord methodClassName = aClassName])
@@ -49,7 +53,6 @@ resetDeletedClasses: anSet
 									or: [currentChangeRecord string
 											matchesRegex: (ChangesBrowser ClassClassificationRegexFor: aClassName)]])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord]].
-			self halt.
 			changeRecordsForClass
 				do: [:aChangeRecord | aChangeRecord fileIn]].
 			self refresh.
