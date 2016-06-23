@@ -1,7 +1,7 @@
 resetting
 resetClassesFrom: aChangeList
 
-	| setOfAddedClasses |
+	| setOfAddedClasses setOfRemovedClasses |
 
 	setOfAddedClasses := Set new.
 	aChangeList changeList
@@ -12,6 +12,16 @@ resetClassesFrom: aChangeList
 					positionOfFirstBreak := aChangeRecord string findString: Character cr asString.
 					subclass := aChangeRecord string copyFrom: positionOfSecondSpace + 2 to: positionOfFirstBreak - 1.
 					setOfAddedClasses add: subclass]].
+			
+	setOfRemovedClasses := Set new.
+	aChangeList changeList
+		do: [:aChangeRecord | (aChangeRecord string matchesRegex: ChangesBrowser deletedClassRegex)
+				ifTrue: [| subclass positionOfHash |
+					positionOfHash := aChangeRecord string findString: '#'.
+					subclass := aChangeRecord string copyFrom: positionOfHash + 1 to: aChangeRecord string size.
+					setOfRemovedClasses add: subclass]].
 
 	setOfAddedClasses
-		do: [:aClass | Smalltalk removeClassNamed: aClass]
+		do: [:aClass | Smalltalk removeClassNamed: aClass].
+	self halt.
+	self resetDeletedClasses: setOfRemovedClasses to: aChangeList changeList first.
