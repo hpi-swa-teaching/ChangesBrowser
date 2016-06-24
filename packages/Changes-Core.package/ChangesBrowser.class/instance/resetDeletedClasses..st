@@ -13,7 +13,7 @@ resetDeletedClasses: anSet
 				do: [:currentIndex |
 ""					| currentChangeRecord |
 					currentChangeRecord := wholeChangeList at: currentIndex.
-					((currentChangeRecord type == #classComment and: [currentChangeRecord commentClass = aClassName]) and: [foundDeleteIndex = -1])
+					((currentChangeRecord type == #classComment and: [currentChangeRecord methodClassName == aClassName asSymbol]) and: [foundDeleteIndex = -1])
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					(currentChangeRecord type == #method and: [currentChangeRecord methodClassName = aClassName] and: [foundDeleteIndex = -1])
 						ifTrue: [foundRecordsBeforeDefinition := true.].
@@ -42,7 +42,7 @@ resetDeletedClasses: anSet
 "					(currentChangeRecord string
 								matchesRegex: (ChangesBrowser deletedClassRegexFor: aClassName))
 								ifTrue: [changeRecordsForClass := OrderedCollection new.]."
-					(currentChangeRecord type == #classComment and: [currentChangeRecord commentClass = aClassName])
+					(currentChangeRecord type == #classComment and: [currentChangeRecord methodClassName == aClassName asSymbol])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord].
 					(currentChangeRecord type == #method and: [currentChangeRecord methodClassName = aClassName])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord].
