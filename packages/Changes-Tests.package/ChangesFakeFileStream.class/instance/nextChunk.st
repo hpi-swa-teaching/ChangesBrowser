@@ -2,15 +2,14 @@ overwriting
 nextChunk
 	| returnString |
 	self skipSeparators.
-	"self next."
 	returnString := ''.
-	[(position == (string size - 1) and: self readNextCharacter ~~ $!)
-		or: (position < (string size - 1)
-				and: (self readNextCharacter ~~ $!
-						or: (self readNextCharacter == $! and: self readSecondNextCharacter == $!)))]
+	[(self position = (self string size - 1) and: [self readNextCharacter ~~ $!])
+		or: [self position < (self string size - 1)
+				and: [self readNextCharacter ~~ $!
+						or: [self readNextCharacter == $! and: [self readSecondNextCharacter == $!]]]]]
 		whileTrue: [self readNextCharacter ~~ $!
 				ifTrue: [returnString := returnString , self next.]
 				ifFalse: [returnString := returnString , self next.
-					position := position + 1.]].
+					self position: self position + 1.]].
 	self next.
 	^ returnString

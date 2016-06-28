@@ -1,5 +1,5 @@
 overwriting
 basicNext
-	(position < string size)
-		ifTrue: [^ string at: (position := position + 1)]
+	(self position < self string size)
+		ifTrue: [^ self string at: (self position: self position + 1)]
 		ifFalse: [^ nil]

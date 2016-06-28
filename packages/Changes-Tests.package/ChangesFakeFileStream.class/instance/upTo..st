@@ -2,6 +2,6 @@ overwriting
 upTo: delimiter
 	| returnString |
 	returnString := ''.
-	[(position < string size) and: (self peek ~~ delimiter)] whileTrue: [ returnString := returnString , self next].
-	position := position + 1.
+	[(self position < self string size) and: (self peek ~~ delimiter)] whileTrue: [ returnString := returnString , self next].
+	self position: self position + 1.
 	^ returnString

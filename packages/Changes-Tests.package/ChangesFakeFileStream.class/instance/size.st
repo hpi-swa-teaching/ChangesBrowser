@@ -1,3 +1,3 @@
 overwriting
 size
-	^ string size
+	^ self string size

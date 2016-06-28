@@ -4,5 +4,5 @@ peekFor: item
 
 	"self atEnd ifTrue: [^ false]. -- SFStream will give nil"
 	(self next ifNil: [ ^false ]) = item ifTrue: [ ^true ].
-	position := position - 1.
+	self position: self position - 1.
 	^ false

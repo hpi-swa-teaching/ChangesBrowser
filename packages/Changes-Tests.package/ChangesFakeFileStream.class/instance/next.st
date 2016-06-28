@@ -1,5 +1,5 @@
 overwriting
 next
-	(position < string size)
-		ifTrue: [^ string at: (position := position + 1)]
+	(self position < self string size)
+		ifTrue: [self position: self position + 1. ^ self string at: (self position)]
 		ifFalse: [^ nil]

@@ -1,3 +1,3 @@
 private
 readSecondNextCharacter 
-	(position < (string size - 1)) ifTrue: [^ string at: (position + 2)] ifFalse: [^ nil]
+	(self position < (self string size - 1)) ifTrue: [^ self string at: (self position + 2)] ifFalse: [^ nil]
