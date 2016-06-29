@@ -5,7 +5,7 @@ getLastVersionOf: aSelector class: aClass before: aStamp notIn: methodChanges
 
 	priorChanges := methodChanges collect: [:changeRecord | changeRecord prior].
 	changeList := self browseVersionsSelector: aSelector class: aClass.
-	changeList = 0 ifTrue: [^ nil].
+	changeList = 0 ifTrue: [^ NullChangeRecord new].
 	lastVersion := changeList
 				detect: [:changeRecord |
 						(changeRecord timeStamp < aStamp or: [changeRecord timeStamp = aStamp])

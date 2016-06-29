@@ -3,8 +3,7 @@ resetToTime: aTimeStamp
 
 	| changeList timeStampForChangeList newestTimeStamp indexOfMaxRecord isBefore |
 
-	self testMode ifFalse: [Smalltalk snapshot: true andQuit: false.
-	self refresh.].
+	self saveSnapshot.
 
 	isBefore := true.
 	newestTimeStamp := TimeStamp fromString: '1 January 1000 00:00:00 am'.
@@ -30,4 +29,4 @@ resetToTime: aTimeStamp
 			changeRecord := changeList changeList at: index.
 			(changeRecord string beginsWith: 'self')
 				ifFalse: [changeRecord fileIn]].
-	self testMode ifFalse: [self refresh.].
+	self refresh.

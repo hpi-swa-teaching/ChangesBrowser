@@ -9,4 +9,4 @@ resetToLastVersion
 	listOfChangeRecords reversed
 		do: [:changeRecord | changeRecord fileIn].
 		
-	self testMode ifFalse: [self refresh.].
+	self refresh.
