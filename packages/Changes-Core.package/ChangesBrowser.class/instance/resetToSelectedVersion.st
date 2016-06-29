@@ -5,7 +5,7 @@ resetToSelectedVersion
 
 	self saveSnapshot.
 	changeList := self versionListModel getChangeListForSelectedVersion.
-	selectedTimeStamp := ChangesBrowser extractTimeStampFrom: changeList changeList first.
+	selectedTimeStamp := ChangesBrowser extractCeiledTimeStampFrom: changeList changeList first.
 	self
 		resetToTime: selectedTimeStamp with: changeList;
 		refresh.

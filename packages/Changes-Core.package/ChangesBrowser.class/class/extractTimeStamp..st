@@ -9,7 +9,5 @@ extractTimeStamp: aString
 			timeString1 := aString copyFrom: positionOfFirstBraceLeft + 1 to: positionOfSeperator - 1.
 			timeString2 := aString copyFrom: positionOfSeperator + 2 to: positionOfFirstBraceRight - 1.
 			timeStamp := TimeStamp fromString: timeString1 , timeString2.
-			"ceil to next minute"
-			timeStamp := timeStamp + (Duration seconds: (60 - timeStamp seconds) \\ 60).
 			^ timeStamp].
 	^ nil

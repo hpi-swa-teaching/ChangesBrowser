@@ -2,7 +2,7 @@ public access
 browseRecent: charCount on: origChangesFile 
 	"Returns a changeList on the end of the specified changes log file"
 	| changeList end changesFile |
-	
+
 	changesFile := origChangesFile readOnlyCopy.
 	changesFile setConverterForCode.
 	end := changesFile size.

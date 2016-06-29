@@ -5,7 +5,7 @@ resetToLastVersion
 
 	changeList := self versionListModel getChangeListForLatestVersion.
 	listOfChangeRecords := changeList changeList
-		select: [:changeRecord | changeRecord type == #method].
+		select: [:changeRecord | (changeRecord string beginsWith: 'self') not].
 	listOfChangeRecords reversed
 		do: [:changeRecord | changeRecord fileIn].
 		
