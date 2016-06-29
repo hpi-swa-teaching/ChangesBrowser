@@ -15,7 +15,7 @@ resetClassesFrom: aChangeList
 			
 	setOfRemovedClasses := Set new.
 	aChangeList changeList
-		do: [:aChangeRecord | (aChangeRecord string matchesRegex: ChangesBrowser deletedClassRegex)
+		do: [:aChangeRecord | (aChangeRecord string beginsWith: ChangesBrowser deletedClassIdentifier)
 				ifTrue: [| subclass positionOfHash |
 					positionOfHash := aChangeRecord string findString: '#'.
 					subclass := aChangeRecord string copyFrom: positionOfHash + 1 to: aChangeRecord string size.

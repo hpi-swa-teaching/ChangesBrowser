@@ -19,19 +19,18 @@ resetDeletedClasses: anSet
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					(((currentChangeRecord type == #doIt) and: [currentChangeRecord methodClassName = aClassName])  and: [foundDeleteIndex = -1]
 							and: [([currentChangeRecord string beginsWith: aClassName] = true)
-									or: [currentChangeRecord string
-											matchesRegex: (ChangesBrowser ClassClassificationRegexFor: aClassName)]])
+									or: [currentChangeRecord string beginsWith: (ChangesBrowser ClassClassificationBeginFor: aClassName)]])
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					 (((wholeChangeList at: currentIndex) string
-								matchesRegex: (ChangesBrowser ClassDefinitionRegexFor: aClassName)) and: [foundDeleteIndex = -1])
+								includesSubstring: (ChangesBrowser ClassDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex].""
 					 (((wholeChangeList at: currentIndex) string
-								matchesRegex: (ChangesBrowser deletedClassRegexFor: aClassName)) and: [foundDeleteIndex = -1])
+								beginsWith: (ChangesBrowser deletedClassIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex]].
 			foundRecordsBeforeDefinition ifTrue: [self error: 'Cannot resore class ' , aClassName].
 			foundDeleteIndex to: wholeChangeList size
 				do: [:currentIndex | (((wholeChangeList at: currentIndex) string
-							matchesRegex: (ChangesBrowser ClassDefinitionRegexFor: aClassName)) and: [firstIndex = -1])
+							includesSubstring: (ChangesBrowser ClassDefinitionIdentifierFor: aClassName)) and: [firstIndex = -1])
 						ifTrue: [firstIndex := currentIndex]].
 			firstIndex = -1 	ifTrue: [self error: 'Cannot resore class ' , aClassName].
 			firstIndex to: wholeChangeList size
@@ -49,9 +48,9 @@ resetDeletedClasses: anSet
 					(currentChangeRecord type == #doIt
 							and: [(([currentChangeRecord string beginsWith: aClassName] = true)
 										or: [currentChangeRecord string
-												matchesRegex: (ChangesBrowser ClassDefinitionRegexFor: aClassName)])
+												includesSubstring: (ChangesBrowser ClassDefinitionIdentifierFor: aClassName)])
 									or: [currentChangeRecord string
-											matchesRegex: (ChangesBrowser ClassClassificationRegexFor: aClassName)]])
+											beginsWith: (ChangesBrowser ClassClassificationBeginFor: aClassName)]])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord]].
 			changeRecordsForClass
 				do: [:aChangeRecord | aChangeRecord fileIn]].
