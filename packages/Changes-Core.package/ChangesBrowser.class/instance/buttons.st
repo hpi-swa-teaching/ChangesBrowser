@@ -1,8 +1,8 @@
 building
 buttons
-	^ #(( 'Browse version' #browseCurrentlySelectedChangeFile #versionSelected )
-		( 'Reset to selected version' #resetToSelectedVersion #versionSelected )
-		( 'Reset to last version' #resetToLastVersion #true )
-		( 'Restore selected methods' #resetSelectedMethods #changeSelected )
+	^ #(( 'Browse image state' #browseCurrentlySelectedChangeFile #versionSelected )
 		( 'Refresh' #refresh #true )
+		( 'Reset to selected image state' #resetToSelectedVersion #versionSelected )
+		( 'Reset after crash' #resetToLastVersion #true )
+		( 'Restore selected changes' #resetSelectedMethods #changeSelected )
 		( 'Reset to time' #openResetToTimeWindow #true))
