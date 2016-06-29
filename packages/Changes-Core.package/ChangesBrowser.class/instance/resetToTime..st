@@ -8,12 +8,12 @@ resetToTime: aTimeStamp
 	isBefore := true.
 	newestTimeStamp := TimeStamp fromString: '1 January 1000 00:00:00 am'.
 	changeList := self versionListModel getChangeListForTime: aTimeStamp fromFile: self changesFile.
-	timeStampForChangeList := ChangesBrowser extractTimeStampFrom: changeList changeList first.
 
 	1 to: changeList changeList size
 		do: [:index | 
 			| timeStamp |
-			timeStamp := ChangesBrowser extractTimeStampFrom: (changeList changeList at: index).
+
+			timeStamp := ChangesBrowser extractFlooredTimeStampFrom: (changeList changeList at: index).
 			timeStamp
 				ifNotNil: [(isBefore and: [newestTimeStamp < timeStamp or: [newestTimeStamp = timeStamp]])
 						ifTrue: [(timeStamp < aTimeStamp or: [timeStamp = aTimeStamp])
@@ -22,11 +22,13 @@ resetToTime: aTimeStamp
 							aTimeStamp < timeStamp
 								ifTrue: [isBefore := false]]]].
 
+	timeStampForChangeList := ChangesBrowser extractCeiledTimeStampFrom: changeList changeList first.
 	self resetToTime: timeStampForChangeList with: changeList.
+
 	1 to: indexOfMaxRecord
 		do: [:index | 
 			| changeRecord |
 			changeRecord := changeList changeList at: index.
-			(changeRecord string beginsWith: 'self')
+			((changeRecord string beginsWith: 'self') or: [changeRecord string beginsWith: '----'])
 				ifFalse: [changeRecord fileIn]].
 	self refresh.
