@@ -1,9 +1,13 @@
 {
 	"class" : {
 		"ClassClassificationBeginFor:" : "PG 6/29/2016 15:02",
+		"ClassClassificationRegexFor:" : "PG 6/23/2016 18:47",
 		"ClassDefinitionIdentifierFor:" : "PG 6/29/2016 15:06",
+		"ClassDefinitionRegexFor:" : "PG 6/23/2016 18:46",
 		"deletedClassIdentifier" : "PG 6/29/2016 15:34",
 		"deletedClassIdentifierFor:" : "PG 6/29/2016 15:33",
+		"deletedClassRegex" : "PG 6/23/2016 18:54",
+		"deletedClassRegexFor:" : "PG 6/23/2016 18:48",
 		"extractTimeStamp:" : "PG 6/13/2016 14:20",
 		"extractTimeStampFrom:" : "FS 6/22/2016 11:54",
 		"newClassesRegex" : "PG 6/19/2016 14:21",
@@ -45,7 +49,7 @@
 		"methodWindowHeight" : "FS 6/7/2016 19:02",
 		"openResetToTimeWindow" : "pf 6/17/2016 12:55",
 		"postAcceptBrowseFor:" : "FS 6/7/2016 11:53",
-		"refresh" : "PG 6/29/2016 14:07",
+		"refresh" : "pf 6/29/2016 16:14",
 		"resetClassesFrom:" : "PG 6/29/2016 15:34",
 		"resetDeletedClasses:" : "PG 6/29/2016 15:11",
 		"resetExistingMethods:" : "PG 6/29/2016 14:31",
