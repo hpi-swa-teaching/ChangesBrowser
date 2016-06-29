@@ -29,8 +29,10 @@
 		"standardMockChangesFile" : "FS 6/7/2016 19:16",
 		"standardMockList" : "FS 6/7/2016 19:16",
 		"tearDown" : "FS 6/8/2016 16:46",
+		"testCeiledTimeStampExtraction" : "PG 6/29/2016 22:39",
 		"testChangeMethod" : "PG 6/29/2016 21:06",
+		"testExactTimeStampExtraction" : "PG 6/29/2016 22:40",
+		"testFlooredTimeStampExtraction" : "PG 6/29/2016 22:43",
 		"testInitialDummyFunction" : "PG 6/29/2016 21:07",
 		"testMatchSubclassRecords" : "PG 6/21/2016 14:31",
-		"testResetToTime" : "PG 6/29/2016 21:28",
-		"testTimeStampExtraction" : "PG 6/29/2016 21:25" } }
+		"testResetToTime" : "PG 6/29/2016 21:28" } }
