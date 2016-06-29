@@ -1,4 +1,4 @@
 testing
 testInitialDummyFunction
 
-	self assert: dummyClass testDummy equals: 'testsRunning'
+	self assert: self dummyClass testDummy equals: 'testsRunning'

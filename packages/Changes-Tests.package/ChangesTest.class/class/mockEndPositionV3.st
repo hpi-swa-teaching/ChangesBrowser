@@ -1,4 +1,4 @@
 as yet unclassified
 mockEndPositionV3
-"int"
-	^ 878
+
+	^ self mockV3 size

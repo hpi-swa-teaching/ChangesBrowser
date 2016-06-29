@@ -1,6 +1,7 @@
 testing
 testResetToTime
 	self loadThirdChangeFile.
+
 	self changesBrowser resetToLastVersion.
 	self
 		assert: 'version 1' equals: (self dummyClass dummyFunction4);
