@@ -1,3 +1,3 @@
 constants
 deletedClassIdentifierFor: aClassName
-	^ 'Smalltalk removeClassNamed: #)', aClassName
+	^ 'Smalltalk removeClassNamed: #', aClassName

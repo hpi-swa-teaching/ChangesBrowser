@@ -19,13 +19,13 @@ resetDeletedClasses: anSet
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					(((currentChangeRecord type == #doIt) and: [currentChangeRecord methodClassName = aClassName])  and: [foundDeleteIndex = -1]
 							and: [([currentChangeRecord string beginsWith: aClassName] = true)
-									or: [currentChangeRecord string beginsWith: (ChangesBrowser ClassClassificationBeginFor: aClassName)]])
+									or: [currentChangeRecord string = (ChangesBrowser ClassClassificationBeginFor: aClassName)]])
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					 (((wholeChangeList at: currentIndex) string
 								includesSubstring: (ChangesBrowser ClassDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex].""
 					 (((wholeChangeList at: currentIndex) string
-								beginsWith: (ChangesBrowser deletedClassIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
+								= (ChangesBrowser deletedClassIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex]].
 			foundRecordsBeforeDefinition ifTrue: [self error: 'Cannot resore class ' , aClassName].
 			foundDeleteIndex to: wholeChangeList size
@@ -50,7 +50,7 @@ resetDeletedClasses: anSet
 										or: [currentChangeRecord string
 												includesSubstring: (ChangesBrowser ClassDefinitionIdentifierFor: aClassName)])
 									or: [currentChangeRecord string
-											beginsWith: (ChangesBrowser ClassClassificationBeginFor: aClassName)]])
+											= (ChangesBrowser ClassClassificationBeginFor: aClassName)]])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord]].
 			changeRecordsForClass
 				do: [:aChangeRecord | aChangeRecord fileIn]].
