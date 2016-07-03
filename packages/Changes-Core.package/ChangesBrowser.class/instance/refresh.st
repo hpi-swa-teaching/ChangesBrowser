@@ -1,4 +1,4 @@
-button actions
+updating
 refresh
 	self testMode ifFalse: [
 		self versionListModel

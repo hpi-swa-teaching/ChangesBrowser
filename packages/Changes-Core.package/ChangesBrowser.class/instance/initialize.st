@@ -8,4 +8,5 @@ initialize
 		versionSelected: true;
 		changeSelected: false;
 		testMode: false;
-		changesFile: (SourceFiles at: 2).
+		changesFile: (SourceFiles at: 2);
+		registerForSystemChangeNotifications.

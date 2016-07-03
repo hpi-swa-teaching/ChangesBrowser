@@ -5,6 +5,7 @@ buildWith: aBuilder
 		model: self;
 		label: 'Changes Browser';
 		extent: self extent;
+		closeAction: #close;
 		children: (OrderedCollection new
 			add: ((self buildVersionListWith: aBuilder)
 				frame: self versionListFrame;
