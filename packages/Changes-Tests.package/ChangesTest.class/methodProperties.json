@@ -44,6 +44,4 @@
 		"testInitialDummyFunction" : "PG 6/29/2016 21:07",
 		"testMatchSubclassRecords" : "PG 6/21/2016 14:31",
 		"testResetToTime" : "PG 7/1/2016 01:11",
-		"testSystemChangeNotification" : "pf 7/3/2016 12:27",
-		"testTimeStampExtraction" : "PG 6/28/2016 12:03",
-		"testWantsOptionalButtons" : "PG 7/1/2016 21:33" } }
+		"testSystemChangeNotification" : "pf 7/3/2016 12:27" } }
