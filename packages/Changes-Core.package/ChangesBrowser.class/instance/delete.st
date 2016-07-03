@@ -1,4 +1,4 @@
 destruction
 delete
-	super delete.
+	"super delete."
 	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self.
