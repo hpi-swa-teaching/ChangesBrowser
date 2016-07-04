@@ -29,11 +29,10 @@
 		"loadThirdChangeFile" : "FS 6/22/2016 11:53",
 		"mockChangesFile" : "FS 6/3/2016 12:32",
 		"mockChangesFile:" : "FS 6/3/2016 12:32",
-		"setUp" : "PG 6/28/2016 12:04",
-		"standardMockChangesFile" : "FS 6/7/2016 19:16",
-		"standardMockList" : "FS 6/7/2016 19:16",
-		"tearDown" : "pf 7/3/2016 12:39",
+		"setUp" : "pf 7/4/2016 15:56",
+		"tearDown" : "pf 7/4/2016 15:56",
 		"testAlwaysEnabled" : "PG 7/1/2016 22:03",
+		"testBuildingChangesBrowser" : "pf 7/4/2016 16:09",
 		"testCeiledTimeStampExtraction" : "PG 6/29/2016 22:39",
 		"testChangeMethod" : "PG 6/29/2016 21:06",
 		"testClassClassificationBeginFor" : "PG 7/1/2016 21:46",
@@ -44,4 +43,4 @@
 		"testInitialDummyFunction" : "PG 6/29/2016 21:07",
 		"testMatchSubclassRecords" : "PG 6/21/2016 14:31",
 		"testResetToTime" : "PG 7/1/2016 01:11",
-		"testSystemChangeNotification" : "pf 7/3/2016 12:27" } }
+		"testSystemChangeNotification" : "pf 7/4/2016 16:00" } }

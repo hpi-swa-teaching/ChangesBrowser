@@ -1,4 +1,4 @@
-as yet unclassified
+mock objects
 mockV2
 	
 	^ ChangesFakeFileStream new string: '

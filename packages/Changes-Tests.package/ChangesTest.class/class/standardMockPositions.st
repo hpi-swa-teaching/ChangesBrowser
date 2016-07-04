@@ -1,4 +1,4 @@
-as yet unclassified
+mock objects
 standardMockPositions
 "OrderedCollections of ints"
 	^ (OrderedCollection new 
