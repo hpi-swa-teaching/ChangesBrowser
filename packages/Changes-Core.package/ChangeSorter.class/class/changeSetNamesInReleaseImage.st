@@ -1,4 +1,0 @@
-deprecated
-changeSetNamesInReleaseImage
-
-	^ ChangesOrganizer changeSetNamesInReleaseImage

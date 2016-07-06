@@ -1,0 +1,4 @@
+as yet unclassified
+browseCurrentlySelectedChangeFile
+
+	self imageStateListModel browseFile.

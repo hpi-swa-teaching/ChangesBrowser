@@ -1,7 +1,7 @@
 running
 loadFirstChangeFile
-	
-	self changesBrowser changesFile: self class mockV1.
+
+	self changesBrowser browserLogic changesFile: self class mockV1.
 	self changesBrowser versionListModel
 		list: self class standardMockList;
 		positions: self class mockPositionsV1;

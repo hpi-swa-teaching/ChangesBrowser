@@ -1,7 +1,7 @@
 running
 loadThirdChangeFile
 
-	self changesBrowser changesFile: self class mockV3.
+	self changesBrowser browserLogic changesFile: self class mockV3.
 	self changesBrowser versionListModel
 		list: self class mockListV3;
 		positions: self class mockPositionsV3;

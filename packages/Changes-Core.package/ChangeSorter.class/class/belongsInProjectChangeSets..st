@@ -1,4 +1,0 @@
-deprecated
-belongsInProjectChangeSets: aChangeSet
-
-	^ ChangesOrganizer belongsInProjectChangeSets: aChangeSet

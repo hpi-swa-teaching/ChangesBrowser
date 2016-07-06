@@ -1,4 +1,0 @@
-menu
-changeSetMenuForModification: aMenu
-
-	^ aMenu

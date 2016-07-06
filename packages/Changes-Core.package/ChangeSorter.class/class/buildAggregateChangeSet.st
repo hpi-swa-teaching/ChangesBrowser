@@ -1,6 +1,0 @@
-deprecated
-buildAggregateChangeSet
-
-	^ ChangesOrganizer buildAggregateChangeSet
-
-	

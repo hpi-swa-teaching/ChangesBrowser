@@ -1,0 +1,18 @@
+{
+	"category" : "Changes-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ChangeSetNamesInRelease",
+		"RecentUpdateMarker" ],
+	"commentStamp" : "PG 6/16/2016 10:32",
+	"instvars" : [
+		"browserLogic",
+		"versionSelected",
+		"changeSelected",
+		"testMode" ],
+	"name" : "CHBrowser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

@@ -1,4 +1,0 @@
-deprecated
-allChangeSetNames
-
-	^ ChangesOrganizer allChangeSetNames

@@ -1,4 +1,0 @@
-deprecated
-recentUpdateMarker
-
-	^ ChangesOrganizer recentUpdateMarker

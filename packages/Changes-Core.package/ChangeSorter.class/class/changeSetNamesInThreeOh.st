@@ -1,4 +1,0 @@
-deprecated
-changeSetNamesInThreeOh
-
-	^ ChangesOrganizer changeSetNamesInThreeOh

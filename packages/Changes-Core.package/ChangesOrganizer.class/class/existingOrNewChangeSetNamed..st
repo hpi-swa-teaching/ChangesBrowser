@@ -1,3 +1,0 @@
-enumerating
-existingOrNewChangeSetNamed: aName
-	^ChangeSet existingOrNewChangeSetNamed: aName

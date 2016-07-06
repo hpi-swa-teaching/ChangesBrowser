@@ -2,6 +2,6 @@ testing-constants
 testClassClassificationBeginFor
 
 	self
-		assert: (ChangesBrowser ClassClassificationBeginFor: 'ChangesBrowser') equals: 'SystemOrganization classify: #ChangesBrowser';
-		assert: (ChangesBrowser ClassClassificationBeginFor: 'ExampleClass') equals: 'SystemOrganization classify: #ExampleClass';
-		deny: ((ChangesBrowser ClassClassificationBeginFor: 'ExampleClass') = 'SystemOrganization classify: #ChangesBrowser').
+		assert: (CHBrowser ClassClassificationBeginFor: 'ChangesBrowser') equals: 'SystemOrganization classify: #ChangesBrowser';
+		assert: (CHBrowser ClassClassificationBeginFor: 'ExampleClass') equals: 'SystemOrganization classify: #ExampleClass';
+		deny: ((CHBrowser ClassClassificationBeginFor: 'ExampleClass') = 'SystemOrganization classify: #ChangesBrowser').

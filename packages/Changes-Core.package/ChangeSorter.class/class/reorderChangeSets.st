@@ -1,4 +1,0 @@
-deprecated
-reorderChangeSets
-
-	^ ChangesOrganizer reorderChangeSets

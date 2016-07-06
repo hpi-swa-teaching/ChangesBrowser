@@ -1,4 +1,0 @@
-deprecated
-gatherChangeSets
-
-	^ ChangesOrganizer gatherChangeSets

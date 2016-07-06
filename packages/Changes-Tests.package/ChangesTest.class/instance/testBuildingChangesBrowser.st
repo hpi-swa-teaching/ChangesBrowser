@@ -1,6 +1,6 @@
 testing
 testBuildingChangesBrowser
 	| browser |
-	browser := ChangesBrowser open.
+	browser := CHBrowser open.
 	self assert: (browser isKindOf: PluggableSystemWindow).
 	browser closeBoxHit.

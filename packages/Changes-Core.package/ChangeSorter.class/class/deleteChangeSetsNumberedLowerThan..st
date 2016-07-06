@@ -1,4 +1,0 @@
-deprecated
-deleteChangeSetsNumberedLowerThan: anInteger
-
-	^ ChangesOrganizer deleteChangeSetsNumberedLowerThan: anInteger

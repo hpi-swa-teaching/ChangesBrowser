@@ -1,4 +1,0 @@
-menu
-changeSetMenuForDropInClassCats: aMenu
-
-	^ aMenu

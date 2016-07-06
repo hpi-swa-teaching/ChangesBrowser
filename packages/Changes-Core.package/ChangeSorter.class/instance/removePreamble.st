@@ -1,4 +1,0 @@
-changeSet menu
-removePreamble
-	myChangeSet removePreamble.
-	self showChangeSet: myChangeSet

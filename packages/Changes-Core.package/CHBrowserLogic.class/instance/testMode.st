@@ -1,0 +1,4 @@
+accessing
+testMode
+
+	^ testMode

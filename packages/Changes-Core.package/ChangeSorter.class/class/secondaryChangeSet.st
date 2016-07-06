@@ -1,4 +1,0 @@
-deprecated
-secondaryChangeSet
-
-	^ ChangesOrganizer secondaryChangeSet

@@ -1,0 +1,20 @@
+{
+	"category" : "Changes-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ChangeSetNamesInRelease",
+		"RecentUpdateMarker" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"imageStateListModel",
+		"changeList",
+		"changeListView",
+		"changesFile",
+		"testMode" ],
+	"name" : "CHBrowserLogic",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

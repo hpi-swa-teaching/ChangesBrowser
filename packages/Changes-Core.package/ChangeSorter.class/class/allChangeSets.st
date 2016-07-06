@@ -1,4 +1,0 @@
-deprecated
-allChangeSets
-
-	^ ChangesOrganizer allChangeSets

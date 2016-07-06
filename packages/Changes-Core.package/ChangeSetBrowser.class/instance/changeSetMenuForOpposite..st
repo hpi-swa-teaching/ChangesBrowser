@@ -1,4 +1,0 @@
-menu
-changeSetMenuForOpposite: aMenu
-
-	^ aMenu

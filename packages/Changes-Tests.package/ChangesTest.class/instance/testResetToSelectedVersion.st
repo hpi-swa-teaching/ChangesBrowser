@@ -2,9 +2,7 @@ testing
 testResetToSelectedVersion
 
 	self loadFourthChangeFile.
-	self halt.
-	self changesBrowser resetToSelectedVersion.
-	self halt.
+	self changesBrowser browserLogic resetToSelectedVersion.
 	self
 		assert: 'version 1' equals: (self dummyClass dummyFunction15);
 		assert: 'version 1' equals: (self dummyClass dummyFunction14);

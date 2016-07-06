@@ -1,4 +1,0 @@
-deprecated
-highestNumberedChangeSet
-
-	^ ChangesOrganizer highestNumberedChangeSet
