@@ -19,18 +19,18 @@ resetDeletedClasses: anSet
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					(((currentChangeRecord type == #doIt) and: [currentChangeRecord methodClassName = aClassName])  and: [foundDeleteIndex = -1]
 							and: [([currentChangeRecord string beginsWith: aClassName] = true)
-									or: [currentChangeRecord string = (CHBrowser ClassClassificationBeginFor: aClassName)]])
+									or: [currentChangeRecord string = (CHBrowserLogic ClassClassificationBeginFor: aClassName)]])
 						ifTrue: [foundRecordsBeforeDefinition := true.].
 					 (((wholeChangeList at: currentIndex) string
-								includesSubstring: (CHBrowser ClassDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
+								includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex].""
 					 (((wholeChangeList at: currentIndex) string
-								= (CHBrowser deletedClassIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
+								= (CHBrowserLogic deletedClassIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex]].
 			foundRecordsBeforeDefinition ifTrue: [self error: 'Cannot resore class ' , aClassName].
 			foundDeleteIndex to: wholeChangeList size
 				do: [:currentIndex | (((wholeChangeList at: currentIndex) string
-							includesSubstring: (CHBrowser ClassDefinitionIdentifierFor: aClassName)) and: [firstIndex = -1])
+							includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)) and: [firstIndex = -1])
 						ifTrue: [firstIndex := currentIndex]].
 			firstIndex = -1 	ifTrue: [self error: 'Cannot resore class ' , aClassName].
 			firstIndex to: wholeChangeList size
@@ -48,9 +48,9 @@ resetDeletedClasses: anSet
 					(currentChangeRecord type == #doIt
 							and: [(([currentChangeRecord string beginsWith: aClassName] = true)
 										or: [currentChangeRecord string
-												includesSubstring: (CHBrowser ClassDefinitionIdentifierFor: aClassName)])
+												includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)])
 									or: [currentChangeRecord string
-											= (CHBrowser ClassClassificationBeginFor: aClassName)]])
+											= (CHBrowserLogic ClassClassificationBeginFor: aClassName)]])
 						ifTrue: [changeRecordsForClass addLast: currentChangeRecord]].
 			changeRecordsForClass
 				do: [:aChangeRecord | aChangeRecord fileIn]].

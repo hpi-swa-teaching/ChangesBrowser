@@ -1,18 +1,6 @@
 {
 	"class" : {
-		"ClassClassificationBeginFor:" : "PG 6/29/2016 15:02",
-		"ClassDefinitionIdentifierFor:" : "PG 6/29/2016 15:06",
-		"deletedClassIdentifier" : "PG 6/29/2016 15:34",
-		"deletedClassIdentifierFor:" : "PG 7/1/2016 21:57",
-		"extractCeiledTimeStamp:" : "PG 6/29/2016 21:28",
-		"extractCeiledTimeStampFrom:" : "PG 6/29/2016 21:24",
-		"extractFlooredTimeStamp:" : "PG 6/29/2016 22:15",
-		"extractFlooredTimeStampFrom:" : "PG 6/29/2016 22:15",
-		"extractTimeStamp:" : "PG 6/29/2016 21:15",
-		"extractTimeStampFrom:" : "FS 6/22/2016 11:54",
-		"newClassesRegex" : "PG 6/19/2016 14:21",
-		"open" : "pf 7/4/2016 16:52",
-		"removeSelectorRegex" : "PG 6/19/2016 14:36" },
+		"open" : "pf 7/4/2016 16:52" },
 	"instance" : {
 		"alwaysEnabled" : "pf 6/15/2016 15:11",
 		"browseCurrentlySelectedChangeFile" : "PG 7/6/2016 23:10",

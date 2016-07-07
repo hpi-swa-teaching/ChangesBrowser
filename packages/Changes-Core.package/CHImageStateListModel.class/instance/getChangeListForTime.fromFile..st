@@ -3,7 +3,7 @@ getChangeListForTime: aTimeStamp fromFile: aFile
 	1 to: self list size
 		do: [:currentIndex | 
 			| extractedTimeStamp |
-			extractedTimeStamp := CHBrowser
+			extractedTimeStamp := CHBrowserLogic
 						extractTimeStamp: (self list at: currentIndex).
 			(extractedTimeStamp < aTimeStamp
 					or: [extractedTimeStamp = aTimeStamp])

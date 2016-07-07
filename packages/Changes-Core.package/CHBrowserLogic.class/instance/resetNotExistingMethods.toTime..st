@@ -5,7 +5,7 @@ resetNotExistingMethods: aChangeList toTime: aTimeStamp
 
 	listOfRemovedSelectorRecords := aChangeList changeList
 				select: [:changeRecord | changeRecord type == #doIt
-						and: [changeRecord string matchesRegex: CHBrowser removeSelectorRegex]].
+						and: [changeRecord string matchesRegex: CHBrowserLogic removeSelectorRegex]].
 	
 	listOfRemovedSelectorRecords isEmpty
 		ifFalse:[	"Do this check just for performance"			

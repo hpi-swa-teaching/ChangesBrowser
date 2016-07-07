@@ -13,7 +13,7 @@ resetToTime: aTimeStamp
 		do: [:index | 
 			| timeStamp |
 
-			timeStamp := CHBrowser extractFlooredTimeStampFrom: (changeList changeList at: index).
+			timeStamp := CHBrowserLogic extractFlooredTimeStampFrom: (changeList changeList at: index).
 			timeStamp
 				ifNotNil: [(isBefore and: [newestTimeStamp < timeStamp or: [newestTimeStamp = timeStamp]])
 						ifTrue: [(timeStamp < aTimeStamp or: [timeStamp = aTimeStamp])
@@ -22,7 +22,7 @@ resetToTime: aTimeStamp
 							aTimeStamp < timeStamp
 								ifTrue: [isBefore := false]]]].
 
-	timeStampForChangeList := CHBrowser extractCeiledTimeStampFrom: changeList changeList first.
+	timeStampForChangeList := CHBrowserLogic extractCeiledTimeStampFrom: changeList changeList first.
 	self resetToTime: timeStampForChangeList with: changeList.
 
 	1 to: indexOfMaxRecord
