@@ -2,7 +2,7 @@ accessing
 listIndex: anInteger
 
 	self changesBrowser browser
-		versionSelected: (anInteger > 0).
+		imageStateSelected: (anInteger > 0).
 	self changesBrowser contentsChanged.
 	
 	self

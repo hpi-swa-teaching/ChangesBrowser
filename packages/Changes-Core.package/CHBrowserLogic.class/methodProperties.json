@@ -28,7 +28,7 @@
 		"changeListListSelectionAt:" : "PG 7/6/2016 20:43",
 		"changeListListSelectionAt:put:" : "PG 7/6/2016 20:43",
 		"changesFile" : "PG 7/6/2016 14:54",
-		"changesFile:" : "PG 7/6/2016 14:54",
+		"changesFile:" : "PG 7/7/2016 10:07",
 		"delete" : "PG 7/6/2016 23:28",
 		"getLastVersionOf:class:before:notIn:" : "PG 7/6/2016 14:47",
 		"imageStateListModel" : "PG 7/6/2016 20:13",
@@ -51,6 +51,6 @@
 		"saveSnapshot" : "PG 7/6/2016 23:12",
 		"testMode" : "PG 7/6/2016 14:54",
 		"testMode:" : "PG 7/6/2016 14:54",
-		"update:" : "PG 7/6/2016 23:45",
+		"update:" : "PG 7/7/2016 09:30",
 		"updateChangeListViewWith:" : "PG 7/6/2016 14:52",
 		"updateCurrentlyShownChangeFile" : "PG 7/6/2016 23:17" } }

@@ -5,10 +5,10 @@
 	"classvars" : [
 		"ChangeSetNamesInRelease",
 		"RecentUpdateMarker" ],
-	"commentStamp" : "PG 6/16/2016 10:32",
+	"commentStamp" : "PG 7/7/2016 09:57",
 	"instvars" : [
 		"browserLogic",
-		"versionSelected",
+		"imageStateSelected",
 		"changeSelected",
 		"testMode" ],
 	"name" : "CHBrowser",

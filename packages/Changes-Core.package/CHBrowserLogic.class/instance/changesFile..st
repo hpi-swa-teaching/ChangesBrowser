@@ -1,4 +1,4 @@
 accessing
-changesFile: anObject
+changesFile: aMultiByteFileStream
 
-	changesFile := anObject
+	changesFile := aMultiByteFileStream

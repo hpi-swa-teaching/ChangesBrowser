@@ -1,23 +1,20 @@
-A ChangesBrowser is a tool, which allows you to reset to an arbitrary point of time in your image.
+A CHBrowser (ChangesBrowser) is a tool, which allows you to reset to an arbitrary point of time in your image.
+The CHBrowser just implements the GUI, the functionality is 
 
 Instance Variables
-	changeList:				<ChangeListForChangesBrowser>
-	changeListView:			<Object>
-	changeSelected:		<Object>
-	versionListModel:		<ChangesVersionListModel>
-	versionSelected:		<bool>
+	browserLogic: 				<CHBrowserLogic>
+	changeSelected:			<Boolean>
+	imageStateSelected:		<Boolean>
+	testMode:					<Boolean>
 
-changeList
-	- The changeList holds all ChangeRecords after a specific timeStamp. A changeRecord is the new version of a method or a log entry for do-its.
-
-changeListView
-	- xxxxx
+browserLogic
+	- A CHBrowserLogic, which provides the functionalities to reset changes to the image.
 
 changeSelected
-	- xxxxx
+	- A bool value, which indicates, that one or more changes in the browser are selected. Needed, to enable/disable buttons, which needs at least on or more selected change
 
-versionListModel
-	- xxxxx
+imageStateSelected
+	- A bool value, which indicates, that a imageState in the browser is selected. Needed, to enable/disable buttons, which needs a selected imageState
 
-versionSelected
-	- A bool value, which indicates, that a version in the browser is selected. Needed, to enable/disable buttons, which needs a selected version (like 'Reset to selected version')
+testMode
+	- A bool value, which indicates, that the Browser is running in testMode.

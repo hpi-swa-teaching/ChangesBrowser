@@ -6,6 +6,6 @@ browserLogic browser: self.
 	super initialize.
 	self
 		browserLogic: browserLogic;
-		versionSelected: true;
+		imageStateSelected: true;
 		changeSelected: false;
 		testMode: false.
