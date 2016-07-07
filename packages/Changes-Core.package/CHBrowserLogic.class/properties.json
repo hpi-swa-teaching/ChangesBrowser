@@ -10,7 +10,6 @@
 		"browser",
 		"imageStateListModel",
 		"changeList",
-		"changeListView",
 		"changesFile",
 		"testMode" ],
 	"name" : "CHBrowserLogic",
