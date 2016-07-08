@@ -2,6 +2,12 @@ mock objects
 mockV6
 	
 	^ ChangesFakeFileStream new string:  '
+----SNAPSHOT----{6 July 2016 . 2:42:55 pm} SWT2016.image priorSource: 0!
+
+ChangesDummyClass removeSelector: #dummyFunction13!
+!ChangesDummyClass methodsFor: ''dummykekse'' stamp: ''FS 7/6/2016 14:43'' prior: 50326111!
+dummy
+	^ ''version 2''! !
 
 ----SNAPSHOT----{6 July 2016 . 2:41:33 pm} SWT2016.image priorSource: 1!
 !ChangesDummyClass methodsFor: ''dummyFunctions'' stamp: ''FS 7/6/2016 14:41''!
