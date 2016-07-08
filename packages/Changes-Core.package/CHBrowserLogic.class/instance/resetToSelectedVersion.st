@@ -3,12 +3,7 @@ resetToSelectedVersion
 
 	| changeList wholeChangeList |
 
-	self saveSnapshot.
-
-	changeList := self imageStateListModel getChangeListForSelectedVersion.
+	changeList := self imageStateListModel getChangeListForSelectedImageState.
 	wholeChangeList := self imageStateListModel getWholeChangeList.
 	
-	self resetClassesFrom: changeList.
-	self resetMethods: changeList with: wholeChangeList.
-	
-	self refresh.
+	self resetImageState: wholeChangeList with: changeList.

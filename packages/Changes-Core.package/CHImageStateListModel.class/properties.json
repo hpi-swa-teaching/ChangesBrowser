@@ -9,7 +9,7 @@
 		"list",
 		"selectedIndex",
 		"currentlyShownIndex",
-		"changesBrowser",
+		"changesBrowserLogic",
 		"positions",
 		"endPosition" ],
 	"name" : "CHImageStateListModel",

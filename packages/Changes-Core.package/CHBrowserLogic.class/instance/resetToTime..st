@@ -1,19 +1,22 @@
 resetting
 resetToTime: aTimeStamp 
 
-	| changeList timeStampForChangeList newestTimeStamp indexOfMaxRecord isBefore |
-
-	self saveSnapshot.
+	| newestTimeStamp indexOfMaxRecord isBefore indexOfAccordingSnapshot wholeChangeList partChangeList |
+	
+	wholeChangeList := self imageStateListModel getWholeChangeList.
+	indexOfAccordingSnapshot := self imageStateListModel getChangeListIndexTime: aTimeStamp.
+	partChangeList := self imageStateListModel getChangeListForImageStateAt: indexOfAccordingSnapshot.
+	
+	self resetImageState: wholeChangeList with: partChangeList.
 
 	isBefore := true.
 	newestTimeStamp := TimeStamp fromString: '1 January 1000 00:00:00 am'.
-	changeList := self imageStateListModel getChangeListForTime: aTimeStamp fromFile: self changesFile.
 
-	1 to: changeList changeList size
+	1 to: partChangeList changeList size
 		do: [:index | 
 			| timeStamp |
 
-			timeStamp := CHBrowserLogic extractFlooredTimeStampFrom: (changeList changeList at: index).
+			timeStamp := CHBrowserLogic extractFlooredTimeStampFrom: (partChangeList changeList at: index).
 			timeStamp
 				ifNotNil: [(isBefore and: [newestTimeStamp < timeStamp or: [newestTimeStamp = timeStamp]])
 						ifTrue: [(timeStamp < aTimeStamp or: [timeStamp = aTimeStamp])
@@ -22,13 +25,10 @@ resetToTime: aTimeStamp
 							aTimeStamp < timeStamp
 								ifTrue: [isBefore := false]]]].
 
-	timeStampForChangeList := CHBrowserLogic extractCeiledTimeStampFrom: changeList changeList first.
-	self resetToTime: timeStampForChangeList with: changeList.
-
 	1 to: indexOfMaxRecord
 		do: [:index | 
 			| changeRecord |
-			changeRecord := changeList changeList at: index.
+			changeRecord := partChangeList changeList at: index.
 			((changeRecord string beginsWith: 'self') or: [changeRecord string beginsWith: '----'])
 				ifFalse: [changeRecord fileIn]].
 	self refresh.

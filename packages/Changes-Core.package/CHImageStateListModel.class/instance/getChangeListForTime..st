@@ -1,5 +1,5 @@
-accessing
-getChangeListForTime: aTimeStamp fromFile: aFile
+browsing
+getChangeListForTime: aTimeStamp
 	1 to: self list size
 		do: [:currentIndex | 
 			| extractedTimeStamp |
@@ -7,6 +7,5 @@ getChangeListForTime: aTimeStamp fromFile: aFile
 						extractTimeStamp: (self list at: currentIndex).
 			(extractedTimeStamp < aTimeStamp
 					or: [extractedTimeStamp = aTimeStamp])
-				ifTrue: [^ CHChangeListModel
-						browseRecent: (self endPosition - self positions at: currentIndex) on: aFile]].
+				ifTrue: [^ self getChangeListForImageStateAt: currentIndex]].
 	self inform: 'The selected time stamp is too old!'

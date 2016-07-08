@@ -1,11 +1,11 @@
 accessing
 listIndex: anInteger
 
-	self changesBrowser browser
+	self changesBrowserLogic browser
 		imageStateSelected: (anInteger > 0).
-	self changesBrowser contentsChanged.
+	self changesBrowserLogic contentsChanged.
 	
 	self
 		selectedIndex: anInteger;
 		changed: #listIndex.	"signal my acceptance of the change"
-	anInteger > 0 ifTrue: [ self changesBrowser browseCurrentlySelectedChangeFile ]
+	anInteger > 0 ifTrue: [ self changesBrowserLogic browseCurrentlySelectedChangeFile ]
