@@ -1,3 +1,3 @@
 accessing
 getWholeChangeList
-	^ CHChangeListModel browseRecent: self endPosition
+	^ CHChangeListModel browseRecent: self endPosition on: self changesBrowser changesFile 

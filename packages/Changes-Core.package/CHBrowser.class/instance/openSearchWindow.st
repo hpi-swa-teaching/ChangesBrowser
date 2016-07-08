@@ -1,5 +1,5 @@
 button actions
-openResetToTimeWindow
+openSearchWindow
 	|window|
-	window := CHTimeResetWindow open.
+	window := CHSearchWindow open.
 	window model changesBrowserLogic: self browserLogic.

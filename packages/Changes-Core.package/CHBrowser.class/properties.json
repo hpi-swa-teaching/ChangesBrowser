@@ -9,8 +9,7 @@
 	"instvars" : [
 		"browserLogic",
 		"imageStateSelected",
-		"changeSelected",
-		"testMode" ],
+		"changeSelected" ],
 	"name" : "CHBrowser",
 	"pools" : [
 		 ],

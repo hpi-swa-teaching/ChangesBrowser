@@ -7,5 +7,4 @@ browserLogic browser: self.
 	self
 		browserLogic: browserLogic;
 		imageStateSelected: true;
-		changeSelected: false;
-		testMode: false.
+		changeSelected: false.

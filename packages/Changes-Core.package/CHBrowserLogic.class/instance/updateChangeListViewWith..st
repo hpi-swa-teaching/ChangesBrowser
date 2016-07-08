@@ -2,5 +2,5 @@ updating
 updateChangeListViewWith: aChangeList
 
 	self changeList: aChangeList.
-	aChangeList addDependent: self.
-	self changed: #changeListList.
+	self changeList addDependent: self.
+	self browser changed: #changeListList.

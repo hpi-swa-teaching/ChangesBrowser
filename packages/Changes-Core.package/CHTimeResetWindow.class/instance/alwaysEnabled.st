@@ -1,3 +1,3 @@
-accessing
+button actions
 alwaysEnabled
 	^ true

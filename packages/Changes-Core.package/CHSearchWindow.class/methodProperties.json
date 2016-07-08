@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"open" : "pf 7/8/2016 09:49" },
+	"instance" : {
+		"alwaysEnabled" : "pf 7/8/2016 09:49",
+		"buildButtonsWith:" : "pf 7/8/2016 09:49",
+		"buildInputFieldWith:" : "pf 7/8/2016 10:24",
+		"buildWith:" : "pf 7/8/2016 10:25",
+		"buttonHeight" : "pf 7/8/2016 09:49",
+		"buttons" : "pf 7/8/2016 10:28",
+		"buttonsFrame" : "pf 7/8/2016 09:49",
+		"changesBrowserLogic" : "pf 7/8/2016 10:08",
+		"changesBrowserLogic:" : "pf 7/8/2016 10:08",
+		"close" : "pf 7/8/2016 09:49",
+		"contents" : "pf 7/8/2016 09:49",
+		"contents:" : "pf 7/8/2016 09:49",
+		"extent" : "pf 7/8/2016 09:49",
+		"inputFieldFrame" : "pf 7/8/2016 09:49",
+		"showImageStatesContainingInput" : "pf 7/8/2016 10:38",
+		"window" : "pf 7/8/2016 09:49",
+		"window:" : "pf 7/8/2016 09:49" } }

@@ -11,7 +11,8 @@
 		"imageStateListModel",
 		"changeList",
 		"changesFile",
-		"testMode" ],
+		"testMode",
+		"searchEnabled" ],
 	"name" : "CHBrowserLogic",
 	"pools" : [
 		 ],
