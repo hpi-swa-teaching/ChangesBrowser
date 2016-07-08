@@ -1,3 +1,3 @@
 accessing
-window: anObject
-	window := anObject
+window: aSystemWindow
+	window := aSystemWindow

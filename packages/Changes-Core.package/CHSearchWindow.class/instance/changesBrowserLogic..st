@@ -1,3 +1,4 @@
 accessing
-changesBrowserLogic: anObject
-	changeBrowserLogic := anObject
+changesBrowserLogic: aCHBrowserLogic
+
+	changeBrowserLogic := aCHBrowserLogic

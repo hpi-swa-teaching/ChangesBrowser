@@ -1,3 +1,3 @@
 accessing
 changesBrowserLogic
-	^ changeBrowserLogic
+	^ changesBrowserLogic
