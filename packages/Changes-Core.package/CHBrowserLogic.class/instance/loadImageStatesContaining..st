@@ -13,8 +13,8 @@ loadImageStatesContaining: aString
 				recordMatched ifTrue: [selectedImageStates add: record].
 				recordMatched := false]
 			ifFalse: [
-				(recordMatched not and: [record string includesSubstring: aString])
-					ifTrue: [recordMatched := true]]].
+				(recordMatched not and: [record containsString: aString])
+					ifTrue: [self halt.recordMatched := true]]].
 
 	self imageStateListModel 
 		positions: (selectedImageStates collect: [ :imageState | imageState position ]);
