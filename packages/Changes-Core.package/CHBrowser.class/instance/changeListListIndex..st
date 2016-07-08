@@ -1,4 +1,4 @@
 accessing-changeList
 changeListListIndex: aValue
 
-	^ self browserLogic changeListListIndex: aValue
+	^ self changesBrowserLogic changeListListIndex: aValue

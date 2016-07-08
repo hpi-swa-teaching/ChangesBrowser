@@ -1,4 +1,4 @@
 button actions
 resetToSelectedVersion
 
-	^ self browserLogic resetToSelectedVersion
+	^ self changesBrowserLogic resetToSelectedVersion

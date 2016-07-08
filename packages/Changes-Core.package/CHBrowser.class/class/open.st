@@ -5,5 +5,5 @@ open
 Transcript show: 'TODO see ChangesBrowser>>open'; cr.
 	browser := self new.
 	window := ToolBuilder open: browser.
-	browser versionListModel listIndex: 1.
+	browser imageStateListModel listIndex: 1.
 	^window

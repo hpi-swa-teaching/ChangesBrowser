@@ -1,5 +1,5 @@
 button actions
 openResetToTimeWindow
-	|window|
+	| window |
 	window := CHTimeResetWindow open.
-	window model changesBrowserLogic: self browserLogic.
+	window model changesBrowserLogic: self changesBrowserLogic.

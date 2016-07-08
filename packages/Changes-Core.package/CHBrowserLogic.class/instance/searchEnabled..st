@@ -1,4 +1,5 @@
 accessing
-searchEnabled: anObject
-	searchEnabled := anObject.
+searchEnabled: bool
+
+	searchEnabled := bool.
 	self browser changed: #searchButtonText.

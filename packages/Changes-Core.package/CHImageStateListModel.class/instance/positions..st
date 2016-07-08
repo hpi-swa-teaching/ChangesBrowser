@@ -1,3 +1,3 @@
 accessing
-positions: anObject
-	positions := anObject
+positions: anOrderedCollection
+	positions := anOrderedCollection

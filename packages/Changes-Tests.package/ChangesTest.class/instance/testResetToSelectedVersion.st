@@ -4,7 +4,7 @@ testResetToSelectedVersion
 	self loadFourthChangeFile.
 	changeList := self changesBrowser imageStateListModel getWholeChangeList.
 	changeList changeList do: [ :aChangeRecord | aChangeRecord fileIn.].
-	self changesBrowser browserLogic resetToSelectedVersion.
+	self changesBrowser changesBrowserLogic resetToSelectedVersion.
 	self
 		assert: 'version 1' equals: (self dummyClass dummyFunction15);
 		assert: 'version 1' equals: (self dummyClass dummyFunction14);

@@ -1,4 +1,4 @@
 accessing
-changeList: anObject
+changeList: aCHChangeListModel
 
-	changeList := anObject
+	changeList := aCHChangeListModel

@@ -1,4 +1,4 @@
 button actions
 browseCurrentlySelectedChangeFile
 
-	self versionListModel browseFile.
+	self imageStateListModel browseFile.

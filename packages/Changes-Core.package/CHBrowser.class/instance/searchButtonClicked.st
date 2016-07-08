@@ -1,5 +1,5 @@
 button actions
 searchButtonClicked
-	self browserLogic searchEnabled
+	self changesBrowserLogic searchEnabled
 		ifTrue: [self resetSearch]
 		ifFalse: [self openSearchWindow]

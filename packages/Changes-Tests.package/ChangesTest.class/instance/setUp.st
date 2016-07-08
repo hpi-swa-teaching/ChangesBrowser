@@ -4,4 +4,4 @@ setUp
 	self
 		dummyClass: ChangesDummyClass new;
 		changesBrowser: CHBrowser new.
-	self changesBrowser browserLogic testMode: true.
+	self changesBrowser changesBrowserLogic testMode: true.

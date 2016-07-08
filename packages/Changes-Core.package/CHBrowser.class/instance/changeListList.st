@@ -1,4 +1,4 @@
 accessing-changeList
 changeListList
-"	^ self changeList list"
-	^self browserLogic changeListList
+
+	^ self changesBrowserLogic changeListList

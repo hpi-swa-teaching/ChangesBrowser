@@ -7,7 +7,7 @@
 		"RecentUpdateMarker" ],
 	"commentStamp" : "PG 7/7/2016 09:57",
 	"instvars" : [
-		"browserLogic",
+		"changesBrowserLogic",
 		"imageStateSelected",
 		"changeSelected" ],
 	"name" : "CHBrowser",

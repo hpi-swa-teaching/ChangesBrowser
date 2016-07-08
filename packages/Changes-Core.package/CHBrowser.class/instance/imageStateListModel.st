@@ -1,4 +1,4 @@
 accessing
 imageStateListModel
 
-	^self browserLogic imageStateListModel
+	^self changesBrowserLogic imageStateListModel

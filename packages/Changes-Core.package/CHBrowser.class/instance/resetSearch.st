@@ -1,5 +1,5 @@
 button actions
 resetSearch
-	self browserLogic 
+	self changesBrowserLogic 
 		searchEnabled: false;
 		refresh

@@ -1,5 +1,5 @@
 button actions
 openSearchWindow
-	|window|
+	| window |
 	window := CHSearchWindow open.
-	window model changesBrowserLogic: self browserLogic.
+	window model changesBrowserLogic: self changesBrowserLogic.

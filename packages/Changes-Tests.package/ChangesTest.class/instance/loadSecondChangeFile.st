@@ -1,8 +1,8 @@
 running
 loadSecondChangeFile
 
-	self changesBrowser browserLogic changesFile: self class mockV2.
-	self changesBrowser versionListModel
+	self changesBrowser changesBrowserLogic changesFile: self class mockV2.
+	self changesBrowser imageStateListModel
 		list: self class standardMockList;
 		positions: self class mockPositionsV2;
 		endPosition: self class mockEndPositionV2;

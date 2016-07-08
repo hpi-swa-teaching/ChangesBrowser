@@ -1,4 +1,4 @@
 button actions
 searchEnabled
 
-	^ self browserLogic searchEnabled
+	^ self changesBrowserLogic searchEnabled

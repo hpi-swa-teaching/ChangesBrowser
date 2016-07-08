@@ -1,9 +1,9 @@
 accessing
-list: anObject
+list: anOrderedCollectionOfBanners
 	list ifNotNil: [
 		self currentlyShownIndex ifNotNil: [
-			self currentlyShownIndex: ((self currentlyShownIndex + anObject size - self list size) max: 0).
+			self currentlyShownIndex: ((self currentlyShownIndex + anOrderedCollectionOfBanners size - self list size) max: 0).
 		self selectedIndex ifNotNil: [
-			self selectedIndex: ((self selectedIndex + anObject size - self list size) max: 0)]]].
-	list := anObject.
+			self selectedIndex: ((self selectedIndex + anOrderedCollectionOfBanners size - self list size) max: 0)]]].
+	list := anOrderedCollectionOfBanners.
 	self changed.

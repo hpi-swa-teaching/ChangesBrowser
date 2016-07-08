@@ -1,4 +1,4 @@
 button actions
 resetToLastVersion
 
-	^ self browserLogic resetToLastVersion
+	^ self changesBrowserLogic resetToLastVersion

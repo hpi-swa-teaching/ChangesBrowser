@@ -7,9 +7,9 @@ givenTimeStamp1 := TimeStamp date: (Date year: 2016 month: 7 day: 6) time: (Time
 givenTimeStamp2 := nil.
 givenTimeStamp3 := TimeStamp date: (Date year: 2016 month: 7 day: 6) time: (Time hour: 14 minute: 43 second: 00).
 
-timeStamp1 := CHBrowserLogic extractTimeStampFrom: (self changesBrowser browserLogic imageStateListModel getWholeChangeList changeList first).
-timeStamp2 := CHBrowserLogic extractTimeStampFrom: (self changesBrowser browserLogic imageStateListModel  getWholeChangeList changeList second).
-timeStamp3 := CHBrowserLogic extractTimeStampFrom: (self changesBrowser browserLogic imageStateListModel  getWholeChangeList changeList third).
+timeStamp1 := CHBrowserLogic extractTimeStampFrom: (self changesBrowser changesBrowserLogic imageStateListModel getWholeChangeList changeList first).
+timeStamp2 := CHBrowserLogic extractTimeStampFrom: (self changesBrowser changesBrowserLogic imageStateListModel  getWholeChangeList changeList second).
+timeStamp3 := CHBrowserLogic extractTimeStampFrom: (self changesBrowser changesBrowserLogic imageStateListModel  getWholeChangeList changeList third).
 
 self 
 	assert: timeStamp1 equals: givenTimeStamp1;

@@ -1,6 +1,6 @@
 building
 buildWith: aBuilder
-	|window|
+	| window |
 	window := aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Changes Browser';

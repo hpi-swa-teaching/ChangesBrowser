@@ -9,7 +9,7 @@
 		"changeBrowser",
 		"window",
 		"contents",
-		"changeBrowserLogic" ],
+		"changesBrowserLogic" ],
 	"name" : "CHSearchWindow",
 	"pools" : [
 		 ],

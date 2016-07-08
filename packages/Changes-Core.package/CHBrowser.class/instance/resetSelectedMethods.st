@@ -1,4 +1,4 @@
 button actions
 resetSelectedMethods
 
-	^ self browserLogic resetSelectedMethods
+	^ self changesBrowserLogic resetSelectedMethods

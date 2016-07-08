@@ -1,6 +1,6 @@
 updating
 updateChangeListViewWith: aChangeList
 
-	self browserLogic changeList: aChangeList.
+	self changesBrowserLogic changeList: aChangeList.
 	aChangeList addDependent: self.
 	self changed: #changeListList.
