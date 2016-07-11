@@ -1,6 +1,7 @@
 building
 buttons
 	^ #(( 'Refresh' #refresh #alwaysEnabled )
+		( 'Create named snapshot' #createNamedSnapshot #alwaysEnabled )
 		( #searchButtonText #searchButtonClicked #alwaysEnabled )
 		( 'Reset to selected image state' #resetToSelectedVersion #imageStateSelected )
 		( 'Recover changes' #resetToLastVersion #alwaysEnabled )

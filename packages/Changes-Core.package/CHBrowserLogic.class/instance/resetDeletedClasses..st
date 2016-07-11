@@ -14,13 +14,13 @@ resetDeletedClasses: anSet
 ""					| currentChangeRecord |
 					currentChangeRecord := wholeChangeList at: currentIndex.
 					((currentChangeRecord type == #classComment and: [currentChangeRecord methodClassName == aClassName asSymbol]) and: [foundDeleteIndex = -1])
-						ifTrue: [foundRecordsBeforeDefinition].
+						ifTrue: [foundRecordsBeforeDefinition := true.].
 					(currentChangeRecord type == #method and: [currentChangeRecord methodClassName = aClassName] and: [foundDeleteIndex = -1])
-						ifTrue: [foundRecordsBeforeDefinition].
+						ifTrue: [foundRecordsBeforeDefinition := true.].
 					(((currentChangeRecord type == #doIt) and: [currentChangeRecord methodClassName = aClassName])  and: [foundDeleteIndex = -1]
 							and: [([currentChangeRecord string beginsWith: aClassName] = true)
-									or: [currentChangeRecord string = (self class ClassClassificationBeginFor: aClassName)]])
-						ifTrue: [foundRecordsBeforeDefinition ].
+									or: [currentChangeRecord string = (CHBrowserLogic ClassClassificationBeginFor: aClassName)]])
+						ifTrue: [foundRecordsBeforeDefinition := true.].
 					 (((wholeChangeList at: currentIndex) string
 								includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex].""
