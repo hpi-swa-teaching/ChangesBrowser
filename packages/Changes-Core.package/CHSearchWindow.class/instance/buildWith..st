@@ -15,4 +15,4 @@ buildWith: aBuilder
 			yourself);
 		yourself.
 	self window: (aBuilder build: windowSpec).
-	^ self window.
+	^ self window

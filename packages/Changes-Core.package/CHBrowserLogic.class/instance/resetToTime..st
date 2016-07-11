@@ -16,7 +16,7 @@ resetToTime: aTimeStamp
 		do: [:index | 
 			| timeStamp |
 
-			timeStamp := CHBrowserLogic extractFlooredTimeStampFrom: (partChangeList changeList at: index).
+			timeStamp := self class extractFlooredTimeStampFrom: (partChangeList changeList at: index).
 			timeStamp
 				ifNotNil: [(isBefore and: [newestTimeStamp < timeStamp or: [newestTimeStamp = timeStamp]])
 						ifTrue: [(timeStamp < aTimeStamp or: [timeStamp = aTimeStamp])

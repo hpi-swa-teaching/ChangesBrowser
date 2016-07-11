@@ -5,7 +5,7 @@ resetClassesFrom: aChangeList
 
 	setOfAddedClasses := Set new.
 	aChangeList changeList
-		do: [:aChangeRecord | (aChangeRecord string matchesRegex: CHBrowserLogic newClassesRegex)
+		do: [:aChangeRecord | (aChangeRecord string matchesRegex: self class newClassesRegex)
 				ifTrue: [| subclass positionOfFirstSpace positionOfSecondSpace positionOfFirstBreak |
 					positionOfFirstSpace := aChangeRecord string findString: ' '.
 					positionOfSecondSpace := aChangeRecord string findString: ' ' startingAt: positionOfFirstSpace + 1.

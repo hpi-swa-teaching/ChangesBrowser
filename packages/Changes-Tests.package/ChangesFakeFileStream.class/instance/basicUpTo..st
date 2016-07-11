@@ -1,4 +1,4 @@
 overwriting
 basicUpTo: delim
 
-	^ self upTo: delim.
+	^ self upTo: delim

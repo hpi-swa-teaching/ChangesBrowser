@@ -1,4 +1,4 @@
 browsing
 getChangeListForSelectedImageState
 
-	^ self getChangeListForImageStateAt: self selectedIndex.
+	^ self getChangeListForImageStateAt: self selectedIndex

@@ -6,4 +6,4 @@ buildInputFieldWith: aBuilder
 		getText: #contents;
 		setText: #contents:;
 		editText: #contents:;
-		yourself.
+		yourself

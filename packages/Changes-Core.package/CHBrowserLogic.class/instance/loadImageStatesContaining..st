@@ -1,4 +1,4 @@
-as yet unclassified
+loading
 loadImageStatesContaining: aString
 	"image states are changeRecords like ----Snapshot/Quit..."
 	| recordMatched selectedImageStates changeRecords |

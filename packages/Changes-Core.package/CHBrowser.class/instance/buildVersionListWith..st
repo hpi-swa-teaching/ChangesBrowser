@@ -7,4 +7,4 @@ buildVersionListWith: aBuilder
 		menu: #listMenu:;
 		getIndex: #listIndex; 
 		setIndex: #listIndex:;
-		yourself.
+		yourself

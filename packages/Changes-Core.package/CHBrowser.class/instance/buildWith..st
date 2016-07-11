@@ -21,4 +21,4 @@ buildWith: aBuilder
 				yourself);
 			yourself);
 		yourself.
-	^ aBuilder build: window.
+	^ aBuilder build: window

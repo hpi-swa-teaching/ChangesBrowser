@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"open" : "FS 6/12/2016 20:16" },
+		"open" : "OC 7/11/2016 11:05" },
 	"instance" : {
 		"alwaysEnabled" : "pf 6/17/2016 12:56",
-		"buildButtonsWith:" : "FS 6/12/2016 20:26",
-		"buildInputFieldWith:" : "FS 6/12/2016 20:49",
-		"buildWith:" : "FS 6/12/2016 20:36",
+		"buildButtonsWith:" : "OC 7/11/2016 11:05",
+		"buildInputFieldWith:" : "OC 7/11/2016 11:05",
+		"buildWith:" : "OC 7/11/2016 11:05",
 		"buttonHeight" : "FS 6/12/2016 20:27",
 		"buttons" : "pf 6/17/2016 12:56",
 		"buttonsFrame" : "FS 6/12/2016 20:27",

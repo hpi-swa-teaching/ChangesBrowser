@@ -1,3 +1,3 @@
 overwriting
 atEnd
-	^ self position >= self string size.
+	^ self position >= self string size

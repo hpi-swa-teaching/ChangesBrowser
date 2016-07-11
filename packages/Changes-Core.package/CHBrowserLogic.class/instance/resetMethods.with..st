@@ -11,7 +11,7 @@ resetMethods: aChangeList with: wholeChangeList
 	wholeChanges := wholeChangeList changeList.
 	wholeChanges removeLast: numberOfChanges.
 	
-	methodChanges := aChangeList changeList select: [:aChangeRecord | aChangeRecord type == #method or: [aChangeRecord string matchesRegex: CHBrowserLogic removeSelectorRegex]].
+	methodChanges := aChangeList changeList select: [:aChangeRecord | aChangeRecord type == #method or: [aChangeRecord string matchesRegex: self class removeSelectorRegex]].
 	methodChanges reversed do: [:aChangeRecord |
 		aChangeRecord type == #method
 		ifTrue: [

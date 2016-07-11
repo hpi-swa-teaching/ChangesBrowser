@@ -7,7 +7,7 @@
 	"commentStamp" : "PG 6/23/2016 16:08",
 	"instvars" : [
 		 ],
-	"name" : "NullChangeRecord",
+	"name" : "CHNullChangeRecord",
 	"pools" : [
 		 ],
 	"super" : "ChangeRecord",
