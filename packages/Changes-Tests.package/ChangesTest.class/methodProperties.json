@@ -57,6 +57,7 @@
 		"testInitialDummyFunction" : "PG 6/29/2016 21:07",
 		"testLoadImageStatesContaining" : "PG 7/8/2016 22:18",
 		"testMatchSubclassRecords" : "PG 7/7/2016 08:00",
+		"testResetSearch" : "LM 7/12/2016 15:30",
 		"testResetToSelectedVersion" : "PG 7/8/2016 22:18",
 		"testResetToTime" : "PG 7/8/2016 22:18",
 		"testSystemChangeNotification" : "PG 7/8/2016 22:18" } }
