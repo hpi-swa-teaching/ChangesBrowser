@@ -2,7 +2,7 @@ initialization
 initialize
 	| browserLogic |
 	browserLogic := CHBrowserLogic new.
-	browserLogic browser: self.
+	browserLogic changesBrowser: self.
 	super initialize.
 	self
 		changesBrowserLogic: browserLogic;

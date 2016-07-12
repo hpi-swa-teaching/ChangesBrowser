@@ -2,4 +2,4 @@ accessing
 searchEnabled: bool
 
 	searchEnabled := bool.
-	self browser changed: #searchButtonText.
+	self changesBrowser changed: #searchButtonText.

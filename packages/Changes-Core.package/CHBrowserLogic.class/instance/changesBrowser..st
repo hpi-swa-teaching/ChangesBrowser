@@ -1,4 +1,4 @@
 accessing
-browser: aCHBrowser
+changesBrowser: aCHBrowser
 
 	browser := aCHBrowser

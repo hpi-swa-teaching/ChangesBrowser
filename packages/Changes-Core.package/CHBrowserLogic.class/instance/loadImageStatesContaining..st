@@ -8,13 +8,11 @@ loadImageStatesContaining: aString
 	changeRecords := self imageStateListModel getWholeChangeList changeList.
 	changeRecords reverseDo:
 	[ :record |
+		recordMatched := (recordMatched or: [record containsString: aString]).
 		record isSnapshot 
 			ifTrue: [
 				recordMatched ifTrue: [selectedImageStates add: record].
-				recordMatched := false]
-			ifFalse: [
-				(recordMatched not and: [record containsString: aString])
-					ifTrue: [recordMatched := true]]].
+				recordMatched := false]].
 
 	self imageStateListModel 
 		positions: (selectedImageStates collect: [ :imageState | imageState position ]);

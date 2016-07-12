@@ -1,4 +1,4 @@
 updating
 update: aValue
 
-	self browser update: aValue
+	self changesBrowser update: aValue

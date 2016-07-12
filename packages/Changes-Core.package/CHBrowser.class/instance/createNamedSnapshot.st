@@ -4,4 +4,4 @@ createNamedSnapshot
 	snapshotName := UIManager default request: 'enter name of the snapshot'.
 	snapshotName ifNotEmpty: [
 		Smalltalk namedSnaphot: snapshotName.
-		self browserLogic refresh].
+		self changesBrowserLogic refresh].
