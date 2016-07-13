@@ -1,4 +1,4 @@
-button actions
+browsing
 browseCurrentlySelectedChangeFile
 
 	self imageStateListModel browseFile.
