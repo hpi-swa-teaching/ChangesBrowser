@@ -27,6 +27,8 @@
 		"changesFile" : "PG 7/6/2016 14:54",
 		"changesFile:" : "PG 7/7/2016 10:07",
 		"delete" : "PG 7/6/2016 23:28",
+		"filterMode" : "FS 7/14/2016 21:47",
+		"filterMode:" : "FS 7/14/2016 21:47",
 		"imageStateListModel" : "PG 7/6/2016 20:13",
 		"imageStateListModel:" : "PG 7/6/2016 20:14",
 		"initialize" : "pf 7/8/2016 09:43",
@@ -48,5 +50,5 @@
 		"testMode" : "PG 7/6/2016 14:54",
 		"testMode:" : "PG 7/8/2016 22:25",
 		"update:" : "pf 7/12/2016 14:41",
-		"updateChangeListViewWith:" : "pf 7/12/2016 14:41",
+		"updateChangeListViewWith:" : "FS 7/14/2016 21:30",
 		"updateCurrentlyShownChangeFile" : "PG 7/6/2016 23:17" } }

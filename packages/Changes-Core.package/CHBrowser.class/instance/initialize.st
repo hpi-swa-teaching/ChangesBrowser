@@ -5,7 +5,7 @@ initialize
 	browserLogic changesBrowser: self.
 	super initialize.
 	self
-		filterSymbol: #all;
 		changesBrowserLogic: browserLogic;
+		filterSymbol: #all;
 		imageStateSelected: true;
 		changeSelected: false.

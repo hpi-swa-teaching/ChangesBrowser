@@ -3,5 +3,17 @@
 		"browseRecent:on:" : "PG 6/29/2016 21:05",
 		"browseRecentLogOn:startingFrom:" : "FS 6/22/2016 11:42" },
 	"instance" : {
-		"listIndex:" : "PG 7/7/2016 15:01",
+		"buildNewDisplayList" : "FS 7/14/2016 22:25",
+		"displayList" : "FS 7/14/2016 20:52",
+		"displayList:" : "FS 7/14/2016 20:52",
+		"filterMode" : "FS 7/14/2016 21:02",
+		"filterMode:" : "FS 7/14/2016 21:48",
+		"indexMap" : "FS 7/14/2016 20:52",
+		"indexMap:" : "FS 7/14/2016 20:52",
+		"initialize" : "FS 7/14/2016 21:41",
+		"list" : "FS 7/14/2016 22:02",
+		"listIndex" : "FS 7/14/2016 21:24",
+		"listIndex:" : "FS 7/14/2016 21:37",
+		"listSelectionAt:" : "FS 7/14/2016 21:20",
+		"listSelectionAt:put:" : "FS 7/14/2016 21:20",
 		"showOnlyMethodChanges" : "FS 7/14/2016 19:26" } }

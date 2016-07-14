@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"open" : "PG 7/8/2016 22:19" },
+		"open" : "FS 7/14/2016 21:32" },
 	"instance" : {
 		"alwaysEnabled" : "pf 6/15/2016 15:11",
 		"browseCurrentlySelectedChangeFile" : "PG 7/8/2016 22:19",
@@ -28,12 +28,12 @@
 		"extent" : "FS 6/7/2016 19:00",
 		"filterButtonLabel" : "FS 7/14/2016 18:06",
 		"filterSymbol" : "FS 7/14/2016 17:42",
-		"filterSymbol:" : "FS 7/14/2016 17:42",
+		"filterSymbol:" : "FS 7/14/2016 21:49",
 		"filterSymbolQuints" : "FS 7/14/2016 19:05",
 		"imageStateListModel" : "PG 7/8/2016 22:18",
 		"imageStateSelected" : "PG 7/7/2016 09:45",
 		"imageStateSelected:" : "PG 7/7/2016 09:45",
-		"initialize" : "FS 7/14/2016 19:07",
+		"initialize" : "FS 7/14/2016 21:49",
 		"methodWindowFrame" : "FS 7/3/2016 16:55",
 		"methodWindowHeight" : "FS 6/7/2016 19:02",
 		"postAcceptBrowseFor:" : "FS 6/7/2016 11:53",
