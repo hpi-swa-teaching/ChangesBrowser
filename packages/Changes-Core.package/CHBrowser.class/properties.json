@@ -9,7 +9,8 @@
 	"instvars" : [
 		"changesBrowserLogic",
 		"imageStateSelected",
-		"changeSelected" ],
+		"changeSelected",
+		"filterSymbol" ],
 	"name" : "CHBrowser",
 	"pools" : [
 		 ],
