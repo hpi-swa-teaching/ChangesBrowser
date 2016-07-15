@@ -9,4 +9,6 @@ mockV1
 !ChangesDummyClass methodsFor: ''dummyFunctions'' stamp: ''FS 6/8/2016 16:28'' prior: 33636350!
 dummyFunction1
 
-	^ ''version 1''! !'
+	^ ''version 1''! !
+
+----SNAPSHOT----{21 June 2016 . 2:32:19 pm} SWT2016.image priorSource: 1!'

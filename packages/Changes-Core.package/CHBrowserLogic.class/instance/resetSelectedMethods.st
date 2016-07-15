@@ -9,4 +9,4 @@ resetSelectedMethods
 		do: [:index | (savedListSelections at: index)
 				ifTrue: [(self changeList changeList at: index) fileIn]].
 
-	self refresh
+	"self refresh"

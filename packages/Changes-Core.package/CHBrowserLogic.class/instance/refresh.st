@@ -1,8 +1,7 @@
 updating
 refresh
-	self testMode ifFalse: [
-		self searchEnabled
-			ifFalse: [ self imageStateListModel 
-				list: (CHChangeListModel browseRecentLog first);
-				updatePositions].
-		self updateCurrentlyShownChangeFile]
+	self searchEnabled
+		ifFalse: [ self imageStateListModel 
+			list: ((CHChangeListModel browseRecentLogOn: (self changesFile)) first);
+			updatePositions].
+	self updateCurrentlyShownChangeFile.
