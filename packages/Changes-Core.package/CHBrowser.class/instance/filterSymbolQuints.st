@@ -7,4 +7,5 @@ filterSymbolQuints
 		add: #-;
 		add: #(#methods #showOnlyMethodChanges #showingOnlyMethodString 'methods' 'show only changes to methods');
 		add: #(#noDoits #showNoDoItsChanges #showingNoDoItsString 'no do its' 'remove all do its');
+		add: #(#selectedSnapshot #showSelectedSnapshotChanges #showingSelectedSnapshotString 'selected snapshot' 'show only changes between selected and next snapshot');
 		yourself.
