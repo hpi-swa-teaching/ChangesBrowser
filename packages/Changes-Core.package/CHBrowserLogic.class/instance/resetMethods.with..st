@@ -38,9 +38,15 @@ resetMethods: aChangeList with: wholeChangeList
 	matchingVersions := wholeChanges select: [:changeRecord | changeRecord type == #method and: [(stillExisting includes: {changeRecord methodSelector . changeRecord methodClass}) or: [removedMethods includes: {changeRecord methodSelector . changeRecord methodClass}]]].
 	stillExisting do: [:aPairOfSelectorAndClass |
 		| priorChange |
-		priorChange := matchingVersions reversed detect: [:changeRecord | changeRecord methodSelector == aPairOfSelectorAndClass first and: [changeRecord methodClass == aPairOfSelectorAndClass second]].
+		priorChange := CHNullChangeRecord new.
+		aPairOfSelectorAndClass second = nil
+			ifFalse: [priorChange := matchingVersions reversed
+						detect: [:changeRecord | changeRecord methodSelector == aPairOfSelectorAndClass first and: [changeRecord methodClass == aPairOfSelectorAndClass second]] ifNone: [self error: 'Error in logic: a method that exists before snapshot, but has no version before that snapshot'.].].
 		priorChange fileIn.].
 	removedMethods do: [:aPairOfSelectorAndClass |
 		| priorChange |
-		priorChange := matchingVersions reversed detect: [:changeRecord | changeRecord methodSelector == aPairOfSelectorAndClass first and: [changeRecord methodClass == aPairOfSelectorAndClass second]].
+		priorChange := CHNullChangeRecord new.
+		aPairOfSelectorAndClass second = nil
+			ifFalse: [priorChange := matchingVersions reversed
+						detect: [:changeRecord | changeRecord methodSelector == aPairOfSelectorAndClass first and: [changeRecord methodClass == aPairOfSelectorAndClass second]] ifNone: [self error: 'Error in logic: a method that exists to time of snapshot, but has no version.'.].].
 		priorChange fileIn.]
