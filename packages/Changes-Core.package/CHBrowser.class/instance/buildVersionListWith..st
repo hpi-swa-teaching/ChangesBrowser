@@ -4,7 +4,6 @@ buildVersionListWith: aBuilder
 		model: self imageStateListModel;
 		name: 'Version List';
 		list: #list; 
-		menu: #listMenu:;
 		getIndex: #listIndex; 
 		setIndex: #listIndex:;
 		yourself

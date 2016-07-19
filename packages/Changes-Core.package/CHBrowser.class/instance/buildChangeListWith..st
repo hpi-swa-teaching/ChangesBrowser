@@ -6,5 +6,4 @@ buildChangeListWith: aBuilder
 		getIndex: #changeListListIndex;
 		setIndex: #changeListListIndex:;
 		getSelectionList: #changeListListSelectionAt:;
-		setSelectionList: #changeListListSelectionAt:put:;
-		menu: #changeListListMenu:
+		setSelectionList: #changeListListSelectionAt:put:

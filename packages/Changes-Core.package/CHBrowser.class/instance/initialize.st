@@ -1,9 +1,8 @@
 initialization
 initialize
 	| browserLogic |
-	browserLogic := CHBrowserLogic new.
-	browserLogic changesBrowser: self.
 	super initialize.
+	browserLogic := CHBrowserLogic newForChangesBrowser: self.
 	self
 		changesBrowserLogic: browserLogic;
 		filterSymbol: #all;

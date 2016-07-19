@@ -4,7 +4,9 @@ initializeVersionList
 	| model logTuple |
 
 	logTuple := CHChangeListModel browseRecentLog.
-	model := CHImageStateListModel new list: logTuple first.
-	model changesBrowserLogic: self.
+	model := CHImageStateListModel new.
 	self imageStateListModel: model.
-	^ self
+	model 
+		list: logTuple first;
+		changesBrowserLogic: self;
+		listIndex: 1.

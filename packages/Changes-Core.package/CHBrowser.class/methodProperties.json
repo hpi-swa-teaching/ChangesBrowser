@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"open" : "FS 7/14/2016 21:32" },
+		"open" : "pf 7/19/2016 13:11" },
 	"instance" : {
 		"alwaysEnabled" : "pf 6/15/2016 15:11",
 		"browseCurrentlySelectedChangeFile" : "PG 7/8/2016 22:19",
 		"buildButtonsWith:" : "FS 7/14/2016 17:53",
-		"buildChangeListWith:" : "OC 7/11/2016 11:11",
+		"buildChangeListWith:" : "pf 7/19/2016 13:08",
 		"buildFilterButtonWith:" : "FS 7/14/2016 19:00",
-		"buildVersionListWith:" : "OC 7/11/2016 11:00",
+		"buildVersionListWith:" : "pf 7/19/2016 13:03",
 		"buildWith:" : "OC 7/11/2016 10:59",
 		"buttonHeight" : "FS 6/7/2016 11:45",
 		"buttons" : "pf 7/13/2016 11:57",
@@ -16,7 +16,6 @@
 		"changeListList" : "PG 7/8/2016 22:20",
 		"changeListListIndex" : "PG 7/8/2016 22:20",
 		"changeListListIndex:" : "PG 7/8/2016 22:18",
-		"changeListListMenu:" : "PG 7/8/2016 22:20",
 		"changeListListSelectionAt:" : "PG 7/8/2016 22:18",
 		"changeListListSelectionAt:put:" : "PG 7/8/2016 22:21",
 		"changeSelected" : "FS 6/9/2016 10:29",
@@ -33,7 +32,7 @@
 		"imageStateListModel" : "PG 7/8/2016 22:18",
 		"imageStateSelected" : "PG 7/7/2016 09:45",
 		"imageStateSelected:" : "PG 7/7/2016 09:45",
-		"initialize" : "FS 7/14/2016 21:49",
+		"initialize" : "pf 7/19/2016 13:27",
 		"methodWindowFrame" : "FS 7/3/2016 16:55",
 		"methodWindowHeight" : "FS 6/7/2016 19:02",
 		"postAcceptBrowseFor:" : "FS 6/7/2016 11:53",

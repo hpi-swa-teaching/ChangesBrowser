@@ -8,8 +8,7 @@
 	"instvars" : [
 		"displayList",
 		"indexMap",
-		"filterMode",
-		"displayListIndex" ],
+		"filterMode" ],
 	"name" : "CHChangeListModel",
 	"pools" : [
 		 ],
