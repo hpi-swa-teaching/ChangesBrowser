@@ -1,5 +1,6 @@
 button actions
 resetSearch
-	self changesBrowserLogic 
+
+	self changesBrowserLogic
 		searchEnabled: false;
 		refresh

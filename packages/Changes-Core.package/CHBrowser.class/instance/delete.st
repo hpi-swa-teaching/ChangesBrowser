@@ -1,4 +1,4 @@
 destruction
 delete
 
-	self changesBrowserLogic delete.
+	self changesBrowserLogic delete

@@ -1,4 +1,5 @@
 accessing
-filterSymbol: anObject
-	filterSymbol := anObject.
-	self changesBrowserLogic filterMode: anObject.
+filterSymbol: aFilterModeAsSymbol
+
+	filterSymbol := aFilterModeAsSymbol.
+	self changesBrowserLogic filterMode: aFilterModeAsSymbol

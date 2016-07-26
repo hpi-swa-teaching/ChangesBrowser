@@ -1,3 +1,4 @@
 updating
 refresh
-	self changesBrowserLogic refresh.
+
+	self changesBrowserLogic refresh

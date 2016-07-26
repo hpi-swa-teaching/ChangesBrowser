@@ -1,4 +1,4 @@
 browsing
 browseCurrentlySelectedChangeFile
 
-	self imageStateListModel browseFile.
+	self imageStateListModel browseFile

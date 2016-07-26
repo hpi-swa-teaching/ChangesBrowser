@@ -1,4 +1,4 @@
 filtering
 filterButtonLabel
 
-	^ 'filter: ' , self filterSymbol asString.
+	^ 'filter: ' , self filterSymbol asString

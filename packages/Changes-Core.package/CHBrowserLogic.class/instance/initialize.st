@@ -8,4 +8,4 @@ initialize
 		initializeVersionList;
 		testMode: false;
 		searchEnabled: false;
-		registerForSystemChangeNotifications.
+		registerForSystemChangeNotifications

@@ -1,3 +1,4 @@
 accessing
-indexMap: anObject
-	indexMap := anObject
+indexMap: anOrderedCollection
+
+	indexMap := anOrderedCollection

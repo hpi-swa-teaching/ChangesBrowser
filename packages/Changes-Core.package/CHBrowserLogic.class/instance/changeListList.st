@@ -1,3 +1,4 @@
 accessing-changeList
 changeListList
-	^ self changeList list.
+
+	^ self changeList list

@@ -1,5 +1,6 @@
 filtering
 showNoDoItsChanges
-	self 
+
+	self
 		filterSymbol: #noDoIts;
-		refreshFilterButtonLabel.
+		refreshFilterButtonLabel

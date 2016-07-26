@@ -1,5 +1,6 @@
 initialization
 registerForSystemChangeNotifications
-	SystemChangeNotifier uniqueInstance 
+
+	SystemChangeNotifier uniqueInstance
 		notify: self
 		ofAllSystemChangesUsing: #refresh

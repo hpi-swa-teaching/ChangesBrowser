@@ -1,3 +1,4 @@
 accessing
-displayList: anObject
-	displayList := anObject
+displayList: anOrderedCollection
+
+	displayList := anOrderedCollection

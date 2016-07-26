@@ -1,3 +1,4 @@
 constants
 deletedClassIdentifier
+
 	^ 'Smalltalk removeClassNamed: #'

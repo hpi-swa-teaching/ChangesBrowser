@@ -1,7 +1,6 @@
 filtering
 showingSelectedSnapshotString
+
 	^ (self filterSymbol == #selectedSnapshot
-		ifTrue:
-			['<yes>']
-		ifFalse:
-			['<no>']), 'selected snapshot'.
+		ifTrue: ['<yes>']
+		ifFalse: ['<no>']), 'selected snapshot'

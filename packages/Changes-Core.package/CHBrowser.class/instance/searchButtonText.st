@@ -1,5 +1,6 @@
 button actions
 searchButtonText
-	self changesBrowserLogic searchEnabled 
+
+	self changesBrowserLogic searchEnabled
 		ifTrue: [^'Reset Search']
 		ifFalse: [^'Search image states']

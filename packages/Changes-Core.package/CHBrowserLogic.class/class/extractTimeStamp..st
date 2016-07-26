@@ -1,8 +1,10 @@
 resetting
 extractTimeStamp: aString 
 
-	((aString beginsWith: 'SNAPSHOT') or: [aString beginsWith: 'QUIT'] or: [aString beginsWith: '----'])
-		ifTrue: [| timeStamp timeString1 timeString2 positionOfFirstBraceLeft positionOfFirstBraceRight positionOfSeperator |
+	((aString beginsWith: 'SNAPSHOT')
+			or: [aString beginsWith: 'QUIT']
+			or: [aString beginsWith: '----'])
+	ifTrue: [| timeStamp timeString1 timeString2 positionOfFirstBraceLeft positionOfFirstBraceRight positionOfSeperator |
 			positionOfFirstBraceLeft := aString findString: '{' startingAt: 1.
 			positionOfSeperator := aString findString: ' . ' startingAt: positionOfFirstBraceLeft.
 			positionOfFirstBraceRight := aString findString: '}' startingAt: positionOfSeperator.

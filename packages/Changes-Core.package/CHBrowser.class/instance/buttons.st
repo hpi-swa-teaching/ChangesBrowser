@@ -1,5 +1,6 @@
 building
 buttons
+
 	^ #(( 'Refresh' #refresh #alwaysEnabled )
 		( 'Create named snapshot' #createNamedSnapshot #alwaysEnabled )
 		( #searchButtonText #searchButtonClicked #alwaysEnabled )

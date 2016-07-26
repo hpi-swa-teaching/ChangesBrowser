@@ -1,3 +1,4 @@
 filtering
 refreshFilterButtonLabel
-	self changed: #filterLabel.
+
+	self changed: #filterLabel

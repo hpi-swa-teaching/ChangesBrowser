@@ -1,3 +1,4 @@
 accessing
 listIndex
-	^ displayListIndex.
+
+	^ listIndex

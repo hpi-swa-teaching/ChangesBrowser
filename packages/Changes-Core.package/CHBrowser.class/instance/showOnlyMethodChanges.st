@@ -1,5 +1,6 @@
 filtering
 showOnlyMethodChanges
-	self 
+
+	self
 		filterSymbol: #methods;
-		refreshFilterButtonLabel.
+		refreshFilterButtonLabel

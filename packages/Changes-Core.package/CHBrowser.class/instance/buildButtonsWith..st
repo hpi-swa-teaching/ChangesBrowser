@@ -1,18 +1,17 @@
 building
-buildButtonsWith: aBuilder
+buildButtonsWith: aBuilder 
+
 	| panelSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
 		model: self;
 		layout: #horizontal;
-		children: (self buttons collect: [ :each |
-			aBuilder pluggableButtonSpec new
-				model: self;
-				label: each first;
-				action: each second;
-				enabled: each third;
-				yourself ]) asOrderedCollection.
-	panelSpec children add: (self buildFilterButtonWith: aBuilder).
-	^ panelSpec.
-
-		
+		children: (self buttons
+			collect: [:each | aBuilder pluggableButtonSpec new model: self;
+					 label: each first;
+					 action: each second;
+					 enabled: each third;
+					 yourself]) asOrderedCollection.
+	panelSpec children
+		add: (self buildFilterButtonWith: aBuilder).
+	^ panelSpec

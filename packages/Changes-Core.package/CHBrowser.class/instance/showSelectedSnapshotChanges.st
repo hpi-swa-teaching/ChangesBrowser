@@ -1,5 +1,6 @@
 filtering
 showSelectedSnapshotChanges
-	self 
+
+	self
 		filterSymbol: #selectedSnapshot;
-		refreshFilterButtonLabel.
+		refreshFilterButtonLabel

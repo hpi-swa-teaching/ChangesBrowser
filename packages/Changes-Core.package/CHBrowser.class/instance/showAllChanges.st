@@ -1,5 +1,6 @@
 filtering
 showAllChanges
-	self 
+
+	self
 		filterSymbol: #all;
-		refreshFilterButtonLabel.
+		refreshFilterButtonLabel
