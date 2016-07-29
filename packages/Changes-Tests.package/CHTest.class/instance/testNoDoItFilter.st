@@ -2,7 +2,6 @@ testing
 testNoDoItFilter
 	
 	self loadSixthChangeFile.
-	self changesBrowser showNoDoItsChanges.
-	self 
-		assert: (self changesBrowser showingNoDoItsString) equals: '<yes>no do its';
-		assert: 0 equals: ((self changesBrowser changeListList select: [:str | str includesSubString: 'do it']) 						size)
+	self changesBrowser changesBrowserLogic changeList hideDoItChanges.
+	self assert: 0 equals: 
+		(self changesBrowser changeListList count: [:str | str includesSubString: 'do it']).

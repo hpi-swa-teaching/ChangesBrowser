@@ -52,8 +52,8 @@
 		"testInitialDummyFunction" : "PG 7/29/2016 20:58",
 		"testLoadImageStatesContaining" : "PG 7/29/2016 21:10",
 		"testMatchSubclassRecords" : "PG 7/29/2016 21:06",
-		"testMethodFilter" : "PG 7/29/2016 21:06",
-		"testNoDoItFilter" : "PG 7/29/2016 21:07",
+		"testMethodFilter" : "pf 7/30/2016 00:24",
+		"testNoDoItFilter" : "pf 7/30/2016 00:24",
 		"testResetToSelectedVersion" : "PG 7/29/2016 21:07",
 		"testResetToTime" : "PG 7/29/2016 21:07",
 		"testSystemChangeNotification" : "PG 7/29/2016 21:08" } }
