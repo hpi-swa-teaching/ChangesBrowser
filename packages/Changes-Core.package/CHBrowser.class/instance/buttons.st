@@ -7,4 +7,5 @@ buttons
 		( 'Reset to selected image state' #resetToSelectedVersion #imageStateSelected )
 		( 'Recover changes' #resetToLastVersion #alwaysEnabled )
 		( 'Restore selected changes' #resetSelectedMethods #changeSelected )
-		( 'Reset to time' #resetToTime #alwaysEnabled ))
+		( 'Reset to time' #resetToTime #alwaysEnabled )
+		( 'Filter' #showFilterMenu #alwaysEnabled ))

@@ -5,7 +5,6 @@ Instance Variables
 	changesBrowserLogic:		<CHBrowserLogic>
 	changeSelected:			<Boolean>
 	imageStateSelected:		<Boolean>
-	filterSymbol:				<Symbol>
 
 changesBrowserLogic
 	- A CHBrowserLogic, which provides the functionalities to reset changes to the image.
@@ -15,6 +14,3 @@ changeSelected
 
 imageStateSelected
 	- A bool value, which indicates, that a imageState in the browser is selected. Needed, to enable/disable buttons, which needs a selected imageState
-
-filterSymbol
-	- A symbol, which indicates the actual filter.

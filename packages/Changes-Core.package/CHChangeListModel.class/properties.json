@@ -4,11 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PG 7/29/2016 20:53",
+	"commentStamp" : "PG 6/16/2016 10:30",
 	"instvars" : [
-		"displayList",
-		"indexMap",
-		"filterMode" ],
+		"displayedIndexList" ],
 	"name" : "CHChangeListModel",
 	"pools" : [
 		 ],

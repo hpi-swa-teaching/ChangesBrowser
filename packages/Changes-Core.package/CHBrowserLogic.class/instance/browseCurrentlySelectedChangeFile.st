@@ -1,5 +1,3 @@
 browsing
 browseCurrentlySelectedChangeFile
-
-	self changesBrowser showAllChanges.
 	self imageStateListModel browseFile

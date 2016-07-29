@@ -5,7 +5,7 @@ loadImageStatesContaining: aString
 	| selectedImageStates wholeChanges |
 	self searchEnabled: true.
 	wholeChanges := self imageStateListModel getWholeChangeList changeList.
-	selectedImageStates := self filterChangeRecords: wholeChanges containing: aString.
+	selectedImageStates := self getChangeRecords: wholeChanges containing: aString.
 	self imageStateListModel
 		positions: (selectedImageStates collect: [:imageState | imageState position]);
 		list: (selectedImageStates collect: [:imageState | imageState string]);

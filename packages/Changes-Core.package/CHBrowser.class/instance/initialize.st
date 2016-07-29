@@ -6,7 +6,6 @@ initialize
 	browserLogic := CHBrowserLogic newForChangesBrowser: self.
 	self
 		changesBrowserLogic: browserLogic;
-		filterSymbol: #all;
 		imageStateSelected: true;
 		changeSelected: false.
-	self imageStateListModel listIndex: 1.
+	self changesBrowserLogic imageStateListModel listIndex: 1.

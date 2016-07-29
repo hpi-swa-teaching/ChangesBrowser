@@ -12,6 +12,4 @@ buildButtonsWith: aBuilder
 					 action: each second;
 					 enabled: each third;
 					 yourself]) asOrderedCollection.
-	panelSpec children
-		add: (self buildFilterButtonWith: aBuilder).
 	^ panelSpec

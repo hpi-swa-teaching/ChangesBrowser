@@ -4,5 +4,5 @@ updateChangeListViewWith: aChangeList
 	self changeList: aChangeList.
 	self changeList
 		addDependent: self;
-		buildNewDisplayList.
+		showAllChanges.
 	self changesBrowser changed: #changeListList.

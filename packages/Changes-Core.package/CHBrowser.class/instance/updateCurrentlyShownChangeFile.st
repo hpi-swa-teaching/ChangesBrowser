@@ -1,4 +1,4 @@
 updating
 updateCurrentlyShownChangeFile
 
-	self imageStateListModel updateFile
+	self changesBrowserLogic imageStateListModel updateFile
