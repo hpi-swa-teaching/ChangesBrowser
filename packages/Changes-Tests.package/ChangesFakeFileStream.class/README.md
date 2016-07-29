@@ -1,0 +1,1 @@
+I represent a FileStream that reads from a string instead of a real file.

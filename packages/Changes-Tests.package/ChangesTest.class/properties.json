@@ -1,0 +1,16 @@
+{
+	"category" : "Changes-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dummyClass",
+		"mockChangesFile",
+		"changesBrowser" ],
+	"name" : "ChangesTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

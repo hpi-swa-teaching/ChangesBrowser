@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"atEnd" : "OC 7/11/2016 11:07",
+		"basicNext" : "PG 6/28/2016 12:07",
+		"basicUpTo:" : "OC 7/11/2016 11:07",
+		"close" : "FS 6/17/2016 17:42",
+		"initialize" : "FS 6/17/2016 16:30",
+		"next" : "PG 6/28/2016 12:14",
+		"nextChunk" : "PG 6/28/2016 12:20",
+		"nextChunkText" : "PG 6/28/2016 12:20",
+		"openReadOnly" : "FS 6/17/2016 17:28",
+		"peek" : "FS 6/17/2016 14:35",
+		"peekFor:" : "PG 6/28/2016 12:21",
+		"position" : "FS 6/17/2016 13:00",
+		"position:" : "FS 6/17/2016 13:00",
+		"readNextCharacter" : "PG 6/28/2016 12:21",
+		"readOnlyCopy" : "FS 6/17/2016 16:28",
+		"readSecondNextCharacter" : "PG 6/28/2016 12:22",
+		"setConverterForCode" : "FS 6/17/2016 16:33",
+		"size" : "PG 6/28/2016 12:22",
+		"skipSeparators" : "FS 6/22/2016 15:03",
+		"string" : "FS 6/17/2016 13:10",
+		"string:" : "PG 7/6/2016 20:41",
+		"upTo:" : "PG 6/28/2016 12:22" } }

@@ -1,4 +1,3 @@
 constants
-classClassificationBeginFor: aClassName
-
-	^ 'SystemOrganization classify: #', aClassName
+classClassificationBeginFor: aClassName 
+	^ 'SystemOrganization classify: #' , aClassName
