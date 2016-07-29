@@ -8,4 +8,5 @@ initialize
 		changesBrowserLogic: browserLogic;
 		filterSymbol: #all;
 		imageStateSelected: true;
-		changeSelected: false
+		changeSelected: false.
+	self imageStateListModel listIndex: 1.

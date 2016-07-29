@@ -7,5 +7,4 @@ initializeVersionList
 	self imageStateListModel: model.
 	model
 		list: logTuple first;
-		changesBrowserLogic: self;
-		listIndex: 1
+		changesBrowserLogic: self

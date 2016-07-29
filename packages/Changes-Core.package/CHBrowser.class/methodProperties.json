@@ -3,7 +3,7 @@
 		"open" : "PG 7/26/2016 16:30" },
 	"instance" : {
 		"alwaysEnabled" : "PG 7/26/2016 16:05",
-		"browseCurrentlySelectedChangeFile" : "LM 7/29/2016 11:58",
+		"browseCurrentlySelectedChangeFile" : "LM 7/29/2016 12:15",
 		"buildButtonsWith:" : "PG 7/26/2016 16:08",
 		"buildChangeListWith:" : "PG 7/26/2016 16:07",
 		"buildFilterButtonWith:" : "PG 7/26/2016 16:07",
@@ -32,7 +32,7 @@
 		"imageStateListModel" : "PG 7/26/2016 16:16",
 		"imageStateSelected" : "PG 7/26/2016 16:16",
 		"imageStateSelected:" : "PG 7/26/2016 16:16",
-		"initialize" : "PG 7/26/2016 16:16",
+		"initialize" : "LM 7/29/2016 12:26",
 		"methodWindowFrame" : "PG 7/26/2016 16:16",
 		"methodWindowHeight" : "PG 7/26/2016 16:17",
 		"postAcceptBrowseFor:" : "FS 6/7/2016 11:53",

@@ -14,7 +14,7 @@
 		"newForChangesBrowser:" : "PG 7/26/2016 16:57",
 		"removeSelectorRegex" : "PG 7/26/2016 16:57" },
 	"instance" : {
-		"browseCurrentlySelectedChangeFile" : "PG 7/26/2016 16:38",
+		"browseCurrentlySelectedChangeFile" : "LM 7/29/2016 12:27",
 		"changeList" : "PG 7/6/2016 14:54",
 		"changeList:" : "PG 7/8/2016 22:24",
 		"changeListList" : "PG 7/26/2016 16:38",
@@ -32,7 +32,7 @@
 		"imageStateListModel" : "PG 7/6/2016 20:13",
 		"imageStateListModel:" : "PG 7/6/2016 20:14",
 		"initialize" : "PG 7/26/2016 16:42",
-		"initializeVersionList" : "PG 7/26/2016 16:44",
+		"initializeVersionList" : "LM 7/29/2016 12:27",
 		"loadImageStatesContaining:" : "PG 7/26/2016 16:46",
 		"refresh" : "PG 7/26/2016 16:47",
 		"registerForSystemChangeNotifications" : "PG 7/26/2016 16:47",
