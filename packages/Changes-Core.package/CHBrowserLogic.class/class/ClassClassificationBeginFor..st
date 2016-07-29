@@ -1,4 +1,4 @@
 constants
-ClassClassificationBeginFor: aClassName
+classClassificationBeginFor: aClassName
 
 	^ 'SystemOrganization classify: #', aClassName

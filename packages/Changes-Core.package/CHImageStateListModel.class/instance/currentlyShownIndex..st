@@ -1,3 +1,4 @@
 accessing
-currentlyShownIndex: anObject
-	currentlyShownIndex := anObject
+currentlyShownIndex: anInteger
+
+	currentlyShownIndex := anInteger

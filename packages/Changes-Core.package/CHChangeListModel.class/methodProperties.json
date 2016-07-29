@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"browseRecent:on:" : "PG 6/29/2016 21:05",
+		"browseRecent:on:" : "PG 7/29/2016 22:45",
 		"browseRecentLogOn:" : "FS 7/15/2016 16:10",
 		"browseRecentLogOn:startingFrom:" : "FS 7/15/2016 16:10" },
 	"instance" : {
-		"buildNewDisplayList" : "PG 7/26/2016 17:53",
-		"deselectAllSelections" : "PG 7/26/2016 17:59",
+		"buildNewDisplayList" : "PG 7/29/2016 21:11",
+		"deselectAllSelections" : "PG 7/29/2016 21:11",
 		"displayList" : "PG 7/26/2016 17:48",
 		"displayList:" : "PG 7/26/2016 17:51",
 		"filterMode" : "PG 7/26/2016 17:48",
@@ -14,7 +14,6 @@
 		"indexMap:" : "PG 7/26/2016 17:51",
 		"initialize" : "PG 7/26/2016 17:52",
 		"list" : "PG 7/26/2016 17:52",
-		"listIndex" : "PG 7/26/2016 17:56",
-		"listIndex:" : "PG 7/26/2016 17:56",
+		"listIndex:" : "PG 7/29/2016 21:11",
 		"listSelectionAt:" : "PG 7/26/2016 17:52",
 		"listSelectionAt:put:" : "PG 7/26/2016 18:01" } }

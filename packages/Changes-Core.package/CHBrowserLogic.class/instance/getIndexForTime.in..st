@@ -5,6 +5,7 @@ getIndexForTime: aTimeStamp in: aChangeList
 
 	isBefore := true.
 	newestTimeStamp := TimeStamp fromString: '1 January 1000 00:00:00 am'.
+	indexOfMaxRecord := -1.
 
 	1 to: aChangeList changeList size
 		do: [:index | 

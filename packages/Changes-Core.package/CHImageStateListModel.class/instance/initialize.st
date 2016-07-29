@@ -1,3 +1,4 @@
 initialization
 initialize
-	self selectedIndex: 1.
+
+	self selectedIndex: 1

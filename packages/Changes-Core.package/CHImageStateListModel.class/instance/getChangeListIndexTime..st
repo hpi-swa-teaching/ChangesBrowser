@@ -9,4 +9,4 @@ getChangeListIndexTime: aTimeStamp
 					or: [extractedTimeStamp = aTimeStamp])
 				ifTrue: [^ currentIndex]].
 	self inform: 'The selected time stamp is too old!'.
-	^0
+	^ 0

@@ -5,9 +5,9 @@
 	"classvars" : [
 		"ChangeSetNamesInRelease",
 		"RecentUpdateMarker" ],
-	"commentStamp" : "PG 7/7/2016 10:17",
+	"commentStamp" : "PG 7/29/2016 20:47",
 	"instvars" : [
-		"browser",
+		"changesBrowser",
 		"imageStateListModel",
 		"changeList",
 		"changesFile",

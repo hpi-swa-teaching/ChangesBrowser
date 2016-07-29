@@ -15,10 +15,10 @@ collectAllChangesOfClass: aClassName in: aWholeChangeList after: firstIndex
 			(currentChangeRecord type == #method and: [currentChangeRecord methodClassName = aClassName])
 				ifTrue: [changeRecordsForClass addLast: currentChangeRecord].
 			(currentChangeRecord type == #doIt
-					and: [(([currentChangeRecord string beginsWith: aClassName] = true)
+					and: [((currentChangeRecord string beginsWith: aClassName)
 								or: [currentChangeRecord string
-										includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)])
+										includesSubstring: (CHBrowserLogic classDefinitionIdentifierFor: aClassName)])
 							or: [currentChangeRecord string
-									= (CHBrowserLogic ClassClassificationBeginFor: aClassName)]])
+									= (CHBrowserLogic classClassificationBeginFor: aClassName)]])
 				ifTrue: [changeRecordsForClass addLast: currentChangeRecord]].
 	^ changeRecordsForClass

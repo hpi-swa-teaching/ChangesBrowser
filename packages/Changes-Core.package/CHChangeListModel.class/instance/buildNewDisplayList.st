@@ -20,4 +20,4 @@ buildNewDisplayList
 		self filterMode == #noDoIts
 			ifTrue: [	((self changeList at: index) type == #doIt)
 					ifFalse: [self indexMap add: index.
-							self displayList add: (list at: index)]]].
+							self displayList add: (list at: index)]]]

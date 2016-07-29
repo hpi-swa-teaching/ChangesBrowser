@@ -1,4 +1,4 @@
 constants
-ClassDefinitionIdentifierFor: aClassName
+classDefinitionIdentifierFor: aClassName
 
 	^ 'subclass: #', aClassName

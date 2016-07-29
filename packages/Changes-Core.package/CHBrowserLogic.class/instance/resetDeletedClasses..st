@@ -13,14 +13,14 @@ resetDeletedClasses: anSet
 					| currentChangeRecord |
 					currentChangeRecord := wholeChangeList at: currentIndex.
 					 (((wholeChangeList at: currentIndex) string
-								includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
+								includesSubstring: (CHBrowserLogic classDefinitionIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex].
 					 (((wholeChangeList at: currentIndex) string
 								= (CHBrowserLogic deletedClassIdentifierFor: aClassName)) and: [foundDeleteIndex = -1])
 						ifTrue: [foundDeleteIndex := currentIndex]].
 			foundDeleteIndex to: wholeChangeList size
 				do: [:currentIndex | (((wholeChangeList at: currentIndex) string
-							includesSubstring: (CHBrowserLogic ClassDefinitionIdentifierFor: aClassName)) and: [firstIndex = -1])
+							includesSubstring: (CHBrowserLogic classDefinitionIdentifierFor: aClassName)) and: [firstIndex = -1])
 						ifTrue: [firstIndex := currentIndex]].
 			firstIndex = -1 	ifTrue: [self error: 'Cannot resore class ' , aClassName].
 			changeRecordsForClass := self collectAllChangesOfClass: aClassName in: wholeChangeList after: firstIndex.

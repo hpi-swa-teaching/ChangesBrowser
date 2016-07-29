@@ -2,12 +2,12 @@ A CHBrowser (ChangesBrowser) is a tool, which allows you to reset to an arbitrar
 The CHBrowser just implements the GUI, the functionality is 
 
 Instance Variables
-	browserLogic: 				<CHBrowserLogic>
+	changesBrowserLogic:		<CHBrowserLogic>
 	changeSelected:			<Boolean>
 	imageStateSelected:		<Boolean>
-	testMode:					<Boolean>
+	filterSymbol:				<Symbol>
 
-browserLogic
+changesBrowserLogic
 	- A CHBrowserLogic, which provides the functionalities to reset changes to the image.
 
 changeSelected
@@ -16,5 +16,5 @@ changeSelected
 imageStateSelected
 	- A bool value, which indicates, that a imageState in the browser is selected. Needed, to enable/disable buttons, which needs a selected imageState
 
-testMode
-	- A bool value, which indicates, that the Browser is running in testMode.
+filterSymbol
+	- A symbol, which indicates the actual filter.

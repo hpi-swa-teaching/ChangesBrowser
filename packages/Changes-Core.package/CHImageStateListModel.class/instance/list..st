@@ -1,5 +1,6 @@
 accessing
 list: anOrderedCollectionOfBanners
+
 	list ifNotNil: [
 		self currentlyShownIndex ifNotNil: [
 			self currentlyShownIndex: ((self currentlyShownIndex + anOrderedCollectionOfBanners size - self list size) max: 0).
