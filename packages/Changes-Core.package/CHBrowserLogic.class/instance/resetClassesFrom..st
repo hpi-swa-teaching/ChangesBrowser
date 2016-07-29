@@ -6,4 +6,4 @@ resetClassesFrom: aChangeList
 	setOfRemovedClasses := self findRemovedClassesRecordsIn: aChangeList.
 	setOfAddedClasses
 		do: [:aClass | Smalltalk removeClassNamed: aClass].
-	self resetDeletedClasses: setOfRemovedClasses.
+	self resetDeletedClasses: setOfRemovedClasses

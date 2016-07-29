@@ -14,11 +14,10 @@ resetMethods: aChangeList with: wholeChangeList
 	aCollection := self sortIntoStillExistingAndRemovedMethods: methodChanges.
 	stillExisting := aCollection first.
 	removedMethods := aCollection second.
-		
 	stillExisting := self removeInvalidMethodsFrom: stillExisting WithChanges: methodChanges.
 	
 	matchingVersions := wholeChanges select: [:changeRecord | changeRecord type == #method and: [(stillExisting includes: {changeRecord 	methodSelector . changeRecord methodClass}) or: [removedMethods includes: {changeRecord methodSelector . changeRecord 	methodClass}]]].
 	
-	self loadStillExistingMethodsFrom: stillExisting With: matchingVersions. 
-	
-	self loadRemovedMethodsMethodsFrom: removedMethods With: matchingVersions.
+	self
+		loadStillExistingMethodsFrom: stillExisting With: matchingVersions;
+		loadRemovedMethodsMethodsFrom: removedMethods With: matchingVersions.
