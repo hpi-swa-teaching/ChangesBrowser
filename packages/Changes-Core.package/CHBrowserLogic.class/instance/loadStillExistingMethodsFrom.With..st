@@ -6,5 +6,6 @@ loadStillExistingMethodsFrom: aSet With: matchingVersions
 		priorChange := CHNullChangeRecord new.
 		aPairOfSelectorAndClass second
 			ifNotNil: [priorChange := matchingVersions reversed
-						detect: [:changeRecord | changeRecord methodSelector == aPairOfSelectorAndClass first and: [changeRecord methodClass == aPairOfSelectorAndClass second]] ifNone: [self error: 'Error in logic: a method that exists before snapshot, but has no version before that snapshot'.].].
+						detect: [:changeRecord | changeRecord methodSelector == aPairOfSelectorAndClass first and: [changeRecord methodClass == aPairOfSelectorAndClass second]]
+						ifNone: [self error: 'Error in logic: a method that exists before snapshot, but has no version before that snapshot'.].].
 		priorChange fileIn.].
