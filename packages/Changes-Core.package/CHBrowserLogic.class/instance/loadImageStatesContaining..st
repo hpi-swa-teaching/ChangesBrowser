@@ -2,18 +2,10 @@ loading
 loadImageStatesContaining: aString 
 	"image states are changeRecords like ----Snapshot/Quit..."
 
-	| recordMatched selectedImageStates changeRecords |
+	| selectedImageStates wholeChanges |
 	self searchEnabled: true.
-	recordMatched := false.
-	selectedImageStates := OrderedCollection new.
-	changeRecords := self imageStateListModel getWholeChangeList changeList.
-	changeRecords
-		reverseDo: [:record |
-			recordMatched := recordMatched or: [record containsString: aString].
-			record isSnapshot
-				ifTrue: [recordMatched
-						ifTrue: [selectedImageStates add: record].
-						recordMatched := false]].
+	wholeChanges := self imageStateListModel getWholeChangeList changeList.
+	selectedImageStates := self filterChangeRecords: wholeChanges containing: aString.
 	self imageStateListModel
 		positions: (selectedImageStates collect: [:imageState | imageState position]);
 		list: (selectedImageStates collect: [:imageState | imageState string]);

@@ -29,6 +29,6 @@ resetToTime: aTimeStamp
 		do: [:index | 
 			| changeRecord |
 			changeRecord := partChangeList changeList at: index.
-			((changeRecord string beginsWith: 'self') or: [changeRecord string beginsWith: '----'])
-				ifFalse: [changeRecord fileIn]].
+			(changeRecord isRevertable)
+				ifTrue: [changeRecord fileIn]].
 	self refresh.
