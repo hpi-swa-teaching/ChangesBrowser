@@ -1,6 +1,5 @@
 building
 buildButtonsWith: aBuilder 
-
 	| panelSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
@@ -11,5 +10,6 @@ buildButtonsWith: aBuilder
 					 label: each first;
 					 action: each second;
 					 enabled: each third;
+					help: each fourth;
 					 yourself]) asOrderedCollection.
 	^ panelSpec
