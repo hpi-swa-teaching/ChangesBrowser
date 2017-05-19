@@ -3,6 +3,7 @@ showFilterMenu
 	| builder menuSpec |
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.
+	self halt.
 	self filterPairs
 		do: [ :pair | pair == #-
 				ifTrue: [menuSpec addSeparator]
