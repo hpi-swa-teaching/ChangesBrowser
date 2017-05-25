@@ -31,7 +31,7 @@
 		"filterChangeRecords:containing:" : "PG 7/29/2016 12:22",
 		"filterMode" : "PG 7/26/2016 16:42",
 		"filterMode:" : "PG 7/26/2016 16:42",
-		"findAddedClassesRecordsIn:" : "PG 7/29/2016 13:35",
+		"findAddedClassesRecordsIn:" : "JC 5/25/2017 13:39",
 		"findRemovedClassesRecordsIn:" : "PG 7/29/2016 13:39",
 		"getChangeRecords:containing:" : "pf 7/29/2016 18:11",
 		"getIndexForTime:in:" : "PG 7/29/2016 21:29",
@@ -40,7 +40,7 @@
 		"initialize" : "PG 7/26/2016 16:42",
 		"initializeVersionList" : "LM 7/29/2016 12:27",
 		"loadImageStatesContaining:" : "pf 7/29/2016 18:11",
-		"loadRemovedMethodsMethodsFrom:With:" : "PG 7/29/2016 23:11",
+		"loadRemovedMethodsMethodsFrom:With:" : "JC 5/25/2017 13:39",
 		"loadStillExistingMethodsFrom:With:" : "PG 7/29/2016 23:12",
 		"refresh" : "PG 7/26/2016 16:47",
 		"registerForSystemChangeNotifications" : "PG 7/26/2016 16:47",
@@ -62,5 +62,5 @@
 		"testMode" : "PG 7/6/2016 14:54",
 		"testMode:" : "PG 7/8/2016 22:25",
 		"update:" : "pf 7/12/2016 14:41",
-		"updateChangeListViewWith:" : "pf 7/29/2016 19:11",
-		"updateCurrentlyShownChangeFile" : "PG 7/26/2016 16:52" } }
+		"updateChangeListViewWith:" : "JC 5/25/2017 15:20",
+		"updateCurrentlyShownChangeFile" : "JC 5/25/2017 14:58" } }

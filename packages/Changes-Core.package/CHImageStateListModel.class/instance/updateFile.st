@@ -1,6 +1,5 @@
 updating
 updateFile
-
 	self currentlyShownIndex
 	ifNotNil: [self updatePositions.
 			self changesBrowserLogic	updateChangeListViewWith: (

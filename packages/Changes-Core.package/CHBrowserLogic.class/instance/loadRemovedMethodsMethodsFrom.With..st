@@ -1,6 +1,6 @@
 resetting
 loadRemovedMethodsMethodsFrom: aSet With: matchingVersions 
-
+	
 		aSet do: [:aPairOfSelectorAndClass |
 		| priorChange |
 		priorChange := CHNullChangeRecord new.
