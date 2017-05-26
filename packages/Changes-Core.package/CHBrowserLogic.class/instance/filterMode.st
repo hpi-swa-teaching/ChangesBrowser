@@ -1,4 +1,4 @@
-accessing-changeList
-filterMode
+accessing
+filterMode 
 
-	^ self changeList filterMode
+	^ filterMode

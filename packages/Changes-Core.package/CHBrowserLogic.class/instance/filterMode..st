@@ -1,4 +1,4 @@
-accessing-changeList
-filterMode: aMode
+accessing
+filterMode: anOrderedCollection
 
-	^ self changeList filterMode: aMode
+	filterMode := anOrderedCollection.

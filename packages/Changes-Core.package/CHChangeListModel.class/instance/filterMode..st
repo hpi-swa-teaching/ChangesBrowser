@@ -1,7 +1,7 @@
 accessing
-filterMode: aFilterModeAsSymbol
+filterMode: anOrderedCollection
 
-	filterMode := aFilterModeAsSymbol.
-	self
+	filterMode := anOrderedCollection.
+	"self
 		deselectAllSelections;
-		buildNewDisplayList
+		buildNewDisplayList"

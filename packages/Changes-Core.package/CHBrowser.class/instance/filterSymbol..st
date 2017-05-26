@@ -1,5 +1,5 @@
 accessing
 filterSymbol: aFilterModeAsSymbol
 
+	| filterSymbol |
 	filterSymbol := aFilterModeAsSymbol.
-	self changesBrowserLogic filterMode: aFilterModeAsSymbol

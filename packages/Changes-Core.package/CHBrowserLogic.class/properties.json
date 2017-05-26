@@ -12,7 +12,8 @@
 		"changeList",
 		"changesFile",
 		"testMode",
-		"searchEnabled" ],
+		"searchEnabled",
+		"filterMode" ],
 	"name" : "CHBrowserLogic",
 	"pools" : [
 		 ],

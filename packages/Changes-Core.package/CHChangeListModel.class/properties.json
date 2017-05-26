@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "pf 7/30/2016 00:12",
 	"instvars" : [
-		"displayedIndexList" ],
+		"displayedIndexList",
+		"filterMode",
+		"browserLogic" ],
 	"name" : "CHChangeListModel",
 	"pools" : [
 		 ],
