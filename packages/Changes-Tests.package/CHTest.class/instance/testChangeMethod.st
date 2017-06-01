@@ -1,6 +1,5 @@
 testing
 testChangeMethod
-
 	self loadFirstChangeFile.
 	self changesBrowser
 		changeListListSelectionAt: 2 put: true.

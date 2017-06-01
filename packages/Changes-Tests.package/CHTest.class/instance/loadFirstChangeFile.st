@@ -1,6 +1,5 @@
 running
 loadFirstChangeFile
-
 	self changesBrowser changesBrowserLogic changesFile: self class mockV1.
 	self changesBrowser imageStateListModel
 		list: self class mockListV1;
