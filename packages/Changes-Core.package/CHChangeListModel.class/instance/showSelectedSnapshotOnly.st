@@ -8,4 +8,4 @@ showSelectedSnapshotOnly
 	self selectChangeRecords: 
 		[ :changeRecord | changeRecord position < nextSnapshotPosition ].
 	CHlogic filterMode remove: #snapshot ifAbsent: [CHlogic filterMode add: #snapshot]. 
-	CHlogic saveFilter: CHlogic filterMode.
+	CHlogic applyFilter.

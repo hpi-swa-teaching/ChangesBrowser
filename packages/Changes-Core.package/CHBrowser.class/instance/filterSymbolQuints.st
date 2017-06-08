@@ -1,7 +1,7 @@
 building
 filterSymbolQuints 
-
 	| collection |
+	self deprecated: 'I am not in use, what do i do???'.
 	collection := OrderedCollection new.
 	^ collection 
 		add: #(#all #showAllChanges #showingAllString 'all' 'show all changes');

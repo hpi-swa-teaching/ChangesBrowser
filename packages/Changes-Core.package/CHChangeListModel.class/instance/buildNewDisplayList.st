@@ -1,6 +1,6 @@
 filtering
 buildNewDisplayList
-
+	self deprecated: 'I do not appear to be used'.
 	self 
 		displayList: OrderedCollection new;
 		indexMap: OrderedCollection new.

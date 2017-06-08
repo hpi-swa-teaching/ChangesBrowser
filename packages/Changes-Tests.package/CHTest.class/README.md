@@ -1,5 +1,5 @@
 ChangesTest is the class, which holds all tests for the package 'Changes-Core'.
-
+dkdkdkd
 Instance Variables
 	changesBrowser:		<CHBrowser>
 	dummyObject:			<ChangesDummyClass>
