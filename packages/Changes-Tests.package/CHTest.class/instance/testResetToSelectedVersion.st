@@ -1,8 +1,7 @@
 testing
 testResetToSelectedVersion
-	"
+
 	| changeList |
-	
 	self loadFourthChangeFile.
 	changeList := self changesBrowser imageStateListModel getWholeChangeList.
 	changeList changeList do: [ :aChangeRecord | aChangeRecord fileIn.].
@@ -18,4 +17,4 @@ testResetToSelectedVersion
 		removeSelector: #dummyFunction15;
 		removeSelector: #dummyFunction14;
 		removeSelector: #dummyFunction13;
-		removeSelector: #dummyFunction12"
+		removeSelector: #dummyFunction12

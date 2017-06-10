@@ -1,4 +1,0 @@
-accessing-changeList
-changeListListIndex
-
-	^ self changesBrowserLogic changeListListIndex
