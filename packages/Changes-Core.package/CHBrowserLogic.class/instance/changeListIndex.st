@@ -1,4 +1,4 @@
 accessing-changeList
-changeListListIndex
+changeListIndex
 
 	^ self changeList listIndex

@@ -1,4 +1,4 @@
 accessing-changeList
-changeListList
+changeListContent
 
 	^ self changeList list

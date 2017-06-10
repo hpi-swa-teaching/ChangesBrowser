@@ -1,5 +1,5 @@
 accessing-changeList
-changeListListIndex: aValue
+changeListIndex: aValue
 
 	self changesBrowser changeSelected:
 		(((self changeList listSelections count: [:bool | bool]) <= 1)

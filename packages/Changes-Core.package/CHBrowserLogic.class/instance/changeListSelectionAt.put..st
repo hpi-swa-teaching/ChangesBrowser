@@ -1,4 +1,4 @@
 accessing-changeList
-changeListListSelectionAt: aValue put: anotherValue
+changeListSelectionAt: aValue put: anotherValue
 
 	^ self changeList listSelectionAt: aValue put: anotherValue
