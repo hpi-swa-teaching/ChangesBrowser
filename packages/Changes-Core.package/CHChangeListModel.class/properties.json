@@ -8,7 +8,8 @@
 	"instvars" : [
 		"displayedIndexList",
 		"filterMode",
-		"browserLogic" ],
+		"browserLogic",
+		"indexMap" ],
 	"name" : "CHChangeListModel",
 	"pools" : [
 		 ],
