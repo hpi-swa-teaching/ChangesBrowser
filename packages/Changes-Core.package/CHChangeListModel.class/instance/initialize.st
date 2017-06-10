@@ -3,5 +3,6 @@ initialize
 
 	super initialize.
 	self 
-		filterMode: OrderedCollection new.
+		filterMode: OrderedCollection new;
+		indexMap: OrderedCollection new.
 		
