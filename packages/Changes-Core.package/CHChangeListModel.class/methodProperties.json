@@ -19,11 +19,4 @@
 		"selectChangeRecords:" : "avw 6/8/2017 13:45",
 		"selectChangeRecordsForMultiple:" : "avw 6/8/2017 14:28",
 		"showAllChanges" : "avw 6/8/2017 16:09",
-		"showAllChangesAndResetFilter" : "avw 6/8/2017 16:09",
-		"showClassCommentChangesOnly" : "avw 6/8/2017 15:25",
-		"showMethodChangesOnly" : "avw 6/8/2017 15:25",
-		"showSelectedSnapshotOnly" : "avw 6/8/2017 15:08",
-		"showSelectedSnapshotOnlyWithoutChangingTheFiltermode" : "JC 5/28/2017 10:30",
-		"toggleShowClassCommentChanges" : "avw 6/8/2017 15:22",
-		"toggleShowDoItChanges" : "avw 6/8/2017 15:35",
-		"toggleShowMethodChanges" : "avw 6/8/2017 15:47" } }
+		"showSelectedSnapshotOnlyWithoutChangingTheFiltermode" : "avw 6/10/2017 13:00" } }

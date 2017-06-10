@@ -1,8 +1,4 @@
-updating
+filtering
 applyFilter
-	|filterModes|
-
-	filterModes := self filterMode.
-	"We need to show the whole list again so we can reselect!"
 	self changeList showAllChanges.
-	filterModes notEmpty ifTrue:[ self changeList selectChangeRecordsForMultiple: filterModes.]
+	self filterMode notEmpty ifTrue:[ self changeList selectChangeRecordsForMultiple: self filterMode.]

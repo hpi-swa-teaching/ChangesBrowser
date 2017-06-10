@@ -1,7 +1,7 @@
 filtering
 showSelectedSnapshotOnlyWithoutChangingTheFiltermode
 	| nextSnapshotPosition CHlogic|
-	
+	self deprecated: 'no longer in use'.
 	CHlogic := self dependents at: 1.
 	nextSnapshotPosition := (
 		self changeList allButFirst detect: [ :changeRecord | 

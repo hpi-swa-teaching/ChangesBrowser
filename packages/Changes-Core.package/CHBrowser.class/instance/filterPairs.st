@@ -9,10 +9,3 @@ ordCol := OrderedCollection
 				with: (OrderedCollection with: ((self changesBrowserLogic filterMode includes: #doIt) ifTrue: '<on>do its' ifFalse: '<off>do its') with: #toggleShowDoItChanges).
 
 ^ ordCol
-
-"	^#( 
-		#('all'		abd 	#showAllChanges)
-		#-
-		#('method'				#showMethodChangesOnly)
-		#('class comments'		#showClassCommentChangesOnly)
-		#('no do its' 			#hideDoItChanges))"
