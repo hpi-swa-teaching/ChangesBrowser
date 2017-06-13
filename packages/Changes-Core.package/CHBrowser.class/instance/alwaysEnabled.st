@@ -1,4 +1,4 @@
 button actions
-alwaysEnabled
-
-	^ true
+alwaysEnabled 
+	self deprecated: 'now in CHBrowserLogic'.
+	^true

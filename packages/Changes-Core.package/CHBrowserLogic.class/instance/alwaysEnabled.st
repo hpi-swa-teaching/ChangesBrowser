@@ -1,0 +1,3 @@
+button-texts
+alwaysEnabled 
+	^true

@@ -1,7 +1,7 @@
 accessing
 listIndex: anInteger
 
-	self changesBrowserLogic changesBrowser
+	self changesBrowserLogic
 		imageStateSelected: (anInteger > 0).
 	self changesBrowserLogic contentsChanged.
 	self

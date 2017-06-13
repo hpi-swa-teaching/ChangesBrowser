@@ -1,10 +1,8 @@
-button actions
+button-actions
 createNamedSnapshot
 
 	| snapshotName |
-	self deprecated: 'now in CHBrowserLogic'.
 	snapshotName := UIManager default request: 'enter name of the snapshot'.
 	snapshotName
 		ifNotEmpty: [Smalltalk namedSnaphot: snapshotName.
-					 self changesBrowserLogic refresh]
-				
+					 self refresh]

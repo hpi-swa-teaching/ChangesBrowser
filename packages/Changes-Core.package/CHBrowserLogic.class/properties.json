@@ -13,7 +13,9 @@
 		"changesFile",
 		"testMode",
 		"searchEnabled",
-		"filterMode" ],
+		"filterMode",
+		"imageStateSelected",
+		"changeSelected" ],
 	"name" : "CHBrowserLogic",
 	"pools" : [
 		 ],
