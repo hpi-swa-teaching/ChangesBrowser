@@ -20,7 +20,7 @@
 		"changeList:" : "PG 7/8/2016 22:24",
 		"changeListContent" : "JC 6/10/2017 14:36",
 		"changeListIndex" : "JC 6/10/2017 14:37",
-		"changeListIndex:" : "JC 6/10/2017 14:37",
+		"changeListIndex:" : "avw 6/13/2017 11:58",
 		"changeListSelectionAt:" : "JC 6/10/2017 14:37",
 		"changeListSelectionAt:put:" : "JC 6/10/2017 14:37",
 		"changesBrowser" : "PG 7/29/2016 20:44",
@@ -68,5 +68,5 @@
 		"toggleShowDoItChanges" : "avw 6/10/2017 12:42",
 		"toggleShowMethodChanges" : "avw 6/10/2017 12:55",
 		"update:" : "pf 7/12/2016 14:41",
-		"updateChangeListViewWith:" : "JC 6/10/2017 14:36",
+		"updateChangeListViewWith:" : "avw 6/13/2017 11:57",
 		"updateCurrentlyShownChangeFile" : "JC 5/25/2017 14:58" } }

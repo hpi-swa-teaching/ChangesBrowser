@@ -6,7 +6,7 @@ updateChangeListViewWith: aChangeList
 		addDependent: self;
 		showAllChanges.
 	self changesBrowser changed: #changeListContent.
-	(self changesBrowser initializes or: [self testMode]) ifFalse: [(self changesBrowser dependents at: 9) enabled: false.
+	(self changesBrowser initializes or: [self testMode]) ifFalse: [(self changesBrowser dependents at: 8) enabled: false.
 	self applyFilter.
 	].
 
