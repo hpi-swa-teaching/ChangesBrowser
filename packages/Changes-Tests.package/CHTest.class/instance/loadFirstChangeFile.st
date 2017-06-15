@@ -6,4 +6,4 @@ loadFirstChangeFile
 		positions: self class mockPositionsV1;
 		endPosition: self class mockEndPositionV1;
 		selectedIndex: 1.
-	self changesBrowser browseCurrentlySelectedChangeFile
+	self changesBrowser imageStateListModel browseFile

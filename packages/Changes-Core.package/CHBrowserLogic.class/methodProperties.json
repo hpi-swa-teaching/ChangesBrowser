@@ -16,7 +16,6 @@
 	"instance" : {
 		"alwaysEnabled" : "avw 6/13/2017 12:04",
 		"applyFilter" : "avw 6/10/2017 12:50",
-		"browseCurrentlySelectedChangeFile" : "pf 7/29/2016 23:15",
 		"changeList" : "PG 7/6/2016 14:54",
 		"changeList:" : "PG 7/8/2016 22:24",
 		"changeListContent" : "JC 6/10/2017 14:36",
@@ -80,5 +79,5 @@
 		"toggleShowDoItChanges" : "avw 6/10/2017 12:42",
 		"toggleShowMethodChanges" : "avw 6/10/2017 12:55",
 		"update:" : "pf 7/12/2016 14:41",
-		"updateChangeListViewWith:" : "avw 6/13/2017 12:25",
+		"updateChangeListViewWith:" : "avw 6/15/2017 14:32",
 		"updateCurrentlyShownChangeFile" : "JC 5/25/2017 14:58" } }

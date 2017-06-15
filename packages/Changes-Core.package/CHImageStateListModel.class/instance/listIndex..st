@@ -7,4 +7,4 @@ listIndex: anInteger
 	self
 		selectedIndex: anInteger;
 		changed: #listIndex.	"signal my acceptance of the change"
-	anInteger > 0 ifTrue: [ self changesBrowserLogic browseCurrentlySelectedChangeFile ]
+	anInteger > 0 ifTrue: [ self browseFile ]
