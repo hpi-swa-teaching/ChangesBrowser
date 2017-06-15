@@ -3,8 +3,8 @@ testLoadImageStatesContaining
 
 	| imageStates |
 	self loadSixthChangeFile.
-	self changesBrowserLogic loadImageStatesContaining: 'kekse'.
-	imageStates := self changesBrowserLogic imageStateListModel list.
+	self changesBrowser changesBrowserLogic loadImageStatesContaining: 'kekse'.
+	imageStates := self changesBrowser changesBrowserLogic imageStateListModel list.
 	self
 		assert: (imageStates first endsWith: '6');
 		assert: (imageStates second endsWith: '4');

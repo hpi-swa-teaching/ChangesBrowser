@@ -1,11 +1,11 @@
 testing
 testResetToSelectedVersion
-"war auskommentiert
+"
 	| changeList |
 	self loadFourthChangeFile.
-	changeList := self changesBrowserLogic imageStateListModel getWholeChangeList.
+	changeList := self changesBrowser imageStateListModel getWholeChangeList.
 	changeList changeList do: [ :aChangeRecord | aChangeRecord fileIn.].
-	self changesBrowserLogic resetToSelectedVersion.
+	self changesBrowser resetToSelectedVersion.
 	self
 		assert: 'version 1' equals: (self dummyObject dummyFunction15);
 		assert: 'version 1' equals: (self dummyObject dummyFunction14);
@@ -17,5 +17,4 @@ testResetToSelectedVersion
 		removeSelector: #dummyFunction15;
 		removeSelector: #dummyFunction14;
 		removeSelector: #dummyFunction13;
-		removeSelector: #dummyFunction12.
-	"
+		removeSelector: #dummyFunction12"
