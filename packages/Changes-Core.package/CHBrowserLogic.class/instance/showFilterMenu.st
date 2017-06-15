@@ -1,3 +1,3 @@
 button-actions
 showFilterMenu
-	self changesBrowser showFilterMenu.
+	self changesBrowser showFilterMenu 
