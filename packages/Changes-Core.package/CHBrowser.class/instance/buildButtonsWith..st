@@ -6,7 +6,8 @@ buildButtonsWith: aBuilder
 		model: self;
 		layout: #horizontal;
 		children: (self buttons
-			collect: [:each | aBuilder pluggableButtonSpec new model: self changesBrowserLogic;
+			collect: [:each | aBuilder pluggableButtonSpec new 
+					model: self changesBrowserLogic;
 					 label: each first;
 					 action: each second;
 					 enabled: each third;
