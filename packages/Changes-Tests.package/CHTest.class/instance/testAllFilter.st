@@ -3,8 +3,8 @@ testAllFilter
 
 	| listSize |
 	self loadSixthChangeFile.
-	listSize := self changesBrowser changesBrowserLogic changeListContent size.
-	self changesBrowser changesBrowserLogic   
+	listSize := self changesBrowserLogic changeListContent size.
+	self changesBrowserLogic   
 		toggleShowClassCommentChanges;
 		toggleShowMethodChanges;
 		toggleShowDoItChanges;
@@ -13,9 +13,9 @@ testAllFilter
 		assert:'<on>method'  equals: ((self changesBrowser filterPairs at: 3) at: 1);
 		assert:'<on>class comments'  equals: ((self changesBrowser filterPairs at: 4) at: 1);
 		assert: '<on>do its' equals: ((self changesBrowser filterPairs at: 5) at: 1);
-		assert: listSize equals: (self changesBrowser changesBrowserLogic changeListContent size).
+		assert: listSize equals: (self changesBrowserLogic changeListContent size).
 	
-	self changesBrowser changesBrowserLogic   
+	self changesBrowserLogic   
 		toggleShowClassCommentChanges;
 		toggleShowClassCommentChanges; 
 		toggleShowMethodChanges;

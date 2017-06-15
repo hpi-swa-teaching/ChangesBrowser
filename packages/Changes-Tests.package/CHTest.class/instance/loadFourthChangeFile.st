@@ -1,10 +1,10 @@
 running
 loadFourthChangeFile
 
-	self changesBrowser changesBrowserLogic changesFile: self class mockV4.
-	self changesBrowser imageStateListModel
+	self  changesBrowserLogic changesFile: self class mockV4.
+	self changesBrowserLogic imageStateListModel
 		list: self class mockListV4;
 		positions: self class mockPositionsV4;
 		endPosition: self class mockEndPositionV4;
 		selectedIndex: 3.
-	self changesBrowser imageStateListModel browseFile
+	self changesBrowserLogic imageStateListModel browseFile.
