@@ -7,7 +7,8 @@
 	"commentStamp" : "avw 6/8/2017 14:36",
 	"instvars" : [
 		"dummyObject",
-		"changesBrowser" ],
+		"changesBrowser",
+		"changesBrowserLogic" ],
 	"name" : "CHTest",
 	"pools" : [
 		 ],

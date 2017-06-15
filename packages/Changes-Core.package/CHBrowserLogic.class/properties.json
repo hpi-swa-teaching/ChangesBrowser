@@ -19,5 +19,5 @@
 	"name" : "CHBrowserLogic",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Object",
 	"type" : "normal" }

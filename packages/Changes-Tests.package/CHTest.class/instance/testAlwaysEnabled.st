@@ -1,4 +1,3 @@
 testing-toolbuilder
 testAlwaysEnabled
-
-	self assert: self changesBrowser alwaysEnabled equals: true
+	self assert: self changesBrowserLogic alwaysEnabled equals: true

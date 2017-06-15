@@ -2,7 +2,7 @@ testing-toolbuilder
 testResetToTime
 
 	self loadThirdChangeFile.
-	self changesBrowser resetToLastVersion.
+	self changesBrowserLogic  resetToLastVersion.
 	self
 		assert: 'version 1' equals: (self dummyObject dummyFunction4);
 		assert: 'version 4' equals: (self dummyObject dummyFunction2).
