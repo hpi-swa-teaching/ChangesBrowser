@@ -12,5 +12,4 @@ buttons
 		'Start the recover changes process')
 		( 'Restore selected changes' #resetSelectedMethods #changeSelected 
 		'Recover only the selected changes in the right list' )
-		( 'Reset to time' #resetToTime #alwaysEnabled 'Recover to the given time')
 		( 'Filter' #showFilterMenu #alwaysEnabled 'FIlter the changes list'))
