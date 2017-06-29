@@ -1,6 +1,8 @@
 button-actions
 resetToSelectedVersion
 
+"deprecated"
+
 	| changeList listOfCategories listOfClasses listOfChangeRecords listOfChangeRecordsRev listOfDeletes|
 	changeList := self imageStateListModel getChangeListForSelectedImageState.
 	
