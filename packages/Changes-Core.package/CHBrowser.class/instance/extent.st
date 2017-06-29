@@ -1,4 +1,4 @@
 building
 extent
 
-	^ 1200@600
+	^  872@562
