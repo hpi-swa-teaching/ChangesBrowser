@@ -1,4 +1,3 @@
 accessing-changeList
-changeListSelectionAt: aValue
-
-	^ self changeList listSelectionAt: aValue
+changeListSelectionAt: anIndex
+	^ self changeList listSelections at: anIndex ifAbsent: [^false].
