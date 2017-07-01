@@ -1,3 +1,3 @@
 function-order-testing
 functionOrder3
-	^'first 3'
+	^'then 33'

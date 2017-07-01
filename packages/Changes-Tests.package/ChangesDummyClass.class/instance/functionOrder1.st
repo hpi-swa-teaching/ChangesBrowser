@@ -1,3 +1,3 @@
-nil
+function-order-testing
 functionOrder1
-	^'first 1'
+	^'then 11'

@@ -24,7 +24,7 @@ resetToLastVersion
 			& ((changeRecord string beginsWith: 'Object subclass:') not)
 			& ((changeRecord string beginsWith: 'Smalltalk removeClassNamed:') not)
 			& ((changeRecord string beginsWith: '----') not)].
-	listOfChangeRecordsRev := listOfChangeRecords reversed.
+	listOfChangeRecordsRev := listOfChangeRecords.
 	listOfChangeRecordsRev
 		do: [:changeRecord | changeRecord fileIn].
 		
