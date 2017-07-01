@@ -8,7 +8,8 @@
 	"instvars" : [
 		"dummyObject",
 		"changesBrowser",
-		"changesBrowserLogic" ],
+		"changesBrowserLogic",
+		"afterCrashHelper" ],
 	"name" : "CHTest",
 	"pools" : [
 		 ],
