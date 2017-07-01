@@ -1,19 +1,15 @@
 as yet unclassified
 testRestoreToLastVersion
-	| changeList |
- 	 self loadSeventhChangeFile.
- 		changeList := self changesBrowserLogic imageStateListModel getWholeChangeList.
- 		changeList changeList do: [ :aChangeRecord | aChangeRecord fileIn.].
- 	 "self changesBrowserLogic resetToLastVersion."
-	 self
-		assert: 'version 1' equals: (self dummyObject dummyFunction15);
-		assert: 'version 1' equals: (self dummyObject dummyFunction14);
- 		assert: 'version 1' equals: (self dummyObject dummyFunction13);
- 		assert: 'version 2' equals: (self dummyObject dummyFunction12);
- 		should: [ self dummyObject dummyFunction11 ] raise: MessageNotUnderstood;
- 		should: [ self dummyObject dummyFunction16 ] raise: MessageNotUnderstood.
- 	self dummyObject class
- 		removeSelector: #dummyFunction15;
- 		removeSelector: #dummyFunction14;
+	 self dummyObject class
+ 		removeSelector: #dummyFunction11;
+ 		removeSelector: #dummyFunction12;
  		removeSelector: #dummyFunction13;
- 		removeSelector: #dummyFunction12.
+ 		removeSelector: #dummyFunction14.
+ 	 self loadSeventhChangeFile.
+ 	 self changesBrowserLogic resetToLastVersion.
+	 self
+		assert: 'version 1' equals: (self dummyObject dummyFunction11);
+		assert: 'version 1' equals: (self dummyObject dummyFunction12);
+ 		assert: 'version 1' equals: (self dummyObject dummyFunction13);
+ 		assert: 'version 1' equals: (self dummyObject dummyFunction14).
+ 	
