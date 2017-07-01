@@ -3,10 +3,6 @@
 		 },
 	"instance" : {
 		"dummyFunction1" : "FS 6/8/2016 16:28",
-		"dummyFunction11" : "FS 7/6/2016 14:41",
-		"dummyFunction12" : "FS 7/6/2016 14:41",
-		"dummyFunction13" : "FS 7/6/2016 14:41",
-		"dummyFunction14" : "FS 7/6/2016 14:42",
 		"dummyFunction15" : "FS 7/6/2016 14:42",
 		"dummyFunction16" : "FS 7/6/2016 14:43",
 		"dummyFunction2" : "FS 6/21/2016 14:28",
@@ -16,4 +12,8 @@
 		"function4" : "avw 6/26/2017 16:31",
 		"function5" : "avw 6/26/2017 16:33",
 		"function6" : "avw 6/26/2017 16:31",
+		"functionOrder1" : "avw 7/1/2017 14:56",
+		"functionOrder2" : "avw 7/1/2017 14:57",
+		"functionOrder3" : "avw 7/1/2017 14:57",
+		"functionOrder4" : "avw 7/1/2017 14:58",
 		"testDummy" : "PG 7/29/2016 21:10" } }
