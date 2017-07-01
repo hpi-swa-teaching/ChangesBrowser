@@ -1,8 +1,6 @@
 accessing
 listIndex: anInteger
 
-	self changesBrowserLogic
-		imageStateSelected: (anInteger > 0).
 	self changesBrowserLogic contentsChanged.
 	self
 		selectedIndex: anInteger;

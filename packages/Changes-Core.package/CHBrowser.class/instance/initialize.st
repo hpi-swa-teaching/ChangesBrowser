@@ -4,8 +4,7 @@ initialize
 	| browserLogic |
 	super initialize.
 	browserLogic := CHBrowserLogic newForChangesBrowser: self.
-	browserLogic imageStateSelected: true;
-					changeSelected: false.
+	browserLogic changeSelected: false.
 				
 	self
 		changesBrowserLogic: browserLogic.

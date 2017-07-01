@@ -1,3 +1,3 @@
 button-texts
 alwaysEnabled 
-	^true
+	^ true
