@@ -1,8 +1,7 @@
 as yet unclassified
 testRestoreToLastVersion
 	| changeList |
-	self halt.
- 	 self loadFirstChangeFile.
+ 	 self loadSeventhChangeFile.
  		changeList := self changesBrowserLogic imageStateListModel getWholeChangeList.
  		changeList changeList do: [ :aChangeRecord | aChangeRecord fileIn.].
  	 "self changesBrowserLogic resetToLastVersion."

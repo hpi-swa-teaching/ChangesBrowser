@@ -1,3 +1,3 @@
 dummyFunctions
-dummyFunction14
+dummyFunction12
 	^ 'version 1'
