@@ -6,7 +6,7 @@ testRestoreToLastVersion
  		removeSelector: #dummyFunction13;
  		removeSelector: #dummyFunction14.
  	 self loadSeventhChangeFile.
- 	 self changesBrowserLogic resetToLastVersion.
+ 	 self changesBrowser resetToLastVersion.
 	 self
 		assert: 'version 1' equals: (self dummyObject dummyFunction11);
 		assert: 'version 1' equals: (self dummyObject dummyFunction12);

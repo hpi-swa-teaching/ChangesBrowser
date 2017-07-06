@@ -1,3 +1,0 @@
-button-texts
-alwaysEnabled 
-	^ true

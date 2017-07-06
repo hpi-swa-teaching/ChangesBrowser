@@ -6,7 +6,7 @@ testRestoreToLastVersionOrder
  		removeSelector: #functionOrder3;
  		removeSelector: #functionOrder4.
  	self loadNinthChangeFile.
- 	self changesBrowserLogic resetToLastVersion.
+ 	self changesBrowser resetToLastVersion.
 	"the fuctions where first x then i changed them and then they were then x "
 	 self
 		assert: 'then 11' equals: (self dummyObject functionOrder1);

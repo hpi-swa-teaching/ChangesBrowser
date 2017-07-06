@@ -1,11 +1,14 @@
 initialization
 initialize
 
-	| browserLogic |
 	super initialize.
-	browserLogic := CHBrowserLogic newForChangesBrowser: self.
-	browserLogic changeSelected: false.
-				
 	self
-		changesBrowserLogic: browserLogic.
-	self changesBrowserLogic imageStateListModel listIndex: 1.
+		changeSelected: false;
+		filterMode: self initializeFiltersToOn;
+		changesFile: (SourceFiles at: 2);
+		changeList: CHChangeListModel new;
+		initializeVersionList;
+		testMode: false;
+		searchEnabled: false;
+		registerForSystemChangeNotifications;
+		applyFilter

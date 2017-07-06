@@ -1,13 +1,13 @@
 testing
 testChangeMethod
 	self loadFirstChangeFile.
-	self changesBrowserLogic 
+	self changesBrowser 
 		changeListSelectionAt: 2 put: true.
-	self changesBrowserLogic resetSelectedMethods.
+	self changesBrowser resetSelectedMethods.
 	self assert: 'version 1' equals: self dummyObject dummyFunction1.
 	
 	self loadSecondChangeFile.
-	self changesBrowserLogic 
+	self changesBrowser 
 		changeListSelectionAt: 2 put: true.
-	self changesBrowserLogic resetSelectedMethods.
+	self changesBrowser resetSelectedMethods.
 	self assert: 'version 2' equals: self dummyObject dummyFunction1

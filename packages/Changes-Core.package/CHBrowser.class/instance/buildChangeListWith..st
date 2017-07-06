@@ -2,7 +2,7 @@ building
 buildChangeListWith: aBuilder 
 
 	^ aBuilder pluggableMultiSelectionListSpec new
-		model: self changesBrowserLogic;
+		model: self;
 		list: #changeListContent;
 		getIndex: #changeListIndex;
 		setIndex: #changeListIndex:;

@@ -1,4 +1,4 @@
 as yet unclassified
 testResetSearch
-	self changesBrowserLogic resetSearch.
-	self assert: false equals: (changesBrowserLogic searchEnabled).
+	self changesBrowser resetSearch.
+	self assert: false equals: (self changesBrowser searchEnabled).

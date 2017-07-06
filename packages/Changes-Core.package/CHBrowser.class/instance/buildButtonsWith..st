@@ -7,7 +7,7 @@ buildButtonsWith: aBuilder
 		layout: #horizontal;
 		children: (self buttons
 			collect: [:each | aBuilder pluggableButtonSpec new 
-					model: self changesBrowserLogic;
+					model: self;
 					 label: each first;
 					 action: each second;
 					 enabled: each third;

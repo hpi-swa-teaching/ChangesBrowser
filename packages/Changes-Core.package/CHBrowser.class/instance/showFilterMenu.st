@@ -8,7 +8,7 @@ showFilterMenu
 				ifTrue: [menuSpec addSeparator]
 				ifFalse: [menuSpec
 							add: pair first
-							target: self changesBrowserLogic
+							target: self
 							selector: pair second
 							argumentList: #()]].
 	builder runModal: (builder open: menuSpec)

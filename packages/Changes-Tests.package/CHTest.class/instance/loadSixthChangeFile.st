@@ -1,10 +1,10 @@
 running
 loadSixthChangeFile
 
-	self changesBrowserLogic changesFile: self class mockV6.
-	self changesBrowserLogic imageStateListModel
+	self changesBrowser changesFile: self class mockV6.
+	self changesBrowser imageStateListModel
 		list: self class standardMockList;
 		positions: self class mockPositionsV1;
 		endPosition: self class mockEndPositionV6;
 		selectedIndex: 1.
-	self changesBrowserLogic imageStateListModel browseFile.
+	self changesBrowser imageStateListModel browseFile.

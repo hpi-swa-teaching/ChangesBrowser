@@ -7,7 +7,13 @@
 		"RecentUpdateMarker" ],
 	"commentStamp" : "pf 7/29/2016 23:11",
 	"instvars" : [
-		"changesBrowserLogic" ],
+		"changeList",
+		"changeSelected",
+		"changesFile",
+		"filterMode",
+		"imageStateListModel",
+		"searchEnabled",
+		"testMode" ],
 	"name" : "CHBrowser",
 	"pools" : [
 		 ],
