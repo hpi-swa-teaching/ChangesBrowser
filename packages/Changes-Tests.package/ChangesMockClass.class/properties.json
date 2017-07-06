@@ -1,0 +1,14 @@
+{
+	"category" : "Changes-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ChangesMockClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
