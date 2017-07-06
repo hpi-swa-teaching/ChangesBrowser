@@ -2,17 +2,13 @@
 	"class" : {
 		"classClassificationBeginFor:" : "MT 7/6/2017 13:34",
 		"classDefinitionIdentifierFor:" : "MT 7/6/2017 13:34",
-		"deletedClassIdentifier" : "MT 7/6/2017 13:34",
 		"deletedClassIdentifierFor:" : "MT 7/6/2017 13:34",
 		"extractCeiledTimeStamp:" : "MT 7/6/2017 13:34",
-		"extractCeiledTimeStampFrom:" : "MT 7/6/2017 13:35",
 		"extractFlooredTimeStamp:" : "MT 7/6/2017 13:35",
-		"extractFlooredTimeStampFrom:" : "MT 7/6/2017 13:35",
 		"extractTimeStamp:" : "MT 7/6/2017 13:35",
 		"extractTimeStampFrom:" : "MT 7/6/2017 13:35",
 		"newClassesRegex" : "MT 7/6/2017 13:35",
-		"open" : "avw 6/26/2017 15:25",
-		"removeSelectorRegex" : "MT 7/6/2017 13:35" },
+		"open" : "avw 6/26/2017 15:25" },
 	"instance" : {
 		"alwaysEnabled" : "MT 7/6/2017 13:26",
 		"applyFilter" : "MT 7/6/2017 13:26",

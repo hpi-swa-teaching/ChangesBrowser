@@ -1,4 +1,0 @@
-accessing
-indexMap
-
-	^ indexMap
