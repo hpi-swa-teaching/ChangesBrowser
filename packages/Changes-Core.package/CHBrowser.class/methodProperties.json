@@ -8,7 +8,8 @@
 		"extractTimeStamp:" : "MT 7/6/2017 13:35",
 		"extractTimeStampFrom:" : "MT 7/6/2017 13:35",
 		"newClassesRegex" : "MT 7/6/2017 13:35",
-		"open" : "avw 6/26/2017 15:25" },
+		"open" : "avw 6/26/2017 15:25",
+		"registerInWorldMenu" : "avw 7/13/2017 19:24" },
 	"instance" : {
 		"alwaysEnabled" : "MT 7/6/2017 13:26",
 		"applyFilter" : "MT 7/6/2017 13:26",
