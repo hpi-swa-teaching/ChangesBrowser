@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 filterMode: anOrderedCollection
 
 	filterMode := anOrderedCollection.

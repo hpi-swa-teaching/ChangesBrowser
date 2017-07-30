@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 changeListIndex: aValue
 	self changeSelected:
 		(((self changeList listSelections count: [:bool | bool]) <= 1)

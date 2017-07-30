@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 changesFile: aMultiByteFileStream
 
 	changesFile := aMultiByteFileStream

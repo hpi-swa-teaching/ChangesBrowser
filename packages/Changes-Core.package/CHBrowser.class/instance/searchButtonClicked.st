@@ -1,4 +1,4 @@
-as yet unclassified
+buttonActions
 searchButtonClicked
 
 	self searchEnabled

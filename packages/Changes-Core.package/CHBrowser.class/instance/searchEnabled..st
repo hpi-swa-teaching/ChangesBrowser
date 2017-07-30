@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 searchEnabled: bool
 
 	searchEnabled := bool.

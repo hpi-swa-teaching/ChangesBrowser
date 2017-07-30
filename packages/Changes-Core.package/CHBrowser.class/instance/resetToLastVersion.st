@@ -1,23 +1,23 @@
-as yet unclassified
+buttonActions
 resetToLastVersion
 
 "Get all changes after the last version and file them in."
 	| changeList listOfChangeRecords listOfCategories listOfClasses listOfChangeRecordsRev listOfDeletes |
 	changeList := self imageStateListModel getChangeListForLatestImageState.
-
-	listOfCategories := changeList changeList
+	"self resetCategories with: changeList..."
+	listOfCategories := changeList changeList  "Reset categories"
 		select: [:changeRecord | 
 			changeRecord string beginsWith: 'SystemOrganization addCategory:'].
 	listOfCategories reversed
 		do: [:changeRecord | changeRecord fileIn].
 		
-	listOfClasses := changeList changeList
+	listOfClasses := changeList changeList  "Reset classes"
 		select: [:changeRecord | 
 			changeRecord string beginsWith: 'Object subclass:'].
 	listOfClasses reversed
 		do: [:changeRecord | changeRecord fileIn].
 		
-	listOfChangeRecords := changeList changeList
+	listOfChangeRecords := changeList changeList  "Reset Change record"
 		select: [:changeRecord | 
 			((changeRecord string beginsWith: 'self') not) 
 			& ((changeRecord string beginsWith: 'SystemOrganization addCategory:') not) 

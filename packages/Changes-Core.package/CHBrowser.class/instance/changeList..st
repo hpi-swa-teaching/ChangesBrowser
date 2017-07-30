@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 changeList: aCHChangeListModel
 
 	changeList := aCHChangeListModel

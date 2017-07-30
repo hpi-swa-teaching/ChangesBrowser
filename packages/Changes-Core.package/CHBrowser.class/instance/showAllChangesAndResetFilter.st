@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 showAllChangesAndResetFilter
 	self filterMode: self initializeFiltersToOn.
 	self changeList showAllChanges.

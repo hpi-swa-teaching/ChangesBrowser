@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 initializeFiltersToOn
-	^ OrderedCollection newFrom: { #method.  #classComment . #doIt}
+	^ { #method.  #classComment . #doIt} asOrderedCollection

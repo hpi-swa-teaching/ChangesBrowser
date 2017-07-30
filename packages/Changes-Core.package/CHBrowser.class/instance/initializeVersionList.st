@@ -1,8 +1,7 @@
-as yet unclassified
+initialization
 initializeVersionList
 	
 	| model logTuple |
-	Transcript show: 'Warum ist das hier?'.
 	logTuple := CHChangeListModel browseRecentLog.
 	model := CHImageStateListModel new.
 	self imageStateListModel: model.

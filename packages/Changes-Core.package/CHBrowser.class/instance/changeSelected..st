@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 changeSelected: anObject
 	changeSelected := anObject.

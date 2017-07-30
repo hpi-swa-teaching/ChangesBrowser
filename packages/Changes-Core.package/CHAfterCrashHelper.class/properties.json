@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JC 7/30/2017 14:00",
 	"instvars" : [
 		"window" ],
 	"name" : "CHAfterCrashHelper",

@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 toggleShowDoItChanges 
 	self filterMode remove: #doIt ifAbsent: [self filterMode add: #doIt]. 
 	self applyFilter.

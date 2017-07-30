@@ -1,4 +1,4 @@
-as yet unclassified
+buttonActions
 resetSearch
 
 	self searchEnabled: false;

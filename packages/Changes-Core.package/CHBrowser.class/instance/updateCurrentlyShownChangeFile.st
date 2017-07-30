@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateCurrentlyShownChangeFile
 
 	self imageStateListModel updateFile.

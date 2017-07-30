@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 changeListIndex
 
 	^ self changeList listIndex

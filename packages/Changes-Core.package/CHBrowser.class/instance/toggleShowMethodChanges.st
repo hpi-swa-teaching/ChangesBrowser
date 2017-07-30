@@ -1,4 +1,4 @@
-as yet unclassified
+filtering
 toggleShowMethodChanges 
 	self filterMode remove: #method ifAbsent: [self filterMode add: #method]. 
 	self applyFilter.
