@@ -9,6 +9,5 @@ getChangeRecords: anOrderedCollection containing: aString
 						recordMatched := recordMatched or: [record containsString: aString].
 						(record isSnapshot and: [recordMatched])
 						ifTrue: [selectedImageStates add: record. 
-								recordMatched := false.].
-					].
+								recordMatched := false.].].
 	^ selectedImageStates
