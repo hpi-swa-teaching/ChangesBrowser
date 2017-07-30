@@ -1,3 +1,3 @@
-as yet unclassified
+buttonActions
 closeWindow
 	self window delete

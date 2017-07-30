@@ -1,4 +1,4 @@
-as yet unclassified
+buttonActions
 browseChanges
 	self closeWindow.
 	CHBrowser open.

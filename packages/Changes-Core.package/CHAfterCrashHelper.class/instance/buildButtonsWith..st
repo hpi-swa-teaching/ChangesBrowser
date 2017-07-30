@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildButtonsWith: aBuilder 
 	| panelSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.

@@ -1,4 +1,4 @@
-as yet unclassified
+buttonActions
 recoverChanges
 	|logic|
 	logic := CHBrowser new.
