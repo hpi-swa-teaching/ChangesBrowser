@@ -1,5 +1,6 @@
 buttonActions
 resetToLastVersion
+
 	| changeList |
 	changeList := self imageStateListModel getChangeListForLatestImageState changeList.
 	self resetCategories: changeList;

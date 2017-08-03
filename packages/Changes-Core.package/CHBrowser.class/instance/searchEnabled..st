@@ -1,5 +1,5 @@
 accessing
-searchEnabled: bool
+searchEnabled: aBoolean
 
-	searchEnabled := bool.
+	searchEnabled := aBoolean.
 	self changed: #searchButtonText

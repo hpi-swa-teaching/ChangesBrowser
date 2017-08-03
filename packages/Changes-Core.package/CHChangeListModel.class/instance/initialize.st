@@ -2,6 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self 
-		indexMap: OrderedCollection new.
+	self indexMap: OrderedCollection new.
 		

@@ -1,4 +1,4 @@
 accessing
-testMode: bool
+testMode: aBoolean
 
-	testMode := bool
+	testMode := aBoolean

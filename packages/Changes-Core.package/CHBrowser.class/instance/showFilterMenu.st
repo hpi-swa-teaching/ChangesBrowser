@@ -1,5 +1,6 @@
 building
 showFilterMenu 
+
 | builder menuSpec |
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.

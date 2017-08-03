@@ -1,5 +1,6 @@
 building
 filterPairs
+
 | ordCol |
 ordCol := OrderedCollection
 				with: (OrderedCollection with: 'all' with: #showAllChangesAndResetFilter)

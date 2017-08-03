@@ -1,5 +1,6 @@
 filtering
 selectChangeRecordsForMultiple: filterModes
+
 	self displayedIndexList: 
 		(self displayedIndexList select: [ :index | 
 			| changeRecord |

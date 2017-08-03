@@ -1,5 +1,6 @@
 building
 buildButtonsWith: aBuilder 
+
 	| panelSpec |
 	panelSpec := aBuilder pluggablePanelSpec new.
 	panelSpec
