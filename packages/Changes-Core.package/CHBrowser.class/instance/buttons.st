@@ -1,7 +1,8 @@
 building
 buttons
 
-	^ #(( 'Refresh' #refresh #alwaysEnabled 'Update list of changes')
+	^ #(( 'Switch to simple view' #switchToSimpleView #alwaysEnabled 'Switch to a simpler version of this window')
+		( 'Refresh' #refresh #alwaysEnabled 'Update list of changes')
 		( #searchButtonText #searchButtonClicked #alwaysEnabled 
 		'Search for a state to recover')
 		( 'Restore selected changes' #resetSelectedMethods #changeSelected 
