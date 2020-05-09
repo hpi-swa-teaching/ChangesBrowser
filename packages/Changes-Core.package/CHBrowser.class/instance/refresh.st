@@ -1,4 +1,4 @@
-buttonActions
+button-actions
 refresh
 
 	self searchEnabled

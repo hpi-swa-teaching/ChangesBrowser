@@ -1,4 +1,4 @@
-buttonActions
+button-actions
 searchButtonClicked
 
 	self searchEnabled
