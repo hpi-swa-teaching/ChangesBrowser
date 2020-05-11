@@ -2,6 +2,16 @@
 	"class" : {
 		"open" : "gf 5/8/2020 16:07" },
 	"instance" : {
+		"buildButtonsWith:" : "mg 5/11/2020 19:04",
+		"buildChangeListWith:" : "mg 5/11/2020 19:50",
 		"buildWith:" : "gf 5/8/2020 16:27",
-		"createWindowSpecWith:" : "mg 5/11/2020 18:07",
-		"extent" : "gf 5/8/2020 16:44" } }
+		"buttonHeight" : "mg 5/11/2020 19:05",
+		"buttons" : "mg 5/11/2020 19:04",
+		"buttonsFrame" : "mg 5/11/2020 18:56",
+		"changeListFrame" : "mg 5/11/2020 18:57",
+		"createWindowSpecWith:" : "mg 5/11/2020 18:47",
+		"dummyList" : "mg 5/11/2020 19:33",
+		"extent" : "gf 5/8/2020 16:44",
+		"initialize" : "mg 5/11/2020 19:47",
+		"selectionIndex" : "mg 5/11/2020 19:45",
+		"selectionIndex:" : "mg 5/11/2020 19:45" } }
