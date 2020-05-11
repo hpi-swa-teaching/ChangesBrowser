@@ -1,5 +1,6 @@
 button-actions
 switchToSimpleView
 	
-	"open simple view here"
-	self changed: #close.
+	"Open the CRBrowser, which offers a simpler view for the changes."
+	CRBrowser open.
+	self changed: #close
