@@ -5,5 +5,4 @@ createWindowSpecWith: aBuilder
 		model: self;
 		label: 'Changes Browser';
 		extent: self extent;
-		"closeAction: self delete;"
 		yourself
