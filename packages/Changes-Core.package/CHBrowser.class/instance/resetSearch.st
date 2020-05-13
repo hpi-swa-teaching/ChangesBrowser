@@ -1,4 +1,4 @@
-buttonActions
+button-actions
 resetSearch
 
 	self searchEnabled: false;

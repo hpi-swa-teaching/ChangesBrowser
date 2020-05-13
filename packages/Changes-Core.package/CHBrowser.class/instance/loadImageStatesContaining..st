@@ -1,4 +1,4 @@
-buttonActions
+button-actions
 loadImageStatesContaining: aString 
 	"image states are changeRecords like ----Snapshot/Quit..."
 

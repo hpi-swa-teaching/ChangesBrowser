@@ -1,4 +1,4 @@
-buttonActions
+button-actions
 resetClasses: aChangeList
 
 	| listOfClasses |

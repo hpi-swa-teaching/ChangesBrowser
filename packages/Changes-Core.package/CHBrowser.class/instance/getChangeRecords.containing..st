@@ -1,4 +1,4 @@
-buttonActions
+button-actions
 getChangeRecords: anOrderedCollection containing: aString 
 
 	| recordMatched selectedImageStates |
