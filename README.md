@@ -3,7 +3,7 @@
 ChangesReloaded is a project developed in context of SWT 2020 based on the Changes Browser project from 2017. It is supposed to simplify the old tool.
 
 ## Installation
-In order to use our tool, you have to install it in your squeak image. You can either do that by using the Git Browser or by using the Monticello Browser.
+In order to use our tool, you have to install it in your squeak image. You can either do that by using the Git Browser or by using Monticello.
 
 ### Git Browser
 - Open the Git Browser in your squeak image (`Tools>Git Browser` or `Apps>Git Browser`).
@@ -12,7 +12,7 @@ In order to use our tool, you have to install it in your squeak image. You can e
 - Now choose the `origin/dev`-branch in the branch overview.
 - Right click on the latest commit on top of the list and choose `Checkout objects`.
 
-### Monticello Browser
+### Monticello
 - Execute the following code in a Workspace (`Tools>Workspace`)
 ```
 Metacello new
