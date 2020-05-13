@@ -21,4 +21,4 @@ Metacello new
     load.
 ```
 
-After you installed the tool through one of those options you have to execute 'CRBrowser open' in a Workspace in order to work with it.
+After you installed the tool through one of those options you have to execute `CRBrowser open` in a Workspace in order to work with it.
