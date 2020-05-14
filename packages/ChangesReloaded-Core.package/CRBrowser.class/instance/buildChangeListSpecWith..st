@@ -1,5 +1,5 @@
 building
-buildChangeListWith: aBuilder
+buildChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
