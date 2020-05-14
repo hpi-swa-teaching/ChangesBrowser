@@ -7,7 +7,7 @@
 		"buildChangeListSpecWith:" : "mg 5/14/2020 21:16",
 		"buildWith:" : "mg 5/14/2020 21:17",
 		"buttonHeight" : "mg 5/11/2020 19:05",
-		"buttons" : "mg 5/14/2020 21:18",
+		"buttons" : "mg 5/14/2020 21:27",
 		"buttonsFrame" : "mg 5/11/2020 18:56",
 		"changeListFrame" : "mg 5/11/2020 18:57",
 		"dummyList" : "mg 5/11/2020 19:33",
@@ -15,4 +15,4 @@
 		"initialize" : "mg 5/11/2020 19:47",
 		"selectionIndex" : "mg 5/11/2020 19:45",
 		"selectionIndex:" : "mg 5/11/2020 19:45",
-		"switchToPowerfulView" : "mg 5/11/2020 19:57" } }
+		"switchToDetailedView" : "mg 5/14/2020 21:26" } }

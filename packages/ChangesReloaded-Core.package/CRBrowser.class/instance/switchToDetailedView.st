@@ -1,5 +1,5 @@
 button-actions
-switchToPowerfulView
+switchToDetailedView
 	
 	CHBrowser open.
 	self changed: #close
