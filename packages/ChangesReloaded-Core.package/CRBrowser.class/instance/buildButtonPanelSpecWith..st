@@ -1,5 +1,5 @@
 building
-buildButtonsPanelWith: aBuilder
+buildButtonPanelSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		 model: self;
