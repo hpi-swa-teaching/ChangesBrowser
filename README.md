@@ -6,7 +6,7 @@ ChangesReloaded is a project developed in context of SWT 2020 based on the Chang
 In order to use our tool, you have to install it in your squeak image. You can either do that by using the Git Browser or by using Monticello.
 
 ### Git Browser
-- Open the Git Browser in your squeak image (`Tools>Git Browser` or `Apps>Git Browser`).
+- Open the Git Browser in your squeak image (<kbd>Tools</kbd> → <kbd>Git Browser</kbd> or <kbd>Apps</kbd> → <kbd>Git Browser</kbd>).
 - Right click on `-- Projects --` and choose `Clone project`.
 - Copy and paste the URL of the project on GitHub (https://github.com/hpi-swa-teaching/ChangesBrowser.git) and click "Accept".
 - Now choose the `origin/dev`-branch in the branch overview.
