@@ -11,14 +11,17 @@ In order to use our tool, you have to install it in your squeak image. You can e
 - Copy and paste the git URL of this project (https://github.com/hpi-swa-teaching/ChangesBrowser.git) and click <kbd>Accept</kbd>.
 - Now choose the `origin/dev`-branch in the branch overview.
 - Right click on the latest commit on top of the list and choose <kbd>Checkout objects</kbd>.
+- For later updates, you can just pull the new version from the Git Repository. To do that, select the `dev`-branch and click the button `Pull`.
+- Once the new version was downloaded, right click the latest commit and choose `Checkout objects`.
 
 ### Monticello
-- Execute the following code in a Workspace (`Tools>Workspace`)
-```
+- Execute the following code in a Workspace (<kbd>Tools</kbd> → <kbd>Workspace</kbd>)
+```smalltalk
 Metacello new
     baseline: 'Changes';
     repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
     load.
 ```
 
-After you installed the tool through one of those options you have to execute `CRBrowser open` in a Workspace in order to work with it.
+### Usage
+After you installed the tool through one of those options you have to execute `CRBrowser open` in a Workspace in order to work with it. Alternatively, you can open it from the `CHBrowser` with the button `Switch to simple view`.
