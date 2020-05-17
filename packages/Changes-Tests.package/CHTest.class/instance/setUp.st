@@ -4,5 +4,7 @@ setUp
 	super setUp.
 	self
 		dummyObject: ChangesDummyClass new;
-		changesBrowser: CHBrowser new.
-	self changesBrowser changesBrowserLogic testMode: true
+		changesBrowser: CHBrowser new;
+		afterCrashHelper: CHAfterCrashHelper new.
+	self changesBrowser testMode: true.
+	

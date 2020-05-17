@@ -2,7 +2,7 @@ building
 buildVersionListWith: aBuilder 
 
 	^ aBuilder pluggableListSpec new
-		model: self changesBrowserLogic imageStateListModel;
+		model: self imageStateListModel;
 		name: 'Version List';
 		list: #list;
 		getIndex: #listIndex;

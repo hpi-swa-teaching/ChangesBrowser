@@ -1,4 +1,4 @@
 accessing
-changesBrowser: aCHBrowser
-
-	changesBrowser := aCHBrowser
+changesBrowser: anObject
+	
+	changesBrowser := anObject.

@@ -2,5 +2,5 @@ updating
 update: aValue 
 
 	aValue == #listIndex
-		ifTrue: [self contents: self changesBrowserLogic changeList contentsDiffedFromCurrent].
+		ifTrue: [self contents: self changeList contentsDiffedFromCurrent].
 	self contentsChanged

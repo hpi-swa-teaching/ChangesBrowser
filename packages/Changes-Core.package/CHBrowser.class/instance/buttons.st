@@ -1,11 +1,10 @@
 building
 buttons
 
-	^ #(( 'Refresh' #refresh #alwaysEnabled )
-		( 'Create named snapshot' #createNamedSnapshot #alwaysEnabled )
-		( #searchButtonText #searchButtonClicked #alwaysEnabled )
-		( 'Reset to selected image state' #resetToSelectedVersion #imageStateSelected )
-		( 'Recover changes' #resetToLastVersion #alwaysEnabled )
-		( 'Restore selected changes' #resetSelectedMethods #changeSelected )
-		( 'Reset to time' #resetToTime #alwaysEnabled )
-		( 'Filter' #showFilterMenu #alwaysEnabled ))
+	^ #(( 'Switch to simple view' #switchToSimpleView #alwaysEnabled 'Switch to a simpler version of this window')
+		( 'Refresh' #refresh #alwaysEnabled 'Update list of changes')
+		( #searchButtonText #searchButtonClicked #alwaysEnabled 
+		'Search for a state to recover')
+		( 'Restore selected changes' #resetSelectedMethods #changeSelected 
+		'Recover only the selected changes in the right list' )
+		( 'Filter' #showFilterMenu #alwaysEnabled 'FIlter the changes list'))

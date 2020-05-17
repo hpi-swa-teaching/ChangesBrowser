@@ -1,4 +1,4 @@
 accessing
-changeSelected: bool
+changeSelected: anObject
 
-	changeSelected := bool
+	changeSelected := anObject.

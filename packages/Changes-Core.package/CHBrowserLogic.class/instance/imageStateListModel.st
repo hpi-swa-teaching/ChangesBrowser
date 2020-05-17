@@ -1,4 +1,0 @@
-accessing
-imageStateListModel
-
-	^ imageStateListModel

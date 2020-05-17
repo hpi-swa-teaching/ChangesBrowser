@@ -1,5 +1,4 @@
-SquotTrackedObjectMetadata {
-	#objectClassName : #PackageInfo,
-	#objectsReplacedByNames : true,
-	#serializer : #SquotCypressCodeSerializer
+{
+	#serializer : #SquotCypressCodeSerializer,
+	#objectClassName : #PackageInfo
 }

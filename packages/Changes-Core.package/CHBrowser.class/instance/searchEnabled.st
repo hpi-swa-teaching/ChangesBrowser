@@ -1,4 +1,4 @@
-button actions
+accessing
 searchEnabled
 
-	^ self changesBrowserLogic searchEnabled
+	^ searchEnabled

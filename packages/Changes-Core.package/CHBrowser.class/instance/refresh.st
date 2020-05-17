@@ -1,4 +1,8 @@
-updating
+button-actions
 refresh
 
-	self changesBrowserLogic refresh
+	self searchEnabled
+		ifFalse: [self imageStateListModel
+					list: (CHChangeListModel browseRecentLogOn: self changesFile) first;
+					updatePositions].
+	self updateCurrentlyShownChangeFile

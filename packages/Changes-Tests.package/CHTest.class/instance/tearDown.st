@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self changesBrowser delete
+	self changesBrowser delete.

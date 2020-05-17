@@ -1,6 +1,7 @@
-button actions
-showFilterMenu
-	| builder menuSpec |
+building
+showFilterMenu 
+
+| builder menuSpec |
 	builder := ToolBuilder default.
 	menuSpec := builder pluggableMenuSpec new.
 	self filterPairs
@@ -8,7 +9,7 @@ showFilterMenu
 				ifTrue: [menuSpec addSeparator]
 				ifFalse: [menuSpec
 							add: pair first
-							target: self changesBrowserLogic changeList
+							target: self
 							selector: pair second
 							argumentList: #()]].
 	builder runModal: (builder open: menuSpec)

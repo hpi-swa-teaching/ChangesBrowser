@@ -1,3 +1,4 @@
 accessing
 fullChangeStringList
-	^list
+
+	^ list
