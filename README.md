@@ -10,7 +10,7 @@ In order to use our tool, you have to install it in your squeak image. You can e
 - Right click on `-- Projects --` and choose `Clone project`.
 - Copy and paste the git URL of this project (https://github.com/hpi-swa-teaching/ChangesBrowser.git) and click <kbd>Accept</kbd>.
 - Now choose the `origin/dev`-branch in the branch overview.
-- Right click on the latest commit on top of the list and choose `Checkout objects`.
+- Right click on the latest commit on top of the list and choose <kbd>Checkout objects</kbd>.
 
 ### Monticello
 - Execute the following code in a Workspace (`Tools>Workspace`)
