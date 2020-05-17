@@ -2,6 +2,17 @@
 	"class" : {
 		"open" : "gf 5/8/2020 16:07" },
 	"instance" : {
-		"buildWith:" : "gf 5/8/2020 16:27",
-		"createWindowSpecWith:" : "mg 5/11/2020 18:07",
-		"extent" : "gf 5/8/2020 16:44" } }
+		"buildButtonPanelSpecWith:" : "mg 5/15/2020 09:24",
+		"buildButtonSpecsWith:" : "mg 5/14/2020 21:14",
+		"buildChangeListSpecWith:" : "mg 5/14/2020 21:16",
+		"buildWith:" : "mg 5/15/2020 09:24",
+		"buttonHeight" : "mg 5/11/2020 19:05",
+		"buttons" : "mg 5/14/2020 21:27",
+		"buttonsFrame" : "mg 5/11/2020 18:56",
+		"changeListFrame" : "mg 5/11/2020 18:57",
+		"dummyList" : "mg 5/11/2020 19:33",
+		"extent" : "gf 5/8/2020 16:44",
+		"initialize" : "mg 5/11/2020 19:47",
+		"selectionIndex" : "mg 5/11/2020 19:45",
+		"selectionIndex:" : "mg 5/11/2020 19:45",
+		"switchToDetailedView" : "mg 5/14/2020 21:26" } }
