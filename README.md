@@ -8,7 +8,7 @@ In order to use our tool, you have to install it in your squeak image. You can e
 ### Git Browser
 - Open the Git Browser in your squeak image (<kbd>Tools</kbd> → <kbd>Git Browser</kbd> or <kbd>Apps</kbd> → <kbd>Git Browser</kbd>).
 - Right click on `-- Projects --` and choose `Clone project`.
-- Copy and paste the URL of the project on GitHub (https://github.com/hpi-swa-teaching/ChangesBrowser.git) and click "Accept".
+- Copy and paste the git URL of this project (https://github.com/hpi-swa-teaching/ChangesBrowser.git) and click <kbd>Accept</kbd>.
 - Now choose the `origin/dev`-branch in the branch overview.
 - Right click on the latest commit on top of the list and choose `Checkout objects`.
 
