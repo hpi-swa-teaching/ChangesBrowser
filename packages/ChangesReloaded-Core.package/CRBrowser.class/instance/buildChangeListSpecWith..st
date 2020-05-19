@@ -3,6 +3,6 @@ buildChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
-		list: #dummyList;
+		list: #changeListToDisplay;
 		getIndex: #selectionIndex;
 		setIndex: #selectionIndex:
