@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectionIndex",
-		"changeList" ],
-	"name" : "CRBrowser",
+		 ],
+	"name" : "CRChangeList",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Object",
 	"type" : "normal" }
