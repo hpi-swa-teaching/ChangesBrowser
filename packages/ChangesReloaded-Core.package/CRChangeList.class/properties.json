@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CRChangeList",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
