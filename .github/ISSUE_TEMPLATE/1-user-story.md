@@ -9,7 +9,8 @@ assignees: ''
 
 As a developer, I want to … in order to ….
 
-Acceptance criteria:
+**Acceptance criteria**
+
 - [ ] first one
 - [ ] second one
 
