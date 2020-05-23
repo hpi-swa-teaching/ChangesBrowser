@@ -1,4 +1,4 @@
-# ChangesReloaded [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/ChangesBrowser.svg?branch=team09)](https://travis-ci.org/HPI-SWA-Teaching/ChangesBrowser)
+# ChangesReloaded [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/ChangesBrowser.svg?branch=dev)](https://travis-ci.org/HPI-SWA-Teaching/ChangesBrowser)
 
 ChangesReloaded is a project developed in context of SWT 2020 based on the ChangesBrowser project from 2017. It is supposed to simplify the old tool.
 
