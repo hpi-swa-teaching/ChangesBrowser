@@ -3,6 +3,5 @@ OrderedDictionary {
 	'packages\/Changes-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/Changes-Tests.package' : #SquotCypressCodeSerializer,
 	'packages\/ChangesReloaded-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/ChangesReloaded-Tests.package' : #SquotCypressCodeSerializer,
-	'BaselineOfChangesReloaded.package' : #SquotCypressCodeSerializer
+	'packages\/ChangesReloaded-Tests.package' : #SquotCypressCodeSerializer
 }
