@@ -31,7 +31,7 @@ jobs:
         uses: hpi-swa/setup-smalltalkCI@1.1.0
         with:
           smalltalk-version: ${{ matrix.smalltalk }}
-      - name: s
+      - name: Test ChangesBrowser
         run: smalltalkci -s ${{ matrix.smalltalk }}
         shell: bash
         timeout-minutes: 15
