@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addChangeRecord:" : "mg 5/30/2020 14:22",
+		"changeRecords" : "mg 5/30/2020 13:59",
+		"changeRecords:" : "mg 5/30/2020 13:59",
+		"clearChangeRecords" : "mg 5/30/2020 14:02",
+		"file" : "mg 5/30/2020 13:59",
+		"file:" : "mg 5/30/2020 14:00",
+		"initialize" : "mg 5/30/2020 14:02",
+		"isAtBeginningOfChunk" : "mg 5/30/2020 14:07",
+		"isCurrentChunkACategory" : "mg 5/30/2020 14:10",
+		"isNewline:" : "mg 5/30/2020 14:13",
+		"loadCategory" : "mg 5/30/2020 14:30",
+		"loadCategory:class:meta:stamp:" : "mg 5/30/2020 14:36",
+		"loadChangeRecord" : "mg 5/30/2020 14:24",
+		"loadFrom:to:onProgress:" : "mg 5/30/2020 14:31" } }
