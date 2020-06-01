@@ -7,4 +7,9 @@ SmalltalkCISpec {
       #platforms : [ #squeak ]
     }
   ]
+  #testing : {
+    #coverage : {
+      #packages : [ 'ChangesReloaded-Core.*' ]
+    }
+  }
 }
