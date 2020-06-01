@@ -10,6 +10,7 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #packages : [ 'ChangesReloaded-Core.*' ]
-    }
+    },
+    #packages : [ 'ChangesReloaded-Tests.*' ]
   }
 }
