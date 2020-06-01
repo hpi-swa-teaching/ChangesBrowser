@@ -6,7 +6,7 @@ SmalltalkCISpec {
       #load : 'Tests',
       #platforms : [ #squeak ]
     }
-  ]
+  ],
   #testing : {
     #coverage : {
       #packages : [ 'ChangesReloaded-Core.*' ]
