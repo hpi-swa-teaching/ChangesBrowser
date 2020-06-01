@@ -2,9 +2,11 @@ running
 createDummyChangeListItems: anInteger with: aBoolean
 
 	| dummyChangeRecords changeListItems |
-	changeListItems := (OrderedCollection new: anInteger).
-	dummyChangeRecords := #(createChangeRecordMethod new,
-											createChangeRecordClassComment new).
+	changeListItems := OrderedCollection new: anInteger.
+	dummyChangeRecords := (OrderedCollection new: 2)
+		add: self createChangeRecordMethod;
+		add: self createChangeRecordClassComment;
+		yourself.
 	
 	1 to: anInteger do: [:each |
 		| index record |
