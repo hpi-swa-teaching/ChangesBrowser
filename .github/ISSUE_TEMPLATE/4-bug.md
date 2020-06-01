@@ -10,6 +10,7 @@ assignees: ''
 A clear and concise description of what the bug is.
 
 **Steps to reproduce**
+
 1. Execute `CRBrowser open`.
 2. Click on ….
 3. Scroll down to ….
