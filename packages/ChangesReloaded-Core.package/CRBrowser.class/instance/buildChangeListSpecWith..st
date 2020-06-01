@@ -3,6 +3,6 @@ buildChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
-		list: #changeListToDisplay;
-		getIndex: #selectionIndex;
-		setIndex: #selectionIndex:
+		list: #changeDescriptions;
+		getSelectionList: #isItemSelectedAt:;
+		setSelectionList: #setItemSelectionAt:to:
