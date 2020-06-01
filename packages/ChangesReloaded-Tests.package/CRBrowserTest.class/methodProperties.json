@@ -10,4 +10,6 @@
 		"setUp" : "uh 5/23/2020 14:50",
 		"testBuildingChangesBrowser" : "uh 5/23/2020 15:31",
 		"testIsItemSelectedAt" : "SV 6/1/2020 18:27",
-		"testIsItemSelectedAtAbsent" : "SV 6/1/2020 18:27" } }
+		"testIsItemSelectedAtAbsent" : "SV 6/1/2020 18:30",
+		"testSetItemSelectionAtInvalidIndex" : "SV 6/1/2020 18:41",
+		"testSetItemSelectionAtTo" : "SV 6/1/2020 18:33" } }

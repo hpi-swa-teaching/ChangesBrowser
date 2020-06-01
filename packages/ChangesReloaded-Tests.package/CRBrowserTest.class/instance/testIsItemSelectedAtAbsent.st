@@ -2,7 +2,7 @@ testing
 testIsItemSelectedAtAbsent
 
 	| changeListItems |
-	changeListItems := self createDummyChangeListItems: 5 with: true.
+	changeListItems := self createDummyChangeListItems: 2 with: true.
 	self changesBrowser changeListItems: changeListItems.
 	
 	self assert: (self changesBrowser isItemSelectedAt: 1) equals: true.
