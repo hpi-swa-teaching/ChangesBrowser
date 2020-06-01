@@ -1,5 +1,6 @@
 baseline
 baseline: spec
+
 	<baseline>
 	spec for: #common do: [
 		spec 
@@ -8,4 +9,4 @@ baseline: spec
 			
 		spec
 			group: 'default' with: #('ChangesReloaded-Core');
-			group: 'Tests' with: #('ChangesReloaded-Tests')].
+			group: 'Tests' with: #('ChangesReloaded-Tests')]
