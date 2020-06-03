@@ -2,7 +2,7 @@ testing
 testInvertSelectionsRepeatedly
 
 	| changeListItems |
-	changeListItems := self createDummyChangeListItems: 3 with: false.
+	changeListItems := self createDummyChangeListItems: 3 withSelection: false.
 	(changeListItems at: 2) isSelected: true.
 	self changesBrowser changeListItems: changeListItems.
 	
