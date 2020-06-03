@@ -1,5 +1,5 @@
-running
-createDummyChangeListItems: anInteger with: aBoolean
+mocking
+createDummyChangeListItems: anInteger withSelection: aBoolean
 
 	| dummyChangeRecords changeListItems |
 	changeListItems := OrderedCollection new: anInteger.
