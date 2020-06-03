@@ -1,4 +1,4 @@
-running
+mocking
 createChangeRecordClassComment
 
 	^ ChangeRecord new
