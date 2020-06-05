@@ -1,4 +1,5 @@
 initializing
 initialize
 
-	self initializeChangeListItems
+	self initializeChangeListItems.
+	self initializeMethodHistories
