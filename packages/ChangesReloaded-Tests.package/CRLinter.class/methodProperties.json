@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"crCorePackage" : "mg 6/5/2020 12:00",
+		"namedPackage:" : "mg 6/5/2020 12:00" },
+	"instance" : {
+		"assertAll:areBelowThreshold:" : "mg 6/5/2020 13:07",
+		"assertNoOccurrences:" : "mg 6/5/2020 13:03",
+		"classes" : "mg 6/5/2020 11:49",
+		"classes:" : "mg 6/5/2020 11:49",
+		"runLinterRule:" : "mg 6/5/2020 13:28",
+		"setUp" : "mg 6/5/2020 11:58",
+		"testBrainClass" : "mg 6/5/2020 13:29",
+		"testDotAfterReturnConsistency" : "mg 6/5/2020 13:21",
+		"testLongMethods" : "mg 6/5/2020 13:24",
+		"testMessagesSentButNotImplemented" : "mg 6/5/2020 12:59",
+		"testMissingSuperImplementation" : "mg 6/5/2020 13:00",
+		"testOverridesASpecialMethod" : "mg 6/5/2020 13:00",
+		"testTemporaryVariableCapitalization" : "mg 6/5/2020 13:27" } }
