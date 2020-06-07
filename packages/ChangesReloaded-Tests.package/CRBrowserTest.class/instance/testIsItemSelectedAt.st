@@ -6,5 +6,5 @@ testIsItemSelectedAt
 	(changeListItems at: 2) isSelected: false.
 	self changesBrowser changeListItems: changeListItems.
 	
-	self assert: (self changesBrowser isItemSelectedAt: 1) equals: true.
-	self assert: (self changesBrowser isItemSelectedAt: 2) equals: false.
+	self assert: (self changesBrowser isChangeListItemSelectedAt: 1) equals: true.
+	self assert: (self changesBrowser isChangeListItemSelectedAt: 2) equals: false.

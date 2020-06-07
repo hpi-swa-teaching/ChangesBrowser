@@ -1,5 +1,5 @@
 building
-changeListFrame
+historyListFrame
 
 	^ LayoutFrame new
 		leftFraction: 0.5 offset: 0;

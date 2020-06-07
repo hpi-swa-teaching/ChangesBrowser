@@ -12,7 +12,9 @@ initializeMethodHistories
 					| methodSelector changeListItem |
 					methodSelector := each methodSelector.
 					changeListItem := CRChangeListItem new changeRecord: each.
+					"self halt."
 					methodHistories
 						at: methodSelector
-						ifAbsentPut: [^ OrderedCollection new add: changeListItem]
-						ifPresentPut: [:methodHistory | ^ methodHistory add: changeListItem]]]
+						ifAbsentPut: [OrderedCollection new add: changeListItem; yourself]
+						ifPresentPut: [:methodHistory | methodHistory add: changeListItem; yourself]]].
+	self methodHistories: methodHistories
