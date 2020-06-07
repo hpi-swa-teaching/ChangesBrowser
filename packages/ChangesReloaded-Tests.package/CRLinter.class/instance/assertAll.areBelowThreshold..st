@@ -1,4 +1,4 @@
-test-for-bugs
+testing-utils
 assertAll: aCollectionOfResultValues areBelowThreshold: aNumber
 
 	self halt.

@@ -1,4 +1,4 @@
-test-for-bugs
+testing-utils
 runLinterRule: aLinterRule
 
 	|testRunner testObjects |

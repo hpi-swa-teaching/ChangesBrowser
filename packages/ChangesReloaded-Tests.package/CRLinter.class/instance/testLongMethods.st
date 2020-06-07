@@ -1,4 +1,4 @@
-test-for-bugs
+test-for-coding-styles
 testLongMethods
 
 	self assertNoOccurrences: (self runLinterRule: #longMethods)
