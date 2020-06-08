@@ -3,9 +3,7 @@ baseline: spec
 
 	<baseline>
 	spec for: #common do: [
-		
-		Preferences disable: #showDeprecationWarnings.
-		
+
 		spec
 			"reqs for SwaLint"
 			project: 'RefactoringBrowser' with: [
