@@ -29,7 +29,7 @@ baseline: spec
 			
 			"ChangesReloaded setup"
 			package: 'ChangesReloaded-Core';
-			package: 'ChangesReloaded-Tests' with: [ spec requires: #('ChangesReloaded-Core', 'SwaLint-Core', 'SwaLint-PlugIns') ].
+			package: 'ChangesReloaded-Tests' with: [ spec requires: #('ChangesReloaded-Core' 'SwaLint-Core' 'SwaLint-PlugIns') ].
 			
 		spec
 			group: 'default' with: #('ChangesReloaded-Core');
