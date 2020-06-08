@@ -25,6 +25,8 @@ baseline: spec
 			package: 'SwaLint-PlugIns' with: [ spec file: 'SwaLint-PlugIns-cypress.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: 'SwaLint-Core' ];
+									
+			postLoadDoIt: #postLoad;
 			
 			"ChangesReloaded setup"
 			package: 'ChangesReloaded-Core';
