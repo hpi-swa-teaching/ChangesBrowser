@@ -22,7 +22,6 @@ baseline: spec
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages';
 								requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
-				postLoadDoIt: #postLoad;
 			package: 'SwaLint-PlugIns' with: [ spec file: 'SwaLint-PlugIns-cypress.1';
 								repository: 
 										'github://hpi-swa-teaching/SwaLint:master/packages'; requires: 'SwaLint-Core' ];
