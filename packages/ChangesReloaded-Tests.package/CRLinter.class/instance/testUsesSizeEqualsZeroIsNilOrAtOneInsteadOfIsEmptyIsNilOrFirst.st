@@ -1,0 +1,4 @@
+testing-for-miscellaneous
+testUsesSizeEqualsZeroIsNilOrAtOneInsteadOfIsEmptyIsNilOrFirst
+
+	self assertNoOccurrences: (self runLinterRule: #smallLintConsistencyCheck)

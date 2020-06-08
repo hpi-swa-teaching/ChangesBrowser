@@ -1,4 +1,4 @@
-test-for-intention-revealing
+testing-for-miscellaneous
 testTemporaryVariableCapitalization
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintTemporaryVariableCapitalization)

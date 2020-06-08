@@ -1,0 +1,4 @@
+testing-for-miscellaneous
+testSendsAddRemoveToExternalCollection
+
+	self assertNoOccurrences: (self runLinterRule: #smallLintCollectionMessagesToExternalObject)
