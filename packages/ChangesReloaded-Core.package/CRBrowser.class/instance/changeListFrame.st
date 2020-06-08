@@ -1,4 +1,4 @@
-building
+toolbuilder
 changeListFrame
 
 	^ LayoutFrame new
