@@ -3,8 +3,15 @@ baseline: spec
 
 	<baseline>
 	spec for: #common do: [
-		spec 
-			"swalint setup"
+		spec
+			"reqs for SwaLint"
+			project: 'RefactoringBrowser' with: [
+				spec
+					className: 'ConfigurationOfRefactoringBrowser';
+					versionString: #'stable';
+					loads: #('Core' );
+					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+			"SwaLint setup"
 			package: 'SwaLint-Preferences' with: [
 							spec
 								file: 'SwaLint-Preferences-cypress.1';
