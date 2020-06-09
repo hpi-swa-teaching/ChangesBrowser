@@ -1,5 +1,5 @@
 initialize-release
-retreiveChangeRecordsFromChangesFile
+retrieveChangeRecordsFromChangesFile
 
 	| changesFile changesFileCopy start end |
 	changesFile := SourceFiles at: 2.

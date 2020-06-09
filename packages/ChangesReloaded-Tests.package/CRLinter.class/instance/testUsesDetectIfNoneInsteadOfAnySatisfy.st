@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUsesDetectIfNoneInsteadOfAnySatisfy
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintContains)

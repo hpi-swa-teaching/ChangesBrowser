@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testBlockImmediatelyEvaluated
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintExtraBlock)

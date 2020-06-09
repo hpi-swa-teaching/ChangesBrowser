@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testSendsQuestionableMessage
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintBadMessage)

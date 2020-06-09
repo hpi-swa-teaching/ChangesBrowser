@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testInstanceVariablesNotReadAndWritten
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintOnlyReadOrWrittenVariable)

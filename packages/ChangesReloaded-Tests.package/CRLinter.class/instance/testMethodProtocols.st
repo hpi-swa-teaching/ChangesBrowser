@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testMethodProtocols
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintMethodProtocolsSpelling)

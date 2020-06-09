@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testCheckForSameStatementsAtEndOfIfTrueIfFalseBlocks
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintEndTrueFalse)

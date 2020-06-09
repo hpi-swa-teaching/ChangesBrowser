@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testToDoDoesntUseCollect
 
-	self assertNoOccurrences: (self runLinterRule: #toDoCollectRule)
+	self assertNoOccurrences: (self runLinterRule: #toDoCollectRule:)

@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUsesWhiteTrueInsteadOfToDo
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintWhileTrue)

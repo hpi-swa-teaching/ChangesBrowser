@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testInstanceVariableCapitalization
 
-	self assertNoOccurrences: (self runLinterRule: #instanceVariableCapitalizationRule)
+	self assertAllAreFalse: (self runLinterRule: #instanceVariableCapitalizationRule:)

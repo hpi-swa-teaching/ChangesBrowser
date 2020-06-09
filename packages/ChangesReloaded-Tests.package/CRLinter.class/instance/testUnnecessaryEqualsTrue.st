@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUnnecessaryEqualsTrue
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintEqualsTrue)

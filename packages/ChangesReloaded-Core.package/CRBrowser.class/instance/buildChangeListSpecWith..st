@@ -5,4 +5,5 @@ buildChangeListSpecWith: aBuilder
 		model: self;
 		list: #changeDescriptions;
 		getSelectionList: #isItemSelectedAt:;
-		setSelectionList: #setItemSelectionAt:to:
+		setSelectionList: #setItemSelectionAt:to:;
+		yourself

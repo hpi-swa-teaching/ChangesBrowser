@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUsesDoInsteadOfCollectOrSelect
 
-	self assertNoOccurrences: (self runLinterRule: #collectionProtocolRule)
+	self assertNoOccurrences: (self runLinterRule: #collectionProtocolRule:)

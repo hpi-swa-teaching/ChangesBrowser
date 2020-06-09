@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testMethodJustSendsSuperMessage
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintJustSendsSuper)

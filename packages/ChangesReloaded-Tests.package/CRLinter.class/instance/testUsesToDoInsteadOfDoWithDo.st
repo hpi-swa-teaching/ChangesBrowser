@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUsesToDoInsteadOfDoWithDo
 
-	self assertNoOccurrences: (self runLinterRule: #toDoRule)
+	self assertNoOccurrences: (self runLinterRule: #toDoRule:)

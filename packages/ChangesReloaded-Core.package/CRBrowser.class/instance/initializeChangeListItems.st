@@ -3,7 +3,7 @@ initializeChangeListItems
 
 	| changeRecords |
 	changeRecords := Cursor read
-		showWhile: [(self retreiveChangeRecordsFromChangesFile
+		showWhile: [(self retrieveChangeRecordsFromChangesFile
 			reject: [:each | self isInImage: each])
 			reversed].
 	self changeListItems: (changeRecords

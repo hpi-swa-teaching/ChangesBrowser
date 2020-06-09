@@ -30,7 +30,8 @@ baseline: spec
 			postLoadDoIt: #postLoad;
 			
 			"ChangesReloaded setup"
-			package: 'ChangesReloaded-Core';
+			package: 'Changes-Core';
+			package: 'ChangesReloaded-Core' with: [ spec requires: #('Changes-Core') ];
 			package: 'ChangesReloaded-Tests' with: [ spec requires: #('ChangesReloaded-Core' 'SwaLint-Core' 'SwaLint-PlugIns') ].
 			
 		spec

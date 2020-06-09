@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testInstanceVariableDefinedInAllSubclasses
 
-	self assertNoOccurrences: (self runLinterRule: #instVarInAllSubclasses)
+	self assertAllAreFalse: (self runLinterRule: #instVarInAllSubclasses:)

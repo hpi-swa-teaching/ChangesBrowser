@@ -1,4 +1,4 @@
 test-for-bugs
 testArithmeticPrecedenceRule
 
-	self assertNoOccurrences: (self runLinterRule: #precedenceRule)
+	self assertNoOccurrences: (self runLinterRule: #precedenceRule:)

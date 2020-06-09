@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testInstanceVariableNames
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintInstanceVariableNamesSpelling)

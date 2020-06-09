@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testClassNames
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintClassNamesSpelling)

@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testExcessiveNumberOfArguments
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintExcessiveArguments)

@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testTemporaryVariablesNotReadAndWritten
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintOnlyReadOrWrittenTemporary)

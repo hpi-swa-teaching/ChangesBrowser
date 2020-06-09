@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUnnecessaryAssignmentToATemporaryVariable
 
-	self assertNoOccurrences: (self runLinterRule: #unnecessaryAssignmentRule)
+	self assertNoOccurrences: (self runLinterRule: #unnecessaryAssignmentRule:)

@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testVariableReferencedInOneMethodAndAlwaysAssignedFirst
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintVariableReferencedOnce)

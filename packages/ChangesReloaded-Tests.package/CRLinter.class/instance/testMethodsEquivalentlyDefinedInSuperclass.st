@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testMethodsEquivalentlyDefinedInSuperclass
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintEquivalentSuperclassMethods)

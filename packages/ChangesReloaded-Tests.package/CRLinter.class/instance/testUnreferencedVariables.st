@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testUnreferencedVariables
 
-	self assertNoOccurrences: (self runLinterRule: #unreferencedVariable)
+	self assertAllAreFalse: (self runLinterRule: #unreferencedVariable:)

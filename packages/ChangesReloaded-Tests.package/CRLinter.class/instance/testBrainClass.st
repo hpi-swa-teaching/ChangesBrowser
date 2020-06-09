@@ -1,4 +1,4 @@
 test-for-disharmonies
 testBrainClass
 
-	self assertNoOccurrences: (self runLinterRule: #brainClass)
+	self assertAllAreFalse: (self runLinterRule: #brainClass:)

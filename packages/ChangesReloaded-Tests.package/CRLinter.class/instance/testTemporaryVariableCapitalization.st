@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testTemporaryVariableCapitalization
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintTemporaryVariableCapitalization)

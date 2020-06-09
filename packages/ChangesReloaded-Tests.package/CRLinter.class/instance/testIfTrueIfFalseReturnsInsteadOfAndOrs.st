@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testIfTrueIfFalseReturnsInsteadOfAndOrs
 
-	self assertNoOccurrences: (self runLinterRule: #ifTrueReturnsRule)
+	self assertNoOccurrences: (self runLinterRule: #ifTrueReturnsRule:)

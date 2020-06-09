@@ -1,4 +1,4 @@
-testing-for-miscellaneous
+test-for-miscellaneous
 testAsOrderedCollectionAsArrayNotNeeded
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintAsOrderedCollectionNotNeeded)
