@@ -29,10 +29,11 @@
 		"isInImage:" : "SV 5/20/2020 13:03",
 		"methodHistories" : "gf 6/5/2020 10:05",
 		"methodHistories:" : "gf 6/5/2020 10:18",
+		"refreshChangeListItems" : "SV 6/10/2020 09:34",
 		"repaintChangeListSelections" : "gf 6/7/2020 13:05",
 		"repaintHistoryListSelections" : "gf 6/7/2020 13:05",
 		"retreiveChangeRecordsFromChangesFile" : "SV 5/29/2020 22:33",
 		"selectedHistoryListItem" : "gf 6/7/2020 13:00",
-		"selectedHistoryListItem:" : "gf 6/7/2020 13:15",
+		"selectedHistoryListItem:" : "SV 6/10/2020 09:34",
 		"setChangeListItemSelectionAt:to:" : "gf 6/7/2020 13:34",
 		"switchToDetailedView" : "mg 5/14/2020 21:26" } }
