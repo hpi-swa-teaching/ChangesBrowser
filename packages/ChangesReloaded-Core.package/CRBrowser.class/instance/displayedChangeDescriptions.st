@@ -1,4 +1,6 @@
 accessing
 displayedChangeDescriptions
 
-	^ self changeDescriptionsFor: self selectedHistoryListItem
+	^ self isHistoryListItemSelected
+		ifFalse: [OrderedCollection new]
+		ifTrue: [self selectedHistoryListItem changeDescriptions]

@@ -1,4 +1,5 @@
 initializing
 initialize
 
-	self initializeMethodHistories
+	self historyListSelectionIndex: 0.
+	self initializeHistoryList

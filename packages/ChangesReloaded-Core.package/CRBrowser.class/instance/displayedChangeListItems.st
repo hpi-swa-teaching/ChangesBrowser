@@ -1,4 +1,4 @@
 accessing
 displayedChangeListItems
 
-	^ self changeListItemsFor: self selectedHistoryListItem
+	^ self selectedHistoryListItem history

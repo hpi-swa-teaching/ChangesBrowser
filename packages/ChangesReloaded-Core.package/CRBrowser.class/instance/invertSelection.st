@@ -4,4 +4,4 @@ invertSelection
 	self displayedChangeListItems do: [:each |
 		each isSelected: (each isSelected not)].
 
-	self repaintChangeListSelections
+	self updateAfterChangeSelection
