@@ -1,4 +1,4 @@
-test-for-miscellaneous
+test-for-intention-revealing
 testUsesDetectIfNoneInsteadOfAnySatisfy
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintContains)

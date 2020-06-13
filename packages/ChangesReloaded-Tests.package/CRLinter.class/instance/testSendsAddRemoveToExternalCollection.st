@@ -1,4 +1,4 @@
-test-for-miscellaneous
+test-for-intention-revealing
 testSendsAddRemoveToExternalCollection
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintCollectionMessagesToExternalObject)

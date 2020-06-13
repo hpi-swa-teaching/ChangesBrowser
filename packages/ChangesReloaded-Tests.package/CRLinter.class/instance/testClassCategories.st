@@ -1,4 +1,4 @@
-test-for-miscellaneous
+test-for-spelling
 testClassCategories
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintClassCategoriesSpelling)

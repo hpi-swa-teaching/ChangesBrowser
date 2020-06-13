@@ -1,4 +1,4 @@
-test-for-miscellaneous
+test-for-intention-revealing
 testMethodDefinedInAllSubclassesButNotInSuperclass
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintMissingSubclassResponsibility)

@@ -1,4 +1,4 @@
-test-for-miscellaneous
+test-for-intention-revealing
 testInstanceVariableCapitalization
 
 	self assertAllAreFalse: (self runLinterRule: #instanceVariableCapitalizationRule:)

@@ -1,4 +1,4 @@
-test-for-miscellaneous
+test-for-spelling
 dontTestLiteralValues
 	"literally inherently broken"
 
