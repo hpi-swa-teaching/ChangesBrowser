@@ -8,7 +8,7 @@
 		"buildChangeListSpecWith:" : "SV 5/29/2020 23:45",
 		"buildWith:" : "mg 5/15/2020 09:24",
 		"buttonHeight" : "mg 5/11/2020 19:05",
-		"buttons" : "mg 6/1/2020 20:13",
+		"buttons" : "mg 6/15/2020 18:46",
 		"buttonsFrame" : "mg 5/11/2020 18:56",
 		"changeDescriptions" : "SV 5/29/2020 23:43",
 		"changeListFrame" : "mg 5/11/2020 18:57",
@@ -20,7 +20,9 @@
 		"invertSelection" : "mg 6/1/2020 20:22",
 		"isInImage:" : "SV 5/20/2020 13:03",
 		"isItemSelectedAt:" : "SV 5/29/2020 23:44",
+		"loadSelectedChanges" : "mg 6/15/2020 18:51",
 		"repaintListSelections" : "mg 6/1/2020 20:21",
 		"retreiveChangeRecordsFromChangesFile" : "SV 5/29/2020 22:33",
+		"selectedItems" : "mg 6/15/2020 18:50",
 		"setItemSelectionAt:to:" : "mg 6/1/2020 20:22",
 		"switchToDetailedView" : "mg 5/14/2020 21:26" } }
