@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"newWithSelector:andChange:" : "SV 6/12/2020 21:30" },
+		"newWithSelector:class:andChange:" : "gf 6/15/2020 23:02" },
 	"instance" : {
 		"changeDescriptions" : "SV 6/12/2020 20:48",
-		"description" : "SV 6/12/2020 22:21",
+		"class" : "gf 6/15/2020 22:22",
+		"class:" : "gf 6/15/2020 22:56",
+		"description" : "gf 6/15/2020 23:56",
 		"history" : "SV 6/12/2020 13:46",
-		"history:" : "SV 6/12/2020 13:49",
-		"initialize" : "SV 6/12/2020 19:23",
+		"history:" : "gf 6/15/2020 23:34",
+		"initialize" : "gf 6/15/2020 23:36",
 		"selector" : "SV 6/12/2020 13:49",
-		"selector:" : "SV 6/12/2020 13:49" } }
+		"selector:" : "SV 6/12/2020 13:49",
+		"timeStamp" : "gf 6/15/2020 23:46" } }

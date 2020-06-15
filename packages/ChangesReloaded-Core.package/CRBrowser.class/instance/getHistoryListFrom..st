@@ -6,14 +6,15 @@ getHistoryListFrom: anOrderedCollectionOfChangeRecords
 	anOrderedCollectionOfChangeRecords
 		do: [:each | each isMethod
 				ifTrue: [
-					| methodSelector historyListItemCandidates historyListItem changeListItem |
+					| methodSelector methodClass historyListItemCandidates historyListItem changeListItem |
 					methodSelector := each methodSelector.
+					methodClass := each methodClassName.
 					historyListItemCandidates := historyList select: [:changeInHistory |
 						changeInHistory selector == methodSelector].
 					changeListItem := CRChangeListItem new changeRecord: each.
 					historyListItemCandidates
 						ifEmpty: [
-							historyListItem := CRHistoryListItem newWithSelector: methodSelector andChange: changeListItem.
+							historyListItem := CRHistoryListItem newWithSelector: methodSelector class: methodClass andChange: changeListItem.
 							historyList add: historyListItem];
 						ifNotEmpty: [
 							historyListItem := historyListItemCandidates first.

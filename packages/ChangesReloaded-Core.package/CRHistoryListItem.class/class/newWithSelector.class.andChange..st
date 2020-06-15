@@ -1,9 +1,10 @@
 constructors
-newWithSelector: aSymbol andChange: aCRChangeListItem
+newWithSelector: aSelectorSymbol class: aClassSymbol andChange: aCRChangeListItem
 
 	| newHistoryListItem |
 	newHistoryListItem := CRHistoryListItem new
-		selector: aSymbol;
+		selector: aSelectorSymbol;
+		class: aClassSymbol;
 		yourself.
 	newHistoryListItem history add: aCRChangeListItem.
 

@@ -1,4 +1,4 @@
 accessing
-history: anOrderedCollectionOfChangeListItems
+history: aSortedCollectionOfChangeListItems
 
-	history := anOrderedCollectionOfChangeListItems
+	history := aSortedCollectionOfChangeListItems

@@ -1,4 +1,4 @@
 accessing
 description
 
-	^ self changeRecord text
+	^ self stamp
