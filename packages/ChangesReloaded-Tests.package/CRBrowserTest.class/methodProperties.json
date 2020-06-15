@@ -4,5 +4,15 @@
 	"instance" : {
 		"changesBrowser" : "gf 6/1/2020 13:43",
 		"changesBrowser:" : "gf 6/1/2020 13:43",
+		"createChangeRecordClassComment" : "SV 6/1/2020 19:20",
+		"createChangeRecordMethod" : "SV 6/1/2020 19:20",
+		"createDummyChangeListItems:withSelection:" : "SV 6/3/2020 10:28",
 		"setUp" : "uh 5/23/2020 14:50",
-		"testBuildingChangesBrowser" : "uh 5/23/2020 15:31" } }
+		"testBuildingChangesBrowser" : "uh 5/23/2020 15:31",
+		"testInvertSelections" : "mg 6/3/2020 11:15",
+		"testInvertSelectionsRepeatedly" : "mg 6/3/2020 11:14",
+		"testInvertSelectionsWithNoSelections" : "mg 6/3/2020 11:14",
+		"testIsItemSelectedAt" : "SV 6/3/2020 10:28",
+		"testIsItemSelectedAtAbsent" : "SV 6/3/2020 10:28",
+		"testSetItemSelectionAtInvalidIndex" : "SV 6/3/2020 10:28",
+		"testSetItemSelectionAtTo" : "SV 6/3/2020 10:28" } }

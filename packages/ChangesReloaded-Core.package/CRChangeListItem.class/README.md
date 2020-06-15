@@ -1,0 +1,1 @@
+A CRChangeListItem is an item of the CRChangeList that represents a ChangeRecord in the CRChangeList and has a selection state.
