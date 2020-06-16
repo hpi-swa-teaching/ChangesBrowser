@@ -1,4 +1,5 @@
 test-for-disharmonies
-testTraditionBreaker
+brokenTestTraditionBreaker
+	"literally doesn't work"
 
 	self assertAllAreFalse: (self runLinterRule: #traditionBreaker:)

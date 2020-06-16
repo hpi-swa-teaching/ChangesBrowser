@@ -1,5 +1,5 @@
 test-for-disharmonies
-dontTestIntensiveCoupling
+brokenTestIntensiveCoupling
 	"wrong SL Type"
 
 	self assertAllAreFalse: (self runLinterRule: #intensiveCoupling:)

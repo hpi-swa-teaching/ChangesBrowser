@@ -1,4 +1,5 @@
 test-for-spelling
-testMethodSelectors
+brokenTestMethodSelectors
+	"literally inherently broken"
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintMethodSelectorsSpelling)

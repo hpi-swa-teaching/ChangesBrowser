@@ -1,5 +1,5 @@
 test-for-coding-styles
-dontTestNamespaceSimulation
+brokenTestNamespaceSimulation
 	"wrong SL Type"
 
 	self assertNoOccurrences: (self runLinterRule: #namespaceSimulation:)

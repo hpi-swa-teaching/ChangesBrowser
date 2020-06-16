@@ -1,5 +1,5 @@
 test-for-disharmonies
-dontTestBrainMethod
+brokenTestBrainMethod
 	"wrong SL Type"
 
 	self assertAllAreFalse: (self runLinterRule: #brainMethod:)

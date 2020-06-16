@@ -1,5 +1,5 @@
 test-for-disharmonies
-dontTestFeatureEnvy
+brokenTestFeatureEnvy
 	"wrong SL Type"
 
 	self assertAllAreFalse: (self runLinterRule: #featureEnvy:)

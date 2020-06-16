@@ -1,6 +1,8 @@
 running
 setUp
 
-	| package |
-	package := self class crCorePackage.
-	self classes: package classes
+	self classes: (OrderedCollection new
+		addAll: self class crCorePackage classes;
+		addAll: self class crTestsPackage classes;
+		yourself).
+	"self halt"

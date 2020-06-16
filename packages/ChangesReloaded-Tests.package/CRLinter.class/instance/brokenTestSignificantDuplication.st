@@ -1,5 +1,5 @@
 test-for-disharmonies
-dontTestSignificantDuplication
+brokenTestSignificantDuplication
 	"wrong SL Type"
 
 	self assertAllAreFalse: (self runLinterRule: #significantDuplication:)

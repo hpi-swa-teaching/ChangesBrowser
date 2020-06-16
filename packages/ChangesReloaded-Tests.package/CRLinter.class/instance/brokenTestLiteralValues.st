@@ -1,5 +1,5 @@
 test-for-spelling
-dontTestLiteralValues
+brokenTestLiteralValues
 	"literally inherently broken"
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintLiteralValuesSpelling)

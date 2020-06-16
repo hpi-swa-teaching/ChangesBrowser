@@ -1,5 +1,5 @@
 test-for-disharmonies
-dontTestShotgunSurgery
+brokenTestShotgunSurgery
 	"wrong SL Type"
 
 	self assertAllAreFalse: (self runLinterRule: #shotgunSurgery:)
