@@ -8,4 +8,11 @@ SmalltalkCISpec {
       #platforms : [ #squeak ]
     }
   ]
+  #testing : {
+    // Define TestCases explicitly
+    #classes : [ #CRBrowserTest ],
+    #categories : [ 'ChangesReloaded-*' ],
+    #packages : [ 'ChangesReloaded.*' ],
+    #projects : [ 'BaselineOfChangesReloaded' ],
+  }
 }
