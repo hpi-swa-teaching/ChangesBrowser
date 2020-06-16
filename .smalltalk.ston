@@ -9,6 +9,8 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #classes : [ #CRBrowserTest ]
+    #exclude : {
+      #classes : [ #CRLinter ]
+    }
   }
 }
