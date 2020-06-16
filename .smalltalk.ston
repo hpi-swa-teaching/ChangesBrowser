@@ -9,10 +9,6 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    // Define TestCases explicitly
-    #classes : [ #CRBrowserTest ],
-    #categories : [ 'ChangesReloaded-*' ],
-    #packages : [ 'ChangesReloaded.*' ],
-    #projects : [ 'BaselineOfChangesReloaded' ],
+    #classes : [ #CRBrowserTest ]
   }
 }
