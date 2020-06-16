@@ -8,11 +8,4 @@
 		"createChangeRecordMethod" : "SV 6/10/2020 10:13",
 		"createDummyChangeListItems:withSelection:" : "SV 6/3/2020 10:28",
 		"setUp" : "uh 5/23/2020 14:50",
-		"testBuildingChangesBrowser" : "uh 5/23/2020 15:31",
-		"testInvertSelections" : "SV 6/10/2020 10:05",
-		"testInvertSelectionsRepeatedly" : "mg 6/3/2020 11:14",
-		"testInvertSelectionsWithNoSelections" : "mg 6/3/2020 11:14",
-		"testIsItemSelectedAt" : "gf 6/7/2020 11:52",
-		"testIsItemSelectedAtAbsent" : "gf 6/7/2020 11:52",
-		"testSetItemSelectionAtInvalidIndex" : "gf 6/7/2020 13:08",
-		"testSetItemSelectionAtTo" : "gf 6/7/2020 13:08" } }
+		"testBuildingChangesBrowser" : "uh 5/23/2020 15:31" } }
