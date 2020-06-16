@@ -7,7 +7,7 @@ SmalltalkCISpec {
       #load : 'Tests',
       #platforms : [ #squeak ]
     }
-  ]
+  ],
   #testing : {
     // Define TestCases explicitly
     #classes : [ #CRBrowserTest ],
