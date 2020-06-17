@@ -2,7 +2,7 @@ mocking
 createChangeRecordMethod
 
 	^ ChangeRecord new
-		file: (SourceFiles at: 2)
+		file: (SourceFiles at: 2) readOnlyCopy
 		position: 43992245
 		type: #method
 		class: #CRBrowser
