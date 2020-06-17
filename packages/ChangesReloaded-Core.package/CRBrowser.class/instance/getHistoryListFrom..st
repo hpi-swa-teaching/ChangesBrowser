@@ -13,7 +13,6 @@ getHistoryListFrom: anOrderedCollectionOfChangeRecords
 											at: historyItemId
 											ifAbsentPut: [CRHistoryListItem
 																newWithSelector: (each methodSelector)
-																class: (each className)
-																andChange: changeListItem].
+																andClass: (each className)].
 					historyItem history add: changeListItem].
 	^ history asOrderedCollection
