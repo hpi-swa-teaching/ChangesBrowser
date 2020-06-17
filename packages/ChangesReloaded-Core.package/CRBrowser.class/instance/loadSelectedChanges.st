@@ -1,5 +1,4 @@
 button-actions
 loadSelectedChanges
 	
-	self selectedItems do: [:each |
-		each fileIn]
+	self selectedItems do: [:each | each fileIn]
