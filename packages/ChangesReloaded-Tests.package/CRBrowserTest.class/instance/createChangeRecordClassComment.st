@@ -2,7 +2,7 @@ mocking
 createChangeRecordClassComment
 
 	^ ChangeRecord new
-		file: (SourceFiles at: 2)
+		file: (SourceFiles at: 2) readOnlyCopy
 		position: 43988883
 		type: #classComment
 		class: #CRBrowser

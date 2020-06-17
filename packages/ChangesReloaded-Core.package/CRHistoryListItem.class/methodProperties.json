@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newWithSelector:andClass:" : "SV 6/17/2020 12:20" },
+	"instance" : {
+		"changeDescriptions" : "SV 6/12/2020 20:48",
+		"class" : "gf 6/15/2020 22:22",
+		"class:" : "gf 6/15/2020 22:56",
+		"description" : "gf 6/15/2020 23:56",
+		"history" : "SV 6/12/2020 13:46",
+		"history:" : "gf 6/15/2020 23:34",
+		"initialize" : "gf 6/15/2020 23:36",
+		"selector" : "SV 6/12/2020 13:49",
+		"selector:" : "SV 6/12/2020 13:49" } }
