@@ -12,5 +12,8 @@ buildWith: aBuilder
 			add: ((self buildChangeListSpecWith: aBuilder)
 				frame: self changeListFrame;
 				yourself);
+			add: ((self buildHistoryListSpecWith: aBuilder)
+				frame: self historyListFrame;
+				yourself);
 			yourself);
 		yourself)

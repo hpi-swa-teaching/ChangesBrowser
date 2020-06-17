@@ -1,7 +1,7 @@
 button-actions
 invertSelection
 
-	self changeListItems do: [:each |
+	self displayedChangeListItems do: [:each |
 		each isSelected: (each isSelected not)].
 
-	self repaintListSelections
+	self updateAfterChangeSelection
