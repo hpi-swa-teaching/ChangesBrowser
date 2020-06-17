@@ -1,5 +1,5 @@
 button-actions
 loadSelectedChanges
 	
-	self selectedItems do: [ :each |
+	self selectedItems do: [:each |
 		each changeRecord fileIn ]
