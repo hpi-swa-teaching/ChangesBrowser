@@ -1,22 +1,19 @@
 initializing
 getHistoryListFrom: anOrderedCollectionOfChangeRecords
 
-	| historyList |
-	historyList := OrderedCollection new.
-	anOrderedCollectionOfChangeRecords
-		do: [:each | each isMethod
-				ifTrue: [
-					| methodSelector methodClass historyListItemCandidates historyListItem changeListItem |
-					methodSelector := each methodSelector.
-					methodClass := each methodClassName.
-					historyListItemCandidates := historyList select: [:changeInHistory |
-						changeInHistory selector == methodSelector].
+	| history |
+	history := Dictionary new.
+	(anOrderedCollectionOfChangeRecords
+		select: [:each | each isMethod])
+		do: [:each |
+					| changeListItem historyItem historyItemId |
 					changeListItem := CRChangeListItem new changeRecord: each.
-					historyListItemCandidates
-						ifEmpty: [
-							historyListItem := CRHistoryListItem newWithSelector: methodSelector class: methodClass andChange: changeListItem.
-							historyList add: historyListItem];
-						ifNotEmpty: [
-							historyListItem := historyListItemCandidates first.
-							historyListItem history add: changeListItem]]].
-	^ historyList
+					historyItemId := each className , each methodSelector.
+					historyItem := history
+											at: historyItemId
+											ifAbsentPut: [CRHistoryListItem
+																newWithSelector: (each methodSelector)
+																class: (each className)
+																andChange: changeListItem].
+					historyItem history add: changeListItem].
+	^ history asOrderedCollection

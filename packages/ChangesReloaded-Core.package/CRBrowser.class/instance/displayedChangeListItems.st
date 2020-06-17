@@ -1,4 +1,6 @@
 accessing
 displayedChangeListItems
 
-	^ self selectedHistoryListItem history
+	^ self isHistoryListItemSelected
+		ifFalse: [OrderedCollection new]
+		ifTrue: [self selectedHistoryListItem history]
