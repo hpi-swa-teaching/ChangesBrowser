@@ -1,0 +1,5 @@
+language: smalltalk
+sudo: false
+
+smalltalk:
+  - Squeak-trunk
