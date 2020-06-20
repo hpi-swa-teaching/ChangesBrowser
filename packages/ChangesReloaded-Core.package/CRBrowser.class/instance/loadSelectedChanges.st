@@ -1,4 +1,6 @@
 button-actions
 loadSelectedChanges
-	
-	self selectedItems do: [:each | each fileIn]
+
+	(self selectedChangeListItems
+		sorted: [:a :b | a timeStamp < b timeStamp])
+		do: [:each | each fileIn]
