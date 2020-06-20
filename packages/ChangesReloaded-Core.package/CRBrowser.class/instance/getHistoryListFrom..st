@@ -8,11 +8,11 @@ getHistoryListFrom: anOrderedCollectionOfChangeRecords
 		do: [:each |
 					| changeListItem historyItem historyItemId |
 					changeListItem := CRChangeListItem new changeRecord: each.
-					historyItemId := each className , each methodSelector.
+					historyItemId := each methodClassName , each methodSelector.
 					historyItem := history
 											at: historyItemId
 											ifAbsentPut: [CRHistoryListItem
 																newWithSelector: (each methodSelector)
-																andClass: (each className)].
+																andClass: (each methodClass)].
 					historyItem history add: changeListItem].
 	^ history asOrderedCollection
