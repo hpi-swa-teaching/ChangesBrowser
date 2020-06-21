@@ -1,4 +1,4 @@
 updating
 repaintChangeListSelections
 
-	self changed: #isChangeListItemSelectedAt:
+	self changed: #changeListSelectionIndex

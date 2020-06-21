@@ -1,4 +1,5 @@
 updating
 refreshChangeListItems
 
-	self changed: #displayedChangeDescriptions
+	self changed: #displayedChangeDescriptions.
+	self refreshChangeListSelectionIndex

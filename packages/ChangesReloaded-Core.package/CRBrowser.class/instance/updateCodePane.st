@@ -1,5 +1,7 @@
 updating
 updateCodePane
 
-	self contents: (self displayedChangeListItems select: [:each | each isSelected]) first string.
+	self selectedDisplayedChangeListItems
+		ifEmpty: [self contents: '']
+		ifNotEmpty: [self contents: self selectedDisplayedChangeListItems first string].
 	self contentsChanged

@@ -2,5 +2,5 @@ accessing
 displayedChangeDescriptions
 
 	^ self isHistoryListItemSelected
-		ifFalse: [OrderedCollection new]
+		ifFalse: [SortedCollection new]
 		ifTrue: [self selectedHistoryListItem changeDescriptions]
