@@ -15,5 +15,8 @@ buildWith: aBuilder
 			add: ((self buildHistoryListSpecWith: aBuilder)
 				frame: self historyListFrame;
 				yourself);
+			add: ((self buildCodePaneWith: aBuilder)
+				frame: self codePaneFrame;
+				yourself);
 			yourself);
 		yourself)
