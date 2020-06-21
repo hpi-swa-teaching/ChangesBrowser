@@ -1,9 +1,8 @@
 initializing
-retrieveChangeRecordsFromChangesFile
+retrieveChangeRecordsFrom: aMultiByteFileStream
 
-	| changesFile changesFileCopy start end |
-	changesFile := SourceFiles at: 2.
-	changesFileCopy := changesFile readOnlyCopy.
+	| changesFileCopy start end |
+	changesFileCopy := aMultiByteFileStream readOnlyCopy.
 	changesFileCopy setConverterForCode.
 	end := changesFileCopy size.
 	start := 0 max: (end - self class numberOfBytesToLoadChangesFrom).

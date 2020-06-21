@@ -1,4 +1,4 @@
 instance-creation
 open
 
-	^ ToolBuilder open: self new
+	^ ToolBuilder open: (self newWith: (SourceFiles at: 2))
