@@ -1,5 +1,5 @@
-utils
-modifiesClass: aChangeRecord
+*Changes-Core
+modifiesClass
 
 	"If the change of a ChangeRecord is not affecting a class, methodClass returns nil"
-	^ aChangeRecord methodClass notNil
+	^ self methodClass notNil
