@@ -2,4 +2,4 @@ accessing
 string: aString
 
 	string := aString.
-	self readLimit: aString size
+	self size: aString size

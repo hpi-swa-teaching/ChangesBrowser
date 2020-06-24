@@ -1,5 +1,6 @@
-as yet unclassified
+initializing
 initialize 
 	
 	super initialize.
-	self readLimit: 0.
+	self size: 0.
+	self position: 0

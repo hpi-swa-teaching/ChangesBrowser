@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"string" ],
+		"string",
+		"size" ],
 	"name" : "CRFakeFileStream",
 	"pools" : [
 		 ],

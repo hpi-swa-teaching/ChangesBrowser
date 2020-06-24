@@ -2,8 +2,22 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "uh 6/21/2020 15:24",
+		"atEnd" : "gf 6/24/2020 16:22",
+		"basicNext" : "gf 6/24/2020 16:29",
+		"basicUpTo:" : "gf 6/24/2020 16:42",
+		"initialize" : "gf 6/24/2020 15:45",
+		"next" : "gf 6/24/2020 16:30",
+		"nextChunk" : "gf 6/24/2020 17:22",
+		"peek" : "gf 6/24/2020 15:32",
+		"peekFor:" : "gf 6/24/2020 15:38",
+		"position" : "gf 6/24/2020 16:15",
+		"position:" : "gf 6/24/2020 15:29",
 		"readLimit" : "uh 6/21/2020 15:23",
 		"readLimit:" : "uh 6/21/2020 15:24",
+		"readOnlyCopy" : "gf 6/24/2020 14:37",
+		"setConverterForCode" : "gf 6/24/2020 14:57",
+		"size" : "gf 6/24/2020 15:08",
+		"size:" : "gf 6/24/2020 15:04",
 		"string" : "uh 6/21/2020 15:26",
-		"string:" : "uh 6/21/2020 15:27" } }
+		"string:" : "gf 6/24/2020 15:08",
+		"upTo:" : "gf 6/24/2020 16:43" } }

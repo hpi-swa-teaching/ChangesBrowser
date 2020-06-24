@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 mockChanges
 ^ CRFakeFileStream new string:  '
 
