@@ -29,5 +29,5 @@ functionOrder3
 functionOrder4
 	^''allways 4''! !
 
-----SNAPSHOT----{{21 June 2020 . 3:49:25 pm} SWT-2020.image priorSource: 29517665!!
+----SNAPSHOT----{{21 June 2020 . 3:50:25 pm} SWT-2020.image priorSource: 29517665!!
 '

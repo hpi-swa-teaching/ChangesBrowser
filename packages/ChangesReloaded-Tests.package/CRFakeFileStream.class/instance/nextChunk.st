@@ -3,5 +3,5 @@ nextChunk
 
 	| chunk |
 	chunk := converter nextChunkFromStream: self.
-	self next.
+	"self next."
 	^ chunk
