@@ -1,7 +1,7 @@
 updating
 updateAfterChangeSelection
 
-	self repaintChangeListSelections.
+	self repaintChangeListSelection.
 	self refreshHistoryList.
 	self repaintHistoryListSelection.
 	self updateCodePane

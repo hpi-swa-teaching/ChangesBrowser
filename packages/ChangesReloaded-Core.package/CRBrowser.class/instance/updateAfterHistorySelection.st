@@ -2,5 +2,5 @@ updating
 updateAfterHistorySelection
 
 	self refreshChangeList.
-	self repaintChangeListSelections.
+	self repaintChangeListSelection.
 	self repaintHistoryListSelection

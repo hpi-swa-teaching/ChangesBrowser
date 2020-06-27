@@ -1,4 +1,4 @@
 updating
-repaintChangeListSelections
+repaintChangeListSelection
 
 	self changed: #changeListSelectionIndex
