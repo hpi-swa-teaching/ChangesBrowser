@@ -1,6 +1,6 @@
 accessing
 selectedDisplayedChangeListItems
 
-	^ self isDisplayedChangeListItemSelected
+	^ self isAnyDisplayedChangeListItemSelected
 			ifTrue: [self selectedHistoryListItem selectedChangeListItems]
 			ifFalse: [SortedCollection new]

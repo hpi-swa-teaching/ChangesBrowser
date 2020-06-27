@@ -1,5 +1,5 @@
 updating
-refreshChangeListItems
+refreshChangeList
 
 	self changed: #displayedChangeDescriptions.
 	self refreshChangeListSelectionIndex
