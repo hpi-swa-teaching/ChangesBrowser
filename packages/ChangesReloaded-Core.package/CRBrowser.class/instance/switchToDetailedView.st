@@ -1,5 +1,5 @@
 button-actions
 switchToDetailedView
 	
-	CHBrowser open.
-	self changed: #close
+	self changed: #close.
+	^ CHBrowser open
