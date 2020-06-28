@@ -15,4 +15,4 @@ getHistoryListFrom: anOrderedCollectionOfChangeRecords
 																newWithSelector: (each methodSelector)
 																andClass: (each methodClass)].
 					historyItem history add: changeListItem].
-	^ history asOrderedCollection
+	^ history asSortedCollection sort: [:a :b | a > b]
