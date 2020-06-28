@@ -1,4 +1,4 @@
-# ChangesReloaded ![Build Status](https://github.com/hpi-swa-teaching/ChangesBrowser/workflows/CI/badge.svg?branch=dev) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/ChangesBrowser/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/ChangesBrowser?branch=dev)
+# ChangesReloaded ![Build Status](https://github.com/hpi-swa-teaching/ChangesBrowser/workflows/CI/badge.svg?branch=dev)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/ChangesBrowser/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/ChangesBrowser?branch=dev)
 
 ChangesReloaded is a project developed in context of SWT 2020 based on the ChangesBrowser project from 2017. It is supposed to simplify the old tool.
 

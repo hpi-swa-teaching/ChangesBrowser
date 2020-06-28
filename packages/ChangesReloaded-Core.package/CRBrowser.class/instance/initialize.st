@@ -1,5 +1,6 @@
 initializing
 initialize
 
+	self initializeHistoryList.
 	self historyListSelectionIndex: 0.
-	self initializeHistoryList
+	self changeListSelectionIndex: 0
