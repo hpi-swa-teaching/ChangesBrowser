@@ -1,9 +1,6 @@
 menu-actions
 ignoreAllOfHistoryListExceptSelected
 
-	| selectedHistoryListItem |
-	selectedHistoryListItem := self selectedHistoryListItem.
-
 	(self historyList
-		reject: [:each | each = selectedHistoryListItem])
+		reject: [:each | each = self selectedHistoryListItem])
 		do: [:each | each ignore]
