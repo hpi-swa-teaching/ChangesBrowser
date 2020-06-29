@@ -1,5 +1,4 @@
 selecting
 ignore
 
-	self history do: [:change |
-		change isSelected: false]
+	self history do: [:change | change isSelected: false]
