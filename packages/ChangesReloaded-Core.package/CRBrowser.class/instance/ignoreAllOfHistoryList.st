@@ -1,5 +1,4 @@
-menu-actions
+actions
 ignoreAllOfHistoryList
 
-	self historyList do: [:each | each ignore].
-	self updateAfterMenuAction
+	self historyList do: [:each | each ignore]

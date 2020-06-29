@@ -1,5 +1,4 @@
-menu-actions
+actions
 selectAllLatestChangesOfHistoryList
 
-	self historyList do: [:each | each selectLatest].
-	self updateAfterMenuAction
+	self historyList do: [:each | each selectLatest]

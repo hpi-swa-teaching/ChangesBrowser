@@ -2,7 +2,7 @@ building
 setUpHistoryListMenuMorph: aMenuMorph
 
 	aMenuMorph addList: #(
-		('Ignore all' ignoreAllOfHistoryList)
-		('All latest changes' selectAllLatestChangesOfHistoryList)
-		('Ingore all except this one' ignoreAllOfHistoryListExceptSelected)).
+		('Ignore all' ignoreAllOfHistoryListAndUpdateUI)
+		('All latest changes' selectAllLatestChangesOfHistoryListAndUpdateUI)
+		('Ingore all except this one' ignoreAllOfHistoryListExceptSelectedAndUpdateUI)).
 	^ aMenuMorph
