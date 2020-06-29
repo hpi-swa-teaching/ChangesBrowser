@@ -7,5 +7,4 @@ initializeHistoryList
 						reject: [:each | self isInImage: each]) reversed].
 	self historyList: (self getHistoryListFrom: changeRecords).
 	self historyList do: [:each |
-		each history do: [:change |
-			change isSelected: true]]
+		each history first isSelected: true]

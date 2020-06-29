@@ -2,6 +2,6 @@ accessing
 selectedChangeListItems
 	
 	| selectedChanges |
-	selectedChanges := OrderedCollection new.
+	selectedChanges := SortedCollection new.
 	self historyList do: [:each | selectedChanges addAll: each selectedChangeListItems].
 	^ selectedChanges
