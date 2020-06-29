@@ -2,7 +2,7 @@ testing
 testSwitchingBetweenViews
 
 	| browserWindow |
-	browserWindow := CRBrowser open.
+	browserWindow := CRBrowser openWith: self class mockChanges.
 	browserWindow := browserWindow model switchToDetailedView.
 	self assert: (World submorphs contains: [:a | (a model class) = CHBrowser]).
 	self assert:  (World submorphs contains: [:a | (a model class) = CRBrowser]) not.

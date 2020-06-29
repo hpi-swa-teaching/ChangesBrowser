@@ -2,12 +2,15 @@
 	"class" : {
 		"mockChanges" : "gf 6/24/2020 20:38" },
 	"instance" : {
+		"assertLatestChangeListItemSelectedFor:" : "uh 6/29/2020 16:38",
 		"changesBrowser" : "gf 6/1/2020 13:43",
 		"changesBrowser:" : "gf 6/1/2020 13:43",
 		"createChangeRecordClassComment" : "SV 6/10/2020 10:13",
 		"createChangeRecordMethod" : "SV 6/10/2020 10:13",
 		"createDummyChangeListItems:withSelection:" : "SV 6/3/2020 10:28",
 		"setUp" : "uh 5/23/2020 14:50",
-		"testBuildingChangesBrowser" : "gf 6/27/2020 15:46",
-		"testSwitchingBetweenViews" : "gf 6/27/2020 15:44",
-		"testLoadSelectedChanges" : "mg 6/15/2020 18:59" } }
+		"testBuildingChangesBrowser" : "uh 6/29/2020 15:50",
+		"testCorrectChangeListItemsSelectedWhenPicked" : "uh 6/29/2020 16:39",
+		"testCorrectHistoryListItemsSelectedWhenPicked" : "uh 6/29/2020 16:39",
+		"testCorrectItemsSelectedOnInitialization" : "uh 6/29/2020 16:32",
+		"testSwitchingBetweenViews" : "uh 6/29/2020 15:50" } }
