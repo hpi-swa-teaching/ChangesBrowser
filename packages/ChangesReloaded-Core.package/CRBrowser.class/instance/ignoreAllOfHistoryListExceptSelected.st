@@ -3,4 +3,5 @@ ignoreAllOfHistoryListExceptSelected
 
 	(self historyList
 		reject: [:each | each = self selectedHistoryListItem])
-		do: [:each | each ignore]
+		do: [:each | each ignore].
+	self updateAfterMenuAction
