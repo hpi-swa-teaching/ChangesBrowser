@@ -1,4 +1,4 @@
-*Changes-Core
+*ChangesReloaded-Core
 isInImage
 	
 	self type = #method
