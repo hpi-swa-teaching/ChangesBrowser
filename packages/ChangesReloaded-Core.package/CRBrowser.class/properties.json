@@ -7,7 +7,8 @@
 	"commentStamp" : "SV 6/3/2020 10:26",
 	"instvars" : [
 		"historyList",
-		"historyListSelectionIndex" ],
+		"historyListSelectionIndex",
+		"changeListSelectionIndex" ],
 	"name" : "CRBrowser",
 	"pools" : [
 		 ],
