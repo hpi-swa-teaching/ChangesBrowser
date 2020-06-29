@@ -1,4 +1,4 @@
 updating
-refreshHistoryListItems
+refreshHistoryList
 
 	self changed: #historyDescriptions
