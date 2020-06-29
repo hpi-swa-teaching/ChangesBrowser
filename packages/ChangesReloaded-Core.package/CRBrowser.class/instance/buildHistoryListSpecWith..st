@@ -5,4 +5,5 @@ buildHistoryListSpecWith: aBuilder
 		model: self;
 		list: #historyDescriptions;
 		getIndex: #historyListSelectionIndex;
-		setIndex: #historyListSelectionIndex:
+		setIndex: #historyListSelectionIndex:;
+		menu: #setUpHistoryListMenuMorph:

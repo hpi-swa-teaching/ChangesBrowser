@@ -1,0 +1,6 @@
+menu-actions
+ignoreAllOfHistoryListExceptSelectedAndUpdateUI
+
+	self
+		ignoreAllOfHistoryListExceptSelected;
+		updateAfterMenuAction

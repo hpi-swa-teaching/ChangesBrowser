@@ -6,5 +6,4 @@ initializeHistoryList
 				showWhile: [(self retrieveChangeRecordsFromChangesFile
 						reject: [:each | self isInImage: each]) reversed].
 	self historyList: (self getHistoryListFrom: changeRecords).
-	self historyList do: [:each |
-		each history first isSelected: true]
+	self selectAllLatestChangesOfHistoryList
