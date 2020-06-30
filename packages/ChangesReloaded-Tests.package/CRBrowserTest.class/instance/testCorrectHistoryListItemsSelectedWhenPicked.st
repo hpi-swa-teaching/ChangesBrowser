@@ -1,11 +1,14 @@
 testing
 testCorrectHistoryListItemsSelectedWhenPicked
 
-	| browserWindow |
+	| browserWindow world |
 	browserWindow := CRBrowser openWith: self class mockChanges.
-	self changesBrowser: browserWindow model.
+	world := browserWindow world.
+	"self changesBrowser: browserWindow model."
 	
-	self assert: (self changesBrowser historyListSelectionIndex = 0).
-	self changesBrowser historyList do: [:each | self assertLatestChangeListItemSelectedFor: each].
-
-	browserWindow closeBoxHit
+	self click: MouseEvent redButton at: browserWindow submorphs second bounds origin + (1@1) in: world.
+	self halt.
+	self assert: (browserWindow model historyListSelectionIndex = 1).
+	self halt.
+	browserWindow closeBoxHit.
+	self halt

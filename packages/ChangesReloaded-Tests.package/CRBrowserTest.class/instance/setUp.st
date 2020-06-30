@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self changesBrowser: CRBrowser new
+	"self changesBrowser: CRBrowser new"
