@@ -2,13 +2,13 @@
 isInImage
 	
 	self type = #method
-		ifTrue: [| class selector |	
+		ifTrue: [| class selector compiledMethod |
 			class := self methodClass.
 			selector := self methodSelector.
 			class ifNil: [^ false].
-			(class lookupSelector: selector) ifNil: [^ false].
-			"TODO: Move this method to TimeStamp (TimeStamp >> fromStamp: ) --> strips away author initials from actual timestamp"
-			^ (TimeStamp fromAuthorStamp: (class lookupSelector: selector) timeStamp) >= self timeStamp].
+			compiledMethod := class lookupSelector: selector.
+			compiledMethod ifNil: [^ false].
+			^ (TimeStamp fromAuthorStamp: compiledMethod timeStamp) >= self timeStamp].
 		
 	self type = #classComment
 		ifTrue: [| class |	
