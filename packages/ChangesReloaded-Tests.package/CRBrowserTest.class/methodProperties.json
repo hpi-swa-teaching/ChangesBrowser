@@ -16,7 +16,7 @@
 		"setUp" : "mg 7/2/2020 14:17",
 		"tearDown" : "mg 7/2/2020 13:53",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
-		"testCorrectChangeListItemsSelectedWhenPicked" : "mg 7/2/2020 15:12",
+		"testCorrectChangeListItemsSelectedWhenPicked" : "uh 7/2/2020 15:29",
 		"testCorrectHistoryListItemsSelectedWhenPicked" : "mg 7/2/2020 14:16",
 		"testCorrectItemsSelectedOnInitialization" : "mg 7/2/2020 13:54",
 		"testSwitchingBetweenViews" : "mg 7/2/2020 13:56",
