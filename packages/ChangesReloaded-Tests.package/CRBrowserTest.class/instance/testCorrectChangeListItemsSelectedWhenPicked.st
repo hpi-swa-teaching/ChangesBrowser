@@ -1,11 +1,7 @@
 testing
 testCorrectChangeListItemsSelectedWhenPicked
 
-	| browserWindow |
-	browserWindow := CRBrowser openWith: self class mockChanges.
-	self changesBrowser: browserWindow model.
-	
-	self assert: (self changesBrowser historyListSelectionIndex = 0).
-	self changesBrowser historyList do: [:each | self assertLatestChangeListItemSelectedFor: each].
-
-	browserWindow closeBoxHit
+	self click: MouseEvent redButton at: self historyListMorph bounds origin + (1@1) in: self world.
+	self click: MouseEvent redButton at: self changeListMorph bounds origin + (1@5) in: self world.
+	(self changesBrowser selectedHistoryListItem history at: 2) isSelected.
+	"self assert: (self changesBrowser changeListSelectionIndex = 2)"

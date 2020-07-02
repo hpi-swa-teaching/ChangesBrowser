@@ -2,4 +2,5 @@ running
 setUp
 
 	super setUp.
-	"self changesBrowser: CRBrowser new"
+	
+	self browserWindow: (CRBrowser openWith: self class mockChanges)
