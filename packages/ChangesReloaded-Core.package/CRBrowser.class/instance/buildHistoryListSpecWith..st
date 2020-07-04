@@ -1,4 +1,4 @@
-toolbuilder
+building
 buildHistoryListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
@@ -7,5 +7,4 @@ buildHistoryListSpecWith: aBuilder
 		list: #historyDescriptions;
 		getIndex: #historyListSelectionIndex;
 		setIndex: #historyListSelectionIndex:;
-		menu: #setUpHistoryListMenuMorph:;
-		yourself
+		menu: #setUpHistoryListMenuMorph:

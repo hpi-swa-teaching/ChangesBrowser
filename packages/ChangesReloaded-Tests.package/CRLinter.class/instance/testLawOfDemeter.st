@@ -1,5 +1,4 @@
 test-for-intention-revealing
-dontTestLawOfDemeter
-	"Incorrectly triggers when chaining multiple collection protocol methods."
+testLawOfDemeter
 
 	self assertNoOccurrences: (self runLinterRule: #lawOfDemeterRule:)

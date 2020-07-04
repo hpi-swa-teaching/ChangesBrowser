@@ -1,8 +1,6 @@
-initialize-release
+initializing
 initializeWith: aMultiByteFileStream
 
-	super initialize.
-	self
-		initializeHistoryListWith: aMultiByteFileStream;
-		historyListSelectionIndex: 0;
-		changeListSelectionIndex: 0
+	self initializeHistoryListWith: aMultiByteFileStream.
+	self historyListSelectionIndex: 0.
+	self changeListSelectionIndex: 0

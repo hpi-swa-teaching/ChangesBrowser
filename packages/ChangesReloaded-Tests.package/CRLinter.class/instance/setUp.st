@@ -1,4 +1,7 @@
 running
 setUp
 
-	self classes: self class crCorePackage classes
+	self classes: (OrderedCollection new
+		addAll: self class crCorePackage classes;
+		addAll: self class crTestsPackage classes;
+		yourself)
