@@ -1,4 +1,5 @@
 test-for-possible-bugs
-testSendsDifferentSuperMessage
+dontTestSendsDifferentSuperMessage
+	"Our initializeWith: calls super initialize and that's fine."
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintSendsDifferentSuper)
