@@ -1,4 +1,4 @@
 test-for-intention-revealing
-testUsesWhiteTrueInsteadOfToDo
+testUsesWhileTrueInsteadOfToDo
 
 	self assertNoOccurrences: (self runLinterRule: #smallLintWhileTrue)
