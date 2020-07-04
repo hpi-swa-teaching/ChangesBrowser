@@ -1,4 +1,4 @@
-initializing
+initialize-release
 initializeWith: aMultiByteFileStream
 
 	self initializeHistoryListWith: aMultiByteFileStream.
