@@ -1,4 +1,4 @@
-building
+toolbuilder
 buildHistoryListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new

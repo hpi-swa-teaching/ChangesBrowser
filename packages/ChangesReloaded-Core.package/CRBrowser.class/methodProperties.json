@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"getHistoryListFrom:" : "mg 7/4/2020 20:20",
 		"newWith:" : "uh 6/21/2020 21:32",
 		"numberOfBytesToLoadChangesFrom" : "gf 5/20/2020 10:43",
 		"open" : "uh 6/21/2020 21:32",
@@ -9,8 +8,8 @@
 	"instance" : {
 		"buildButtonPanelSpecWith:" : "mg 5/15/2020 09:24",
 		"buildButtonSpecsWith:" : "mg 5/14/2020 21:14",
-		"buildHistoryListSpecWith:" : "mg 7/4/2020 20:28",
-		"buildSingleSelectionChangeListSpecWith:" : "mg 7/4/2020 20:28",
+		"buildHistoryListSpecWith:" : "mg 7/2/2020 14:12",
+		"buildSingleSelectionChangeListSpecWith:" : "mg 7/2/2020 14:22",
 		"buildWith:" : "SV 6/21/2020 13:07",
 		"buttonHeight" : "mg 5/11/2020 19:05",
 		"buttons" : "mg 6/29/2020 17:53",
@@ -36,7 +35,7 @@
 		"ignoreAllOfHistoryListAndUpdateUI" : "mg 6/29/2020 18:58",
 		"ignoreAllOfHistoryListExceptSelected" : "mg 6/29/2020 18:58",
 		"ignoreAllOfHistoryListExceptSelectedAndUpdateUI" : "mg 6/29/2020 18:59",
-		"initializeHistoryListWith:" : " 7/4/2020 22:24:49",
+		"initializeHistoryListWith:" : "uh 7/2/2020 15:52",
 		"initializeWith:" : "uh 6/29/2020 15:40",
 		"isAnyDisplayedChangeListItemSelected" : "SV 6/27/2020 19:38",
 		"loadSelectedChanges" : "mg 6/20/2020 09:52",
