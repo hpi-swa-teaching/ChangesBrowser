@@ -1,4 +1,4 @@
-initializing
+initialize-release
 retrieveChangeRecordsFrom: aMultiByteFileStream
 
 	| changesFileCopy start end |
