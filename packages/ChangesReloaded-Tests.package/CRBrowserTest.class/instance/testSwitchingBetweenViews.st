@@ -1,4 +1,4 @@
-testing-ui
+testing
 testSwitchingBetweenViews
 
 	self browserWindow: self changesBrowser switchToDetailedView.

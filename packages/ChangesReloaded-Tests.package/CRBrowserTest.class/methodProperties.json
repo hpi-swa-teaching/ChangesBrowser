@@ -1,10 +1,8 @@
 {
 	"class" : {
-		"mockChanges" : "uh 7/2/2020 16:09",
-		"mockWeirdlySortedChanges" : "uh 7/2/2020 16:09" },
+		"mockChanges" : "gf 6/24/2020 20:38" },
 	"instance" : {
 		"assertLatestChangeListItemSelectedFor:" : "mg 7/2/2020 14:26",
-		"assertNoChangeListItemSelectedFor:" : "uh 7/2/2020 16:54",
 		"browserWindow" : "mg 7/2/2020 13:58",
 		"browserWindow:" : "mg 7/2/2020 14:00",
 		"changeListMorph" : "mg 7/2/2020 14:21",
@@ -18,18 +16,8 @@
 		"setUp" : "mg 7/2/2020 14:17",
 		"tearDown" : "mg 7/2/2020 13:53",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
-		"testChangeListItemsGreaterThan" : "uh 7/2/2020 16:17",
-		"testChangeListItemsGreaterThanOrEqual" : "uh 7/2/2020 16:26",
-		"testChangeListItemsSmallerThan" : "uh 7/2/2020 16:19",
-		"testChangeListItemsSmallerThanOrEqual" : "uh 7/2/2020 16:26",
-		"testCorrectChangeListItemsSelectedOnInitialization" : "uh 7/2/2020 16:23",
-		"testCorrectChangeListItemsSelectedWhenPicked" : "uh 7/2/2020 15:37",
-		"testCorrectHistoryListItemsSelectedOnInitialization" : "uh 7/2/2020 16:24",
+		"testCorrectChangeListItemsSelectedWhenPicked" : "mg 7/2/2020 15:12",
 		"testCorrectHistoryListItemsSelectedWhenPicked" : "mg 7/2/2020 14:16",
-		"testHistoryListItemsGreaterThan" : "uh 7/2/2020 16:44",
-		"testHistoryListItemsGreaterThanOrEqual" : "uh 7/2/2020 16:47",
-		"testHistoryListItemsSmallerThan" : "uh 7/2/2020 16:45",
-		"testHistoryListItemsSmallerThanOrEqual" : "uh 7/2/2020 16:48",
-		"testIgnoreAllOfHistoryList" : "uh 7/2/2020 16:54",
+		"testCorrectItemsSelectedOnInitialization" : "mg 7/2/2020 13:54",
 		"testSwitchingBetweenViews" : "mg 7/2/2020 13:56",
 		"world" : "mg 7/2/2020 14:01" } }

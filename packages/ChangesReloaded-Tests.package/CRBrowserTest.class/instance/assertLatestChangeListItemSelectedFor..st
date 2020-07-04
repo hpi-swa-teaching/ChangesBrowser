@@ -1,4 +1,4 @@
-testing-functionality
+testing
 assertLatestChangeListItemSelectedFor: aHistoryListItem
 
 	| itemsThatShouldBeSelected |

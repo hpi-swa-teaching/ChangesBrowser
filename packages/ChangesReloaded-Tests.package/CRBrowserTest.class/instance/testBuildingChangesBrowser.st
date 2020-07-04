@@ -1,4 +1,4 @@
-testing-ui
+testing
 testBuildingChangesBrowser
 
 	self assert: (self browserWindow isKindOf: PluggableSystemWindow).
