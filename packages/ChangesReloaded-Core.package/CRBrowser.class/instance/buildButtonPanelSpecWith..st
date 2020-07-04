@@ -1,4 +1,4 @@
-building
+toolbuilder
 buildButtonPanelSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new

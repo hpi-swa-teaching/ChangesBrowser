@@ -1,4 +1,4 @@
-initializing
+initialize-release
 initializeHistoryListWith: aMultiByteFileStream
 
 	| changeRecords |
