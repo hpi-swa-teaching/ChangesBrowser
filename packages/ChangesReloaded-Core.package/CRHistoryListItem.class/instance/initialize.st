@@ -3,6 +3,6 @@ initialize
 
 	self
 		selector: nil;
-		className: nil;
+		classNameOfChanges: nil;
 		history: (SortedCollection sortBlock: [:aCRChangeListItem :anotherCRChangeListItem |
 												aCRChangeListItem timeStamp > anotherCRChangeListItem timeStamp])
