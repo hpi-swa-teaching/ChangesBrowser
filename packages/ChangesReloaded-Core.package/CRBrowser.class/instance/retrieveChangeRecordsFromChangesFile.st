@@ -1,4 +1,4 @@
-initialize-release
+initializing
 retrieveChangeRecordsFromChangesFile
 
 	| changesFile changesFileCopy start end |

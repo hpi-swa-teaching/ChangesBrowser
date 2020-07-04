@@ -1,5 +1,6 @@
-initialize-release
+initializing
 initialize
 
-	super initialize.
-	self initializeChangeListItems
+	self initializeHistoryList.
+	self historyListSelectionIndex: 0.
+	self changeListSelectionIndex: 0

@@ -1,0 +1,6 @@
+menu-actions
+selectAllLatestChangesOfHistoryListAndUpdateUI
+
+	self
+		selectAllLatestChangesOfHistoryList;
+		updateAfterMenuAction

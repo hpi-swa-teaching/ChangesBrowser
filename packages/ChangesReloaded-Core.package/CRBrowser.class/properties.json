@@ -4,9 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "uh 6/9/2020 19:00",
+	"commentStamp" : "SV 6/3/2020 10:26",
 	"instvars" : [
-		"changeListItems" ],
+		"historyList",
+		"historyListSelectionIndex",
+		"changeListSelectionIndex" ],
 	"name" : "CRBrowser",
 	"pools" : [
 		 ],

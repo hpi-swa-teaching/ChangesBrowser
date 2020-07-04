@@ -1,0 +1,16 @@
+{
+	"category" : "ChangesReloaded-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mg 6/20/2020 10:05",
+	"instvars" : [
+		"history",
+		"selector",
+		"className" ],
+	"name" : "CRHistoryListItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

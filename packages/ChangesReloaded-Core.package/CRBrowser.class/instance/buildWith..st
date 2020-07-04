@@ -1,4 +1,4 @@
-toolbuilder
+building
 buildWith: aBuilder
 
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
@@ -9,8 +9,14 @@ buildWith: aBuilder
 			add: ((self buildButtonPanelSpecWith: aBuilder)
 				frame: self buttonsFrame;
 				yourself);
-			add: ((self buildChangeListSpecWith: aBuilder)
+			add: ((self buildHistoryListSpecWith: aBuilder)
+				frame: self historyListFrame;
+				yourself);
+			add: ((self buildSingleSelectionChangeListSpecWith: aBuilder)
 				frame: self changeListFrame;
+				yourself);
+			add: ((self buildCodePaneWith: aBuilder)
+				frame: self codePaneFrame;
 				yourself);
 			yourself);
 		yourself)
