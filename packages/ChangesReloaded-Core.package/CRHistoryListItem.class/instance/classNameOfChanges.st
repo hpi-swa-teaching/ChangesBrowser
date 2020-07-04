@@ -1,4 +1,0 @@
-accessing
-classNameOfChanges
-
-	^ classNameOfChanges
