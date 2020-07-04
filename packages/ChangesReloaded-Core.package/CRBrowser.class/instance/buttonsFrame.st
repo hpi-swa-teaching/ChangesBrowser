@@ -1,4 +1,4 @@
-toolbuilder
+building
 buttonsFrame
 
 	^ LayoutFrame new

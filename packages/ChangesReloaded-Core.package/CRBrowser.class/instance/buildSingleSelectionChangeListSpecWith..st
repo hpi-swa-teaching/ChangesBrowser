@@ -1,4 +1,4 @@
-toolbuilder
+building
 buildSingleSelectionChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new

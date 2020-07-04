@@ -1,4 +1,4 @@
-toolbuilder
+building
 historyListFrame
 
 	^ LayoutFrame new

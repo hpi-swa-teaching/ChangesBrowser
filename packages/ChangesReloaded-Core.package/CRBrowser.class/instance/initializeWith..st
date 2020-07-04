@@ -1,4 +1,4 @@
-initialize-release
+initializing
 initializeWith: aMultiByteFileStream
 
 	super initialize.

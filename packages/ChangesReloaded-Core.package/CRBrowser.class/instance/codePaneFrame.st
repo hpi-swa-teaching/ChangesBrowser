@@ -1,4 +1,4 @@
-toolbuilder
+building
 codePaneFrame
 
 	^ LayoutFrame new
