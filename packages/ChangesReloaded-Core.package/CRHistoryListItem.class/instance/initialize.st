@@ -1,8 +1,8 @@
-initialize-release
+initializing
 initialize
 
 	self
 		selector: nil;
-		classNameOfChanges: nil;
+		className: nil;
 		history: (SortedCollection sortBlock: [:aCRChangeListItem :anotherCRChangeListItem |
 												aCRChangeListItem timeStamp > anotherCRChangeListItem timeStamp])

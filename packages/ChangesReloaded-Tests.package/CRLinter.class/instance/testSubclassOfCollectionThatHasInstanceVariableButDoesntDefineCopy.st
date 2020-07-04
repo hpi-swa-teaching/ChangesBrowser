@@ -1,4 +1,0 @@
-test-for-possible-bugs
-testSubclassOfCollectionThatHasInstanceVariableButDoesntDefineCopy
-
-	self assertNoOccurrences: (self runLinterRule: #smallLintCollectionCopyEmpty)

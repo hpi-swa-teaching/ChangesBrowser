@@ -1,4 +1,4 @@
-initialize-release
+initializing
 initialize
 
 	self isSelected: false

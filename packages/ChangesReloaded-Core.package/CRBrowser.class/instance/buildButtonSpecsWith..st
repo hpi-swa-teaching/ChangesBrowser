@@ -1,4 +1,4 @@
-toolbuilder
+building
 buildButtonSpecsWith: aBuilder
 
 	^ (self buttons

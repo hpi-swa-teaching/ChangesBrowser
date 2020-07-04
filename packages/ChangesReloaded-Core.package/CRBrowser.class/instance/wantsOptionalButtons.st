@@ -1,4 +1,4 @@
-toolbuilder
+building
 wantsOptionalButtons
 
 	^ false

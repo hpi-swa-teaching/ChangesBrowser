@@ -9,5 +9,5 @@ description
 				ifTrue: [(indexOfSelectedChangeListItem - 1) asString , ' omitted:']
 				ifFalse: ['Latest:']]
 		ifFalse: ['Ignored:'].
-	description := self classNameOfChanges , ' ' , self selector.
+	description := self className , ' ' , self selector.
 	^ prefix , ' ' , description

@@ -1,4 +1,4 @@
-toolbuilder
+building
 setUpHistoryListMenuMorph: aMenuMorph
 
 	aMenuMorph addList: #(

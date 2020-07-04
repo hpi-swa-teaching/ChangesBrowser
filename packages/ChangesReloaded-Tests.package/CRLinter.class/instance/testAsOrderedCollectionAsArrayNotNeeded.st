@@ -1,4 +1,0 @@
-test-for-miscellaneous
-testAsOrderedCollectionAsArrayNotNeeded
-
-	self assertNoOccurrences: (self runLinterRule: #smallLintAsOrderedCollectionNotNeeded)
