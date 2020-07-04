@@ -26,6 +26,7 @@
 		"testCorrectChangeListItemsSelectedWhenPicked" : "uh 7/2/2020 15:37",
 		"testCorrectHistoryListItemsSelectedOnInitialization" : "uh 7/2/2020 16:24",
 		"testCorrectHistoryListItemsSelectedWhenPicked" : "mg 7/2/2020 14:16",
+		"testCorrectItemsSelectedOnInitialization" : "mg 7/2/2020 13:54",
 		"testHistoryListItemsGreaterThan" : "uh 7/2/2020 16:44",
 		"testHistoryListItemsGreaterThanOrEqual" : "uh 7/2/2020 16:47",
 		"testHistoryListItemsSmallerThan" : "uh 7/2/2020 16:45",
