@@ -8,7 +8,7 @@
 	"instvars" : [
 		"history",
 		"selector",
-		"className" ],
+		"classNameOfChanges" ],
 	"name" : "CRHistoryListItem",
 	"pools" : [
 		 ],
