@@ -11,6 +11,9 @@ SmalltalkCISpec {
   #testing : {
     #exclude : {
       #classes : [ #CRLinter ]
+    },
+    #coverage : {
+      #packages : [ 'ChangesReloaded-Core.*' ]
     }
   }
 }
