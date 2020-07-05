@@ -1,4 +1,4 @@
 instance-creation
 openWith: aMultiByteFileStream
 
-	^ ToolBuilder open: (self newWith: aMultiByteFileStream)
+	^ self openWith: (SourceFiles at: 2)
