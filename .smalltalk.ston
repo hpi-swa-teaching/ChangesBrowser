@@ -1,4 +1,5 @@
 SmalltalkCISpec {
+  #preLoading : 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'ChangesReloaded',
@@ -8,9 +9,8 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #coverage : {
-      #packages : [ 'ChangesReloaded-Core.*' ]
-    },
-    #packages : [ 'ChangesReloaded-Tests.*' ]
+    #exclude : {
+      #classes : [ #CRLinter ]
+    }
   }
 }
