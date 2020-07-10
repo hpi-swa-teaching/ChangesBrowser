@@ -9,10 +9,7 @@ buildWith: aBuilder
 			add: ((self buildButtonPanelSpecWith: aBuilder)
 				frame: self buttonsFrame;
 				yourself);
-			add: ((self buildHistoryListSpecWith: aBuilder)
-				frame: self historyListFrame;
-				yourself);
-			add: ((self buildSingleSelectionChangeListSpecWith: aBuilder)
+			add: ((self buildChangeListSpecWith: aBuilder)
 				frame: self changeListFrame;
 				yourself);
 			add: ((self buildCodePaneWith: aBuilder)

@@ -1,4 +1,4 @@
 accessing
 description
 
-	^ self stamp
+	^ self className , ' ' , self methodSelector , ' ' , self stamp

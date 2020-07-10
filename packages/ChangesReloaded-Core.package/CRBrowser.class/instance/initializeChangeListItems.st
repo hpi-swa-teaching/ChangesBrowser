@@ -1,9 +1,8 @@
 initializing
-initializeHistoryList
+initializeChangeListItems
 
 	| changeRecords |
 	changeRecords := Cursor read
 				showWhile: [(self retrieveChangeRecordsFromChangesFile
 						reject: [:each | each isInImage]) reversed].
-	self historyList: (self getHistoryListFrom: changeRecords).
-	self selectAllLatestChangesOfHistoryList
+	self changeListItems: (self getChangeListItemsFrom: changeRecords)

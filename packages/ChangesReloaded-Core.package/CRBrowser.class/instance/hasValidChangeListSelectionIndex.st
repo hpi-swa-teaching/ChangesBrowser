@@ -1,5 +1,4 @@
 accessing
 hasValidChangeListSelectionIndex
 
-	^ self hasValidHistoryListSelectionIndex
-		and: [self changeListSelectionIndex between: 1 and: self selectedHistoryListItem history size]
+	^ self changeListSelectionIndex between: 1 and: self changeListItems size

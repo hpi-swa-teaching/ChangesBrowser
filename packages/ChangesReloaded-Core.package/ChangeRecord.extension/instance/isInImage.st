@@ -17,3 +17,4 @@ isInImage
 			^ (TimeStamp fromAuthorStamp: class organization commentStamp) >= self timeStamp].
 		
 	"TODO: doIt"
+	^ false

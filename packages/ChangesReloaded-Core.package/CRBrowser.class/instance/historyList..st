@@ -1,4 +1,0 @@
-accessing
-historyList: anOrderedCollectionOfHistoryListItems
-
-	historyList := anOrderedCollectionOfHistoryListItems

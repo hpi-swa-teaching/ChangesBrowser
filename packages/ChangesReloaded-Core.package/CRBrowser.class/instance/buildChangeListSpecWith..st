@@ -1,8 +1,8 @@
 building
-buildSingleSelectionChangeListSpecWith: aBuilder
+buildChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;
-		list: #displayedChangeDescriptions;
+		list: #changeDescriptions;
 		getIndex: #changeListSelectionIndex;
 		setIndex: #changeListSelectionIndex:
