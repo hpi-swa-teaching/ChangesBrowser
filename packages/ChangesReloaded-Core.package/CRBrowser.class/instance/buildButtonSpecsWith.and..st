@@ -1,7 +1,7 @@
 building
-buildButtonSpecsWith: aBuilder
+buildButtonSpecsWith: aBuilder and: anArray
 
-	^ (self buttons
+	^ (anArray
 		collect: [:each | aBuilder pluggableButtonSpec new
 				 model: self;
 				 label: each first;

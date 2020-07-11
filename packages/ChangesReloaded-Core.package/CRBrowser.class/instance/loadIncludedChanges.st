@@ -1,5 +1,5 @@
 button-actions
-loadSelectedChanges
+loadIncludedChanges
 
 	(self includedChangeListItems
 		sorted: [:a :b | a timeStamp < b timeStamp])

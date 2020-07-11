@@ -6,11 +6,14 @@ buildWith: aBuilder
 		label: 'Changes Browser Reloaded';
 		extent: self extent;
 		children: (Set new
-			add: ((self buildButtonPanelSpecWith: aBuilder)
-				frame: self buttonsFrame;
+			add: ((self buildButtonPanelSpecWith: aBuilder and: self upperButtons)
+				frame: self upperButtonsFrame;
 				yourself);
 			add: ((self buildChangeListSpecWith: aBuilder)
 				frame: self changeListFrame;
+				yourself);
+			add: ((self buildExcludeIncludeButtonSpecWith: aBuilder)
+				frame: self excludeIncludeButtonFrame;
 				yourself);
 			add: ((self buildCodePaneWith: aBuilder)
 				frame: self codePaneFrame;

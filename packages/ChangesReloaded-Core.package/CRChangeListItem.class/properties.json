@@ -7,7 +7,7 @@
 	"commentStamp" : "SV 5/29/2020 23:36",
 	"instvars" : [
 		"changeRecord",
-		"isSelected" ],
+		"isIncluded" ],
 	"name" : "CRChangeListItem",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 building
 buttonHeight
 
-	^ 50
+	^ 35
