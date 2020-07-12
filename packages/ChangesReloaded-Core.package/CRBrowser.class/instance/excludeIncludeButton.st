@@ -2,4 +2,9 @@ building
 excludeIncludeButton
 	"TODO: way to get the button properly"
 	
-	^ self model submorphs select: [:each | each actionSelector == #toggleExcludeInclude]
+	| browserWindow buttons |
+	browserWindow := self dependents detect: [:each | each isKindOf: PluggableSystemWindow].
+	buttons := browserWindow submorphs 
+		select: [:each | each isKindOf: PluggableButtonMorphPlus].
+	
+	^ buttons detect: [:each | each actionSelector == #toggleExcludeInclude]
