@@ -5,5 +5,5 @@ buildExcludeIncludeButtonSpecWith: aBuilder
 		model: self;
 		label: self excludeButtonProps first;
 		action: self excludeButtonProps second;
-		help: self excludeButtonProps third;
+		help: self excludeIncludeButtonTooltipText;
 		yourself

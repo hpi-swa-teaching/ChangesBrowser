@@ -2,7 +2,7 @@ accessing
 description
 
 	| plainDescription |
-	plainDescription := self className , ' ' , self methodSelector , ' ' , self stamp.
+	plainDescription := self nameOfAffectedClass , ' ' , self methodSelector , ' ' , self stamp.
 	self isIncluded 
 		ifTrue: [^ plainDescription]
 		ifFalse: [^ '(' , plainDescription , ')'] 
