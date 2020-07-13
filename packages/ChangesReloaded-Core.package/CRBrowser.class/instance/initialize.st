@@ -2,4 +2,4 @@ initializing
 initialize
 
 	self initializeChangeListItems.
-	self changeListSelectionIndex: 0
+	changeListSelectionIndex := 0

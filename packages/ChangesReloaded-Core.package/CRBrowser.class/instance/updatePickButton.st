@@ -1,6 +1,8 @@
-building
+updating
 updatePickButton
 
-	self selectedChangeListItem isPicked
-		ifTrue: [self setButtonContentToUnpick]
-		ifFalse: [self setButtonContentToPick]
+	self pickButton enabled: self hasSelectedChangeListItem.
+	self hasSelectedChangeListItem
+		ifTrue: [self selectedChangeListItem isPicked
+					ifTrue: [self setButtonContentToUnpick]
+					ifFalse: [self setButtonContentToPick]]

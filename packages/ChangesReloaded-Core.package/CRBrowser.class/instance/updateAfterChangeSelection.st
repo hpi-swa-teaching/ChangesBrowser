@@ -3,4 +3,5 @@ updateAfterChangeSelection
 
 	self
 		repaintChangeListSelection;
-		updateCodePane
+		updateCodePane;
+		updatePickButton

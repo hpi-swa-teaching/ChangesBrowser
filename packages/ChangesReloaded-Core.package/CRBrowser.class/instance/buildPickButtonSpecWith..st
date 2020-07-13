@@ -6,4 +6,5 @@ buildPickButtonSpecWith: aBuilder
 		label: self unpickButtonProps first;
 		action: self unpickButtonProps second;
 		help: self pickButtonTooltipText;
+		enabled: false;
 		yourself
