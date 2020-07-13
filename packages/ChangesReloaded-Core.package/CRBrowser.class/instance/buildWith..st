@@ -12,8 +12,8 @@ buildWith: aBuilder
 			add: ((self buildChangeListSpecWith: aBuilder)
 				frame: self changeListFrame;
 				yourself);
-			add: ((self buildExcludeIncludeButtonSpecWith: aBuilder)
-				frame: self excludeIncludeButtonFrame;
+			add: ((self buildPickButtonSpecWith: aBuilder)
+				frame: self pickButtonFrame;
 				yourself);
 			add: ((self buildCodePaneWith: aBuilder)
 				frame: self codePaneFrame;

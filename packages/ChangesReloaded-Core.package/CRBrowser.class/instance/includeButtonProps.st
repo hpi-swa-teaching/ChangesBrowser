@@ -1,4 +1,0 @@
-building
-includeButtonProps
-	
-	^ #('Include' #toggleExcludeInclude)

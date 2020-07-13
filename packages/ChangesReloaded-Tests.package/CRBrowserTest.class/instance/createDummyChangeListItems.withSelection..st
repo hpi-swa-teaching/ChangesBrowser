@@ -16,6 +16,6 @@ createDummyChangeListItems: anInteger withSelection: aBoolean
 		changeListItems
 			add: (CRChangeListItem new
 				changeRecord: record;
-				isIncluded: aBoolean)].
+				isPicked: aBoolean)].
 	
 	^ changeListItems

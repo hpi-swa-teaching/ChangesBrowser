@@ -6,4 +6,4 @@ initializeChangeListItems
 				showWhile: [(self retrieveChangeRecordsFromChangesFile
 						reject: [:each | each isInImage]) reversed].
 	self changeListItems: (self getChangeListItemsFrom: changeRecords).
-	self includeAllChangeListItems
+	self pickAllChangeListItems

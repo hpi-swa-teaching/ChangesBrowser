@@ -1,4 +1,4 @@
 initializing
 initialize
 
-	self isIncluded: false
+	self isPicked: false

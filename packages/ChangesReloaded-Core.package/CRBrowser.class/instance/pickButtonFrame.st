@@ -1,5 +1,5 @@
 building
-excludeIncludeButtonFrame
+pickButtonFrame
 
 	^ LayoutFrame new
 		leftFraction: 0 offset: 0;

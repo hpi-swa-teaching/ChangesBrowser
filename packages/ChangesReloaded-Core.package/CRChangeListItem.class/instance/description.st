@@ -3,6 +3,6 @@ description
 
 	| plainDescription |
 	plainDescription := self nameOfAffectedClass , ' ' , self methodSelector , ' ' , self stamp.
-	self isIncluded 
+	self isPicked 
 		ifTrue: [^ plainDescription]
 		ifFalse: [^ '(' , plainDescription , ')'] 

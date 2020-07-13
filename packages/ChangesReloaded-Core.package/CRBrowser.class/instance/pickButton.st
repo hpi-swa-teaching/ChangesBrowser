@@ -1,5 +1,5 @@
 building
-excludeIncludeButton
+pickButton
 	"TODO: way to get the button properly"
 	
 	| browserWindow buttons |
@@ -7,4 +7,4 @@ excludeIncludeButton
 	buttons := browserWindow submorphs 
 		select: [:each | each isKindOf: PluggableButtonMorphPlus].
 	
-	^ buttons detect: [:each | each actionSelector == #toggleExcludeInclude]
+	^ buttons detect: [:each | each actionSelector == #togglePickStatus]
