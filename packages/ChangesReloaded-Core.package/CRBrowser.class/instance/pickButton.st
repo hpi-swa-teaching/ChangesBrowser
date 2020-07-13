@@ -1,4 +1,4 @@
-building
+accessing
 pickButton
 	"TODO: way to get the button properly"
 	
