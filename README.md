@@ -22,6 +22,14 @@ Metacello new
     repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
     load.
 ```
+as well as
+```
+Metacello new
+    baseline: 'Changes';
+    repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
+    load.
+```
+- This is necessary because the 2020 project supports the 2017 project, but the browsers themselves have their own baselines. You need both for full functionality.
 
 ### Usage
 After you installed the tool you have to execute `CRBrowser open` in a Workspace in order to work with it. Alternatively, you can open it from the `CHBrowser` with the button <kbd>Switch to simple view</kbd>.
