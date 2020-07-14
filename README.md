@@ -16,7 +16,7 @@ In order to use our tool, you have to install it in your Squeak image. Our prefe
 
 ### Metacello
 - Open a workspace and execute
-```
+```smalltalk
 Metacello new
     baseline: 'ChangesReloaded';
     repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
