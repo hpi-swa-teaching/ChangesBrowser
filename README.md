@@ -27,7 +27,7 @@ as well as
 Metacello new
     baseline: 'Changes';
     repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
-    load.
+    load
 ```
 - This is necessary because the 2020 project supports the 2017 project, but the browsers themselves have their own baselines. You need both for full functionality.
 
