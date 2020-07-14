@@ -20,7 +20,7 @@ In order to use our tool, you have to install it in your Squeak image. Our prefe
 Metacello new
     baseline: 'ChangesReloaded';
     repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
-    load.
+    load
 ```
 as well as
 ```
