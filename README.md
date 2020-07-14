@@ -23,7 +23,7 @@ Metacello new
     load
 ```
 as well as
-```
+```smalltalk
 Metacello new
     baseline: 'Changes';
     repository: 'github://hpi-swa-teaching/ChangesBrowser:dev/packages';
