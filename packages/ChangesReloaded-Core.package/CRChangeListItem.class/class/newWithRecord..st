@@ -1,4 +1,4 @@
 instance-creation
 newWithRecord: aChangeRecord
 	
-	^self new changeRecord: aChangeRecord
+	^ self new changeRecord: aChangeRecord
