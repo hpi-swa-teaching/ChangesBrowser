@@ -1,5 +1,6 @@
 testing-ui
 testBuildingChangesBrowser
 
-	self assert: (self browserWindow isKindOf: PluggableSystemWindow).
-	self assert: (World submorphs contains: [:a | (a model class) = CRBrowser])
+	self 
+		assert: (self browserWindow isKindOf: PluggableSystemWindow);
+		assert: (World submorphs contains: [:a | (a model class) = CRBrowser])
