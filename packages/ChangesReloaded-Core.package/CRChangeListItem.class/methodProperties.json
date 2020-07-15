@@ -10,8 +10,9 @@
 		"changeRecord:" : "SV 5/29/2020 22:14",
 		"description" : "SV 7/13/2020 16:05",
 		"doesNotUnderstand:" : "gf 6/15/2020 23:22",
-		"initialize" : "SV 7/13/2020 16:05",
+		"initialize" : "gf 7/15/2020 10:48",
 		"isPicked" : "SV 7/13/2020 16:05",
 		"isPicked:" : "SV 7/13/2020 16:05",
-		"max:" : "mg 6/20/2020 10:09",
-		"nameOfAffectedClass" : "SV 7/13/2020 15:52" } }
+		"nameOfAffectedClass" : "SV 7/13/2020 15:52",
+		"pick" : "gf 7/15/2020 10:45",
+		"unpick" : "gf 7/15/2020 10:45" } }

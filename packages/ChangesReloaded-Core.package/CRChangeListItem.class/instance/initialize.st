@@ -1,4 +1,4 @@
 initializing
 initialize
 
-	self isPicked: false
+	self unpick

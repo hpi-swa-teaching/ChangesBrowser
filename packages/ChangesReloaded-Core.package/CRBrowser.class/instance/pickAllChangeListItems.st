@@ -1,4 +1,4 @@
 initializing
 pickAllChangeListItems
 
-	self changeListItems do: [:each | each isPicked: true]
+	self changeListItems do: [:each | each pick]
