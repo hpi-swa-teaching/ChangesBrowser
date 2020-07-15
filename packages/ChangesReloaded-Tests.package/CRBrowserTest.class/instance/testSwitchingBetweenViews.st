@@ -1,10 +1,11 @@
 testing-ui
 testSwitchingBetweenViews
 
-	self browserWindow: self changesBrowser switchToDetailedView.
-	self assert: (World submorphs contains: [:a | (a model class) = CHBrowser]).
-	self assert:  (World submorphs contains: [:a | (a model class) = CRBrowser]) not.
-	
-	self browserWindow: self changesBrowser switchToSimpleView.
-	self assert: (World submorphs contains: [:a | (a model class) = CRBrowser]).
-	self assert:  (World submorphs contains: [:a | (a model class) = CHBrowser]) not
+	self 
+		browserWindow: self changesBrowser switchToDetailedView;
+		assert: (World submorphs contains: [:a | (a model class) = CHBrowser]);
+		assert:  (World submorphs contains: [:a | (a model class) = CRBrowser]) not;
+
+		browserWindow: self changesBrowser switchToSimpleView;
+		assert: (World submorphs contains: [:a | (a model class) = CRBrowser]);
+		assert:  (World submorphs contains: [:a | (a model class) = CHBrowser]) not

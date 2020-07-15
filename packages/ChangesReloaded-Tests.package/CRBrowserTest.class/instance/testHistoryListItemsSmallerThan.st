@@ -1,11 +1,11 @@
 testing-functionality
 testHistoryListItemsSmallerThan
 	
-	| changes youngerChangeListItem olderChangeListItem youngerHistoryListItem olderHistoryListItem|
+	| changes youngerChangeListItem olderChangeListItem youngerHistoryListItem olderHistoryListItem |
 	changes := self changesBrowser class retrieveChangeRecordsFrom: self class mockWeirdlySortedChanges.
 	
-	youngerChangeListItem := CRChangeListItem newWithRecord: (changes at: 2).
-	olderChangeListItem := CRChangeListItem newWithRecord: (changes at: 5).
+	youngerChangeListItem := CRChangeListItem newWithRecord: (changes second).
+	olderChangeListItem := CRChangeListItem newWithRecord: (changes fifth).
 	
 	youngerHistoryListItem := CRHistoryListItem new 
 		history: (SortedCollection new add: youngerChangeListItem; add: olderChangeListItem; yourself).
