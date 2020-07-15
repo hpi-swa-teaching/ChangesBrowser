@@ -1,4 +1,4 @@
 test-for-bugs
 testSuperCallRequired
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintMethodModifierSuper)
+	self assertAllAreZero: (self runLinterRule: #smallLintMethodModifierSuper)

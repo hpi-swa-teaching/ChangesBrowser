@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testClassInstanceVariableNotInitialized
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintClassInstVarNotInitialized)
+	self assertAllAreZero: (self runLinterRule: #smallLintClassInstVarNotInitialized)

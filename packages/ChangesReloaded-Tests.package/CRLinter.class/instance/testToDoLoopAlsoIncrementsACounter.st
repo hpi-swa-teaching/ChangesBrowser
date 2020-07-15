@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testToDoLoopAlsoIncrementsACounter
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintToDoWithIncrement)
+	self assertAllAreZero: (self runLinterRule: #smallLintToDoWithIncrement)

@@ -1,4 +1,4 @@
 test-for-miscellaneous
 testStringConcatenationInsteadOfStreams
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintStringConcatenation)
+	self assertAllAreZero: (self runLinterRule: #smallLintStringConcatenation)

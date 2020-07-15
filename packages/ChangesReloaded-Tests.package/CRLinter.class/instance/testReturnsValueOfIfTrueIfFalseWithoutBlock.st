@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testReturnsValueOfIfTrueIfFalseWithoutBlock
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintReturnsIfTrue)
+	self assertAllAreZero: (self runLinterRule: #smallLintReturnsIfTrue)

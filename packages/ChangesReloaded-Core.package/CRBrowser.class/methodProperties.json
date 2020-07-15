@@ -1,6 +1,8 @@
 {
 	"class" : {
+		"changeListName" : "mg 7/15/2020 19:46",
 		"getHistoryListFrom:" : "mg 7/4/2020 20:20",
+		"historyListName" : "mg 7/15/2020 19:46",
 		"newWith:" : "uh 6/21/2020 21:32",
 		"numberOfBytesToLoadChangesFrom" : "gf 5/20/2020 10:43",
 		"open" : "gf 7/5/2020 13:58",
@@ -9,8 +11,8 @@
 	"instance" : {
 		"buildButtonPanelSpecWith:" : "mg 7/4/2020 19:44",
 		"buildButtonSpecsWith:" : "mg 5/14/2020 21:14",
-		"buildHistoryListSpecWith:" : "mg 7/4/2020 21:03",
-		"buildSingleSelectionChangeListSpecWith:" : "mg 7/4/2020 21:03",
+		"buildHistoryListSpecWith:" : "mg 7/15/2020 19:47",
+		"buildSingleSelectionChangeListSpecWith:" : "mg 7/15/2020 19:47",
 		"buildWith:" : "SV 6/21/2020 13:07",
 		"buttonHeight" : "mg 5/11/2020 19:05",
 		"buttons" : "mg 6/29/2020 17:53",

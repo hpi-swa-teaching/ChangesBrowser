@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testEmptyExceptionHandler
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintEmptyExceptionHandler)
+	self assertAllAreZero: (self runLinterRule: #smallLintEmptyExceptionHandler)

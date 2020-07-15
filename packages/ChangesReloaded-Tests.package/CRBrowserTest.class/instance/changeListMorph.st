@@ -1,4 +1,4 @@
 accessing
 changeListMorph
 
-	^ self browserWindow submorphs detect: [:a | a externalName = 'change list']
+	^ self browserWindow submorphs detect: [:a | a externalName = CRBrowser changeListName]

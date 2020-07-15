@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testClassInstanceVariableOverriddenByTemporaryVariable
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintTempVarOverridesInstVar)
+	self assertAllAreZero: (self runLinterRule: #smallLintTempVarOverridesInstVar)

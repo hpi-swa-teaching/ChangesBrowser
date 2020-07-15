@@ -1,4 +1,4 @@
 test-for-bugs
 testOverridesASpecialMessage
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintOverridesSpecialMessage)
+	self assertAllAreZero: (self runLinterRule: #smallLintOverridesSpecialMessage)

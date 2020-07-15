@@ -1,4 +1,4 @@
 test-for-miscellaneous
 testExcessiveInheritanceDepth
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintExcessiveInheritance)
+	self assertAllAreZero: (self runLinterRule: #smallLintExcessiveInheritance)

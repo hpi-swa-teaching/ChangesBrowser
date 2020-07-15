@@ -2,4 +2,4 @@ test-unnecessary-code
 brokenTestInstanceVariablesNotReadAndWritten
 	"literally broken"
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintOnlyReadOrWrittenVariable)
+	self assertAllAreZero: (self runLinterRule: #smallLintOnlyReadOrWrittenVariable)

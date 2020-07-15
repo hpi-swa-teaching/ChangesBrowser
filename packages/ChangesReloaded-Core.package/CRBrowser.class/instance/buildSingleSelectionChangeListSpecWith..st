@@ -2,7 +2,7 @@ toolbuilder
 buildSingleSelectionChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
-		name: 'change list';
+		name: self class changeListName;
 		model: self;
 		list: #displayedChangeDescriptions;
 		getIndex: #changeListSelectionIndex;

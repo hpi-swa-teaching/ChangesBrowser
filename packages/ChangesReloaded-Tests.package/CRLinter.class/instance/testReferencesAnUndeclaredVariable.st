@@ -1,4 +1,4 @@
 test-for-bugs
 testReferencesAnUndeclaredVariable
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintUndeclaredReference)
+	self assertAllAreZero: (self runLinterRule: #smallLintUndeclaredReference)

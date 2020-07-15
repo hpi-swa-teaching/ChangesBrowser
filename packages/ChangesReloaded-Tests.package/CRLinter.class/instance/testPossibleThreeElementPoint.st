@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testPossibleThreeElementPoint
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintThreeElementPoint)
+	self assertAllAreZero: (self runLinterRule: #smallLintThreeElementPoint)

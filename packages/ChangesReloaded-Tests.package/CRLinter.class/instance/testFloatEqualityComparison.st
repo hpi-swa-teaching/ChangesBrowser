@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testFloatEqualityComparison
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintFloatEqualityComparison)
+	self assertAllAreZero: (self runLinterRule: #smallLintFloatEqualityComparison)

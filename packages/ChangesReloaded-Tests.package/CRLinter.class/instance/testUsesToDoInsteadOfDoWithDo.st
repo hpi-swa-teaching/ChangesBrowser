@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testUsesToDoInsteadOfDoWithDo
 
-	self assertNoOccurrences: (self runLinterRule: #toDoRule:)
+	self assertAllAreZero: (self runLinterRule: #toDoRule:)

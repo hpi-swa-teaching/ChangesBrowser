@@ -1,4 +1,4 @@
 test-for-miscellaneous
 testRedundantClassNameInSelector
 
-	self assertNoOccurrences: (self runLinterRule: #classNameInSelector:)
+	self assertAllAreZero: (self runLinterRule: #classNameInSelector:)

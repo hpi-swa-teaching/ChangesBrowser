@@ -4,7 +4,7 @@ fromAuthorStamp: aString
 
 	| tokens |
 	tokens := aString findTokens: Character separators.
-	^ tokens size >= 2
+	^ ({2 . 3} includes: tokens size)
 		ifTrue: [| dateString timeString |
 			dateString := tokens nextToLast.
 			timeString := tokens last.

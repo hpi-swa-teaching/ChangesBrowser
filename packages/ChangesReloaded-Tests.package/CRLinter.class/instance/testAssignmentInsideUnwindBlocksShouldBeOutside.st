@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testAssignmentInsideUnwindBlocksShouldBeOutside
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintFileBlocks)
+	self assertAllAreZero: (self runLinterRule: #smallLintFileBlocks)

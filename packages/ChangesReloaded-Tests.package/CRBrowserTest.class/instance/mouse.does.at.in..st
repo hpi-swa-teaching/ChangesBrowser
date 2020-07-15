@@ -1,8 +1,8 @@
 mock inputs
-mouse: aButtonCode does: aType at: aPoint in: aWorld
+mouse: aButtonCode does: aSymbol at: aPoint in: aWorld
 
 	^ MouseButtonEvent new
-		setType: aType
+		setType: aSymbol
 		position: aPoint
 		which: 2r000 "no change"
 		buttons: aButtonCode

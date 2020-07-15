@@ -1,4 +1,4 @@
 test-for-bugs
 testSubclassResponsibilityNotDefined
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintSubclassResponsibilityNotDefined)
+	self assertAllAreZero: (self runLinterRule: #smallLintSubclassResponsibilityNotDefined)

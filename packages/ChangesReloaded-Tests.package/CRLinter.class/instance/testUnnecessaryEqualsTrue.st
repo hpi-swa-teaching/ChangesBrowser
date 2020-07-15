@@ -1,4 +1,4 @@
 test-unnecessary-code
 testUnnecessaryEqualsTrue
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintEqualsTrue)
+	self assertAllAreZero: (self runLinterRule: #smallLintEqualsTrue)

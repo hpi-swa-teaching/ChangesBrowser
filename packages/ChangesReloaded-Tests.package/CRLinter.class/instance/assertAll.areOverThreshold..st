@@ -1,4 +1,4 @@
 testing-utils
-assertAll: aCollectionOfResultValues areOverThreshold: aNumber
+assertAll: aCollectionOfNumbers areOverThreshold: aNumber
 
-	self assert: (aCollectionOfResultValues allSatisfy: [:resultValue | resultValue > aNumber])
+	self assert: (aCollectionOfNumbers allSatisfy: [:each | each > aNumber])

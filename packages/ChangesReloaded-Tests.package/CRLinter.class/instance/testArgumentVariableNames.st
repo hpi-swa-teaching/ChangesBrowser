@@ -1,4 +1,4 @@
 test-for-spelling
 testArgumentVariableNames
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintArgumentVariableNamesSpelling)
+	self assertAllAreZero: (self runLinterRule: #smallLintArgumentVariableNamesSpelling)

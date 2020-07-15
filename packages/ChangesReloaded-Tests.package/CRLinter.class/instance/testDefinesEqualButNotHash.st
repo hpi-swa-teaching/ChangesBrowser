@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testDefinesEqualButNotHash
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintDefinesEqualNotHash)
+	self assertAllAreZero: (self runLinterRule: #smallLintDefinesEqualNotHash)

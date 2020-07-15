@@ -1,4 +1,4 @@
 test-unnecessary-code
 testCheckForSameStatementsAtEndOfIfTrueIfFalseBlocks
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintEndTrueFalse)
+	self assertAllAreZero: (self runLinterRule: #smallLintEndTrueFalse)

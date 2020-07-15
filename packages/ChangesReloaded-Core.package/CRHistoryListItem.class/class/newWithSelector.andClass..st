@@ -4,7 +4,7 @@ newWithSelector: aSelectorSymbol andClass: aClassSymbol
 	| newHistoryListItem |
 	newHistoryListItem := CRHistoryListItem new
 		selector: aSelectorSymbol;
-		affectedClass: aClassSymbol name;
+		nameOfAffectedClass: aClassSymbol name;
 		yourself.
 
 	^ newHistoryListItem

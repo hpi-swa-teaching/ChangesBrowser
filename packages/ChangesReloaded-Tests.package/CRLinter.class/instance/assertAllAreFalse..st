@@ -1,4 +1,4 @@
 testing-utils
-assertAllAreFalse: aCollectionOfResultValues
+assertAllAreFalse: aCollectionOfBooleans
 
-	self assertAll: aCollectionOfResultValues areEqualTo: false
+	self assertAll: aCollectionOfBooleans areEqualTo: false

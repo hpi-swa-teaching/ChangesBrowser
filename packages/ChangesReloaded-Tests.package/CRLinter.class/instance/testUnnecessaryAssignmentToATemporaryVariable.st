@@ -1,4 +1,4 @@
 test-unnecessary-code
 testUnnecessaryAssignmentToATemporaryVariable
 
-	self assertNoOccurrences: (self runLinterRule: #unnecessaryAssignmentRule:)
+	self assertAllAreZero: (self runLinterRule: #unnecessaryAssignmentRule:)

@@ -1,4 +1,4 @@
 test-unnecessary-code
 testMethodsEquivalentlyDefinedInSuperclass
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintEquivalentSuperclassMethods)
+	self assertAllAreZero: (self runLinterRule: #smallLintEquivalentSuperclassMethods)

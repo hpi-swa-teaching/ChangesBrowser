@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testUnnecessarySizeCheck
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintSizeCheck)
+	self assertAllAreZero: (self runLinterRule: #smallLintSizeCheck)

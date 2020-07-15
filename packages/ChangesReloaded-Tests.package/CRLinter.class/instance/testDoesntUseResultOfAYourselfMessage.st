@@ -1,4 +1,4 @@
 test-for-miscellaneous
 testDoesntUseResultOfAYourselfMessage
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintYourselfNotUsed)
+	self assertAllAreZero: (self runLinterRule: #smallLintYourselfNotUsed)

@@ -1,4 +1,4 @@
 test-unnecessary-code
 testVariablesNotReferenced
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintUnreferencedVariables)
+	self assertAllAreZero: (self runLinterRule: #smallLintUnreferencedVariables)

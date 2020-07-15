@@ -1,4 +1,4 @@
 test-unnecessary-code
 testTemporaryVariablesNotReadAndWritten
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintOnlyReadOrWrittenTemporary)
+	self assertAllAreZero: (self runLinterRule: #smallLintOnlyReadOrWrittenTemporary)

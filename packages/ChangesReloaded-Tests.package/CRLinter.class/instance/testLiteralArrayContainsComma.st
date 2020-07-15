@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testLiteralArrayContainsComma
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintLiteralArrayContainsComma)
+	self assertAllAreZero: (self runLinterRule: #smallLintLiteralArrayContainsComma)

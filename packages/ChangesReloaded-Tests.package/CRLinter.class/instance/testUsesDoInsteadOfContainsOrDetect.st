@@ -1,4 +1,4 @@
 test-for-miscellaneous
 testUsesDoInsteadOfContainsOrDetect
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintDetectContains)
+	self assertAllAreZero: (self runLinterRule: #smallLintDetectContains)

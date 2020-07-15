@@ -1,4 +1,4 @@
 test-for-bugs
 testVariableUsedButNotDefinedAnywhere
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintVariableNotDefined)
+	self assertAllAreZero: (self runLinterRule: #smallLintVariableNotDefined)

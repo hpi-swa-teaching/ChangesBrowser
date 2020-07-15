@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testGuardingClauses
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintGuardingClause)
+	self assertAllAreZero: (self runLinterRule: #smallLintGuardingClause)

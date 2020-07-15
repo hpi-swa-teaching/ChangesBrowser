@@ -1,4 +1,4 @@
 test-for-bugs
 testMissingSuperImplementation
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintMethodModifierOverride)
+	self assertAllAreZero: (self runLinterRule: #smallLintMethodModifierOverride)

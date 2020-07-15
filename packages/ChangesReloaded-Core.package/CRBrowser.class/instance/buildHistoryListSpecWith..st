@@ -2,7 +2,7 @@ toolbuilder
 buildHistoryListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
-		name: 'history list';
+		name: self class historyListName;
 		model: self;
 		list: #historyDescriptions;
 		getIndex: #historyListSelectionIndex;

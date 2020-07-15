@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testMissingSuperSendsInSelectedMethods
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintMissingSuperSends)
+	self assertAllAreZero: (self runLinterRule: #smallLintMissingSuperSends)

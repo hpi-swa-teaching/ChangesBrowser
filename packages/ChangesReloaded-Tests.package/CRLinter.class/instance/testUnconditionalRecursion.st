@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testUnconditionalRecursion
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintUnconditionalRecursion)
+	self assertAllAreZero: (self runLinterRule: #smallLintUnconditionalRecursion)

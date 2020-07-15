@@ -1,4 +1,4 @@
 test-unnecessary-code
 testMethodJustSendsSuperMessage
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintJustSendsSuper)
+	self assertAllAreZero: (self runLinterRule: #smallLintJustSendsSuper)

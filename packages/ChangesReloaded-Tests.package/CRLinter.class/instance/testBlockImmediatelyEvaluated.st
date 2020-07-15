@@ -1,4 +1,4 @@
 test-unnecessary-code
 testBlockImmediatelyEvaluated
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintExtraBlock)
+	self assertAllAreZero: (self runLinterRule: #smallLintExtraBlock)

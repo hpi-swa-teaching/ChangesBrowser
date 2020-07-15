@@ -1,4 +1,4 @@
 test-for-spelling
 testTemporaryVariableNames
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintTemporaryVariableNamesSpelling)
+	self assertAllAreZero: (self runLinterRule: #smallLintTemporaryVariableNamesSpelling)

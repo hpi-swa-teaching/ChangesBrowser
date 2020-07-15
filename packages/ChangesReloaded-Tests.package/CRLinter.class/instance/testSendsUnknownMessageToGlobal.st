@@ -1,4 +1,4 @@
 test-for-bugs
 testSendsUnknownMessageToGlobal
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintSendsUnknownMessageToGlobal)
+	self assertAllAreZero: (self runLinterRule: #smallLintSendsUnknownMessageToGlobal)

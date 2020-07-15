@@ -1,4 +1,4 @@
 test-for-bugs
 testOverridesAFinalMethod
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintMethodModifierFinal)
+	self assertAllAreZero: (self runLinterRule: #smallLintMethodModifierFinal)

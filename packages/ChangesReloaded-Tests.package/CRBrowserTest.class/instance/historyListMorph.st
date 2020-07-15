@@ -1,4 +1,4 @@
 accessing
 historyListMorph
 
-	^ self browserWindow submorphs detect: [:a | a externalName = 'history list']
+	^ self browserWindow submorphs detect: [:a | a externalName = CRBrowser historyListName]

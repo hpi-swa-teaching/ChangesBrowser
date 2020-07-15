@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testUsesOrsInsteadOfASearchingLiteral
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintSearchingLiteral)
+	self assertAllAreZero: (self runLinterRule: #smallLintSearchingLiteral)

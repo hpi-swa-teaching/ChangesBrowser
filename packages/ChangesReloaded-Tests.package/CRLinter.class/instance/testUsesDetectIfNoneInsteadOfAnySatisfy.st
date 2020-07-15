@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testUsesDetectIfNoneInsteadOfAnySatisfy
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintContains)
+	self assertAllAreZero: (self runLinterRule: #smallLintContains)

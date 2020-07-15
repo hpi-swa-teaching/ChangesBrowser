@@ -1,4 +1,4 @@
 test-unnecessary-code
 testAssignmentHasNoEffect
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintAssignmentWithoutEffect)
+	self assertAllAreZero: (self runLinterRule: #smallLintAssignmentWithoutEffect)

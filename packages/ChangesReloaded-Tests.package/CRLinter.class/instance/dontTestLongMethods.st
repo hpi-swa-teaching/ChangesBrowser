@@ -2,4 +2,4 @@ test-for-coding-styles
 dontTestLongMethods
 	"this one sucks because we can't really do something about it"
 
-	self assertNoOccurrences: (self runLinterRule: #longMethods:)
+	self assertAllAreZero: (self runLinterRule: #longMethods:)

@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testMethodDefinedInAllSubclassesButNotInSuperclass
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintMissingSubclassResponsibility)
+	self assertAllAreZero: (self runLinterRule: #smallLintMissingSubclassResponsibility)

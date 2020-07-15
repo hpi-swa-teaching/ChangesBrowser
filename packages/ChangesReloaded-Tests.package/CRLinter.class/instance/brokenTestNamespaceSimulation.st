@@ -2,4 +2,4 @@ test-for-coding-styles
 brokenTestNamespaceSimulation
 	"wrong SL Type"
 
-	self assertNoOccurrences: (self runLinterRule: #namespaceSimulation:)
+	self assertAllAreZero: (self runLinterRule: #namespaceSimulation:)

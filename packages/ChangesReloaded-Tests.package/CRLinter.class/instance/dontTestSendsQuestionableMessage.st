@@ -2,4 +2,4 @@ test-for-miscellaneous
 dontTestSendsQuestionableMessage
 	"We use isKindOf: in a test."
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintBadMessage)
+	self assertAllAreZero: (self runLinterRule: #smallLintBadMessage)

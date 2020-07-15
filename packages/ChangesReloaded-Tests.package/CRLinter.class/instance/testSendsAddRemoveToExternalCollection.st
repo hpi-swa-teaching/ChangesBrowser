@@ -1,4 +1,4 @@
 test-for-intention-revealing
 testSendsAddRemoveToExternalCollection
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintCollectionMessagesToExternalObject)
+	self assertAllAreZero: (self runLinterRule: #smallLintCollectionMessagesToExternalObject)

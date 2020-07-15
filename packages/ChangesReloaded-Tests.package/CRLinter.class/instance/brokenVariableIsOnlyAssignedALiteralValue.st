@@ -1,4 +1,4 @@
 test-for-miscellaneous
 brokenVariableIsOnlyAssignedALiteralValue
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintVariableAssignedLiteral)
+	self assertAllAreZero: (self runLinterRule: #smallLintVariableAssignedLiteral)

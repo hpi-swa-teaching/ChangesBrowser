@@ -1,4 +1,4 @@
 testing-utils
-assertAll: aCollectionOfResultValues areEqualTo: anObject
+assertAll: aCollectionOfObjects areEqualTo: anObject
 
-	self assert: (aCollectionOfResultValues allSatisfy: [:numberOfOccurrences | numberOfOccurrences = anObject])
+	self assert: (aCollectionOfObjects allSatisfy: [:each | each = anObject])

@@ -1,4 +1,4 @@
 test-for-bugs
 testBooleanPrecedenceRule
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintBooleanPrecedence)
+	self assertAllAreZero: (self runLinterRule: #smallLintBooleanPrecedence)

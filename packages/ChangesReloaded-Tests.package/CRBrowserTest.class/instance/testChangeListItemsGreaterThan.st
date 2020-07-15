@@ -1,10 +1,10 @@
 testing-functionality
 testChangeListItemsGreaterThan
-	
+
 	| changes youngerChangeListItem olderChangeListItem |
-	changes := self changesBrowser class retrieveChangeRecordsFrom: self class mockWeirdlySortedChanges.
-	
-	youngerChangeListItem := CRChangeListItem newWithRecord: (changes at: 2).
-	olderChangeListItem := CRChangeListItem newWithRecord: (changes at: 5).
-	
+	changes := self class mockWeirdlySortedChanges.
+
+	youngerChangeListItem := CRChangeListItem newWithRecord: changes second.
+	olderChangeListItem := CRChangeListItem newWithRecord: changes fifth.
+
 	self assert: youngerChangeListItem > olderChangeListItem

@@ -1,4 +1,4 @@
 test-for-miscellaneous
 testInconsistentMethodClassification
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintInconsistentMethodClassification)
+	self assertAllAreZero: (self runLinterRule: #smallLintInconsistentMethodClassification)

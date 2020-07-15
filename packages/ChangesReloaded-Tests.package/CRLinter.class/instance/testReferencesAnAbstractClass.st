@@ -1,4 +1,4 @@
 test-for-possible-bugs
 testReferencesAnAbstractClass
 
-	self assertNoOccurrences: (self runLinterRule: #smallLintAbstractClass)
+	self assertAllAreZero: (self runLinterRule: #smallLintAbstractClass)
