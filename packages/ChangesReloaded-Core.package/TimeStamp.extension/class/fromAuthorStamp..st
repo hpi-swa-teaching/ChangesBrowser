@@ -4,9 +4,9 @@ fromAuthorStamp: aString
 
 	| tokens |
 	tokens := aString findTokens: Character separators.
-	^ tokens size = 3
+	^ ({2 . 3} includes: tokens size)
 		ifTrue: [| dateString timeString |
-			dateString := tokens second.
-			timeString := tokens third.
+			dateString := tokens nextToLast.
+			timeString := tokens last.
 			(dateString , ' ' , timeString) asTimeStamp]
 		ifFalse: [nil]
