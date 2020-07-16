@@ -1,7 +1,6 @@
-testing
+testing-ui
 testBuildingChangesBrowser
 
-	| browserWindow |
-	browserWindow := CRBrowser open.
-	self assert: (browserWindow isKindOf: PluggableSystemWindow).
-	browserWindow closeBoxHit
+	self 
+		assert: (self browserWindow isKindOf: PluggableSystemWindow);
+		assert: (World submorphs contains: [:a | (a model class) = CRBrowser])
