@@ -1,4 +1,0 @@
-buttons
-unpickButtonProps
-	
-	^ #('Unpick' #togglePickStatus)

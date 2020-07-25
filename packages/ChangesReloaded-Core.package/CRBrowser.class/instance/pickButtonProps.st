@@ -1,4 +1,4 @@
 buttons
 pickButtonProps
 	
-	^ #('Pick' #togglePickStatus)
+	^ #(#pickButtonLabel #togglePickStatus 'Pick or unpick changes for loading or not loading them into the image' #isPickButtonEnabled)
