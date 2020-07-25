@@ -1,5 +1,5 @@
 building
-buildButtonSpecsWith: aBuilder and: anArray
+buildUpperButtonSpecsWith: aBuilder and: anArray
 
 	^ (anArray
 		collect: [:each | aBuilder pluggableButtonSpec new
@@ -7,4 +7,5 @@ buildButtonSpecsWith: aBuilder and: anArray
 				 label: each first;
 				 action: each second;
 				 help: each third;
+				 enabled: each fourth;
 				 yourself]) asOrderedCollection

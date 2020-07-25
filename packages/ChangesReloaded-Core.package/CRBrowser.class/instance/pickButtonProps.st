@@ -1,4 +1,4 @@
-building
+buttons
 pickButtonProps
 	
 	^ #('Pick' #togglePickStatus)
