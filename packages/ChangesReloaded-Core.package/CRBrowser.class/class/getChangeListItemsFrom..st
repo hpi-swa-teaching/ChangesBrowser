@@ -1,4 +1,4 @@
-initializing
+utils
 getChangeListItemsFrom: anOrderedCollectionOfChangeRecords
 
 	^ ((anOrderedCollectionOfChangeRecords 

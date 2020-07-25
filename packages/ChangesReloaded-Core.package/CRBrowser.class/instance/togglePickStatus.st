@@ -1,4 +1,4 @@
-building
+button-actions
 togglePickStatus
 
 	self hasSelectedChangeListItem ifTrue: [

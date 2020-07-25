@@ -1,4 +1,0 @@
-constants
-historyListName
-
-	^ 'history list'

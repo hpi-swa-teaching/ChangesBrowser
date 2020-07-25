@@ -1,4 +1,4 @@
-building
+toolbuilder
 pickButtonFrame
 
 	^ LayoutFrame new

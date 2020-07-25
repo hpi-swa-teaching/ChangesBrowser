@@ -1,9 +1,9 @@
 initialize-release
-initializeHistoryListWith: aMultiByteFileStream
+initializeChangeListItemsWith: aMultiByteFileStream
 
 	| changeRecords |
 	changeRecords := Cursor read
 				showWhile: [((self class retrieveChangeRecordsFrom: aMultiByteFileStream)
 						reject: [:each | each isInImage]) reversed].
-	self historyList: (self class getHistoryListFrom: changeRecords).
-	self selectAllLatestChangesOfHistoryList
+	self changeListItems: (self class getChangeListItemsFrom: changeRecords).
+	self pickAllChangeListItems

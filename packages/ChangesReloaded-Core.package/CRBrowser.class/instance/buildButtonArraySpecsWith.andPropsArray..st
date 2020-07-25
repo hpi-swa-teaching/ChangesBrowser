@@ -1,4 +1,4 @@
-building
+toolbuilder
 buildButtonArraySpecsWith: aBuilder andPropsArray: anArray
 
 	^ (anArray

@@ -1,4 +1,4 @@
-building
+toolbuilder
 buildButtonSpecWith: aBuilder andProps: anArray
 	
 	^ aBuilder pluggableButtonSpec new

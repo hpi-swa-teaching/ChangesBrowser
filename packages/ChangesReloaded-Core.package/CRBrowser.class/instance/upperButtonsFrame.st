@@ -1,4 +1,4 @@
-building
+toolbuilder
 upperButtonsFrame
 
 	^ LayoutFrame new
