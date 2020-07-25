@@ -1,4 +1,4 @@
 testing-functionality
 testCorrectChangeListItemsSelectedOnInitialization
 	
-	self assert: (self changesBrowser historyListSelectionIndex = 0)
+	self assert: (self changesBrowser changeListSelectionIndex = 0)
