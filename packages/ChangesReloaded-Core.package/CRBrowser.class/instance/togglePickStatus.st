@@ -1,6 +1,7 @@
 button-actions
 togglePickStatus
 
-	self hasSelectedChangeListItem ifTrue: [
-		self selectedChangeListItem isPicked: (self selectedChangeListItem isPicked not).
-		self updateAfterPick]
+	self hasSelectedChangeListItem ifFalse: [^ self].
+	
+	self selectedChangeListItem isPicked: (self selectedChangeListItem isPicked not).
+	self updateAfterPick
