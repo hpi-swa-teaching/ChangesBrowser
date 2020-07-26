@@ -14,6 +14,7 @@ isInImage
 		ifTrue: [| class |	
 			class := self methodClass.
 			class ifNil: [^ false].
+			class organization commentStamp ifNil: [^ false].
 			^ (TimeStamp fromAuthorStamp: class organization commentStamp) >= self timeStamp].
 		
 	"TODO: doIt"
