@@ -1,0 +1,4 @@
+accessing
+firstClassCommentChangeRecord: aChangeRecord
+
+	firstClassCommentChangeRecord := aChangeRecord

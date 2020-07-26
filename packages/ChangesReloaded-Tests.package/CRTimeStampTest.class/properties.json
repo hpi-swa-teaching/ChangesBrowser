@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CRTimeStampTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

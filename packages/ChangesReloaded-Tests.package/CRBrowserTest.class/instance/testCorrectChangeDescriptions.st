@@ -1,0 +1,23 @@
+testing-functionality
+testCorrectChangeDescriptions
+	
+	self assert: (self changesBrowser changeDescriptions =
+		#('(CRChangesDummyClass functionOrder4 ug 21/6/2020 15:53)'
+		    '(CRChangesDummyClass functionOrder3 ug 21/6/2020 15:53)'
+		    '(CRChangesDummyClass functionOrder1 ug 21/6/2020 15:52)'
+		    '(CRChangesDummyClass functionOrder3 ug 21/6/2020 15:52)'
+		    '(CRChangesDummyClass functionOrder2 ug 21/6/2020 15:52)'
+		    '(CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51)'
+		    '(CRChangesDummyClass nil ug 21/6/2020 15:51)'
+		    '(CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51)') asOrderedCollection).
+	
+	self changesBrowser changeListItems do: [:each | each isPicked: true].
+	self assert: (self changesBrowser changeDescriptions =
+		#('CRChangesDummyClass functionOrder4 ug 21/6/2020 15:53'
+		    'CRChangesDummyClass functionOrder3 ug 21/6/2020 15:53'
+		    'CRChangesDummyClass functionOrder1 ug 21/6/2020 15:52'
+		    'CRChangesDummyClass functionOrder3 ug 21/6/2020 15:52'
+		    'CRChangesDummyClass functionOrder2 ug 21/6/2020 15:52'
+		    'CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51'
+		    'CRChangesDummyClass nil ug 21/6/2020 15:51'
+		    'CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51') asOrderedCollection)
