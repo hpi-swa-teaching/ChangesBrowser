@@ -11,7 +11,7 @@
 		"methodChangeRecordInImage",
 		"classCommentChangeRecordInImage",
 		"firstClassCommentChangeRecord" ],
-	"name" : "ChangeRecordTest",
+	"name" : "ExtensionChangeRecordTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
