@@ -12,7 +12,7 @@ testCorrectChangeDescriptions
 		    '(CRChangesDummyClass nil ug 21/6/2020 15:51)'
 		    '(CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51)') asOrderedCollection).
 	
-	self changesBrowser changeListItems do: [:each | each isPicked: true].
+	self changesBrowser changeListItems do: [:each | each pick].
 	self assert: (self changesBrowser changeDescriptions =
 		#('CRChangesDummyClass2 nil sv 26/7/2020 14:00'
 		    'CRChangesDummyClass functionOrder4 ug 21/6/2020 15:53'

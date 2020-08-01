@@ -1,6 +1,6 @@
 utils
 getChangeListItemsFrom: anOrderedCollectionOfChangeRecords
 
-	^ ((anOrderedCollectionOfChangeRecords 
+	^ (anOrderedCollectionOfChangeRecords 
 		select: [:each | each isMethod or: each isClassComment])
-		collect: [:each | CRChangeListItem new changeRecord: each])
+		collect: [:each | CRChangeListItem new changeRecord: each]

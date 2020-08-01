@@ -6,6 +6,6 @@ testPickButtonLabel
 	self changesBrowser changeListSelectionIndex: 1.
 	self assert: (self changesBrowser pickButtonLabel = 'Pick').
 	
-	self changesBrowser changeListItems first isPicked: true.
+	self changesBrowser changeListItems first pick.
 	self changesBrowser changeListSelectionIndex: 1.
 	self assert: (self changesBrowser pickButtonLabel = 'Unpick')
