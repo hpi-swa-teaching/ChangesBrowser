@@ -3,6 +3,5 @@ updateAfterChangeSelection
 
 	self
 		repaintChangeListSelection;
-		refreshHistoryList;
-		repaintHistoryListSelection;
-		updateCodePane
+		updateCodePane;
+		updatePickButton

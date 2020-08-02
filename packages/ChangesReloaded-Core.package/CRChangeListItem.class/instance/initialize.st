@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	self isSelected: false
+	self unpick

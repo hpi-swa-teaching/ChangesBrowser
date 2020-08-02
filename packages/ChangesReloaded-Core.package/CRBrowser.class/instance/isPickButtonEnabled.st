@@ -1,0 +1,4 @@
+buttons
+isPickButtonEnabled
+
+	^ self hasSelectedChangeListItem

@@ -1,4 +1,0 @@
-mocking
-mockWeirdlySortedChanges
-
-	^ CRBrowser retrieveChangeRecordsFrom: self mockWeirdlySortedChangesFileStream

@@ -1,0 +1,4 @@
+assertions
+assertCorrectClassCommentChangeListItemNameOfAffectedClass
+
+	self assert: (self classCommentChangeListItem nameOfAffectedClass = 'CRChangesDummyClass')

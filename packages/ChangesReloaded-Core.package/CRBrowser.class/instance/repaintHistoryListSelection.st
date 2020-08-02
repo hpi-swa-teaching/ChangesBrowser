@@ -1,4 +1,0 @@
-updating
-repaintHistoryListSelection
-
-	self changed: #historyListSelectionIndex

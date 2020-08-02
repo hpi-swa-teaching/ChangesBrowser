@@ -1,4 +1,0 @@
-accessing
-historyListSelectionIndex
-
-	^ historyListSelectionIndex

@@ -1,5 +1,5 @@
 running
 tearDown
 
-	super setUp.
+	super tearDown.
 	self browserWindow closeBoxHit

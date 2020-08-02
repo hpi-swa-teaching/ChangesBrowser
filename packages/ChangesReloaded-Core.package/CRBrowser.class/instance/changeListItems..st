@@ -1,0 +1,4 @@
+accessing
+changeListItems: anOrderedCollectionOfCRChangeListItems
+
+	changeListItems := anOrderedCollectionOfCRChangeListItems

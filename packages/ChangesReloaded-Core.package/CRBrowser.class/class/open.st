@@ -1,4 +1,4 @@
 instance-creation
 open
 
-	^ self openWith: (SourceFiles second)
+	^ self openWith: SourceFiles second

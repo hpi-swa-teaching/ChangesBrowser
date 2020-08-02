@@ -3,6 +3,5 @@ initializeWith: aMultiByteFileStream
 
 	super initialize.
 	self
-		initializeHistoryListWith: aMultiByteFileStream;
-		historyListSelectionIndex: 0;
+		initializeChangeListItemsWith: aMultiByteFileStream;
 		changeListSelectionIndex: 0
