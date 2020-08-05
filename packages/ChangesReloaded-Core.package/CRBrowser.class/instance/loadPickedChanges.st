@@ -1,4 +1,4 @@
 button-actions
 loadPickedChanges
 
-	self pickedChangeListItems do: [:each | each fileIn]
+	self pickedChangeListItems reverse do: [:each | each fileIn]
