@@ -7,4 +7,3 @@ buildChangeListSpecWith: aBuilder
 		list: #changeDescriptions;
 		getIndex: #changeListSelectionIndex;
 		setIndex: #changeListSelectionIndex:
-		

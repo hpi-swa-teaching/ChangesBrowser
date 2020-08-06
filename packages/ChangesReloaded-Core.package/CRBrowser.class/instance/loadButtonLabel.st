@@ -6,4 +6,3 @@ loadButtonLabel
 		ifFalse: [self numberOfPickedChangeListItems = 1
 			ifTrue: ['Load 1 change']
 			ifFalse: ['Load ' , self numberOfPickedChangeListItems , ' changes']]
-	 
