@@ -4,4 +4,4 @@ testHash
 	self
 		deny: self methodChangeListItem hash = self classCommentChangeListItem hash;
 		assert: self methodChangeListItem hash = self methodChangeListItem hash;
-		deny: self methodChangeListItem hash = self getMethodChangeListItemWithDifferentObjectIdentity hash
+		assert: self methodChangeListItem hash = self getMethodChangeListItemWithDifferentObjectIdentity hash

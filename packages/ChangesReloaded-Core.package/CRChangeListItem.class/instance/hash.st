@@ -2,8 +2,7 @@ comparing
 hash
 
 	| hash |
-	hash := self changeRecord hash.
-	hash := self description hashWithInitialHash: hash.
-	hash bitXor: self isPicked asBit.
-	hash := self nameOfAffectedClass hashWithInitialHash: hash.
+	hash := self fileName hash.
+	hash := hash bitXor: self position hash.
+	hash := hash bitXor: self stamp hash.
 	^ hash
