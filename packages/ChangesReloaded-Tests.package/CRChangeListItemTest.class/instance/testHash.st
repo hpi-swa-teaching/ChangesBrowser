@@ -1,6 +1,6 @@
 testing
 testHash
 
-	self assert: (self methodChangeListItem hash = self classCommentChangeListItem hash) not.
+	self deny: self methodChangeListItem hash = self classCommentChangeListItem hash.
 	self assert: self methodChangeListItem hash = self methodChangeListItem hash.
-	self assert: (self methodChangeListItem hash = self getMethodChangeListItemWithDifferentObjectdentity hash) not
+	self deny: self methodChangeListItem hash = self getMethodChangeListItemWithDifferentObjectdentity hash
