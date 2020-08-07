@@ -1,4 +1,4 @@
-initialize-release
+constants
 defaultBrowserHeight
 
 	^ 500

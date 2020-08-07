@@ -4,7 +4,7 @@ buildWith: aBuilder
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Changes Browser Reloaded';
-		extent: self extent;
+		extent: CRBrowser extent;
 		children: (Set new
 			add: ((self buildButtonPanelSpecWith: aBuilder andPropsArray: self upperButtonProps)
 				frame: self upperButtonsFrame;

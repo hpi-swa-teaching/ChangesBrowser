@@ -3,6 +3,6 @@ initializeChangeListItemsWith: aMultiByteFileStream
 
 	| changeRecords |
 	self usedChangeFile: aMultiByteFileStream.
-	changeRecords := self class getChangeRecordsFrom: self usedChangeFile.
-	self changeListItems: (self class getChangeListItemsFrom: changeRecords).
+	changeRecords := CRBrowser getChangeRecordsFrom: self usedChangeFile.
+	self changeListItems: (CRBrowser getChangeListItemsFrom: changeRecords).
 	self pickAllChangeListItems

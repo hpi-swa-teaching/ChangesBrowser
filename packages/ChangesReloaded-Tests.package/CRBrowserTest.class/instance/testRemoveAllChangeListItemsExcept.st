@@ -11,5 +11,4 @@ testRemoveAllChangeListItemsExcept
 
 	self changesBrowser removeAllChangeListItemsExcept: changeListItemsToKeep.
 	
-	self assert: (self changesBrowser changeListItems allSatisfy: [:each | 
-						changeListItemsToKeep includes: each])
+	self assert: self changesBrowser changeListItems = changeListItemsToKeep
