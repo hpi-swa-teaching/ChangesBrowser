@@ -1,5 +1,5 @@
 utils
-getChangeRecordsFrom: aMultiByteFileStream
+getChangeRecordsMissingInImageFrom: aMultiByteFileStream
 
 	^ Cursor read 
 			showWhile: [((self retrieveChangeRecordsFrom: aMultiByteFileStream)

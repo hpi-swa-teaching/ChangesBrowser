@@ -1,5 +1,5 @@
 actions
-roundChangeListSelectionIndexToValidValue
+clipChangeListSelectionIndexToValidValue
 
 	self changeListSelectionIndex <= 0
 		ifTrue: [self changeListSelectionIndex: 1]

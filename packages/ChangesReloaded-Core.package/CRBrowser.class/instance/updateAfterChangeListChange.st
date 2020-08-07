@@ -4,5 +4,5 @@ updateAfterChangeListChange
 	self
 		updateLoadButton;
 		refreshChangeList;
-		roundChangeListSelectionIndexToValidValue;
+		clipChangeListSelectionIndexToValidValue;
 		repaintChangeListSelection

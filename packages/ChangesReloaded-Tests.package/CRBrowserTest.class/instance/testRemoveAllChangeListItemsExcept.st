@@ -3,7 +3,8 @@ testRemoveAllChangeListItemsExcept
 
 	| newMockChanges changeListItemsToKeep |
 	newMockChanges := CRBrowser getChangeListItemsFrom: 
-									(CRBrowser getChangeRecordsFrom: CRFakeFileStream mockChangesFileStream).
+									(CRBrowser getChangeRecordsMissingInImageFrom:
+										CRFakeFileStream mockChangesFileStream).
 	changeListItemsToKeep := OrderedCollection new.
 	changeListItemsToKeep
 		add: newMockChanges second;

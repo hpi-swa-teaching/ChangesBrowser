@@ -3,6 +3,7 @@ updateAfterLoadingChanges
 
 	| newChangeListItems |
 	newChangeListItems := CRBrowser getChangeListItemsFrom:
-										(CRBrowser getChangeRecordsFrom: self usedChangeFile).
+										(CRBrowser getChangeRecordsMissingInImageFrom:
+											self usedChangeFile).
 	self removeAllChangeListItemsExcept: newChangeListItems.
 	self updateAfterChangeListChange
