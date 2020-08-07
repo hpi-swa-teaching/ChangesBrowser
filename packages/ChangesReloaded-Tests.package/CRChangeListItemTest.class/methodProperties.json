@@ -8,6 +8,7 @@
 		"assertCorrectMethodChangeListItemNameOfAffectedClass" : "SV 7/26/2020 13:04",
 		"classCommentChangeListItem" : "SV 7/26/2020 13:17",
 		"classCommentChangeListItem:" : "SV 7/26/2020 13:17",
+		"getMethodChangeListItemWithDifferentObjectdentity" : "SV 8/7/2020 11:23",
 		"methodChangeListItem" : "SV 7/26/2020 12:39",
 		"methodChangeListItem:" : "SV 7/26/2020 13:17",
 		"setUp" : "SV 7/26/2020 13:25",
@@ -15,4 +16,5 @@
 		"testChangeListItemUnpick" : "SV 8/1/2020 15:47",
 		"testDescription" : "SV 7/26/2020 13:18",
 		"testDoesNotUnderstand" : "SV 7/26/2020 13:01",
+		"testEqualityComparator" : "SV 8/7/2020 11:26",
 		"testNameOfAffectedClass" : "SV 7/26/2020 13:23" } }
