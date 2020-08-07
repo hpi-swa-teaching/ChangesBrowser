@@ -29,6 +29,7 @@
 		"testPickAllChangeListItemsWithPrepickedItems" : "SV 8/1/2020 15:45",
 		"testPickButtonLabel" : "SV 8/1/2020 15:45",
 		"testPickedChangeListItems" : "SV 8/1/2020 15:46",
+		"testRemoveAllChangeListItemsExcept" : "SV 8/7/2020 11:09",
 		"testSelectedChangeListItem" : "SV 7/26/2020 10:55",
 		"testSelectedChangeListItemWhenNothingSelected" : "SV 8/1/2020 15:46",
 		"testSwitchingBetweenViews" : "mg 7/15/2020 19:58",
