@@ -1,0 +1,1 @@
+ExtensionTimeStampTest is a class used to test the extension of TimeStamp provided by the ChangesReloaded project.

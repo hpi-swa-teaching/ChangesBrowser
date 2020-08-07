@@ -4,4 +4,4 @@ On initialization, the CRBrowser creates a ChangeList to read all wanted changes
 
 Instance Variables
 	changeListItems					OrderedCollection of CRChangeListItems
-	changeListSelectionIndex		Index of the currently selected Item in the ChangeList for viewing in detail
+	changeListSelectionIndex		Index of the currently selected item in the ChangeList for viewing in detail
