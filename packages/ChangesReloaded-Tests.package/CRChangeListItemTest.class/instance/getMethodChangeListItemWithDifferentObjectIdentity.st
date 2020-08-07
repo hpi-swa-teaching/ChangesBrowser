@@ -1,5 +1,5 @@
 running
-getMethodChangeListItemWithDifferentObjectdentity
+getMethodChangeListItemWithDifferentObjectIdentity
 
 	| changeList fakeFileStream |
 	
