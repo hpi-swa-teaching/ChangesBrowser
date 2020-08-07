@@ -1,4 +1,4 @@
 actions
-togglePickStatusOfSelectedChangeListItem
+togglePickStatus
 
 	self isPicked: self isPicked not
