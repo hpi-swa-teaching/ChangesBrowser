@@ -1,7 +1,7 @@
 updating
 updateCodePane
 
-	self hasValidChangeListSelectionIndex
+	self hasSelectedChangeListItem
 		ifFalse: [self contents: '']
 		ifTrue: [self contents: self selectedChangeListItem string].
 	self contentsChanged

@@ -4,15 +4,15 @@ buildWith: aBuilder
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Changes Browser Reloaded';
-		extent: self extent;
+		extent: self class extent;
 		children: (Set new
-			add: ((self buildButtonPanelSpecWith: aBuilder andPropsArray: self upperButtonProps)
+			add: ((self buildUpperButtonPanelSpecWith: aBuilder)
 				frame: self upperButtonsFrame;
 				yourself);
 			add: ((self buildChangeListSpecWith: aBuilder)
 				frame: self changeListFrame;
 				yourself);
-			add: ((self buildButtonSpecWith: aBuilder andProps: self pickButtonProps)
+			add: ((self buildPickButtonSpecWith: aBuilder)
 				frame: self pickButtonFrame;
 				yourself);
 			add: ((self buildCodePaneWith: aBuilder)
