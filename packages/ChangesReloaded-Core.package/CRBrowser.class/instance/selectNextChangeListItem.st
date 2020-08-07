@@ -1,4 +1,4 @@
 actions
 selectNextChangeListItem
 
-	self changeListSelectionIndex: self changeListSelectionIndex \\\ self changeListItems size + 1
+	self changeListSelectionIndex: self changeListSelectionIndex \\ self numberOfChangeListItems + 1

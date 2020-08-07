@@ -1,4 +1,4 @@
 buttons
 isLoadButtonEnabled
 
-	^ self numberOfPickedChangeListItems ~= 0
+	^ self numberOfPickedChangeListItems > 0

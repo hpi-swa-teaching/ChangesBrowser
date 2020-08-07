@@ -4,5 +4,6 @@ initializeChangeListItemsWith: aMultiByteFileStream
 	| changeRecords |
 	self usedChangeFile: aMultiByteFileStream.
 	changeRecords := self class getChangeRecordsMissingInImageFrom: self usedChangeFile.
-	self changeListItems: (self class getChangeListItemsFrom: changeRecords).
-	self pickAllChangeListItems
+	self
+		changeListItems: (self class getChangeListItemsFrom: changeRecords);
+		pickAllChangeListItems

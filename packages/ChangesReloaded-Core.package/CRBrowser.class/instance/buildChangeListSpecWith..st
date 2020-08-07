@@ -8,4 +8,3 @@ buildChangeListSpecWith: aBuilder
 		getIndex: #changeListSelectionIndex;
 		setIndex: #changeListSelectionIndex:;
 		yourself
-		
