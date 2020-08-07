@@ -6,5 +6,6 @@ buildChangeListSpecWith: aBuilder
 		name: self class changeListName;
 		list: #changeDescriptions;
 		getIndex: #changeListSelectionIndex;
-		setIndex: #changeListSelectionIndex:
+		setIndex: #changeListSelectionIndex:;
+		yourself
 		

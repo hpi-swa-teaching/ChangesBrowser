@@ -2,8 +2,6 @@ updating
 updateAfterPick
 
 	self
-		updateLoadButton;
-		refreshChangeList;
-		repaintChangeListSelection;
+		updateAfterChangeListChange;
 		selectNextChangeListItem;
 		updatePickButton

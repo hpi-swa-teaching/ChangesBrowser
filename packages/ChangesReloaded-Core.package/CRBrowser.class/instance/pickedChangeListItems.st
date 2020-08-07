@@ -1,4 +1,4 @@
 accessing
 pickedChangeListItems
 	
-	^ changeListItems select: [:each | each isPicked]
+	^ self changeListItems select: [:each | each isPicked]
