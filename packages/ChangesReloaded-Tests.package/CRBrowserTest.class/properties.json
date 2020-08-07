@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "SV 8/7/2020 23:44",
 	"instvars" : [
 		"browserWindow" ],
 	"name" : "CRBrowserTest",
