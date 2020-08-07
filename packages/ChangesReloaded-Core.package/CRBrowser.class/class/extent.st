@@ -1,4 +1,4 @@
 constants
 extent
 
-	^ self class defaultBrowserWidth @ self class defaultBrowserHeight
+	^ self defaultBrowserWidth @ self defaultBrowserHeight
