@@ -1,0 +1,6 @@
+accessing
+testClipChangeListSelectionIndexToValidValue
+
+	self assertCorrectClipOfChangeListSelectionIndexToLowerBound.
+	self assertCorrectClipOfAValidChangeListSelectionIndex.
+	self assertCorrectClipOfChangeListSelectionIndexToUpperBound

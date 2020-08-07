@@ -1,15 +1,20 @@
 {
-	"class" : {
-		"newWithRecord:" : "uh 7/2/2020 16:02" },
-	"instance" : {
-		"changeRecord" : "SV 5/29/2020 22:13",
-		"changeRecord:" : "SV 5/29/2020 22:14",
-		"description" : "SV 7/13/2020 16:05",
-		"doesNotUnderstand:" : "mg 8/6/2020 12:05",
-		"initialize" : "gf 7/15/2020 10:48",
-		"isPicked" : "SV 7/13/2020 16:05",
-		"isPicked:" : "SV 7/13/2020 16:05",
-		"nameOfAffectedClass" : "SV 7/13/2020 15:52",
-		"pick" : "gf 7/15/2020 10:45",
-		"togglePickStatus" : "mg 8/7/2020 22:33",
-		"unpick" : "gf 7/15/2020 10:45" } }
+	"class": {
+		"newWithRecord:": "uh 7/2/2020 16:02"
+	},
+	"instance": {
+		"=": "SV 8/5/2020 21:57",
+		"changeRecord": "SV 5/29/2020 22:13",
+		"changeRecord:": "SV 5/29/2020 22:14",
+		"description": "SV 7/13/2020 16:05",
+		"doesNotUnderstand:": "gf 6/15/2020 23:22",
+		"hash": "SV 8/7/2020 22:07",
+		"initialize": "gf 7/15/2020 10:48",
+		"isPicked": "SV 7/13/2020 16:05",
+		"isPicked:": "SV 7/13/2020 16:05",
+		"nameOfAffectedClass": "SV 7/13/2020 15:52",
+		"pick": "gf 7/15/2020 10:45",
+		"togglePickStatus": "mg 8/7/2020 22:33",
+		"unpick": "gf 7/15/2020 10:45"
+	}
+}

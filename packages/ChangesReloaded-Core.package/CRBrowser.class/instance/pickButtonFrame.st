@@ -5,4 +5,5 @@ pickButtonFrame
 		leftFraction: 0 offset: 0;
 		topFraction: 1 - self codePaneFraction offset: self buttonHeight negated;
 		rightFraction: 1 offset: 0;
-		bottomFraction: 1 - self codePaneFraction offset: 0
+		bottomFraction: 1 - self codePaneFraction offset: 0;
+		yourself
