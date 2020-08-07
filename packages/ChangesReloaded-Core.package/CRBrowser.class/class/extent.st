@@ -1,4 +1,4 @@
 constants
 extent
 
-	^ CRBrowser defaultBrowserWidth @ CRBrowser defaultBrowserHeight
+	^ self class defaultBrowserWidth @ self class defaultBrowserHeight

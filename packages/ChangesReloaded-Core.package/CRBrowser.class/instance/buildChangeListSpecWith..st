@@ -3,7 +3,7 @@ buildChangeListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;
-		name: CRBrowser changeListName;
+		name: self class changeListName;
 		list: #changeDescriptions;
 		getIndex: #changeListSelectionIndex;
 		setIndex: #changeListSelectionIndex:;
