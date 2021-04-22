@@ -1,0 +1,1 @@
+This is a class comment for test purposes.

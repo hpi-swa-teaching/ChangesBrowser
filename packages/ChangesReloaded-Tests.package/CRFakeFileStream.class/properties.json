@@ -1,0 +1,15 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:47",
+	"instvars" : [
+		"string",
+		"size" ],
+	"name" : "CRFakeFileStream",
+	"pools" : [
+		 ],
+	"super" : "MultiByteFileStream",
+	"type" : "normal" }

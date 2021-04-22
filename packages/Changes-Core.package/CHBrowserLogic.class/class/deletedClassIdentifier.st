@@ -1,4 +1,0 @@
-constants
-deletedClassIdentifier
-
-	^ 'Smalltalk removeClassNamed: #'

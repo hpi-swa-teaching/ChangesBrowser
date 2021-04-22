@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CRChangesDummyClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

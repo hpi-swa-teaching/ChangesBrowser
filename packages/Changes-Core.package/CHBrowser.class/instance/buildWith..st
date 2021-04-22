@@ -12,7 +12,7 @@ buildWith: aBuilder
 				frame: self versionListFrame;
 				yourself);
 			add: ((self buildChangeListWith: aBuilder)
-				frame: self changeListFrame;
+				frame: self historyListFrame;
 				yourself);
 			add: ((self buildButtonsWith: aBuilder)
 				frame: self buttonsFrame;
@@ -22,4 +22,4 @@ buildWith: aBuilder
 				yourself);
 			yourself);
 		yourself.
-	^ aBuilder build: window
+	^ aBuilder build: window 

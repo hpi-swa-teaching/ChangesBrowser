@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PG 7/29/2016 21:09",
+	"commentStamp" : "avw 6/8/2017 14:36",
 	"instvars" : [
 		"dummyObject",
-		"changesBrowser" ],
+		"changesBrowser",
+		"afterCrashHelper" ],
 	"name" : "CHTest",
 	"pools" : [
 		 ],

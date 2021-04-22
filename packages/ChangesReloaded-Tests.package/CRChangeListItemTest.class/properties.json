@@ -1,0 +1,15 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:45",
+	"instvars" : [
+		"methodChangeListItem",
+		"classCommentChangeListItem" ],
+	"name" : "CRChangeListItemTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

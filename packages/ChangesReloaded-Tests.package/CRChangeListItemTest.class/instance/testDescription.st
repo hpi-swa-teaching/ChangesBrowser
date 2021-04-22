@@ -1,0 +1,5 @@
+testing
+testDescription
+
+	self assertCorrectMethodChangeListItemDescription.
+	self assertCorrectClassCommentChangeListItemDescription

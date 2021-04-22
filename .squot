@@ -1,5 +1,8 @@
 OrderedDictionary {
 	'packages\/BaselineOfChanges.package' : #SquotCypressCodeSerializer,
 	'packages\/Changes-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/Changes-Tests.package' : #SquotCypressCodeSerializer
+	'packages\/Changes-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/ChangesReloaded-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/ChangesReloaded-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfChangesReloaded.package' : #SquotCypressCodeSerializer
 }

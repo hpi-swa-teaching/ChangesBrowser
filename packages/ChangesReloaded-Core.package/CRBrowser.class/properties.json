@@ -1,0 +1,16 @@
+{
+	"category" : "ChangesReloaded-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:55",
+	"instvars" : [
+		"changeListItems",
+		"changeListSelectionIndex",
+		"usedChangeFile" ],
+	"name" : "CRBrowser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

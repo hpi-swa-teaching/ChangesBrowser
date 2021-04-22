@@ -1,6 +1,12 @@
 updating
 updateChangeListViewWith: aChangeList
 
-	aChangeList addDependent: self.
-	self changesBrowserLogic changeList: aChangeList.
-	self changed: #changeListList
+	self changeList: aChangeList.
+	self changeList
+		addDependent: self;
+		showAllChanges.
+	self changed: #changeListContent.
+	self changed: #changeSelected.
+	self applyFilter.
+	
+

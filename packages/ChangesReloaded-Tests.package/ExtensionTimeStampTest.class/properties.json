@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:53",
+	"instvars" : [
+		 ],
+	"name" : "ExtensionTimeStampTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

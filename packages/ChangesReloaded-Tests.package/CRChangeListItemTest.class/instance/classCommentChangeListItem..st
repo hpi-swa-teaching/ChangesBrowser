@@ -1,0 +1,4 @@
+accessing
+classCommentChangeListItem: aCRChangeListItem
+
+	classCommentChangeListItem := aCRChangeListItem

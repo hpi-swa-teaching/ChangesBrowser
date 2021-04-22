@@ -1,0 +1,4 @@
+accessing
+browserWindow
+
+	^ browserWindow

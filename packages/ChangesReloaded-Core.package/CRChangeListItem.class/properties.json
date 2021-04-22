@@ -1,0 +1,15 @@
+{
+	"category" : "ChangesReloaded-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:43",
+	"instvars" : [
+		"changeRecord",
+		"isPicked" ],
+	"name" : "CRChangeListItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

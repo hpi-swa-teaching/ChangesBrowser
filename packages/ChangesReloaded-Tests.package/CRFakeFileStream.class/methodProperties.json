@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"mockChangesFileStream" : "SV 7/26/2020 14:00" },
+	"instance" : {
+		"atEnd" : "gf 6/24/2020 16:22",
+		"basicNext" : "gf 6/24/2020 16:29",
+		"basicUpTo:" : "gf 6/24/2020 16:42",
+		"initialize" : "gf 6/24/2020 15:45",
+		"next" : "gf 6/24/2020 16:30",
+		"nextChunk" : "gf 6/24/2020 21:07",
+		"openReadOnly" : "gf 6/24/2020 21:22",
+		"peek" : "mg 7/15/2020 20:07",
+		"peekFor:" : "gf 6/24/2020 21:17",
+		"position" : "gf 6/24/2020 16:15",
+		"position:" : "gf 6/24/2020 15:29",
+		"readLimit" : "uh 6/21/2020 15:23",
+		"readLimit:" : "uh 6/21/2020 15:24",
+		"readOnlyCopy" : "gf 6/24/2020 14:37",
+		"setConverterForCode" : "gf 6/24/2020 14:57",
+		"size" : "gf 6/24/2020 15:08",
+		"size:" : "gf 6/24/2020 15:04",
+		"string" : "uh 6/21/2020 15:26",
+		"string:" : "gf 6/24/2020 15:08",
+		"upTo:" : "gf 6/24/2020 16:43" } }

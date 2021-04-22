@@ -1,3 +1,4 @@
 accessing
 list
-	^self displayedChangeStringList
+
+	^ self displayedChangeStringList

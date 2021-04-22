@@ -1,0 +1,4 @@
+constants
+defaultBrowserHeight
+
+	^ 500

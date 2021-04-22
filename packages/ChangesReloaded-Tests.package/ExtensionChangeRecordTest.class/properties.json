@@ -1,0 +1,18 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SV 8/7/2020 23:53",
+	"instvars" : [
+		"methodChangeRecord",
+		"classCommentChangeRecord",
+		"methodChangeRecordInImage",
+		"classCommentChangeRecordInImage",
+		"firstClassCommentChangeRecord" ],
+	"name" : "ExtensionChangeRecordTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

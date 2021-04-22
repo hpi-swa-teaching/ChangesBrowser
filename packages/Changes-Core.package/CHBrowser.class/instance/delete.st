@@ -1,4 +1,4 @@
 destruction
 delete
 
-	self changesBrowserLogic delete
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self
