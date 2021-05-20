@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCorrectClassCommentChangeListItemDescription" : "SV 8/1/2020 15:48",
+		"assertCorrectClassCommentChangeListItemDescription" : "TS 5/20/2021 12:12",
 		"assertCorrectClassCommentChangeListItemNameOfAffectedClass" : "SV 7/26/2020 13:19",
-		"assertCorrectMethodChangeListItemDescription" : "SV 8/1/2020 15:48",
+		"assertCorrectMethodChangeListItemDescription" : "TS 5/20/2021 12:11",
 		"assertCorrectMethodChangeListItemNameOfAffectedClass" : "SV 7/26/2020 13:04",
+		"assertCorrectPickedListItemDecriptionAttributes:" : "TS 5/20/2021 12:10",
+		"assertCorrectUnpickedListItemDecriptionAttributes:" : "TS 5/20/2021 12:06",
 		"classCommentChangeListItem" : "SV 7/26/2020 13:17",
 		"classCommentChangeListItem:" : "SV 7/26/2020 13:17",
 		"getMethodChangeListItemWithDifferentObjectIdentity" : "SV 8/7/2020 13:15",
