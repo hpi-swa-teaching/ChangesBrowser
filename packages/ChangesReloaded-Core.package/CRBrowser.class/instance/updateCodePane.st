@@ -3,5 +3,5 @@ updateCodePane
 
 	self hasSelectedChangeListItem
 		ifFalse: [self contents: '']
-		ifTrue: [self contents: self selectedChangeListItem string].
+		ifTrue: [self contents: (self diffFromPriorSourceFor: self selectedChangeListItem string)].
 	self contentsChanged
