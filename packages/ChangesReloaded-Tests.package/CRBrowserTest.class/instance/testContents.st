@@ -1,5 +1,5 @@
 testing-ui
-testCodePane
+testContents
 
 	self assert: (self changesBrowser contents = '').
 	
