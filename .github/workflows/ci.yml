@@ -22,6 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 #       - run: echo "$HOME/runner/.smalltalkCI/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+      - run: export ACTIONS_RUNNER_DEBUG=true 
       - run: echo "$HOME/runner/.smalltalkCI/bin" >> $GITHUB_PATH
       - uses: actions/checkout@v2
       - name: Setup smalltalkCI
