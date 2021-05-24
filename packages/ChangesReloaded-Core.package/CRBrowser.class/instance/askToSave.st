@@ -4,5 +4,5 @@ askToSave
 	Smalltalk
 			snapshot: (
 				UserDialogBoxMorph 
-					confirm: 'Changes Reloaded, do you want to save the Image?' translated)
+					confirm: 'Do you want to save the Image?' translated title: 'Changes Reloaded' at: nil)
 			andQuit: false
