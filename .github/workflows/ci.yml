@@ -27,7 +27,7 @@ jobs:
       - name: fix add-path
         id: fix
         run: |
-          echo "$HOME/runner/.smalltalkCI/bin" >> $GITHUB_PATH
+          echo "ACTIONS_ALLOW_UNSECURE_COMMANDS=true" >> $GITHUB_ENV
       - name: Setup smalltalkCI
         uses: hpi-swa/setup-smalltalkCI@1.1.0
         with:
