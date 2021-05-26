@@ -36,6 +36,10 @@ functionOrder4
 functionOrder5
 
 	^''always 5''! !
+!CRChangesDummyClass methodsFor: ''function-order-testing'' stamp: ''sv 26/7/2020 13:47''!
+functionOrder5
+
+	^''always 5.0''! !
 !CRChangesDummyClass2 commentStamp: ''sv 26/7/2020 13:59''!
 This is a class comment for test purposes.!
 !CRChangesDummyClass2 commentStamp: ''sv 26/7/2020 14:00''!
