@@ -12,5 +12,5 @@ testContents
 	self changesBrowser changeListSelectionIndex: 2.
 	self assert:  (1 to: 16) equals: (self changesBrowser contents find: TextEmphasis normal).
 	self assert: (17 to: 31) equals: (self changesBrowser contents find: TextColor red).
-	self assert: (32 to: 44)  equals: (self changesBrowser contents find: TextColor blue).
+	"self assert: (32 to: 44)  equals: (self changesBrowser contents find: TextColor blue)."
 	
