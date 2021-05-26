@@ -22,7 +22,7 @@
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
 		"testClipChangeListSelectionIndexToValidValue" : "SV 8/7/2020 22:11",
 		"testContents" : "abd 5/22/2021 11:12",
-		"testCorrectChangeDescriptions" : "abd 5/20/2021 18:33",
+		"testCorrectChangeDescriptions" : "TS 5/22/2021 12:30",
 		"testCorrectChangeListItemsSelectedOnInitialization" : "gf 7/25/2020 21:20",
 		"testCorrectChangeListItemsSelectedWhenClicked" : "gf 7/25/2020 21:24",
 		"testHasSelectedChangeListItem" : "SV 8/1/2020 15:44",
