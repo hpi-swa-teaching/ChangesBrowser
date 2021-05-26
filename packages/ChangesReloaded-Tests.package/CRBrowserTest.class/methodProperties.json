@@ -21,7 +21,7 @@
 		"tearDown" : "SV 7/26/2020 12:44",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
 		"testClipChangeListSelectionIndexToValidValue" : "SV 8/7/2020 22:11",
-		"testContents" : "abd 5/26/2021 15:44",
+		"testContents" : "abd 5/26/2021 15:53",
 		"testCorrectChangeDescriptions" : "abd 5/26/2021 15:29",
 		"testCorrectChangeListItemsSelectedOnInitialization" : "gf 7/25/2020 21:20",
 		"testCorrectChangeListItemsSelectedWhenClicked" : "gf 7/25/2020 21:24",
