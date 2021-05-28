@@ -21,7 +21,8 @@
 		"tearDown" : "SV 7/26/2020 12:44",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
 		"testClipChangeListSelectionIndexToValidValue" : "SV 8/7/2020 22:11",
-		"testCorrectChangeDescriptions" : "SV 8/1/2020 15:44",
+		"testContents" : "abd 5/26/2021 16:43",
+		"testCorrectChangeDescriptions" : "abd 5/26/2021 15:29",
 		"testCorrectChangeListItemsSelectedOnInitialization" : "gf 7/25/2020 21:20",
 		"testCorrectChangeListItemsSelectedWhenClicked" : "gf 7/25/2020 21:24",
 		"testHasSelectedChangeListItem" : "SV 8/1/2020 15:44",
@@ -36,6 +37,8 @@
 		"testRemoveAllChangeListItemsExcept" : "SV 8/7/2020 15:04",
 		"testSelectedChangeListItem" : "SV 7/26/2020 10:55",
 		"testSelectedChangeListItemWhenNothingSelected" : "SV 8/1/2020 15:46",
+		"testSelectedClass" : "abd 5/20/2021 18:25",
+		"testSelectedMessageName" : "abd 5/20/2021 18:25",
 		"testSwitchingBetweenViews" : "mg 7/15/2020 19:58",
 		"testTogglePickStatus" : "mg 8/7/2020 22:29",
 		"world" : "mg 7/2/2020 14:01" } }
