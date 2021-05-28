@@ -12,6 +12,7 @@
 		"openWith:" : "gf 7/5/2020 13:58",
 		"retrieveChangeRecordsFrom:" : "mg 7/4/2020 21:02" },
 	"instance" : {
+		"askToSave" : "anonym-HPI 5/24/2021 13:13",
 		"buildButtonSpecWith:label:action:help:enabled:" : "mg 8/7/2020 14:19",
 		"buildChangeListSpecWith:" : "SV 8/7/2020 15:16",
 		"buildLoadChangesButtonSpecWith:" : "mg 8/7/2020 14:17",
@@ -39,7 +40,7 @@
 		"isLoadButtonEnabled" : "mg 8/6/2020 11:27",
 		"isPickButtonEnabled" : "gf 7/25/2020 20:09",
 		"loadButtonLabel" : "mg 8/6/2020 11:29",
-		"loadPickedChanges" : "SV 8/5/2020 19:52",
+		"loadPickedChanges" : "anonym-HPI 5/17/2021 17:21",
 		"numberOfChangeListItems" : "mg 8/6/2020 11:21",
 		"numberOfPickedChangeListItems" : "mg 8/6/2020 11:16",
 		"pickAllChangeListItems" : "gf 7/15/2020 10:48",
