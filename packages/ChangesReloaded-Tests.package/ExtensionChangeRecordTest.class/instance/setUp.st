@@ -10,7 +10,7 @@ setUp
 		scanFile: fakeFileStream from: 0 to: fakeFileStream size.
 	
 	self methodChangeRecord: changeList changeList second.
-	self classCommentChangeRecord: (changeList changeList at: 14).
+	self classCommentChangeRecord: (changeList changeList at: 15).
 	self methodChangeRecordInImage: (changeList changeList at: 12).
-	self classCommentChangeRecordInImage: (changeList changeList at: 13).
+	self classCommentChangeRecordInImage: (changeList changeList at: 14).
 	self firstClassCommentChangeRecord: changeList changeList third
