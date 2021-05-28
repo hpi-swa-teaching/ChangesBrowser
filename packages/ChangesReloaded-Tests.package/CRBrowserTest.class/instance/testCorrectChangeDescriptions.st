@@ -1,27 +1,16 @@
 testing-functionality
 testCorrectChangeDescriptions
 	
-	self assert: (self changesBrowser changeDescriptions =
-		#('(classComment: CRChangesDummyClass2 nil sv 26/7/2020 14:00)'
-		    '(method: CRChangesDummyClass functionOrder5 sv 26/7/2020 13:47)'
-		    '(method: CRChangesDummyClass functionOrder4 ug 21/6/2020 15:53)'
-		    '(method: CRChangesDummyClass functionOrder3 ug 21/6/2020 15:53)'
-		    '(method: CRChangesDummyClass functionOrder1 ug 21/6/2020 15:52)'
-		    '(method: CRChangesDummyClass functionOrder3 ug 21/6/2020 15:52)'
-		    '(method: CRChangesDummyClass functionOrder2 ug 21/6/2020 15:52)'
-		    '(method: CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51)'
-		    '(classComment: CRChangesDummyClass nil ug 21/6/2020 15:51)'
-		    '(method: CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51)') asOrderedCollection).
+	self assertCorrectChangeDescriptionStrings.
+	self changesBrowser changeDescriptions do: [:aText |
+		self
+			assert: (aText find: TextEmphasis struckOut) = (1 to: aText size);
+			assert: (aText find: TextEmphasis italic) = (1 to: aText size)].
 	
 	self changesBrowser changeListItems do: [:each | each pick].
-	self assert: (self changesBrowser changeDescriptions =
-		#('classComment: CRChangesDummyClass2 nil sv 26/7/2020 14:00'
-		    'method: CRChangesDummyClass functionOrder5 sv 26/7/2020 13:47'
-		    'method: CRChangesDummyClass functionOrder4 ug 21/6/2020 15:53'
-		    'method: CRChangesDummyClass functionOrder3 ug 21/6/2020 15:53'
-		    'method: CRChangesDummyClass functionOrder1 ug 21/6/2020 15:52'
-		    'method: CRChangesDummyClass functionOrder3 ug 21/6/2020 15:52'
-		    'method: CRChangesDummyClass functionOrder2 ug 21/6/2020 15:52'
-		    'method: CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51'
-		    'classComment: CRChangesDummyClass nil ug 21/6/2020 15:51'
-		    'method: CRChangesDummyClass functionOrder1 ug 21/6/2020 15:51') asOrderedCollection)
+	
+	self assertCorrectChangeDescriptionStrings.
+	self changesBrowser changeDescriptions do: [:aText |
+		self
+			assert: (aText find: TextEmphasis struckOut) isNil;
+			assert: (aText find: TextEmphasis italic) isNil]
