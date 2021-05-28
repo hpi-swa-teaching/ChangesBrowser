@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCorrectChangeDescriptionStrings" : "TS 5/26/2021 15:57",
+		"assertCorrectChangeDescriptionStrings" : "TS 5/28/2021 21:43",
 		"assertCorrectClipOfAValidChangeListSelectionIndex" : "SV 8/7/2020 22:10",
 		"assertCorrectClipOfChangeListSelectionIndexToLowerBound" : "SV 8/7/2020 15:08",
 		"assertCorrectClipOfChangeListSelectionIndexToUpperBound" : "SV 8/7/2020 15:08",
