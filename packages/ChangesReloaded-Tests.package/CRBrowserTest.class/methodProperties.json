@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertCorrectChangeDescriptionStrings" : "TS 5/28/2021 21:43",
 		"assertCorrectClipOfAValidChangeListSelectionIndex" : "SV 8/7/2020 22:10",
 		"assertCorrectClipOfChangeListSelectionIndexToLowerBound" : "SV 8/7/2020 15:08",
 		"assertCorrectClipOfChangeListSelectionIndexToUpperBound" : "SV 8/7/2020 15:08",
@@ -22,7 +23,7 @@
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
 		"testClipChangeListSelectionIndexToValidValue" : "SV 8/7/2020 22:11",
 		"testContents" : "abd 5/26/2021 16:43",
-		"testCorrectChangeDescriptions" : "abd 5/26/2021 15:29",
+		"testCorrectChangeDescriptions" : "TS 5/20/2021 12:24",
 		"testCorrectChangeListItemsSelectedOnInitialization" : "gf 7/25/2020 21:20",
 		"testCorrectChangeListItemsSelectedWhenClicked" : "gf 7/25/2020 21:24",
 		"testHasSelectedChangeListItem" : "SV 8/1/2020 15:44",
