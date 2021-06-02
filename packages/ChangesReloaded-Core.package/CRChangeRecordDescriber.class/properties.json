@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "abd 6/2/2021 08:52",
+	"instvars" : [
+		 ],
+	"name" : "CRChangeRecordDescriber",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

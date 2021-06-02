@@ -1,7 +1,7 @@
 accessing
 description
 
-	| plainDescription |
-	plainDescription := (self type , ': ' , self nameOfAffectedClass , ' ' , self methodSelector , ' ' , self stamp) asText.
+	| plainDescription |	
+	plainDescription := (CRChangeRecordDescriber descriptionFor: self) asText.
 	self isPicked ifFalse: [self addUnpickedAttributes: plainDescription].
 	^ plainDescription
