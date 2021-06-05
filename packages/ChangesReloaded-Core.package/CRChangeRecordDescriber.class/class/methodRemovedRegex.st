@@ -1,3 +1,4 @@
 doit regex
 methodRemovedRegex
-	^ '^([^ ]+) removeSelector\: #([^ ]+)$' asRegex
+
+	^ '^([^ ]+) (class )?removeSelector\: #([^ ]+)$' asRegex

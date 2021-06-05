@@ -1,4 +1,4 @@
 doit regex
 packageRemovedRegex
 
-	^ '^SystemOrganization removeSystemCategory\: #''([^ ]+)''$' asRegex
+	^ '^SystemOrganization removeSystemCategory\: #''(.+)''$' asRegex

@@ -1,4 +1,4 @@
 doit regex
 packageRenamedRegex
 
-	^ '^SystemOrganization renameCategory\: #''(.+)'' toBe\: #''(.+)''$' asRegex
+	^ '^SystemOrganization renameCategory\: #(''?.+''?) toBe\: #(''?.+''?)$' asRegex
