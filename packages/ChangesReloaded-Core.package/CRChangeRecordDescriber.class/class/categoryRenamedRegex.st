@@ -1,3 +1,4 @@
-regex
+doit regex
 categoryRenamedRegex
-	^ '^([^ ]+) organization renameCategory\: #''(.+)'' toBe\: #''(.+)''$' asRegex
+
+	^ '^([^ ]+) class organization renameCategory\: #''(.+)'' toBe\: #''(.+)''$' asRegex
