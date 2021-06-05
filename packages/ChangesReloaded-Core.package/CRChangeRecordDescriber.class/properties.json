@@ -1,7 +1,7 @@
 {
 	"category" : "ChangesReloaded-Core",
 	"classinstvars" : [
-		 ],
+		"output" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "abd 6/2/2021 08:52",

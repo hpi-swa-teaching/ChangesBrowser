@@ -1,4 +1,5 @@
 descriptions
-packageCreatedDescriptionOf:  anRxMachter
+packageCreatedDescriptionOf: anRxMatcher
 
-	^ 'packageCreated: ', (anRxMachter subexpression: 2)
+	^ 'packageCreated: ', (anRxMatcher subexpression: 2)
+		
