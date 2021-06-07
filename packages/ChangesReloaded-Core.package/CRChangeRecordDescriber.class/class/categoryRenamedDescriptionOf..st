@@ -1,4 +1,4 @@
-doit descriptions
+do it descriptions
 categoryRenamedDescriptionOf: anRxMatcher
 
-	^ 'categoryRenamed: ', (anRxMatcher subexpression: 2), ' ', (anRxMatcher subexpression: 4), ' -> ', (anRxMatcher subexpression: 5)
+	^ 'categoryRenamed: #', (anRxMatcher subexpression: 4), ' -> #', (anRxMatcher subexpression: 5), ' in #', (anRxMatcher subexpression: 2)
