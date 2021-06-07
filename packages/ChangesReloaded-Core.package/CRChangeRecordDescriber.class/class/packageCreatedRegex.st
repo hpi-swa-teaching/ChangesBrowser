@@ -1,4 +1,4 @@
-doit regex
+doIt regex
 packageCreatedRegex
 
 	^ '^SystemOrganization addCategory\: #(''?.+''?)$' asRegex

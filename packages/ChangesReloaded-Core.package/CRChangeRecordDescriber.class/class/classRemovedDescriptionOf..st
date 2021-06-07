@@ -1,4 +1,4 @@
-doit descriptions
+doIt descriptions
 classRemovedDescriptionOf: anRxMatcher
 
 	^ 'classRemoved: ', (anRxMatcher subexpression: 2)

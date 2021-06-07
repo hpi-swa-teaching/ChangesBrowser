@@ -1,4 +1,4 @@
-doit regex
+doIt regex
 classRenamedRegex      
 	
 	^ '^Smalltalk renameClassNamed\: #([^ ]+) as\: #([^ ]+)$' asRegex

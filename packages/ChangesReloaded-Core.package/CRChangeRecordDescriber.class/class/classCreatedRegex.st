@@ -1,4 +1,4 @@
-doit regex
+doIt regex
 classCreatedRegex      
 	
 	^ '^[^ ]+ subclass\: #(\S+).*category\: (''?.+''?)$' asRegex

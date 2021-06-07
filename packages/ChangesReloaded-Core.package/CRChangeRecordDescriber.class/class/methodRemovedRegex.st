@@ -1,4 +1,4 @@
-doit regex
+doIt regex
 methodRemovedRegex
 
 	^ '^([^ ]+) (class )?removeSelector\: #([^ ]+)$' asRegex

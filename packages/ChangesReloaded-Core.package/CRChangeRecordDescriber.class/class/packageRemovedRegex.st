@@ -1,4 +1,4 @@
-doit regex
+doIt regex
 packageRemovedRegex
 
 	^ '^SystemOrganization removeSystemCategory\: #''(.+)''$' asRegex

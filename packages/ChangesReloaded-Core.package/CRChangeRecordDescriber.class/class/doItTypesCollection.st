@@ -1,5 +1,5 @@
 main
-doitTypesCollection
+doItTypesCollection
 
 	^ OrderedCollection new
 		add: {self packageCreatedRegex . #packageCreatedDescriptionOf:};

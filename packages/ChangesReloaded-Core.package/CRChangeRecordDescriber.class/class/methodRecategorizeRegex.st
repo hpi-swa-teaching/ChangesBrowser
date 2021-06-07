@@ -1,4 +1,4 @@
-doit regex
+doIt regex
 methodRecategorizeRegex
 
 	^ '^([^ ]+) (class )?organization classify\: #(''?.+''?) under\: #(''?.+''?)$' asRegex
