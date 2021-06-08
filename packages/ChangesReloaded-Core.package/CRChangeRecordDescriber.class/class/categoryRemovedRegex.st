@@ -1,4 +1,4 @@
-doIt regex
+do it regex
 categoryRemovedRegex
 
-	^ '^([^ ]+) (class )?organization removeCategory\: #(''?.+''?)$' asRegex
+	^ '^([^ ]+) (class )?organization removeCategory\: #''?(.+)''?$' asRegex

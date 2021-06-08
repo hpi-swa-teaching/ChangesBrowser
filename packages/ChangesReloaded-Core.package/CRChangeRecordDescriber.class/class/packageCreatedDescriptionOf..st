@@ -1,5 +1,5 @@
-doIt descriptions
+do it descriptions
 packageCreatedDescriptionOf: anRxMatcher
 
-	^ 'packageCreated: ', (anRxMatcher subexpression: 2)
+	^ 'packageCreated: #', (anRxMatcher subexpression: 2)
 		

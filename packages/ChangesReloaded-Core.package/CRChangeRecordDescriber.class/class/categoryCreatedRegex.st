@@ -1,4 +1,4 @@
-doIt regex
+do it regex
 categoryCreatedRegex
 
-	^ '^([^ ]+) (class )?organization addCategory\: #(''?.+''?)$' asRegex
+	^ '^([^ ]+) (class )?organization addCategory\: #''?(.+)''?$' asRegex

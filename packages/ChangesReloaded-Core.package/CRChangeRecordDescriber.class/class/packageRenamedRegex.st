@@ -1,4 +1,4 @@
-doIt regex
+do it regex
 packageRenamedRegex
 
-	^ '^SystemOrganization renameCategory\: #(''?.+''?) toBe\: #(''?.+''?)$' asRegex
+	^ '^SystemOrganization renameCategory\: #''?(.+)''? toBe\: #''?(.+)''?$' asRegex

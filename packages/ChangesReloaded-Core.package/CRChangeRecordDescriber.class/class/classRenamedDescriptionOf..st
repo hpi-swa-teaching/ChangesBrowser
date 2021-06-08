@@ -1,4 +1,4 @@
-doIt descriptions
+do it descriptions
 classRenamedDescriptionOf: anRxMatcher
 
-	^ 'classRenamed: ', (anRxMatcher subexpression: 2), ' -> ', (anRxMatcher subexpression: 3)
+	^ 'classRenamed: #', (anRxMatcher subexpression: 2), ' -> #', (anRxMatcher subexpression: 3)
