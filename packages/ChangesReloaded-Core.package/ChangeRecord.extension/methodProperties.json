@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"=" : "JA 6/4/2021 18:35",
 		"isClassComment" : "gf 7/10/2020 13:03",
 		"isInImage" : "JA 6/4/2021 18:36",
 		"isMethod" : "gf 6/5/2020 10:29",
+		"isSaveOrQuit" : "JA 6/7/2021 18:01",
+		"isStartup" : "JA 6/7/2021 18:00",
 		"modifiesClass" : "SV 6/22/2020 21:45" } }
