@@ -1,4 +1,4 @@
 do it regex
 classCreatedRegex      
 	
-	^ '^[^ ]+ subclass\: #([\S]+).*category\: (.+)$' asRegex
+	^ '^[^ ]+ subclass\: #([\S]+).*category\: ''([^'']+)''$' asRegex
