@@ -1,4 +1,4 @@
 assertions
 assertCorrectMethodChangeListItemNameOfAffectedClass
 
-	self assert: (self methodChangeListItem nameOfAffectedClass = 'CRChangesDummyClass')
+	self assert: (self methodChangeListItem methodClassName = 'CRChangesDummyClass')
