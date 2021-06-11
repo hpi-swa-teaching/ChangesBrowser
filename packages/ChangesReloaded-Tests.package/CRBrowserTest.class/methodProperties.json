@@ -21,6 +21,7 @@
 		"mouse:upAt:in:" : "gf 6/30/2020 18:19",
 		"setUp" : "SV 8/1/2020 15:44",
 		"tearDown" : "SV 7/26/2020 12:44",
+		"testAfterLoadingChanges" : "abd 6/11/2021 22:30",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
 		"testClipChangeListSelectionIndexToValidValue" : "SV 8/7/2020 22:11",
 		"testContents" : "JA 6/11/2021 11:14",

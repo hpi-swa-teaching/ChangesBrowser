@@ -1,4 +1,4 @@
-testing-ui
+testing-functionality
 testContents
 
 	self assert: (self changesBrowser contents = '').
