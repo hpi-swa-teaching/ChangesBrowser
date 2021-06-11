@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCorrectChangeDescriptionStrings" : "TS 5/28/2021 21:43",
+		"assertCorrectChangeDescriptionStrings" : "abd 6/11/2021 13:12",
 		"assertCorrectClipOfAValidChangeListSelectionIndex" : "SV 8/7/2020 22:10",
 		"assertCorrectClipOfChangeListSelectionIndexToLowerBound" : "SV 8/7/2020 15:08",
 		"assertCorrectClipOfChangeListSelectionIndexToUpperBound" : "SV 8/7/2020 15:08",
@@ -15,11 +15,13 @@
 		"click:at:in:" : "gf 6/30/2020 18:19",
 		"dontTestLoadPickedChanges" : "SV 8/7/2020 11:20",
 		"handIn:" : "gf 6/30/2020 18:10",
+		"magicSelectionIndexForChangeDescriptionStrings" : "FK 6/10/2021 21:22",
 		"mouse:does:at:in:" : "mg 7/15/2020 20:13",
 		"mouse:downAt:in:" : "gf 6/30/2020 18:17",
 		"mouse:upAt:in:" : "gf 6/30/2020 18:19",
 		"setUp" : "SV 8/1/2020 15:44",
 		"tearDown" : "SV 7/26/2020 12:44",
+		"testAfterLoadingChanges" : "abd 6/11/2021 22:30",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
 		"testClipChangeListSelectionIndexToValidValue" : "SV 8/7/2020 22:11",
 		"testContents" : "JA 6/11/2021 11:14",
@@ -38,8 +40,8 @@
 		"testRemoveAllChangeListItemsExcept" : "SV 8/7/2020 15:04",
 		"testSelectedChangeListItem" : "SV 7/26/2020 10:55",
 		"testSelectedChangeListItemWhenNothingSelected" : "SV 8/1/2020 15:46",
-		"testSelectedClass" : "abd 5/20/2021 18:25",
-		"testSelectedMessageName" : "abd 5/20/2021 18:25",
+		"testSelectedClass" : "abd 6/11/2021 21:18",
+		"testSelectedMessageName" : "abd 6/11/2021 21:18",
 		"testSwitchingBetweenViews" : "mg 7/15/2020 19:58",
 		"testTogglePickStatus" : "mg 8/7/2020 22:29",
 		"world" : "mg 7/2/2020 14:01" } }

@@ -1,0 +1,4 @@
+accessing
+changeString
+
+	^ changeString ifNil: ''

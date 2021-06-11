@@ -2,6 +2,7 @@ utils
 retrieveChangeRecordsFrom: aMultiByteFileStream
 
 	| changesFileCopy start end |
+
 	changesFileCopy := aMultiByteFileStream readOnlyCopy.
 	changesFileCopy setConverterForCode.
 	end := changesFileCopy size.

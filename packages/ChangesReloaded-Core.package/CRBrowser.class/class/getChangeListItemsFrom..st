@@ -2,5 +2,5 @@ utils
 getChangeListItemsFrom: anOrderedCollectionOfChangeRecords
 
 	^ (anOrderedCollectionOfChangeRecords 
-		select: [:each | each isMethod or: each isClassComment])
+		reject: [:each | each isMisc])
 		collect: [:each | CRChangeListItem new changeRecord: each]

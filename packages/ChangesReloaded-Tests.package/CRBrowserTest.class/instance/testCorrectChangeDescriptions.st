@@ -1,6 +1,6 @@
 testing-functionality
 testCorrectChangeDescriptions
-	
+
 	self assertCorrectChangeDescriptionStrings.
 	self changesBrowser changeDescriptions do: [:aText |
 		self

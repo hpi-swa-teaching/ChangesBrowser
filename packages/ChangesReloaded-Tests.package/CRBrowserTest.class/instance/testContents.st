@@ -1,9 +1,10 @@
-testing-ui
+testing-functionality
 testContents
 
 	self assert: (self changesBrowser contents = '').
 	
-	self changesBrowser changeListSelectionIndex: 5.
+
+	self changesBrowser changeListSelectionIndex: self magicSelectionIndexForChangeDescriptionStrings.
 	self assert: (self changesBrowser contents find: TextColor red) = (1 to: self changesBrowser contents size).
 	
 	self changesBrowser changeListSelectionIndex: 1.

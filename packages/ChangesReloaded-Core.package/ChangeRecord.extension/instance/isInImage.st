@@ -17,5 +17,6 @@ isInImage
 			class ifNil: [^ false].
 			class organization commentStamp ifNil: [^ false].
 			^ (TimeStamp fromAuthorStamp: class organization commentStamp) >= self timeStamp].
-		
-	"TODO: doIt"
+	
+	"FIXME"
+	^ (self type = #doIt) not
