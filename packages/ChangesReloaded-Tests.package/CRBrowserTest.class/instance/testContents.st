@@ -3,6 +3,7 @@ testContents
 
 	self assert: (self changesBrowser contents = '').
 	
+
 	self changesBrowser changeListSelectionIndex: self magicSelectionIndexForChangeDescriptionStrings.
 	self assert: (self changesBrowser contents find: TextColor red) = (1 to: self changesBrowser contents size).
 	

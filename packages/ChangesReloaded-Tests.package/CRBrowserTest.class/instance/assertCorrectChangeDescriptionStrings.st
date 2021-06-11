@@ -1,6 +1,6 @@
 assertions
 assertCorrectChangeDescriptionStrings
-
+	
 	self assert: (self changesBrowser changeDescriptions =
 		#(	'packageRemoved: #ChangesReloadedDummyPackage1'
 			'classRemoved: #CRDP1Class'

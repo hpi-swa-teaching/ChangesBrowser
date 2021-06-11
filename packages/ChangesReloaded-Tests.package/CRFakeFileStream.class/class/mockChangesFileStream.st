@@ -2,6 +2,13 @@ mocking
 mockChangesFileStream
 
 	^ CRFakeFileStream new string:  '
+	
+!CRChangesDummyClass methodsFor: ''function-order-testing'' stamp: ''sv 26/7/2020 13:46''!
+functionOrder5
+
+	^ ''always 5''! !
+!CRChangesDummyClass2 commentStamp: ''sv 26/7/2020 13:59''!
+This is a class comment for test purposes.!
 
 ----SNAPSHOT----{21 June 2020 . 3:49:25 pm} SWT-2020.image priorSource: 29517665!
 !CRChangesDummyClass methodsFor: ''nil'' stamp: ''ug 21/6/2020 15:51''!
@@ -32,16 +39,10 @@ functionOrder3
 !CRChangesDummyClass methodsFor: ''function-order-testing'' stamp: ''ug 21/6/2020 15:53''!
 functionOrder4
 	^''allways 4''! !
-!CRChangesDummyClass methodsFor: ''function-order-testing'' stamp: ''sv 26/7/2020 13:46''!
-functionOrder5
-
-	^''always 5''! !
 !CRChangesDummyClass methodsFor: ''function-order-testing'' stamp: ''sv 26/7/2020 13:47''!
 functionOrder5
 
 	^''always 5.0''! !
-!CRChangesDummyClass2 commentStamp: ''sv 26/7/2020 13:59''!
-This is a class comment for test purposes.!
 !CRChangesDummyClass2 commentStamp: ''sv 26/7/2020 14:00''!
 This is an altered class comment for test purposes.!
 
