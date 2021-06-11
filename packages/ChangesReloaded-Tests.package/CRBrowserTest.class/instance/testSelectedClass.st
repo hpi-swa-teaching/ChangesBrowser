@@ -1,4 +1,4 @@
-testing-ui
+testing-functionality
 testSelectedClass
 
 	self assert: (self changesBrowser selectedClass isNil).

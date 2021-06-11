@@ -1,4 +1,4 @@
-testing-ui
+testing-functionality
 testSelectedMessageName
 
 	self assert: (self changesBrowser selectedMessageName isNil).
