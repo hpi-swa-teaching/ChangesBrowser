@@ -1,4 +1,4 @@
 *ChangesReloaded-Core
 isMisc
 
-	^ self type == #misc
+	^ self string beginsWith: '----'
