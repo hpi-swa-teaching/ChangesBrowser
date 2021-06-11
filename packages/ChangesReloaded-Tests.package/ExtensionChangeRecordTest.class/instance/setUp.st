@@ -9,8 +9,8 @@ setUp
 	changeList := ChangeList new
 		scanFile: fakeFileStream from: 0 to: fakeFileStream size.
 	
-	self methodChangeRecord: changeList changeList second.
+	self methodChangeRecord: (changeList changeList at: 14).
 	self classCommentChangeRecord: (changeList changeList at: 15).
-	self methodChangeRecordInImage: (changeList changeList at: 12).
-	self classCommentChangeRecordInImage: (changeList changeList at: 14).
+	self methodChangeRecordInImage: changeList changeList first.
+	self classCommentChangeRecordInImage: changeList changeList second.
 	self firstClassCommentChangeRecord: changeList changeList third

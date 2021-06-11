@@ -10,7 +10,7 @@ setUp
 		scanFile: fakeFileStream from: 0 to: fakeFileStream size.
 	
 	self methodChangeListItem:
-		(CRChangeListItem newWithRecord: changeList changeList second).
+		(CRChangeListItem newWithRecord: changeList changeList fourth).
 	
 	self classCommentChangeListItem:
-		(CRChangeListItem newWithRecord: changeList changeList third)
+		(CRChangeListItem newWithRecord: changeList changeList fifth)
