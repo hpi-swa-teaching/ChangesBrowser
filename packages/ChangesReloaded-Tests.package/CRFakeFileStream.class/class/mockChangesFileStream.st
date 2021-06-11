@@ -46,11 +46,6 @@ functionOrder5
 !CRChangesDummyClass2 commentStamp: ''sv 26/7/2020 14:00''!
 This is an altered class comment for test purposes.!
 
-----SNAPSHOT----{{21 June 2020 . 3:50:25 pm} SWT-2020.image priorSource: 29517665!!
-
-----STARTUP----{10 June 2021 . 6:22:54 pm} as C:\Users\Florian Krummrey\Desktop\SWT\SWT2021.app\Contents\Resources\SWT2021.image!
-
-
 SystemOrganization addCategory: #ChangesReloadedDummyPackage1!
 
 SystemOrganization addCategory: #''#''''Changes Reloaded Dummy Package 2''''''!
@@ -123,4 +118,5 @@ Smalltalk removeClassNamed: #CRDP1Class!
 
 SystemOrganization removeSystemCategory: #ChangesReloadedDummyPackage1!
 
-----QUIT----{10 June 2021 . 6:39:02 pm} SWT2021.image priorSource: 46233208!'
+----STARTUP----{21 June 2020 . 3:50:25 pm} as SWT-2020.image!
+'
