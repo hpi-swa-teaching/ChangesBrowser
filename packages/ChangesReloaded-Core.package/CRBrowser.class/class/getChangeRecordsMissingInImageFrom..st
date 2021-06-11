@@ -3,6 +3,7 @@ getChangeRecordsMissingInImageFrom: aMultiByteFileStream
 
 	| changeRecords startupIndex saveOrQuitIndex |
 	
+	Smalltalk assureStartupStampLogged.	
 	changeRecords := (self retrieveChangeRecordsFrom: aMultiByteFileStream) reversed
 		ifEmpty: [^ OrderedCollection new].
 	
