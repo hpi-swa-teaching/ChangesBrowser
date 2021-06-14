@@ -10,6 +10,7 @@ doItDescriptionFor: aChangeListItem
 	
 	"classes"
 	self if: self classCreatedOrChangedRegex matchesChangeString: [:matcher | ^ self classCreatedOrChangedDescriptionOf: matcher].
+	self if: self classMovedRegex matchesChangeString: [:matcher | ^ self classMovedDescriptionOf: matcher].
 	self if: self classRemovedRegex matchesChangeString: [:matcher | ^ self classRemovedDescriptionOf: matcher].
 	self if: self classRenamedRegex matchesChangeString: [:matcher | ^ self classRenamedDescriptionOf: matcher].
 	
@@ -22,5 +23,5 @@ doItDescriptionFor: aChangeListItem
 	self if: self methodRemovedRegex matchesChangeString: [:matcher | ^ self methodRemovedDescriptionOf: matcher].
 	self if: self methodRecategorizedRegex matchesChangeString: [:matcher | ^ self methodRecategorizedDescriptionOf: matcher].
 	
-	"otherwise"
-	^ 'doIt: ', changeString
+	"otherwise dont show it, e.g. non permenant doits"
+	^ self emptyDescription
