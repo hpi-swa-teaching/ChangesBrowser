@@ -1,4 +1,4 @@
 magicTestNumbers
 magicSelectionIndexForChangeDescriptionStrings
 
-	^31	
+	^ 31	

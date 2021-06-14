@@ -9,7 +9,7 @@ doItDescriptionFor: aChangeListItem
 	self if: self packageRenamedRegex matchesChangeString: [:matcher | ^ self packageRenamedDescriptionOf: matcher].
 	
 	"classes"
-	self if: self classCreatedRegex matchesChangeString: [:matcher | ^ self classCreatedDescriptionOf: matcher].
+	self if: self classCreatedOrChangedRegex matchesChangeString: [:matcher | ^ self classCreatedOrChangedDescriptionOf: matcher].
 	self if: self classRemovedRegex matchesChangeString: [:matcher | ^ self classRemovedDescriptionOf: matcher].
 	self if: self classRenamedRegex matchesChangeString: [:matcher | ^ self classRenamedDescriptionOf: matcher].
 	
