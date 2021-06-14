@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCorrectChangeDescriptionStrings" : "abd 6/11/2021 13:12",
+		"assertCorrectChangeDescriptionStrings" : "anonym-HPI 6/14/2021 15:35",
 		"assertCorrectClipOfAValidChangeListSelectionIndex" : "SV 8/7/2020 22:10",
 		"assertCorrectClipOfChangeListSelectionIndexToLowerBound" : "SV 8/7/2020 15:08",
 		"assertCorrectClipOfChangeListSelectionIndexToUpperBound" : "SV 8/7/2020 15:08",
@@ -15,7 +15,7 @@
 		"click:at:in:" : "gf 6/30/2020 18:19",
 		"dontTestLoadPickedChanges" : "SV 8/7/2020 11:20",
 		"handIn:" : "gf 6/30/2020 18:10",
-		"magicSelectionIndexForChangeDescriptionStrings" : "FK 6/10/2021 21:22",
+		"magicSelectionIndexForChangeDescriptionStrings" : "anonym-HPI 6/14/2021 15:34",
 		"mouse:does:at:in:" : "mg 7/15/2020 20:13",
 		"mouse:downAt:in:" : "gf 6/30/2020 18:17",
 		"mouse:upAt:in:" : "gf 6/30/2020 18:19",

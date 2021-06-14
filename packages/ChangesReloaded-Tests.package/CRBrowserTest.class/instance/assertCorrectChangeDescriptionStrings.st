@@ -23,7 +23,7 @@ assertCorrectChangeDescriptionStrings
 			'categoryRenamed: #''Dummy Category 2'' -> #DummyCategory2 in #CRDP1Class'
 			'categoryCreated: #''Dummy Category 2'' in #CRDP1Class'
 			'categoryCreated: #DummyCategory1 in #CRDP1Class'
-			'classCreated: #CRDP1ChildClass in #ChangesReloadedDummyPackage1'
+			'class: #CRDP1ChildClass in #ChangesReloadedDummyPackage1'
 			'packageRemoved: #ChangesReloadedDummyPackage2'
 			'doIt: SystemOrganization classify: #CRDP1Class under: #ChangesReloadedDummyPackage1'
 			'classCreated: #CRDP1Class in #ChangesReloadedDummyPackage2'
