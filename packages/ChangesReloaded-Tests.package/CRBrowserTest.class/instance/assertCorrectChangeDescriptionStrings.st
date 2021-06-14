@@ -26,7 +26,7 @@ assertCorrectChangeDescriptionStrings
 			'class: #CRDP1ChildClass in #ChangesReloadedDummyPackage1'
 			'packageRemoved: #ChangesReloadedDummyPackage2'
 			'doIt: SystemOrganization classify: #CRDP1Class under: #ChangesReloadedDummyPackage1'
-			'classCreated: #CRDP1Class in #ChangesReloadedDummyPackage2'
+			'class: #CRDP1Class in #ChangesReloadedDummyPackage2'
 			'packageRenamed: #''#''''Changes Reloaded Dummy Package 2'''''' -> #ChangesReloadedDummyPackage2'
 			'packageCreated: #''#''''Changes Reloaded Dummy Package 2'''''''
 			'packageCreated: #ChangesReloadedDummyPackage1'
