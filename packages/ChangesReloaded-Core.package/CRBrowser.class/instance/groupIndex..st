@@ -1,5 +1,5 @@
 accessing
-groupIndex: anObject
+groupIndex: aNumber
 
-	groupIndex := anObject.
+	groupIndex := aNumber.
 	self updateGroupSelection

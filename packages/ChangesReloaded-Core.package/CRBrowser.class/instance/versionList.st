@@ -1,4 +1,7 @@
 accessing
 versionList
 	
-	^ self changeGroups at: groupIndex ifPresent: [:list | self getVersionDescriptionsFrom: list] ifAbsent: [^ {}]
+	^ self selectedGroup 
+		ifNil: [{}]
+		ifNotNil: [self getVersionDescriptionsFrom: (self changeGroups at: self selectedGroup)]
+	

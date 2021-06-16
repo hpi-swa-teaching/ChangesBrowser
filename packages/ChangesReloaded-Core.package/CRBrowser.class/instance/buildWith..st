@@ -9,10 +9,10 @@ buildWith: aBuilder
 			add: ((self buildUpperButtonPanelSpecWith: aBuilder)
 				frame: self upperButtonsFrame;
 				yourself);
-			add: ((self buildChangeGroupListSpecWith: aBuilder)
+			add: ((self buildGroupListSpecWith: aBuilder)
 				frame: self groupListFrame;
 				yourself);
-			add: ((self buildChangeVersionListSpecWith: aBuilder)
+			add: ((self buildVersionListSpecWith: aBuilder)
 				frame: self versionListFrame;
 				yourself);
 			add: ((self buildPickButtonSpecWith: aBuilder)

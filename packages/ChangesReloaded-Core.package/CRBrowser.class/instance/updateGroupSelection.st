@@ -6,5 +6,4 @@ updateGroupSelection
 		changed: #versionIndex;
 		changed: #groupIndex;
 		changed: #versionList;
-		updateButtons;
-		updateCodePane
+		updateAfterChangeSelection

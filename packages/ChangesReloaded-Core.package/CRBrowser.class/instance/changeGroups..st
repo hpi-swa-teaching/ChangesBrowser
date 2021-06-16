@@ -1,4 +1,4 @@
 accessing
-changeGroups: anObject
+changeGroups: aDictionary
 
-	changeGroups := anObject.
+	changeGroups := aDictionary

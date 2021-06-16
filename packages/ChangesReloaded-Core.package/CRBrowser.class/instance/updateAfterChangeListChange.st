@@ -3,6 +3,9 @@ updateAfterChangeListChange
 
 	self
 		updateLoadButton;
-		refreshChangeList;
-		clipChangeListSelectionIndexToValidValue;
-		repaintChangeListSelection
+		changed: #groupList;
+		changed: #versionList;
+		clipVersionIndex;
+		clipGroupIndex;
+		changed: #groupIndex;
+		changed: #versionIndex

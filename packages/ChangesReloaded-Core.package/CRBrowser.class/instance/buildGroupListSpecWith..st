@@ -1,5 +1,5 @@
 toolbuilder
-buildChangeGroupListSpecWith: aBuilder
+buildGroupListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;

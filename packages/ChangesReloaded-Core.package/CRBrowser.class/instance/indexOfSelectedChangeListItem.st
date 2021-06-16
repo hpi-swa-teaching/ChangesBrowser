@@ -2,5 +2,5 @@ accessing
 indexOfSelectedChangeListItem
 
 	self versionIndex isZero
-		ifTrue: [^ self groupIndex ]
-		ifFalse: [^ self versionIndex]
+		ifTrue: [^ self selectedGroup]
+		ifFalse: [^ (self changeGroups at: self selectedGroup) at: self versionIndex]

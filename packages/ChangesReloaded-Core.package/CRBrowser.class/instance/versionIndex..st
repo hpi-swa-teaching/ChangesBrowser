@@ -1,7 +1,5 @@
 accessing
-versionIndex: anObject
+versionIndex: aNumber
 
-	versionIndex := anObject.
-	self 
-		changed: #versionIndex;
-		updateCodePane
+	versionIndex := aNumber.
+	self updateVersionSelection
