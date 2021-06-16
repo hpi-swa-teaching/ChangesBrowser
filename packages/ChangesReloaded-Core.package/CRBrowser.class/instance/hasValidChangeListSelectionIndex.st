@@ -1,4 +1,4 @@
 accessing
 hasValidChangeListSelectionIndex
-
-	^ self changeListSelectionIndex between: 1 and: self numberOfChangeListItems
+	
+	^ (self groupIndex > 0) and: (self groupIndex <= self groupList size)

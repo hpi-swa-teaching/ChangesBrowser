@@ -1,6 +1,6 @@
 updating
 updateCodePane
-
+	
 	self hasSelectedMethodChangeListItem
 		ifTrue: [self contents: (self diffFromPriorSourceFor: self selectedChangeListItem string)]
 		ifFalse: [
