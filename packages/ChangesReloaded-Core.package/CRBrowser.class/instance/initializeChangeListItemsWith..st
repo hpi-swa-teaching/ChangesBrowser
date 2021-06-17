@@ -6,5 +6,5 @@ initializeChangeListItemsWith: aMultiByteFileStream
 	changeRecords := self class getChangeRecordsMissingInImageFrom: self usedChangeFile.
 	self
 		changeListItems: (self class getChangeListItemsFrom: changeRecords);
-		removeAllChangeListItemsWithEmptyDescription;
+		removeAllNonPersistentDoIts;
 		pickAllChangeListItems

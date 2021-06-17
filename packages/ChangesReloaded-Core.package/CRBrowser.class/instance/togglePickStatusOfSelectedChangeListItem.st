@@ -3,5 +3,5 @@ togglePickStatusOfSelectedChangeListItem
 
 	self hasSelectedChangeListItem ifFalse: [^ self].
 
-	self selectedChangeListItem togglePickStatus.
+	self selectedChangeListItem toggleIsPicked.
 	self updateAfterPick

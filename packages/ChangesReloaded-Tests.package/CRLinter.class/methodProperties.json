@@ -37,7 +37,7 @@
 		"dontTestSendsDifferentSuperMessage" : "mg 7/15/2020 20:11",
 		"dontTestSendsQuestionableMessage" : "mg 7/15/2020 20:11",
 		"dontTestUtilityMethods" : "mg 7/15/2020 20:11",
-		"runLinterRule:" : "mg 7/4/2020 19:46",
+		"runLinterRule:" : "abd 6/17/2021 13:04",
 		"setUp" : "mg 7/4/2020 21:18",
 		"testAddDependantMethodsLessOrEqualThanRemoveDependents" : "mg 7/15/2020 20:11",
 		"testArgumentVariableNames" : "mg 7/15/2020 20:11",
