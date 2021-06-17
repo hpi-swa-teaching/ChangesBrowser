@@ -1,4 +1,4 @@
 actions
-togglePickStatus
+toggleIsPicked
 
 	self isPicked: self isPicked not

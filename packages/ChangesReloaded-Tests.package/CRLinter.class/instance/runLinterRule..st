@@ -6,6 +6,7 @@ runLinterRule: aLinterRule
 	testObjects := self classes collect: [ :each | each as: SLTestObject ].
 
 	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
+	
 
 	^ (testObjects
 		collect: [:testObject | testObject resultOf: aLinterRule])
