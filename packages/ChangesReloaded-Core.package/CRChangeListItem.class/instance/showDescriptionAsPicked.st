@@ -1,4 +1,4 @@
 text-attributes
 showDescriptionAsPicked
 
-	self unpickedAttributes do: [:attribute | self description removeAttribute: attribute]
+	self pickedAttributes do: [:attribute | self description addAttribute: attribute]
