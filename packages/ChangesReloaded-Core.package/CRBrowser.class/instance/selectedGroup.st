@@ -1,4 +1,6 @@
 accessing
 selectedGroup
 
-	^ self changeGroups keys at: self groupIndex ifAbsent: [nil]
+	self hasValidGroupIndex
+		ifTrue: [^ self changeGroups at: self groupIndex]
+		ifFalse: [^ nil]

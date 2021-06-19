@@ -3,8 +3,8 @@ buildGroupListSpecWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;
-		name: 'changes groups';
-		list: #groupList;
+		name: 'change groups';
+		list: #changeGroupDescriptions;
 		getIndex: #groupIndex;
 		setIndex: #groupIndex:;
 		yourself

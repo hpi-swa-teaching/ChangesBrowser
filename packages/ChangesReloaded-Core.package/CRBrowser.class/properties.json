@@ -8,6 +8,7 @@
 	"instvars" : [
 		"changeListItems",
 		"usedChangeFile",
+		"changeGroupDescriptions",
 		"changeGroups",
 		"groupIndex",
 		"versionIndex" ],

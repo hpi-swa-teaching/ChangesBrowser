@@ -1,0 +1,4 @@
+access
+reset
+	
+	instance := nil.

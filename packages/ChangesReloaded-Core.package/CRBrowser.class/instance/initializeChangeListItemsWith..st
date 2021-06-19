@@ -3,9 +3,7 @@ initializeChangeListItemsWith: aMultiByteFileStream
 
 	| changeRecords |
 	self usedChangeFile: aMultiByteFileStream.
-	changeRecords := self class getChangeRecordsMissingInImageFrom: self usedChangeFile.
+	changeRecords := self class getChangeRecordsFromLastCrashFrom: self usedChangeFile.
 	self
-		changeListItems: (self class getChangeListItemsFrom: changeRecords);
-		removeAllNonPersistentDoIts;
-		initializeChangeGroups;
+		changeListItems: (self class getChangeListItemsMissingInImageFrom: changeRecords);
 		pickAllChangeListItems

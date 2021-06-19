@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Core",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasAlreadyFiledIn" ],
+	"name" : "CRSessionState",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

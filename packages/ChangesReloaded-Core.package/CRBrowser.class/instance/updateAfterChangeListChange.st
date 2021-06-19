@@ -3,8 +3,8 @@ updateAfterChangeListChange
 
 	self
 		updateLoadButton;
-		changed: #groupList;
-		changed: #versionList;
+		changed: #changeGroupDescriptions;
+		changed: #versionDescriptions;
 		clipVersionIndex;
 		clipGroupIndex;
 		changed: #groupIndex;

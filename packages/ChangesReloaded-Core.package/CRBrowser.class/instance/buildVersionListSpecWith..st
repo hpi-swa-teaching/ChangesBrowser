@@ -4,7 +4,7 @@ buildVersionListSpecWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		name: 'changes versions';
-		list: #versionList;
+		list: #versionDescriptions;
 		getIndex: #versionIndex;
 		setIndex: #versionIndex:;
 		yourself

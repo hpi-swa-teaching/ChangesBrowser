@@ -1,6 +1,6 @@
 accessing
 selectedChangeListItem
 	
-	^ self hasValidChangeListSelectionIndex
-		ifTrue: [self changeListItems at: (self indexOfSelectedChangeListItem)]
+	^ self hasValidVersionIndex
+		ifTrue: [self selectedGroup at: self versionIndex]
 		ifFalse: [nil]
