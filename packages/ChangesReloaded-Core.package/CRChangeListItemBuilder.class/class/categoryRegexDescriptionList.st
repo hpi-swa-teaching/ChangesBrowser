@@ -2,16 +2,19 @@ regex & descriptions
 categoryRegexDescriptionList
 	
 	^ {
-		{ #categoryCreated. '^([^ ]+) (class )?organization addCategory\: #(.+)$'. [:m | '#', (m subexpression: 4), ' in #', (m subexpression: 2)]}.
-		{ #categoryRemoved. '^([^ ]+) (class )?organization removeCategory\: #(.+)$'. [:m | '#', (m subexpression: 4), ' from #', (m subexpression: 2)]}.
-		{ #categoryRenamed. '^([^ ]+) (class )?organization renameCategory\: #(.+) toBe\: #(.+)$'. [:m | '#', (m subexpression: 4), ' -> #', (m subexpression: 5), ' in #', (m subexpression: 2)]}.
-		{ #class. '^[^ ]+ subclass\: #([\S]+).*category\: ''([^'']+)''$'. [:m | '#', (m subexpression: 2), ' in #', (m subexpression: 3)]}.
-		{ #classMoved. '^SystemOrganization classify\: #(.+) under\: #(.+)$'. [:m | '#', (m subexpression: 2), ' to #', (m subexpression: 3)]}.
-		{ #classRemoved. '^Smalltalk removeClassNamed\: #([^ ]+)$'. [:m | '#', (m subexpression: 2)]}.
-		{ #classRenamed. '^Smalltalk renameClassNamed\: #([^ ]+) as\: #([^ ]+)$'. [:m | '#', (m subexpression: 2), ' -> #', (m subexpression: 3)]}.
-		{ #methodRecategorized. '^([^ ]+) (class )?organization classify\: #(.+) under\: #(.+)$'. [:m | '#', (m subexpression: 4), ' to #', (m subexpression: 5)]}.
-		{ #methodRemoved. '^([^ ]+) (class )?removeSelector\: #([^ ]+)$'. [:m | '#', (m subexpression: 4), ' from #', (m subexpression: 2)]}.
-		{ #packageCreated. '^SystemOrganization addCategory\: #(.+)$'. [:m | '#', (m subexpression: 2)]}.
-		{ #packageRemoved. '^SystemOrganization removeSystemCategory\: #(.+)$'. [:m | '#', (m subexpression: 2)]}.
-		{ #packageRenamed. '^SystemOrganization renameCategory\: #(.+) toBe\: #(.+)$'. [:m | '#', (m subexpression: 2), ' -> #', (m subexpression: 3)]}.
+		{#categoryCreated. '^([^ ]+) (class )?organization addCategory\: #(.+)$'. [:m | {#category -> (m subexpression: 4). #class -> (m subexpression: 2) } asDictionary]}.
+		{#categoryRemoved. '^([^ ]+) (class )?organization removeCategory\: #(.+)$'. [:m | {#category -> (m subexpression: 4). #class -> (m subexpression: 2) } asDictionary]}.
+		{#categoryRenamed. '^([^ ]+) (class )?organization renameCategory\: #(.+) toBe\: #(.+)$'. [:m | {#oldCategory -> (m subexpression: 4). #newCategory -> (m subexpression: 5). #class -> (m subexpression: 2) } asDictionary]}.
+		
+		{#class. '^[^ ]+ subclass\: #([\S]+).*category\: ''([^'']+)''$'. [:m | {#class -> (m subexpression: 2). #package -> (m subexpression: 3) } asDictionary]}.
+		{#classMoved. '^SystemOrganization classify\: #(.+) under\: #(.+)$'. [:m | {#class -> (m subexpression: 2). #package -> (m subexpression: 3) } asDictionary]}.
+		{#classRemoved. '^Smalltalk removeClassNamed\: #([^ ]+)$'. [:m | {#class -> (m subexpression: 2) } asDictionary]}.
+		{#classRenamed. '^Smalltalk renameClassNamed\: #([^ ]+) as\: #([^ ]+)$'. [:m | {#oldClass -> (m subexpression: 2). #newClass -> (m subexpression: 3) } asDictionary]}.
+		
+		{ #methodRecategorized. '^([^ ]+) (class )?organization classify\: #(.+) under\: #(.+)$'. [:m | {#method -> (m subexpression: 4). #category -> (m subexpression: 5) } asDictionary]}.
+		{ #methodRemoved. '^([^ ]+) (class )?removeSelector\: #([^ ]+)$'. [:m | {#method -> (m subexpression: 4). #class -> (m subexpression: 2) } asDictionary]}.
+		
+		{ #packageCreated. '^SystemOrganization addCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} asDictionary]}.
+		{ #packageRemoved. '^SystemOrganization removeSystemCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} asDictionary]}.
+		{ #packageRenamed. '^SystemOrganization renameCategory\: #(.+) toBe\: #(.+)$'. [:m | {#oldPackage -> (m subexpression: 2). #newPackage -> (m subexpression: 3) } asDictionary]}.
 	}

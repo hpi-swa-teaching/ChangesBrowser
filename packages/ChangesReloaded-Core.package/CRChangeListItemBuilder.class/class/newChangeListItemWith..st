@@ -4,7 +4,7 @@ newChangeListItemWith: aChangeRecord
 	| changeListItem |
 	
 	changeListItem := CRChangeListItem new changeRecord: aChangeRecord.
-	self setCategoryAndDescriptionOf: changeListItem.
+	self setCategoryAndAttributesOf: changeListItem.
 	
 	^ changeListItem 
 			pick; 

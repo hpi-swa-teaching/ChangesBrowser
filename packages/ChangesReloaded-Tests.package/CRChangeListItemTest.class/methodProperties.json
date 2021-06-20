@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCorrectClassCommentChangeListItemDescription" : "abd 6/17/2021 12:45",
+		"assertCorrectClassCommentChangeListItemDescription" : "abd 6/20/2021 13:31",
 		"assertCorrectClassCommentChangeListItemNameOfAffectedClass" : "FK 6/10/2021 22:02",
-		"assertCorrectMethodChangeListItemDescription" : "abd 6/17/2021 12:44",
+		"assertCorrectMethodChangeListItemDescription" : "abd 6/20/2021 13:30",
 		"assertCorrectMethodChangeListItemNameOfAffectedClass" : "FK 6/10/2021 22:04",
 		"assertCorrectPickedListItemDecriptionAttributes:" : "TS 5/20/2021 12:10",
 		"assertCorrectUnpickedListItemDecriptionAttributes:" : "abd 6/17/2021 12:42",
@@ -21,4 +21,4 @@
 		"testEqualityComparator" : "SV 8/7/2020 15:19",
 		"testHash" : "SV 8/7/2020 21:56",
 		"testNameOfAffectedClass" : "SV 7/26/2020 13:23",
-		"testUnpickedItemsAttributes" : "abd 6/11/2021 21:32" } }
+		"testUnpickedItemsAttributes" : "abd 6/20/2021 13:33" } }

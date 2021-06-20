@@ -9,7 +9,7 @@
 		"changeRecord",
 		"isPicked",
 		"category",
-		"description" ],
+		"attributes" ],
 	"name" : "CRChangeListItem",
 	"pools" : [
 		 ],

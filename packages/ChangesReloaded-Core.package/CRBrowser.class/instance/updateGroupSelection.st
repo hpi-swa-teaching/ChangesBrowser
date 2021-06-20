@@ -5,4 +5,5 @@ updateGroupSelection
 		clipVersionIndex;
 		changed: #groupIndex;
 		changed: #versionDescriptions;
+		changed: #versionIndex;
 		updateAfterChangeSelection
