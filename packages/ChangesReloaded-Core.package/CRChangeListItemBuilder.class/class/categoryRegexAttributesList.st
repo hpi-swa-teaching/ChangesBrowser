@@ -1,5 +1,5 @@
-regex & descriptions
-categoryRegexDescriptionList
+category & regex & attributes
+categoryRegexAttributesList
 	
 	^ {
 		{#categoryCreated. '^([^ ]+) (class )?organization addCategory\: #(.+)$'. [:m | {#category -> (m subexpression: 4). #class -> (m subexpression: 2) } asDictionary]}.
