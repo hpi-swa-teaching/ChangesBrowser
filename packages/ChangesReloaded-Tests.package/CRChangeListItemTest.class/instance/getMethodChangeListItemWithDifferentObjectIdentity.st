@@ -8,4 +8,4 @@ getMethodChangeListItemWithDifferentObjectIdentity
 	changeList := ChangeList new
 		scanFile: fakeFileStream from: 0 to: fakeFileStream size.
 	
-	^ CRChangeListItem newWithRecord: changeList changeList fourth
+	^ CRChangeListItem newWith: changeList changeList fourth

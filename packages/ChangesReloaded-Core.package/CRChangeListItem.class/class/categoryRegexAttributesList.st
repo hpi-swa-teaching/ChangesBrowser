@@ -1,4 +1,4 @@
-category & regex & attributes
+categories & attributes
 categoryRegexAttributesList
 	
 	^ {
@@ -11,10 +11,10 @@ categoryRegexAttributesList
 		{#classRemoved. '^Smalltalk removeClassNamed\: #([^ ]+)$'. [:m | {#class -> (m subexpression: 2) } asDictionary]}.
 		{#classRenamed. '^Smalltalk renameClassNamed\: #([^ ]+) as\: #([^ ]+)$'. [:m | {#oldClass -> (m subexpression: 2). #newClass -> (m subexpression: 3) } asDictionary]}.
 		
-		{ #methodRecategorized. '^([^ ]+) (class )?organization classify\: #(.+) under\: #(.+)$'. [:m | {#method -> (m subexpression: 4). #category -> (m subexpression: 5) } asDictionary]}.
-		{ #methodRemoved. '^([^ ]+) (class )?removeSelector\: #([^ ]+)$'. [:m | {#method -> (m subexpression: 4). #class -> (m subexpression: 2) } asDictionary]}.
+		{#methodRecategorized. '^([^ ]+) (class )?organization classify\: #(.+) under\: #(.+)$'. [:m | {#method -> (m subexpression: 4). #category -> (m subexpression: 5) } asDictionary]}.
+		{#methodRemoved. '^([^ ]+) (class )?removeSelector\: #([^ ]+)$'. [:m | {#method -> (m subexpression: 4). #class -> (m subexpression: 2) } asDictionary]}.
 		
-		{ #packageCreated. '^SystemOrganization addCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} asDictionary]}.
-		{ #packageRemoved. '^SystemOrganization removeSystemCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} asDictionary]}.
-		{ #packageRenamed. '^SystemOrganization renameCategory\: #(.+) toBe\: #(.+)$'. [:m | {#oldPackage -> (m subexpression: 2). #newPackage -> (m subexpression: 3) } asDictionary]}.
+		{#packageCreated. '^SystemOrganization addCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} asDictionary]}.
+		{#packageRemoved. '^SystemOrganization removeSystemCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} asDictionary]}.
+		{#packageRenamed. '^SystemOrganization renameCategory\: #(.+) toBe\: #(.+)$'. [:m | {#oldPackage -> (m subexpression: 2). #newPackage -> (m subexpression: 3) } asDictionary]}.
 	}

@@ -1,4 +1,4 @@
-describing
+categories & attributes
 doItCategoryAndAttributesFor: aChangeListItem 
 	
 	self categoryRegexAttributesList

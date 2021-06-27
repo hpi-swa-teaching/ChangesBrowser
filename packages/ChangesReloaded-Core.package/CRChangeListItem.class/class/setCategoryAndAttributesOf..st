@@ -1,4 +1,4 @@
-instance creation
+categories & attributes
 setCategoryAndAttributesOf: aChangeListItem
 	
 	| categoryAttributesTuple |	

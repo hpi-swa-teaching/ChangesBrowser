@@ -1,4 +1,4 @@
-describing
+categories & attributes
 categoryAndAttributesFor: aChangeListItem
 	aChangeListItem type caseOf: {
 		[#method] -> [^ self methodCategoryAndAttributesFor: aChangeListItem].
