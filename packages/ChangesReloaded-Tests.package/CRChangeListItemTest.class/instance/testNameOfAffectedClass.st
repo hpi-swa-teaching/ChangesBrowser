@@ -1,5 +1,0 @@
-testing
-testNameOfAffectedClass
-
-	self assertCorrectMethodChangeListItemNameOfAffectedClass.
-	self assertCorrectClassCommentChangeListItemNameOfAffectedClass

@@ -1,4 +1,4 @@
 accessing
 groupIndex
 
-	^ groupIndex ifNil: 0
+	^ groupIndex ifNil: [0]

@@ -12,7 +12,6 @@
 		"openWith:" : "gf 7/5/2020 13:58",
 		"retrieveChangeRecordsFrom:" : "abd 5/31/2021 16:58" },
 	"instance" : {
-		"add:toCorrespondingGroupIn:" : "abd 6/20/2021 14:25",
 		"askToSave" : "FK 6/16/2021 15:45",
 		"buildButtonSpecWith:label:action:help:enabled:" : "mg 8/7/2020 14:19",
 		"buildGroupListSpecWith:" : "TS 6/18/2021 17:31",
@@ -38,8 +37,9 @@
 		"codePaneFrame" : "mg 8/7/2020 22:25",
 		"createNewGroupFor:" : "abd 6/20/2021 14:15",
 		"diffFromPriorSourceFor:" : "JA 5/20/2021 23:23",
-		"groupChangeListItems" : "abd 6/20/2021 14:26",
-		"groupIndex" : "abd 6/16/2021 12:21",
+		"getCorrespondingGroupOf:In:" : "TS 6/30/2021 22:01",
+		"groupChangeListItems" : "TS 6/30/2021 22:01",
+		"groupIndex" : "TS 6/30/2021 21:53",
 		"groupIndex:" : "FK 6/16/2021 14:09",
 		"groupListFrame" : "abd 6/16/2021 10:25",
 		"hasSelectedChangeListItem" : "TS 6/18/2021 18:43",
@@ -80,7 +80,7 @@
 		"usedChangeFile" : "8/7/2020 22:50:03",
 		"usedChangeFile:" : "8/7/2020 22:50:03",
 		"versionDescriptions" : "abd 6/20/2021 13:16",
-		"versionIndex" : "abd 6/16/2021 12:20",
+		"versionIndex" : "TS 6/30/2021 21:53",
 		"versionIndex:" : "FK 6/16/2021 14:09",
 		"versionListFrame" : "abd 6/16/2021 11:10",
 		"wantsOptionalButtons" : "mg 8/6/2020 12:00" } }

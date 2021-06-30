@@ -1,4 +1,4 @@
 accessing
 versionIndex
 
-	^ versionIndex ifNil: 0
+	^ versionIndex ifNil: [0]

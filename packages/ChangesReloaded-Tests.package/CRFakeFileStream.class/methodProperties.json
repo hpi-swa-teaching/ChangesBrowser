@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"mockChangesFileStream" : "abd 6/11/2021 14:30" },
+		"mockChangesFileStream" : "abd 6/11/2021 14:30",
+		"mockChangesFileStreamWithAllTypesOfChanges" : "TS 6/30/2021 20:26" },
 	"instance" : {
 		"atEnd" : "gf 6/24/2020 16:22",
 		"basicNext" : "gf 6/24/2020 16:29",

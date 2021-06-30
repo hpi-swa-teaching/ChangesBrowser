@@ -11,4 +11,4 @@ groupChangeListItems
 	self changeListItems do: [:each | 
 		groups keysDo: [:groupID | (each separatesGroup: groupID)
 			ifTrue: [groups removeKey: groupID]].
-		self add: each toCorrespondingGroupIn: groups].
+		(self getCorrespondingGroupOf: each In: groups) add: each].

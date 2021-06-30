@@ -2,6 +2,6 @@ testing
 testEqualityComparator
 
 	self
-		deny: self methodChangeListItem = self classCommentChangeListItem;
-		assert: self methodChangeListItem = self methodChangeListItem;
-		assert: self methodChangeListItem = self getMethodChangeListItemWithDifferentObjectIdentity
+		deny: self specificChangeListItem1 = self specificChangeListItem2;
+		assert: self specificChangeListItem1 = self specificChangeListItem1;
+		assert: self specificChangeListItem1 = self specificChangeListItem1 copy.

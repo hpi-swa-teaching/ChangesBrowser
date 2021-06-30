@@ -2,7 +2,6 @@ descriptions
 formatted: aString
 
 	| text |
-	
 	text := aString asText.
 	
 	self isPicked 

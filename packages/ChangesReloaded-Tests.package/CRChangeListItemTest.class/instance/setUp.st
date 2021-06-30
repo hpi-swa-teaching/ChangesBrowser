@@ -5,12 +5,13 @@ setUp
 	super setUp.
 	
 	fakeFileStream :=
-		CRFakeFileStream mockChangesFileStream readOnlyCopy setConverterForCode.
+		CRFakeFileStream mockChangesFileStreamWithAllTypesOfChanges readOnlyCopy setConverterForCode.
 	changeList := ChangeList new
 		scanFile: fakeFileStream from: 0 to: fakeFileStream size.
 	
-	self methodChangeListItem:
-		(CRChangeListItem newWith: changeList changeList fourth).
+	self changeListItems: (changeList changeList collect: [:each | CRChangeListItem newWith: each]).
+	
+	"self changeListItems fourth).
 	
 	self classCommentChangeListItem:
-		(CRChangeListItemBuilder newChangeListItemWith: changeList changeList fifth)
+		(CRChangeListItem newWith: changeList changeList fifth)"
