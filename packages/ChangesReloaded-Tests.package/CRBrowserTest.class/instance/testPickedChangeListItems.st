@@ -4,9 +4,14 @@ testPickedChangeListItems
 	| testPickedItems |
 	self assert: (self changesBrowser pickedChangeListItems isEmpty).
 	
-	self changesBrowser changeListItems first pick.
-	self changesBrowser changeListItems fifth pick.
 	testPickedItems := OrderedCollection new.
-	testPickedItems add: self changesBrowser changeListItems first.
-	testPickedItems add: self changesBrowser changeListItems fifth.
+	
+	self selectFirstChangeListItem.
+	self changesBrowser selectedChangeListItem pick.
+	testPickedItems add: self changesBrowser selectedChangeListItem.
+	
+	self selectSecondChangeListItem.
+	self changesBrowser selectedChangeListItem pick.
+	testPickedItems add: self changesBrowser selectedChangeListItem.
+
 	self assert: (self changesBrowser pickedChangeListItems = testPickedItems)

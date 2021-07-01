@@ -1,4 +1,0 @@
-constants
-changeListName
-
-	^ 'change list'

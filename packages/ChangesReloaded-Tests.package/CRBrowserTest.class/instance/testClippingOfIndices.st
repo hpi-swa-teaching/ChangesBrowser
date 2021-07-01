@@ -1,0 +1,5 @@
+accessing
+testClippingOfIndices
+
+	self assertCorrectClipOfVersionIndex.
+	self assertCorrectClipOfGroupIndex.

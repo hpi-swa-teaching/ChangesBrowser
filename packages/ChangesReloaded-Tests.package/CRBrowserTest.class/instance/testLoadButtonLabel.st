@@ -3,8 +3,10 @@ testLoadButtonLabel
 	
 	self assert: (self changesBrowser loadButtonLabel = 'Pick changes to load them').
 	
-	self changesBrowser changeListItems first pick.
+	self selectFirstChangeListItem.
+	self changesBrowser selectedChangeListItem pick.
 	self assert: (self changesBrowser loadButtonLabel = 'Load 1 change').
 	
-	self changesBrowser changeListItems second pick.
+	self selectSecondChangeListItem.
+	self changesBrowser selectedChangeListItem pick.
 	self assert: (self changesBrowser loadButtonLabel = 'Load 2 changes')
