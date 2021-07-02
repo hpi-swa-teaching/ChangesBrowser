@@ -1,4 +1,4 @@
 categories & attributes
 methodCategoryAndAttributesFor: aChangeRecord
 	
-	^ {#method. {#class -> aChangeRecord methodClassName. #method -> aChangeRecord methodSelector. #stamp -> aChangeRecord stamp} asDictionary}
+	^ {#method. {#class -> aChangeRecord methodClassName. #method -> aChangeRecord methodSelector. #stamp -> aChangeRecord stamp} as: Dictionary}
