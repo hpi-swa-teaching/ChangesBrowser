@@ -1,4 +1,4 @@
-testing-functionality
+accessing
 selectFirstChangeListItem
 
 	self changesBrowser groupIndex: 1. 

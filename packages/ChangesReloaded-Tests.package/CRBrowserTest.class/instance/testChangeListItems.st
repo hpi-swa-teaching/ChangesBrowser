@@ -5,4 +5,6 @@ testChangeListItems
 		self changesBrowser groupIndex: i.
 		group doWithIndex: [:correctChangeListItemIndex :j | 
 			self changesBrowser versionIndex: j.
-			self assert: self changesBrowser selectedChangeListItem = (self changesBrowser changeListItems at: correctChangeListItemIndex)]]
+			self 
+				assert: (self changesBrowser changeListItems at: correctChangeListItemIndex) 
+				equals: self changesBrowser selectedChangeListItem]]

@@ -7,7 +7,6 @@
 	"commentStamp" : "abd 6/16/2021 11:15",
 	"instvars" : [
 		"changeListItems",
-		"usedChangeFile",
 		"changeGroupDescriptions",
 		"changeGroups",
 		"groupIndex",

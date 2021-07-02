@@ -1,4 +1,4 @@
-accessing
+assertions
 assertCorrectClipOfVersionIndex
 
 	self changesBrowser groupIndex: 1.

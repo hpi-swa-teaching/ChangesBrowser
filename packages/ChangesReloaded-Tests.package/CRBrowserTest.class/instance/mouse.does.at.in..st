@@ -6,5 +6,5 @@ mouse: aButtonCode does: aSymbol at: aPoint in: aWorld
 		position: aPoint
 		which: 2r000 "no change"
 		buttons: aButtonCode
-		hand: (self handIn: aWorld)
+		hand: (self class handIn: aWorld)
 		stamp: Time millisecondClockValue

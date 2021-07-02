@@ -1,4 +1,4 @@
-testing-functionality
+accessing
 selectSecondChangeListItem
 
 	self changesBrowser groupIndex: 2. 

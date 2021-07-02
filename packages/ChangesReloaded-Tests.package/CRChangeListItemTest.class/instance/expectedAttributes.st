@@ -16,4 +16,4 @@ expectedAttributes
 		{#package->'ChangesReloadedDummyPackage1'} asDictionary.
 		{#package->'ChangesReloadedDummyPackage1'} asDictionary.
 		{#newPackage->'ChangesReloadedDummyPackage2'. #oldPackage->'ChangesReloadedDummyPackage1'} asDictionary
-	} asOrderedCollection.
+	} asOrderedCollection

@@ -1,4 +1,4 @@
-testing-functionality
+accessing
 correctChangeGroupContentIndices
 
 	^ {{1}. 

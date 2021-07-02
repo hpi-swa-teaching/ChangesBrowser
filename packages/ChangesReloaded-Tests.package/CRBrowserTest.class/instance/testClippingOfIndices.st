@@ -1,4 +1,4 @@
-accessing
+testing-functionality
 testClippingOfIndices
 
 	self assertCorrectClipOfVersionIndex.

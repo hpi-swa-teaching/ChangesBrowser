@@ -1,4 +1,0 @@
-accessing
-classCommentChangeRecordInImage: aChangeRecord
-
-	classCommentChangeRecordInImage := aChangeRecord

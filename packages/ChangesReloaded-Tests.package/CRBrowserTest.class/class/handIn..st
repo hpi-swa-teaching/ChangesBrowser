@@ -1,4 +1,4 @@
-mock inputs
+utility
 handIn: aWorld
 
 	^ aWorld firstHand
