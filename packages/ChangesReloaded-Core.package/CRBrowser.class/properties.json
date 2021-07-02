@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "SV 8/7/2020 23:55",
+	"commentStamp" : "abd 6/16/2021 11:15",
 	"instvars" : [
 		"changeListItems",
-		"changeListSelectionIndex",
-		"usedChangeFile" ],
+		"changeGroupDescriptions",
+		"changeGroups",
+		"groupIndex",
+		"versionIndex" ],
 	"name" : "CRBrowser",
 	"pools" : [
 		 ],

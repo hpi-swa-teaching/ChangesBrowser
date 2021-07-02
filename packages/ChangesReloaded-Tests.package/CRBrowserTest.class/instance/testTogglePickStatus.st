@@ -1,10 +1,10 @@
 testing-functionality
 testTogglePickStatus
 
-	self changesBrowser changeListSelectionIndex: 2.
+	self selectFirstChangeListItem.
 	self changesBrowser togglePickStatusOfSelectedChangeListItem.
-	self assert: (self changesBrowser changeListItems second isPicked).
+	self assert: (self changesBrowser selectedChangeListItem isPicked).
 	
-	self changesBrowser changeListSelectionIndex: 2.
+	self selectFirstChangeListItem.
 	self changesBrowser togglePickStatusOfSelectedChangeListItem.
-	self assert: (self changesBrowser changeListItems second isPicked not)
+	self assert: (self changesBrowser selectedChangeListItem isPicked not)

@@ -1,7 +1,8 @@
 testing-functionality
 testHasSelectedChangeListItem
 	
-	self changesBrowser changeListSelectionIndex: 4.
+	self selectFirstChangeListItem.
 	self assert: (self changesBrowser hasSelectedChangeListItem).
-	self changesBrowser changeListSelectionIndex: 0.
+	
+	self changesBrowser groupIndex: 0.
 	self assert: (self changesBrowser hasSelectedChangeListItem not)

@@ -6,11 +6,7 @@
 		 ],
 	"commentStamp" : "SV 8/7/2020 23:53",
 	"instvars" : [
-		"methodChangeRecord",
-		"classCommentChangeRecord",
-		"methodChangeRecordInImage",
-		"classCommentChangeRecordInImage",
-		"firstClassCommentChangeRecord" ],
+		"changeRecords" ],
 	"name" : "ExtensionChangeRecordTest",
 	"pools" : [
 		 ],

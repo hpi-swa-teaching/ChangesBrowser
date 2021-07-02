@@ -1,4 +1,4 @@
 accessing
 hasSelectedChangeListItem
 
-	^ self selectedChangeListItem isNil not
+	^ self selectedChangeListItem notNil

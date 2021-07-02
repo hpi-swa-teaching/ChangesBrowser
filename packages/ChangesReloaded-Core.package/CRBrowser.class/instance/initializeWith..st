@@ -2,6 +2,6 @@ initialize-release
 initializeWith: aMultiByteFileStream
 
 	super initialize.
-	self
+	self 
 		initializeChangeListItemsWith: aMultiByteFileStream;
-		changeListSelectionIndex: 0
+		groupChangeListItems.

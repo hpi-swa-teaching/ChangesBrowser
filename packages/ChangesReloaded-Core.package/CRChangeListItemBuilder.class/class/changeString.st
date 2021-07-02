@@ -1,4 +1,0 @@
-accessing
-changeString
-
-	^ changeString ifNil: ''

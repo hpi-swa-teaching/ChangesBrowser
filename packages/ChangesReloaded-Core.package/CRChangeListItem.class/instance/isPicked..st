@@ -1,5 +1,4 @@
 accessing
 isPicked: aBoolean
 
-	isPicked := aBoolean.
-	self refreshDescriptionAppearance
+	isPicked := aBoolean

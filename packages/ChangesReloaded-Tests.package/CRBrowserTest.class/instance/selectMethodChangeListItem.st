@@ -1,0 +1,5 @@
+accessing
+selectMethodChangeListItem
+
+	self selectFirstChangeListItem.
+	

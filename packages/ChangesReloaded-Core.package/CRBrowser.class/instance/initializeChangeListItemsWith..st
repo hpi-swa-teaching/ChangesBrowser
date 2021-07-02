@@ -2,9 +2,8 @@ initialize-release
 initializeChangeListItemsWith: aMultiByteFileStream
 
 	| changeRecords |
-	self usedChangeFile: aMultiByteFileStream.
-	changeRecords := self class getChangeRecordsMissingInImageFrom: self usedChangeFile.
+
+	changeRecords := self class getChangeRecordsFromLastCrashFrom: aMultiByteFileStream.
 	self
-		changeListItems: (self class getChangeListItemsFrom: changeRecords);
-		removeAllNonPersistentDoIts;
+		changeListItems: (self class getChangeListItemsMissingInImageFrom: changeRecords);
 		pickAllChangeListItems

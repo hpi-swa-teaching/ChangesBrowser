@@ -1,4 +1,0 @@
-magicTestNumbers
-magicSelectionIndexForChangeDescriptionStrings
-
-	^ 31	
