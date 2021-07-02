@@ -8,5 +8,4 @@ fileInPickedChanges
 				doWithIndex: [:each :index | 
 					bar value: index.
 					bar value: 'loading ', index printString , '/' , self numberOfPickedChangeListItems printString , ': ' , each description printString.
-					each fileIn
-"					.(Delay forMilliseconds: 5000) wait"]]
+					each fileIn]]
