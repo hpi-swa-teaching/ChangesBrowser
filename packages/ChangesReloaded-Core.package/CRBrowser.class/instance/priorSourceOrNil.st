@@ -1,7 +1,7 @@
 misc
 priorSourceOrNil
 	| aClass aSelector changeRecords |
-	(aClass := self selectedClassOrMetaClass) ifNil: [^ nil].
+	(aClass := self selectedClass) ifNil: [^ nil].
 	(aSelector := self selectedMessageName) ifNil: [^ nil].
 	changeRecords := aClass changeRecordsAt: aSelector.
 	changeRecords ifNil: [^ nil].
