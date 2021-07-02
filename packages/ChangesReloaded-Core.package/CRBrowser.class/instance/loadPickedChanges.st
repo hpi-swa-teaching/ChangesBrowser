@@ -1,6 +1,7 @@
 button-actions
 loadPickedChanges
 
-	self pickedChangeListItems reverse do: [:each | each fileIn].
-	self updateAfterLoadingChanges.
-	self askToSave
+	self 
+		fileInPickedChanges;
+		updateAfterLoadingChanges;
+		askToSave
