@@ -13,6 +13,7 @@ categoryRegexAttributesList
 		
 		{#methodRecategorized. '^([^ ]+) (class )?organization classify\: #(.+) under\: #(.+)$'. [:m | {#method -> (m subexpression: 4). #category -> (m subexpression: 5) } as: Dictionary]}.
 		{#methodRemoved. '^([^ ]+) (class )?removeSelector\: #([^ ]+)$'. [:m | {#method -> (m subexpression: 4). #class -> (m subexpression: 2) } as: Dictionary]}.
+		{#methodRenamed. '^Rename Method$'. [:m | Dictionary new]}.
 		
 		{#packageCreated. '^SystemOrganization addCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} as: Dictionary]}.
 		{#packageRemoved. '^SystemOrganization removeSystemCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} as: Dictionary]}.

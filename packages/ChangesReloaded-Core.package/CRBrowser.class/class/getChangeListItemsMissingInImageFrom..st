@@ -8,4 +8,4 @@ getChangeListItemsMissingInImageFrom: anOrderedCollectionOfChangeRecords
 		
 	changeListItems removeAllSuchThat: [:each | each category = #nonPersistentDoIt].
 	
-	^ changeListItems
+	^ self encapsulateMethodRenamedFrom: changeListItems
