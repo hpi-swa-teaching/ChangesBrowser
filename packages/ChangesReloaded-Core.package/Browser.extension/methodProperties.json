@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"renameMethodRefactoring" : "abd 7/3/2021 21:39" } }
+		"registerMethodRenamedIn:from:to:" : "abd 7/5/2021 17:37",
+		"renameMethodRefactoring" : "abd 7/5/2021 17:13" } }

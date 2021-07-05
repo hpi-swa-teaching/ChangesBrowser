@@ -9,14 +9,14 @@ encapsulateMethodRenamedFrom: changeListItems
 	[index > 0] whileTrue: [
 		(changeListItems at: index) category = #methodRenamed
 			ifTrue: [
-				inseparableChangeListItems := OrderedCollection new.
+				inseparableChangeListItems := {changeListItems at: index} asOrderedCollection.
 				index := index - 1.
 				[(changeListItems at: index) category = #methodRemoved] whileFalse: [
 					inseparableChangeListItems add: (changeListItems at: index).
 					index := index - 1.
 				].
 				inseparableChangeListItems add: (changeListItems at: index).
-				newChangeListItems add: (CRComplexChangeListItem newMethodRenamedWith: inseparableChangeListItems).
+				newChangeListItems add: (CRComplexChangeListItem newMethodRenamedOf: inseparableChangeListItems first with: inseparableChangeListItems copyWithoutFirst).
 			]
 		ifFalse: [newChangeListItems add: (changeListItems at: index)].
 		index := index - 1.
