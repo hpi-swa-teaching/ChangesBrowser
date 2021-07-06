@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"changeListItems" ],
-	"name" : "CRComplexChangeListItem",
+		"permutation" ],
+	"name" : "CRMethodRenamedEvent",
 	"pools" : [
 		 ],
-	"super" : "CRChangeListItem",
+	"super" : "RenamedEvent",
 	"type" : "normal" }
