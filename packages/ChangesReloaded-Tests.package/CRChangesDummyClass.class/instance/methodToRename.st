@@ -1,0 +1,3 @@
+renaming
+methodToRename
+	^ 'hello world'

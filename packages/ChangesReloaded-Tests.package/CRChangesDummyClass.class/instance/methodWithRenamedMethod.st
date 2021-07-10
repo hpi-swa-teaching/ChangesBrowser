@@ -1,0 +1,3 @@
+renaming
+methodWithRenamedMethod
+	self methodToRename
