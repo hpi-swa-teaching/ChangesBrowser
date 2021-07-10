@@ -2,5 +2,6 @@
 execute
 
 	SystemChangeNotifier uniqueInstance 	
-		doSilently: [1 setHaltOnce. super execute];
+		doSilently: [self primitiveExecute.
+	RBRefactoringManager instance addRefactoringSilently: self];
 		methodRenamedIn: class from: oldSelector to: newSelector withPermutation: permutation
