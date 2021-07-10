@@ -6,4 +6,4 @@ testMethodRenaming
 	
 	self	assert:  'methodWithRenamedMethod
 	self renamedMethod'
-		equals: (CRChangesDummyClass sourceCodeAt: #methodWithRenamedMethod).
+		equals: (CRChangesDummyClass sourceCodeAt: #methodWithRenamedMethod) string.
