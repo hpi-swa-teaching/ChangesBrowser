@@ -13,7 +13,7 @@ categoryRegexAttributesList
 		
 		{#methodRecategorized. '^([^ ]+) (class )?organization classify\: #(.+) under\: #(.+)$'. [:m | {#method -> (m subexpression: 4). #category -> (m subexpression: 5) } as: Dictionary]}.
 		{#methodRemoved. '^([^ ]+) (class )?removeSelector\: #([^ ]+)$'. [:m | {#method -> (m subexpression: 4). #class -> (m subexpression: 2) } as: Dictionary]}.
-		{#methodRenamed. '^\(RBRenameMethodRefactoring renameMethod\: #([^ ]+) in\: ([^ ]+) to\: #([^ ]+) permutation\: #\(\)\) execute$'. [:m | {#class -> (m subexpression: 3). #oldMethod -> (m subexpression: 2). #newMethod -> (m subexpression: 4)} as: Dictionary]}.
+		{#methodRenamed. '^\(RBRenameMethodRefactoring renameMethod\: #([^ ]+) in\: ([^ ]+) to\: #([^ ]+) permutation\: #\(([^\)]*)\)\) execute$'. [:m | {#class -> (m subexpression: 3). #oldMethod -> (m subexpression: 2). #newMethod -> (m subexpression: 4). #permutation -> (self stringToIntArray: (m subexpression: 5))} as: Dictionary]}.
 		
 		{#packageCreated. '^SystemOrganization addCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} as: Dictionary]}.
 		{#packageRemoved. '^SystemOrganization removeSystemCategory\: #(.+)$'. [:m | {#package -> (m subexpression: 2)} as: Dictionary]}.

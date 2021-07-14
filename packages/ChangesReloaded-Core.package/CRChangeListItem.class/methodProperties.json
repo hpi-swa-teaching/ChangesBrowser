@@ -1,13 +1,14 @@
 {
 	"class" : {
 		"categoryAndAttributesFor:" : "abd 6/27/2021 20:01",
-		"categoryRegexAttributesList" : "abd 7/6/2021 20:17",
+		"categoryRegexAttributesList" : "abd 7/14/2021 11:43",
 		"classCommentCategoryAndAttributesFor:" : "abd 7/2/2021 23:45",
 		"doItCategoryAndAttributesFor:" : "abd 7/3/2021 21:40",
 		"if:matches:do:" : "abd 6/27/2021 20:01",
 		"methodCategoryAndAttributesFor:" : "abd 7/2/2021 23:45",
 		"newWith:" : "abd 6/27/2021 20:00",
-		"setCategoryAndAttributesOf:" : "abd 6/27/2021 20:00" },
+		"setCategoryAndAttributesOf:" : "abd 6/27/2021 20:00",
+		"stringToIntArray:" : "abd 7/14/2021 11:47" },
 	"instance" : {
 		"=" : "abd 7/2/2021 19:32",
 		"attributes" : "abd 6/20/2021 12:57",
