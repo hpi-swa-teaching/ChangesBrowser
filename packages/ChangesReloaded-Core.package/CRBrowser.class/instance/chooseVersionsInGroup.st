@@ -6,5 +6,5 @@ chooseVersionsInGroup
 		ifTrue: [self pickUntilSelected]
 		ifFalse: [self unpickAllInGroup].
 	self 
-		updateGroup;
+		updateGroupDescription;
 		updateAfterPick
