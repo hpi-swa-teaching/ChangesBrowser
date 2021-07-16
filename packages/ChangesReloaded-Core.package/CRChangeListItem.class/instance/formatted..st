@@ -5,6 +5,6 @@ formatted: aString
 	text := aString asText.
 	
 	self isPicked 
-		ifFalse: [self unpickedAttributes do: [:attribute | text addAttribute: attribute]].
+		ifFalse: [self class unpickedAttributes do: [:attribute | text addAttribute: attribute]].
 	
 	^ text
