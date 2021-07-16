@@ -16,8 +16,9 @@ description
 	
 		[#methodRecategorized] -> ['#', (self attributes at: #method), ' to #', (self attributes at: #category)].
 		[#methodRemoved] -> [(self attributes at: #method), ' from ', (self attributes at: #class)].
+		[#methodRenamed] -> [(self attributes at: #oldMethod), ' -> ', (self attributes at: #newMethod), ' in #', (self attributes at: #class)].
 	
 		[#packageCreated] -> ['#', (self attributes at: #package)].
 		[#packageRemoved] -> ['#', (self attributes at: #package)].
 		[#packageRenamed] -> ['#', (self attributes at: #oldPackage), ' -> #', (self attributes at: #newPackage)]
-	})
+	}) 

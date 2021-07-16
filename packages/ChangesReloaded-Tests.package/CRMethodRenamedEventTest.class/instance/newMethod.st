@@ -1,0 +1,4 @@
+methods
+newMethod
+	
+	^ 'renamedMethod' asSymbol

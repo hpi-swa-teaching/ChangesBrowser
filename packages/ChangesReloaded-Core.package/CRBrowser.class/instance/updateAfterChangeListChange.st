@@ -3,7 +3,6 @@ updateAfterChangeListChange
 
 	self
 		updateLoadButton;
-		updateCodePane;
 		changed: #changeGroupDescriptions;
 		changed: #versionDescriptions;
 		clipVersionIndex;
