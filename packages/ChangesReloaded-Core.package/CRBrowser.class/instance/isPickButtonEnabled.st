@@ -1,4 +1,4 @@
 buttons
 isPickButtonEnabled
 
-	^ self hasSelectedChangeListItem
+	^ self hasSelectedGroup

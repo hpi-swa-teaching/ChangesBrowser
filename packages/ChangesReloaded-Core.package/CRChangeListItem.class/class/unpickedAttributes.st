@@ -1,4 +1,4 @@
-text-attributes
+constants
 unpickedAttributes
 	
 	^ {TextEmphasis italic. TextEmphasis struckOut}
