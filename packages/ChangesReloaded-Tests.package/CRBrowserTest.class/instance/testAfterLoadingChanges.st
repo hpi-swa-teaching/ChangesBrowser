@@ -4,6 +4,6 @@ testAfterLoadingChanges
 	| browserCopy |
 	
 	browserCopy := self changesBrowser veryDeepCopy.
-	self assert: browserCopy changeListItems notEmpty.
+	self assert: browserCopy hasChanges.
 	browserCopy updateAfterLoadingChanges.
-	self assert: browserCopy changeListItems isEmpty.
+	self assert: browserCopy hasChanges not.
