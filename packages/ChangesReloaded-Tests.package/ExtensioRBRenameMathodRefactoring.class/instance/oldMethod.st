@@ -1,0 +1,4 @@
+methods
+oldMethod
+	
+	^ 'methodToRename' asSymbol

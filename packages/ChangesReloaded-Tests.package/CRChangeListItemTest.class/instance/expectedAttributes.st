@@ -13,6 +13,7 @@ expectedAttributes
 		{#newClass->'CRChangesDummyNewClass'. #oldClass->'CRChangesDummyOldClass'} as: Dictionary.
 		{#category->'category'. #method->'method'} as: Dictionary.
 		{#class->'CRChangesDummyClass'. #method->'obsoleteMethod'} as: Dictionary.
+		{#class->'CRChangesDummyClass'. #oldMethod->'methodToRename'. #newMethod->'renamedMethod'. #permutation->#()} as: Dictionary.
 		{#package->'ChangesReloadedDummyPackage1'} as: Dictionary.
 		{#package->'ChangesReloadedDummyPackage1'} as: Dictionary.
 		{#newPackage->'ChangesReloadedDummyPackage2'. #oldPackage->'ChangesReloadedDummyPackage1'} as: Dictionary
