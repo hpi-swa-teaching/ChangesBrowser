@@ -9,5 +9,5 @@ postLoad
 	Smalltalk removeFromStartUpList: CHAfterCrashHelper.
 	Smalltalk removeFromShutDownList: CHAfterCrashHelper.
 
-	"Reload the DockingBar to add the button"
+	"Reload the DockingBar after overwriting its appearance"
 	TheWorldMainDockingBar updateInstances.
