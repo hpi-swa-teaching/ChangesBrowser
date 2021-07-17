@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"initialize" : "MT 8/3/2017 17:36",
+		"activate" : "valentindoering 7/17/2021 16:19",
+		"deactivate" : "valentindoering 7/17/2021 16:16",
+		"initialize" : "valentindoering 7/17/2021 16:19",
 		"open" : "MT 8/3/2017 17:36",
 		"shutDown:" : "MT 8/3/2017 17:36",
 		"startUp:" : "MT 8/3/2017 17:36" },
