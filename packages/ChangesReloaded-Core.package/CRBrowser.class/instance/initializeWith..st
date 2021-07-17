@@ -4,4 +4,5 @@ initializeWith: aMultiByteFileStream
 	super initialize.
 	self 
 		initializeChangeListItemsWith: aMultiByteFileStream;
-		groupChangeListItems.
+		groupChangeListItems;
+		updateAfterChangeListChange.

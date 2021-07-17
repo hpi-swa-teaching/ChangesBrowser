@@ -1,10 +1,11 @@
 testing-functionality
 testTogglePickStatus
 
-	self selectFirstChangeListItem.
-	self changesBrowser togglePickStatusOfSelectedChangeListItem.
-	self assert: (self changesBrowser selectedChangeListItem isPicked).
+	self changesBrowser groupIndex: 5.
+	self changesBrowser versionIndex: 2.
+	self changesBrowser chooseVersionsInGroup.
+	self assert: {false . true . true} asOrderedCollection equals: (self changesBrowser selectedGroup collect: [:each | each isPicked]).
 	
-	self selectFirstChangeListItem.
-	self changesBrowser togglePickStatusOfSelectedChangeListItem.
-	self assert: (self changesBrowser selectedChangeListItem isPicked not)
+	self changesBrowser versionIndex:  0.
+	self changesBrowser chooseVersionsInGroup.
+	self assert: (self changesBrowser selectedGroup noneSatisfy: [:each | each isPicked])
