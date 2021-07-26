@@ -1,5 +1,4 @@
 launching
 initialize 
-
-	Smalltalk addToStartUpList: self.
-	Smalltalk addToShutDownList: self.
+	"Use CRAfterCrashHelper instead"
+	"self activate."

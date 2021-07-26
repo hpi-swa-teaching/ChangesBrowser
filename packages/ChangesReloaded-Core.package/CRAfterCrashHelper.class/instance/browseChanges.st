@@ -1,5 +1,5 @@
-buttonActions
+button-actions
 browseChanges
 
 	self closeWindow.
-	CHBrowser open.
+	CRBrowser open.

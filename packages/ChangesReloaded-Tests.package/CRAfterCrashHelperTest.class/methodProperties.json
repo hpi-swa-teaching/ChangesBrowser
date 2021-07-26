@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"afterCrashHelper" : "abd 7/26/2021 09:40",
+		"afterCrashHelper:" : "abd 7/26/2021 09:40",
+		"setUp" : "abd 7/26/2021 09:45",
+		"tearDown" : "abd 7/26/2021 09:45",
+		"testHasButtons" : "abd 7/26/2021 09:45",
+		"testOpensChangesBrowserAndCloses" : "abd 7/26/2021 09:47",
+		"testOpensInWorld" : "abd 7/26/2021 09:47",
+		"testTokenFileExists" : "abd 7/26/2021 09:48" } }
