@@ -2,7 +2,7 @@ updating
 updateAfterChangeListChange
 
 	self
-		updateLoadButton;
+		updateButtons;
 		updateCodePane;
 		changed: #changeGroupDescriptions;
 		changed: #versionDescriptions;

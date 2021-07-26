@@ -3,4 +3,4 @@ updateAfterPick
 
 	self
 		updateAfterChangeListChange;
-		updatePickButton
+		updateButtons
