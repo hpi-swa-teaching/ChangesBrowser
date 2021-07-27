@@ -1,3 +1,3 @@
 accessing
-groups: t1 
-	groups := t1
+groups: anOrderedCollection
+	groups := anOrderedCollection.

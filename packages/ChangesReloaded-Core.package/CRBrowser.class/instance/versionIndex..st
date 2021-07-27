@@ -2,4 +2,4 @@ accessing
 versionIndex: aNumber
 
 	versionIndex := aNumber.
-	self updateIndices.
+	self updateVersionSelection.

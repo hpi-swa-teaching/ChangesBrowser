@@ -6,5 +6,3 @@ updateGroupDescription
 			[:attribute | (self selectedGroupDescription) addAttribute: attribute]]
 		ifFalse: [CRChangeListItem unpickedAttributes do: 
 			[:attribute | (self selectedGroupDescription) removeAttribute: attribute from: 1 to: self selectedGroupDescription size]].
-	
-	self updateDescriptions.

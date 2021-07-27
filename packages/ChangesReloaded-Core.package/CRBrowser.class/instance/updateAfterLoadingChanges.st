@@ -1,5 +1,6 @@
 updating
 updateAfterLoadingChanges
+
 	CRSessionState instance hasAlreadyFiledIn: true.
 	self changeListItems removeAll.
 	self groups removeAll.
