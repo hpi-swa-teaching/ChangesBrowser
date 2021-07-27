@@ -1,4 +1,3 @@
 accessing
 selectedGroupDescription
-
-	^ self changeGroupDescriptions at: self groupIndex
+	^ self groupDescriptions at: self groupIndex

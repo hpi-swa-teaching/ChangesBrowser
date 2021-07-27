@@ -7,8 +7,8 @@
 	"commentStamp" : "abd 6/16/2021 11:15",
 	"instvars" : [
 		"changeListItems",
-		"changeGroupDescriptions",
-		"changeGroups",
+		"groupDescriptions",
+		"groups",
 		"groupIndex",
 		"versionIndex" ],
 	"name" : "CRBrowser",

@@ -1,12 +1,9 @@
 updating
 updateAfterChangeListChange
-
-	self
-		updateButtons;
-		updateCodePane;
-		changed: #changeGroupDescriptions;
-		changed: #versionDescriptions;
-		clipVersionIndex;
-		clipGroupIndex;
-		changed: #groupIndex;
+	self 
+		updateButtons; updateCodePane; 
+		changed: #groupDescriptions; 
+		changed: #versionDescriptions; 
+		clipVersionIndex; clipGroupIndex; 
+		changed: #groupIndex; 
 		changed: #versionIndex

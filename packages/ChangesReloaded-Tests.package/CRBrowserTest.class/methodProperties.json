@@ -2,7 +2,7 @@
 	"class" : {
 		"handIn:" : "abd 7/2/2021 19:52" },
 	"instance" : {
-		"assertCorrectClipOfGroupIndex" : "JA 7/1/2021 11:20",
+		"assertCorrectClipOfGroupIndex" : "",
 		"assertCorrectClipOfVersionIndex" : "JA 7/1/2021 12:38",
 		"assertCorrectPickedAttributes:" : "FK 7/11/2021 12:19",
 		"assertCorrectUnpickedAttributes:" : "FK 7/11/2021 12:19",
@@ -31,12 +31,12 @@
 		"testContents" : "JA 7/3/2021 19:48",
 		"testCorrectGroupIndexSelectedWhenClicked" : "JA 7/1/2021 11:26",
 		"testCorrectSelectedIndicesOnInitialization" : "abd 7/2/2021 19:50",
-		"testGroupDescriptionAttributes" : "FK 7/12/2021 18:42",
+		"testGroupDescriptionAttributes" : "",
 		"testHasSelectedChangeListItem" : "JA 7/1/2021 11:38",
 		"testIsLoadButtonEnabled" : "JA 7/1/2021 11:38",
 		"testIsPickButtonEnabled" : "JA 7/1/2021 11:38",
 		"testLoadButtonLabel" : "JA 7/1/2021 11:47",
-		"testNoChangesInfoText" : "TS 7/10/2021 14:33",
+		"testNoChangesInfoText" : "abd 7/27/2021 16:52",
 		"testNumberOfPickedChangeListItems" : "JA 7/1/2021 11:47",
 		"testPickAllChangeListItems" : "SV 7/26/2020 11:33",
 		"testPickAllChangeListItemsWithPrepickedItem" : "JA 7/1/2021 11:44",

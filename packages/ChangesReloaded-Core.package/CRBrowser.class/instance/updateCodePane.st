@@ -3,8 +3,8 @@ updateCodePane
 
 	self contents: (self hasChanges
 		ifTrue: [self hasSelectedChangeListItem
-			ifTrue: [self codeOfSelectedChange asText]
+			ifTrue: [self codeOfSelectedChange]
 			ifFalse: ['']]
-		ifFalse: [self noChangesInfoString]).
+		ifFalse: [self class noChangesInfoString]).
 	
 	self contentsChanged.

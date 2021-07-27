@@ -1,6 +1,5 @@
 initialize-release
-createNewGroupFor: aChangeListItem
-	
-	self changeGroups add: OrderedCollection new.
-	self changeGroupDescriptions add: aChangeListItem groupDescription.
-	^ self changeGroups last
+createNewGroupFor: t1 
+	self groups add: OrderedCollection new.
+	self groupDescriptions add: t1 groupDescription.
+	^ self groups last

@@ -4,5 +4,5 @@ testNoChangesInfoText
 	self changesBrowser changeListItems removeAll.
 	self changesBrowser updateAfterChangeListChange.
 	
-	self assert: self changesBrowser noChangesInfoString
+	self assert: self changesBrowser class noChangesInfoString
 		equals: self changesBrowser contents.
