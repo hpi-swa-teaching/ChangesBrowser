@@ -14,4 +14,5 @@ execute
 	RBRefactoryChangeManager instance ignoreChangesWhile: [ RBRefactoryChangeManager instance addUndo: mainUndo ].
 	RBRefactoringManager instance refactorings add: self class name.
 			
-	SystemChangeNotifier uniqueInstance methodRenamedIn: class from: oldSelector to: newSelector withPermutation: permutation
+	SystemChangeNotifier uniqueInstance evaluated: ('(RBRenameMethodRefactoring renameMethod: #{1} in: {2} to: #{3} permutation: #({4})) execute' 
+		format: {oldSelector. class. newSelector. permutation joinSeparatedBy: ' '}).
