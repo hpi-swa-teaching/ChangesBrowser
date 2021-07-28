@@ -8,4 +8,6 @@ fileInPickedChanges
 				doWithIndex: [:each :index | 
 					bar value: index.
 					bar value: 'loading ', index printString , '/' , self numberOfPickedChangeListItems printString , ': ' , each description.
-					each fileIn]]
+					each fileIn]].
+	
+	CRSessionState instance hasAlreadyFiledIn: true.

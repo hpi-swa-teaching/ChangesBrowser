@@ -1,5 +1,5 @@
 utils
-getChangeListItemsMissingInImageFrom: aMultiByteFileStream
+getRelevantChangeListItemsFrom: aMultiByteFileStream
 
 	CRSessionState instance hasAlreadyFiledIn ifTrue: [^ OrderedCollection new].
 	

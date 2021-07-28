@@ -4,4 +4,4 @@ initializeWith: aMultiByteFileStream
 	super initialize.
 	self
 		changesFileStream: aMultiByteFileStream;
-		initializeChanges.
+		prepareChanges.
