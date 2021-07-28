@@ -32,8 +32,6 @@ CRChangesDummyClass organization classify: #method under: #category!
 
 CRChangesDummyClass removeSelector: #obsoleteMethod!
 
-(RBRenameMethodRefactoring renameMethod: #methodToRename in: CRChangesDummyClass to: #renamedMethod permutation: #()) execute!
-
 SystemOrganization addCategory: #ChangesReloadedDummyPackage1!
 
 SystemOrganization removeSystemCategory: #ChangesReloadedDummyPackage1!

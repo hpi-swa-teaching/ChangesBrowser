@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"newMethod" : "abd 7/10/2021 13:14",
-		"oldMethod" : "abd 7/10/2021 13:14",
-		"setUp" : "abd 7/10/2021 13:13",
-		"tearDown" : "abd 7/10/2021 13:33",
-		"testLoggingOfEvent" : "abd 7/10/2021 13:32" } }

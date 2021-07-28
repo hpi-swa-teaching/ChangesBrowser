@@ -13,7 +13,6 @@ expectedCategories
 		#classRenamed.
 		#methodRecategorized.
 		#methodRemoved.
-		#methodRenamed.
 		#packageCreated.
 		#packageRemoved.
 		#packageRenamed

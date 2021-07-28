@@ -1,4 +1,0 @@
-*ChangesReloaded-Core
-refactorings
-
-	^ refactorings
