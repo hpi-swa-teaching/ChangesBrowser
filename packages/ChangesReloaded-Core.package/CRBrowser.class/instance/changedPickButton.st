@@ -1,5 +1,5 @@
 updating
-updatePickButton
+changedPickButton
 
 	self
 		changed: #pickButtonLabel;

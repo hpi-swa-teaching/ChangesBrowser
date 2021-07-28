@@ -2,4 +2,6 @@ accessing
 groupIndex: aNumber
 
 	groupIndex := aNumber.
-	self updateGroupSelection.
+	self
+		changed: #groupIndex;
+		changedSelectedGroup.

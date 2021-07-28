@@ -1,7 +1,9 @@
 *ChangesReloaded-Core
 execute
+
+	super execute.
 	
-	| undos mainUndo undo |
+	"| undos mainUndo undo |
 	
 	self primitiveExecute.
 	undos := self changes changes collect: [ :each |
@@ -15,4 +17,4 @@ execute
 	RBRefactoringManager instance refactorings add: self class name.
 			
 	SystemChangeNotifier uniqueInstance evaluated: ('(RBRenameMethodRefactoring renameMethod: #{1} in: {2} to: #{3} permutation: #({4})) execute' 
-		format: {oldSelector. class. newSelector. permutation joinSeparatedBy: ' '}).
+		format: {oldSelector. class. newSelector. permutation joinSeparatedBy: ' '})."

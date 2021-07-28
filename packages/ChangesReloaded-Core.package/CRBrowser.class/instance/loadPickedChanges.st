@@ -1,7 +1,9 @@
 button-actions
 loadPickedChanges
 
+	self fileInPickedChanges.
+	CRSessionState instance hasAlreadyFiledIn: true.
+	
 	self 
-		fileInPickedChanges;
-		updateAfterLoadingChanges;
-		askToSave
+		initializeChanges;
+		askToSave.

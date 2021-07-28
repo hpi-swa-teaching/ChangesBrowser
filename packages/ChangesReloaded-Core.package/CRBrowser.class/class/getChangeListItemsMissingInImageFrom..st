@@ -1,11 +1,9 @@
 utils
-getChangeListItemsMissingInImageFrom: anOrderedCollectionOfChangeRecords
+getChangeListItemsMissingInImageFrom: aMultiByteFileStream
 
-	| changeListItems | 
-	changeListItems := (anOrderedCollectionOfChangeRecords 
-		reject: [:each | each isMisc])
-		collect: [:each | CRChangeListItem newWith: each].
-		
-	changeListItems removeAllSuchThat: [:each | each category = #nonPersistentDoIt].
+	CRSessionState instance hasAlreadyFiledIn ifTrue: [^ OrderedCollection new].
 	
-	^changeListItems
+	^ ((self getChangeRecordsFromLastCrashFrom: aMultiByteFileStream) 
+		removeAllSuchThat: [:each | each isMisc];
+		collect: [:each | CRChangeListItem newWith: each])
+		removeAllSuchThat: [:each | each category = #nonPersistentDoIt]
