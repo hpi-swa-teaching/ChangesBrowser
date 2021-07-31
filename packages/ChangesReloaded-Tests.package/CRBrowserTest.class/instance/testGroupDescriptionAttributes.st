@@ -1,5 +1,6 @@
 testing-ui
 testGroupDescriptionAttributes
+
 	self selectFirstChangeListItem.
 	self changesBrowser chooseVersionsInGroup.
 	self assertCorrectPickedAttributes: self changesBrowser groupDescriptions first.

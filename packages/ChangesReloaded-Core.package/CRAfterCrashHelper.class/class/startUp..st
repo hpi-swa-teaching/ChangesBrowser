@@ -1,6 +1,4 @@
 launching
 startUp: resuming
 
-	(FileDirectory default fileOrDirectoryExists: 'unSnapshotedChanges.cb')
-		ifTrue: [self open].
-		FileStream forceNewFileNamed: 'unSnapshotedChanges.cb' do: [:stream | ].
+	(resuming and: [self hasLostChanges]) ifTrue: [self open].

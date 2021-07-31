@@ -1,5 +1,5 @@
 testing-functionality
-testChangeListItems
+testGrouping
 
 	self correctChangeGroupContentIndices doWithIndex: [:group :i | 
 		self changesBrowser groupIndex: i.

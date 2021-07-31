@@ -3,6 +3,6 @@ prepareChanges
 
 	self
 		changeListItems: (self class getRelevantChangeListItemsFrom: self changesFileStream);
-		pickAllChangeListItems;
+		pickAll;
 		groupChangeListItems;
 		changedChangeList.
