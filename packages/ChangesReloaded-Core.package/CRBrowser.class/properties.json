@@ -15,5 +15,5 @@
 	"name" : "CRBrowser",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Model",
 	"type" : "normal" }

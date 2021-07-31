@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	self hasAlreadyFiledIn: false
+	self hasAlreadyFiledIn: false.

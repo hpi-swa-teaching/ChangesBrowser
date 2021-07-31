@@ -1,3 +1,0 @@
-renaming
-methodWithRenamedMethod
-	self methodToRename

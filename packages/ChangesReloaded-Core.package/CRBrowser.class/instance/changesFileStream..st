@@ -1,4 +1,4 @@
 accessing
 changesFileStream: aMultiByteFileStream
 
-	changesFileStream := aMultiByteFileStream
+	changesFileStream := aMultiByteFileStream.

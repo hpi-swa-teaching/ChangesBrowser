@@ -1,12 +1,16 @@
 testing-functionality
 testContents
 	
-	self selectFirstChangeListItem.
 	self
-		assert: (TextDiffBuilder buildDisplayPatchFrom: self firstMethodCodeInImage to: self firstMethodCode) 
+		assert: ''
 		equals: self changesBrowser contents.
 		
-	self selectSecondChangeListItem.
+	self selectFirstChangeListItem.
 	self
-		assert: (TextDiffBuilder buildDisplayPatchFrom: self firstClassCommentCodeInImage to: self firstClassCommentCode) 
+		assert: self changesBrowser selectedChangeListItem content
+		equals: self changesBrowser contents.
+		
+	self changesBrowser versionIndex: 0.
+	self
+		assert: ''
 		equals: self changesBrowser contents.

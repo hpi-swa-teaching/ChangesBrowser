@@ -8,5 +8,5 @@ groupChangeListItems
 		groups: OrderedCollection new.
 	
 	self changeListItems do: [:each | 
-		groupsDictionary keysAndValuesRemove: [:groupID :group | (each separatesGroup: groupID)].
+		groupsDictionary keysAndValuesRemove: [:groupID :group | (each shouldSeparateGroup: groupID)].
 		self add: each toCorrespondingGroupIn: groupsDictionary].

@@ -1,4 +1,4 @@
 accessing
 isPicked: aBoolean
 
-	isPicked := aBoolean
+	isPicked := aBoolean.

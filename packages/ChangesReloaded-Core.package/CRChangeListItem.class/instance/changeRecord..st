@@ -1,4 +1,4 @@
 accessing
 changeRecord: aChangeRecord
 
-	changeRecord := aChangeRecord
+	changeRecord := aChangeRecord.

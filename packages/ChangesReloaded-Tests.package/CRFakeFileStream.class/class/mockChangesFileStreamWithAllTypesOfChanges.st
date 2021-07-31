@@ -4,7 +4,7 @@ mockChangesFileStreamWithAllTypesOfChanges
 	^ CRFakeFileStream new string:  '
 	
 !CRChangesDummyClass methodsFor: ''category'' stamp: ''sv 26/7/2020 13:46''!
-method
+functionOrder5
 
 	^ ''content''! !
 !CRChangesDummyClass commentStamp: ''sv 26/7/2020 13:59''!

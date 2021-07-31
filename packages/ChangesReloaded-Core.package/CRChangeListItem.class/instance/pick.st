@@ -1,4 +1,4 @@
 actions
 pick
 
-	self isPicked: true
+	self isPicked: true.

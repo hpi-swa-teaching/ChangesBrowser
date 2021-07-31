@@ -2,7 +2,7 @@ accessing
 expectedAttributes
 
 	 ^ {
-		{#class->#CRChangesDummyClass. #method->#method. #stamp->'sv 26/7/2020 13:46'} as: Dictionary.
+		{#class->#CRChangesDummyClass. #method->#functionOrder5. #stamp->'sv 26/7/2020 13:46'} as: Dictionary.
 		{#class->#CRChangesDummyClass. #stamp->'sv 26/7/2020 13:59'} as: Dictionary.
 		{#category->'''new category'''. #class->'CRChangesDummyClass'} as: Dictionary.
 		{#category->'''obsolete category'''. #class->'CRChangesDummyClass'} as: Dictionary.

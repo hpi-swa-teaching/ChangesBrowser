@@ -8,4 +8,4 @@ versionDescription
 	}
 	otherwise: self description.
 		
-	^ self formatted: description
+	^ description asText addAllAttributes: self textAttributes

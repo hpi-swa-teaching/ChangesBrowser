@@ -3,6 +3,6 @@ contents
 
 	^ self hasChanges
 		ifTrue: [self hasSelectedChangeListItem
-			ifTrue: [self codeOfSelectedChange]
+			ifTrue: [self selectedChangeListItem content]
 			ifFalse: ['']]
-		ifFalse: [self class noChangesInfoString].
+		ifFalse: [self class noChangesInfoString]

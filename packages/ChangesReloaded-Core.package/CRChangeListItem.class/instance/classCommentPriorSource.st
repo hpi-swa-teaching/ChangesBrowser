@@ -1,4 +1,4 @@
-misc
+content
 classCommentPriorSource
 
 	| aClass |
