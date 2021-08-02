@@ -7,7 +7,9 @@
 		"if:matches:do:" : "abd 6/27/2021 20:01",
 		"methodCategoryAndAttributesFor:" : "abd 7/2/2021 23:45",
 		"newWith:" : "abd 6/27/2021 20:00",
+		"pickedAttributes" : "abd 8/2/2021 22:19",
 		"setCategoryAndAttributesOf:" : "abd 6/27/2021 20:00",
+		"textWithAttributes:picked:" : "abd 8/2/2021 22:14",
 		"unpickedAttributes" : "FK 7/12/2021 17:55" },
 	"instance" : {
 		"=" : "abd 7/31/2021 22:04",
@@ -31,6 +33,5 @@
 		"priorSourceOrNil" : "abd 7/31/2021 21:50",
 		"shouldBeGrouped" : "abd 7/31/2021 21:47",
 		"shouldSeparateGroup:" : "abd 7/31/2021 22:01",
-		"textAttributes" : "abd 7/31/2021 22:14",
 		"unpick" : "abd 7/31/2021 22:03",
-		"versionDescription" : "abd 7/31/2021 22:15" } }
+		"versionDescription" : "abd 8/2/2021 22:11" } }

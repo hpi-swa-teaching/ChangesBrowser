@@ -8,4 +8,4 @@ versionDescription
 	}
 	otherwise: self description.
 		
-	^ description asText addAllAttributes: self textAttributes
+	^ self class textWithAttributes: description asText picked: self isPicked
