@@ -6,13 +6,14 @@
 		 ],
 	"commentStamp" : "abd 6/16/2021 11:15",
 	"instvars" : [
+		"changesFileStream",
 		"changeListItems",
-		"changeGroupDescriptions",
-		"changeGroups",
+		"groupDescriptions",
+		"groups",
 		"groupIndex",
 		"versionIndex" ],
 	"name" : "CRBrowser",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Model",
 	"type" : "normal" }

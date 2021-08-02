@@ -1,4 +1,0 @@
-methods
-oldMethod
-	
-	^ 'methodToRename' asSymbol

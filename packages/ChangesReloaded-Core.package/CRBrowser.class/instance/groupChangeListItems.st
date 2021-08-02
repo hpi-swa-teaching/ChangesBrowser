@@ -1,13 +1,12 @@
 initialize-release
 groupChangeListItems
-	
 	| groupsDictionary |
 	groupsDictionary := Dictionary new.
 	
 	self
-		changeGroupDescriptions: OrderedCollection new;
-		changeGroups: OrderedCollection new.
+		groupDescriptions: OrderedCollection new;
+		groups: OrderedCollection new.
 	
 	self changeListItems do: [:each | 
-		groupsDictionary keysAndValuesRemove: [:groupID :group | (each separatesGroup: groupID)].
+		groupsDictionary keysAndValuesRemove: [:groupID :group | (each shouldSeparateGroup: groupID)].
 		self add: each toCorrespondingGroupIn: groupsDictionary].

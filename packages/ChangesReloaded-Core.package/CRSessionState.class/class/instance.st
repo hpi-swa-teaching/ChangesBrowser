@@ -1,5 +1,4 @@
 access
 instance
 
-	instance ifNil: [instance := self basicNew initialize].
-	^ instance
+	^ instance ifNil: [instance := self basicNew initialize]

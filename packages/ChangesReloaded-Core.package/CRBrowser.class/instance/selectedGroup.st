@@ -2,5 +2,5 @@ accessing
 selectedGroup
 
 	self hasValidGroupIndex
-		ifTrue: [^ self changeGroups at: self groupIndex]
+		ifTrue: [^ self groups at: self groupIndex]
 		ifFalse: [^ nil]

@@ -1,10 +1,9 @@
 toolbuilder
 buildGroupListSpecWith: aBuilder
 
-	^ aBuilder pluggableListSpec new
-		model: self;
+	^ aBuilder pluggableListSpec new model: self;
 		name: 'change groups';
-		list: #changeGroupDescriptions;
+		list: #groupDescriptions;
 		getIndex: #groupIndex;
 		setIndex: #groupIndex:;
 		yourself

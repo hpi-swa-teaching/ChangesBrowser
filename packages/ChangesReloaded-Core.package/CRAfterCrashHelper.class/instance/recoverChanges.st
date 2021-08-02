@@ -3,6 +3,6 @@ recoverChanges
 
 	 | crBrowser |
 	 crBrowser := CRBrowser newWith: (SourceFiles second).
-	 crBrowser pickAllChangeListItems.
-	 crBrowser loadPickedChanges.
+	 crBrowser pickAll.
+	 crBrowser loadPickedChangesAndAskToSave.
 	 self closeWindow.

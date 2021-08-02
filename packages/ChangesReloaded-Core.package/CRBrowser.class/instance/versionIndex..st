@@ -2,4 +2,6 @@ accessing
 versionIndex: aNumber
 
 	versionIndex := aNumber.
-	self updateVersionSelection
+	self
+		changed: #versionIndex;
+		changedSelected.

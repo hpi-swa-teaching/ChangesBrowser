@@ -1,4 +1,4 @@
 actions
 unpick
 
-	self isPicked: false
+	self isPicked: false.

@@ -4,7 +4,7 @@ mockChangesFileStreamWithAllTypesOfChanges
 	^ CRFakeFileStream new string:  '
 	
 !CRChangesDummyClass methodsFor: ''category'' stamp: ''sv 26/7/2020 13:46''!
-method
+functionOrder5
 
 	^ ''content''! !
 !CRChangesDummyClass commentStamp: ''sv 26/7/2020 13:59''!
@@ -31,8 +31,6 @@ Smalltalk renameClassNamed: #CRChangesDummyOldClass as: #CRChangesDummyNewClass!
 CRChangesDummyClass organization classify: #method under: #category!
 
 CRChangesDummyClass removeSelector: #obsoleteMethod!
-
-(RBRenameMethodRefactoring renameMethod: #methodToRename in: CRChangesDummyClass to: #renamedMethod permutation: #()) execute!
 
 SystemOrganization addCategory: #ChangesReloadedDummyPackage1!
 

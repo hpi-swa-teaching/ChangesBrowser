@@ -3,5 +3,4 @@ loadPickedChanges
 
 	self 
 		fileInPickedChanges;
-		updateAfterLoadingChanges;
-		askToSave
+		prepareChanges.

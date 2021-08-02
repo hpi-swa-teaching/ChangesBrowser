@@ -3,7 +3,6 @@ getChangeRecordsFromLastCrashFrom: aMultiByteFileStream
 
 	| changeRecords startupIndex saveOrQuitIndex |
 	
-	CRSessionState instance hasAlreadyFiledIn ifTrue: [^ OrderedCollection new].
 	Smalltalk assureStartupStampLogged.
 	
 	changeRecords := (self retrieveChangeRecordsFrom: aMultiByteFileStream) reversed

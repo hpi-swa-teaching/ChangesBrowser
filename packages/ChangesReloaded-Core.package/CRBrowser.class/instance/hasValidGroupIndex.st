@@ -1,4 +1,4 @@
 accessing
 hasValidGroupIndex
-	
-	^ self groupIndex between: 1 and: self changeGroups size
+
+	^ self groupIndex between: 1 and: self groups size

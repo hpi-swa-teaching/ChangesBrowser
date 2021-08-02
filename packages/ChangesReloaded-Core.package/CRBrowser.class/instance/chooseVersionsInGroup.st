@@ -5,6 +5,4 @@ chooseVersionsInGroup
 	self hasSelectedChangeListItem
 		ifTrue: [self pickUntilSelected]
 		ifFalse: [self unpickAllInGroup].
-	self 
-		updateGroupDescription;
-		updateAfterPick
+	self changedPickStatus

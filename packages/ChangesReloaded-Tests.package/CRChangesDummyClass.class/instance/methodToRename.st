@@ -1,3 +1,0 @@
-renaming
-methodToRename
-	^ 'hello world'

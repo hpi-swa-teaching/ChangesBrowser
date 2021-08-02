@@ -1,4 +1,4 @@
 accessing
 category: anObject
 
-	category := anObject
+	category := anObject.

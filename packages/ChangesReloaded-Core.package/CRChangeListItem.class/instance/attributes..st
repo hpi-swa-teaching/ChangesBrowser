@@ -1,4 +1,4 @@
 accessing
 attributes: anObject
 
-	attributes := anObject
+	attributes := anObject.

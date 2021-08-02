@@ -1,6 +1,6 @@
-misc
+content
 methodPriorSource
-
+	"like CodeHolder>>priorSource but return empty string instead of nil"
 	| aSelector aClass changeRecords |
 	
 	aSelector := (self attributes at: #method).

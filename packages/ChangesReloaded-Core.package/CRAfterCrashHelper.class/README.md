@@ -1,1 +1,1 @@
-A CHAfterCrashHelper pops up when the system has crashed and provides the function to recover the lost changes or to open the ChangesBrowser.
+A CRAfterCrashHelper pops up when the system has crashed and provides the function to recover the lost changes or to open the ChangesBrowser.

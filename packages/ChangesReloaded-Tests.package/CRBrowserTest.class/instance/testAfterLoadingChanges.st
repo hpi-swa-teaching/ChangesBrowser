@@ -1,9 +1,8 @@
 testing-functionality
 testAfterLoadingChanges
 	
-	| browserCopy |
-	
-	browserCopy := self changesBrowser veryDeepCopy.
-	self assert: browserCopy hasChanges.
-	browserCopy updateAfterLoadingChanges.
-	self assert: browserCopy hasChanges not.
+	self assert: self changesBrowser hasChanges.
+	self changesBrowser
+		unpickAll;
+		loadPickedChanges.
+	self assert: self changesBrowser hasChanges not.
