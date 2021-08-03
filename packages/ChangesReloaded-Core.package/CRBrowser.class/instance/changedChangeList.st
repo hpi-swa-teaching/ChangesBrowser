@@ -4,5 +4,5 @@ changedChangeList
 	self
 		groupIndex: 0;
 		changedPickStatus;
-		changed: #groupDescriptions;
-		changed: #versionDescriptions
+		changedGroupDescriptions;
+		changedVersionDescriptions.

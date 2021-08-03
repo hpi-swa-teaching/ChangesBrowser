@@ -3,4 +3,4 @@ changedPickButton
 
 	self
 		changed: #pickButtonLabel;
-		changed: #isPickButtonEnabled
+		changed: #isPickButtonEnabled.

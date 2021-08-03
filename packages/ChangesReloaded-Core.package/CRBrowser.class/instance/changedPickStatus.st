@@ -4,5 +4,5 @@ changedPickStatus
 	self
 		changed: #loadButtonLabel;
 		changed: #isLoadButtonEnabled;
-		changed: #groupDescriptions;
-		changed: #versionDescriptions.
+		changedGroupDescriptions;
+		changedVersionDescriptions.
