@@ -1,4 +1,4 @@
 accessing
 versionDescriptions
 
-	^ self collect: [:each | each versionDescription]
+	^ self changeListItems collect: [:each | each versionDescription]

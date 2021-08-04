@@ -1,5 +1,5 @@
 testing-functionality
-testIndicesOnInitialization
+testIndicesAfterInitialization
 	
 	self
 		assert: 0 equals: self changesBrowser groupIndex;

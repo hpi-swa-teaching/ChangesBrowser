@@ -2,8 +2,6 @@
 	"class" : {
 		"handIn:" : "abd 7/2/2021 19:52" },
 	"instance" : {
-		"assertCorrectPickedAttributes:" : "FK 7/11/2021 12:19",
-		"assertCorrectUnpickedAttributes:" : "FK 7/11/2021 12:19",
 		"browserWindow" : "mg 7/2/2020 13:58",
 		"browserWindow:" : "mg 7/2/2020 14:00",
 		"changeListMorph" : "JA 7/1/2021 12:25",
@@ -20,12 +18,11 @@
 		"tearDown" : "SV 7/26/2020 12:44",
 		"testAfterLoadingChanges" : "abd 7/31/2021 23:01",
 		"testBuildingChangesBrowser" : "mg 7/2/2020 13:53",
-		"testContents" : "abd 7/31/2021 23:33",
+		"testContents" : "abd 8/4/2021 17:36",
 		"testCorrectGroupIndexSelectedWhenClicked" : "JA 7/1/2021 11:26",
-		"testGroupDescriptionAttributes" : "TS 7/31/2021 20:04",
 		"testGrouping" : "TS 7/31/2021 19:55",
 		"testHasSelectedChangeListItem" : "JA 7/1/2021 11:38",
-		"testIndicesOnInitialization" : "TS 7/31/2021 20:03",
+		"testIndicesAfterInitialization" : "abd 8/4/2021 17:30",
 		"testIsLoadButtonEnabled" : "JA 7/1/2021 11:38",
 		"testIsPickButtonEnabled" : "JA 7/1/2021 11:38",
 		"testLoadButtonLabel" : "JA 7/1/2021 11:47",
@@ -37,5 +34,4 @@
 		"testPickedChangeListItems" : "JA 7/1/2021 11:52",
 		"testSelectedChangeListItemWhenNothingSelected" : "JA 7/1/2021 12:00",
 		"testSwitchingBetweenViews" : "mg 7/15/2020 19:58",
-		"testTogglePickStatus" : "FK 7/12/2021 18:14",
 		"world" : "mg 7/2/2020 14:01" } }

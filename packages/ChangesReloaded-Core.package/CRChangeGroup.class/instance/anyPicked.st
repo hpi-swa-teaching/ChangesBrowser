@@ -1,4 +1,4 @@
 testing
 anyPicked
 
-	^ self anySatisfy: [:each | each isPicked]
+	^ self changeListItems anySatisfy: [:each | each isPicked]

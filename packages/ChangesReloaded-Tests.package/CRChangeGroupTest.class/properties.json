@@ -1,14 +1,14 @@
 {
-	"category" : "ChangesReloaded-Core",
+	"category" : "ChangesReloaded-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"changeListItems" ],
-	"name" : "CRChangeGroup",
+		"changeGroup" ],
+	"name" : "CRChangeGroupTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
