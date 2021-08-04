@@ -3,6 +3,6 @@ testAfterLoadingChanges
 	
 	self assert: self changesBrowser hasChanges.
 	self changesBrowser
-		unpickAll;
+		unpickAllChanges;
 		loadPickedChanges.
 	self assert: self changesBrowser hasChanges not.

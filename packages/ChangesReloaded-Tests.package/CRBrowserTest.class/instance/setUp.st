@@ -4,4 +4,4 @@ setUp
 	super setUp.
 	CRSessionState reset.
 	self browserWindow: (CRBrowser openWith: CRFakeFileStream mockChangesFileStream).
-	self changesBrowser unpickAll.
+	self changesBrowser unpickAllChanges.

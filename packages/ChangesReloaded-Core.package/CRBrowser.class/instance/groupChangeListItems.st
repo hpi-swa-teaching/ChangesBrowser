@@ -7,4 +7,4 @@ groupChangeListItems
 	
 	self changeListItems do: [:each | 
 		groupsDictionary keysAndValuesRemove: [:groupID :group | (each shouldSeparateGroup: groupID)].
-		self add: each toCorrespondingGroupUsing: groupsDictionary].
+		self insert: each into: groupsDictionary].

@@ -1,5 +1,5 @@
 utils
-getChangeRecordsFromLastCrashFrom: aMultiByteFileStream
+changeRecordsFromLastCrashFrom: aMultiByteFileStream
 
 	| changeRecords startupIndex saveOrQuitIndex |
 	

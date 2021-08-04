@@ -1,8 +1,8 @@
 toolbuilder
-buildPanelSpecWith: aBuilder andChildren: anOrderedCollectionOfSpecs
+buildPanelSpecWith: aBuilder andChildren: anOrderedCollection
 
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		layout: #horizontal;
-		children: anOrderedCollectionOfSpecs;
+		children: anOrderedCollection;
 		yourself

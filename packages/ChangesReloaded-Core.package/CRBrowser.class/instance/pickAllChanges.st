@@ -1,4 +1,4 @@
 actions
-pickAll
+pickAllChanges
 
 	self changeListItems do: [:each | each pick]

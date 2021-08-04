@@ -1,3 +1,0 @@
-destruction
-delete
-	

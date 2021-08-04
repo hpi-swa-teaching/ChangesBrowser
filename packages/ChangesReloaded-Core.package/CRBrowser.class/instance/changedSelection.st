@@ -1,5 +1,5 @@
 updating
-changedSelected
+changedSelection
 
 	self
 		contentsChanged;

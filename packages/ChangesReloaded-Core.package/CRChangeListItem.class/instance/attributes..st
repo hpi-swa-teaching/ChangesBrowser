@@ -1,4 +1,4 @@
 accessing
-attributes: anObject
+attributes: aDictionary
 
-	attributes := anObject.
+	attributes := aDictionary.

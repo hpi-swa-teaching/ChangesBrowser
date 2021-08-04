@@ -6,7 +6,6 @@ buildWith: aBuilder
 		model: self;
 		label: 'Recover unsnapshoted changes';
 		extent: self extent;
-		closeAction: #delete;
 		children: (OrderedCollection new
 			add: ((self buildButtonsWith: aBuilder)
 				frame: self buttonsFrame;

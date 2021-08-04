@@ -1,4 +1,4 @@
 accessing
-category: anObject
+category: aSymbol
 
-	category := anObject.
+	category := aSymbol.
