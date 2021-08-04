@@ -1,4 +1,4 @@
 descriptions
 description
 
-	^ self first groupDescription copy asText addAllAttributes: self textAttributes
+	^ self first groupDescription copy asText addAllAttributes2: self textAttributes

@@ -2,5 +2,5 @@ descriptions
 textAttributes
 
 	^ self anyPicked
-		ifTrue: [OrderedCollection new]
+		ifTrue: [CRChangeListItem pickedAttributes]
 		ifFalse: [CRChangeListItem unpickedAttributes]
