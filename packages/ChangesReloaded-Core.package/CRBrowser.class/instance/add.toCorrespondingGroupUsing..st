@@ -1,4 +1,4 @@
 initialize-release
-add: aChangeListItem toCorrespondingGroupIn: aDictionary
+add: aChangeListItem toCorrespondingGroupUsing: aDictionary
 
 	(self getCorrespondingGroupOf: aChangeListItem in: aDictionary) add: aChangeListItem

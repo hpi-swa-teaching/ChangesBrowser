@@ -3,6 +3,6 @@ chooseVersionsInGroup
 
 	self hasSelectedGroup ifFalse: [^ self].
 	self hasSelectedChangeListItem
-		ifTrue: [self pickUntilSelected]
-		ifFalse: [self unpickAllInGroup].
+		ifTrue: [self selectedGroup pickUntil: self versionIndex]
+		ifFalse: [self selectedGroup unpickAll].
 	self changedPickStatus
