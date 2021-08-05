@@ -5,4 +5,4 @@ testAfterLoadingChanges
 	self changesBrowser
 		unpickAllChanges;
 		loadPickedChanges.
-	self assert: self changesBrowser hasChanges not.
+	self deny: self changesBrowser hasChanges.

@@ -3,10 +3,10 @@ testDescriptionAttributes
 
 	self assertCorrectPickedAttributes: self changeGroup description.
 	
-	self changeGroup pickAt: 0.
+	self changeGroup unpickAll.
 	self assertCorrectUnpickedAttributes: self changeGroup description.
 	
-	self changeGroup pickAt: 2.
+	self changeGroup chooseVersionAt: 1.
 	self assertCorrectPickedAttributes: self changeGroup description.
 
 	

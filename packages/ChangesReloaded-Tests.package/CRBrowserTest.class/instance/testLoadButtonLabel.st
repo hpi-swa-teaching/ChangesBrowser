@@ -1,12 +1,12 @@
 testing-functionality
 testLoadButtonLabel
 	
-	self assert: (self changesBrowser loadButtonLabel = 'Pick changes to load them').
+	self assert: 'Load Changes' equals: self changesBrowser loadButtonLabel.
 	
 	self selectFirstChangeListItem.
 	self changesBrowser selectedChangeListItem pick.
-	self assert: (self changesBrowser loadButtonLabel = 'Load 1 change').
+	self assert: 'Load 1 Change' equals: self changesBrowser loadButtonLabel.
 	
 	self selectSecondChangeListItem.
 	self changesBrowser selectedChangeListItem pick.
-	self assert: (self changesBrowser loadButtonLabel = 'Load 2 changes')
+	self assert: 'Load 2 Changes' equals: self changesBrowser loadButtonLabel.

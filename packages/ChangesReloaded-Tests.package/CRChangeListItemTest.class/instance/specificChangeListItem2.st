@@ -1,4 +1,4 @@
 accessing
 specificChangeListItem2
 
-	^ self changeListItems at: 2
+	^ self changeListItems second

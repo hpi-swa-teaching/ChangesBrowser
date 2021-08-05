@@ -1,6 +1,6 @@
 accessing
-correctChangeGroupContentIndices
-
+expectedGrouping
+	"return only the indices of changeListItems in every group"
 	^ {{1}. 
 		{2 . 3}.
 		{4}.

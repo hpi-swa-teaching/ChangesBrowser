@@ -1,3 +1,4 @@
 accessing
 changeListItems: anObject
-	changeListItems := anObject
+
+	changeListItems := anObject.

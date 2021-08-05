@@ -2,5 +2,5 @@ descriptions
 textAttributes
 
 	^ self anyPicked
-		ifTrue: [CRChangeListItem pickedAttributes]
-		ifFalse: [CRChangeListItem unpickedAttributes]
+		ifTrue: [CRBrowser pickedAttributes]
+		ifFalse: [CRBrowser unpickedAttributes]

@@ -1,3 +1,4 @@
 accessing
-changeGroup: anObject
-	changeGroup := anObject
+changeGroup: aCRChangeGroup
+
+	changeGroup := aCRChangeGroup.

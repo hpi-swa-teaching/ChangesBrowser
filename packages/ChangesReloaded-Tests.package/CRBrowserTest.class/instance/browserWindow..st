@@ -1,4 +1,4 @@
 accessing
 browserWindow: aPluggableSystemWindow
 
-	browserWindow := aPluggableSystemWindow
+	browserWindow := aPluggableSystemWindow.

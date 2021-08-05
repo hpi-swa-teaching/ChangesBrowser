@@ -1,4 +1,4 @@
-initialize & release
+initialize-release
 initialize
 
 	super initialize.

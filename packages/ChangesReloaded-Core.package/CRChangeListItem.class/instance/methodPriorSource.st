@@ -1,12 +1,12 @@
 content
 methodPriorSource
-	"like CodeHolder>>priorSource but return empty string instead of nil"
+	"copied from CodeHolder>>priorSource"
 	| aSelector aClass changeRecords |
 	
 	aSelector := (self attributes at: #method).
 	(aClass := Smalltalk classNamed: (self attributes at: #class))
-		ifNil: [^ ''].
+		ifNil: [^ nil].
 	(changeRecords := aClass changeRecordsAt: aSelector)
-		ifNil: [^ ''];
-		ifEmpty: [^ ''].
+		ifNil: [^ nil];
+		ifEmpty: [^ nil].
 	^ changeRecords first string

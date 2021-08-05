@@ -1,7 +1,7 @@
 testing-functionality
 testGrouping
 
-	self correctChangeGroupContentIndices doWithIndex: [:group :i | 
+	self expectedGrouping doWithIndex: [:group :i | 
 		self changesBrowser groupIndex: i.
 		group doWithIndex: [:correctChangeListItemIndex :j | 
 			self changesBrowser versionIndex: j.
