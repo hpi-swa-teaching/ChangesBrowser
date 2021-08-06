@@ -1,4 +1,4 @@
 actions
 unpickAllChanges
 
-	self changeListItems do: [:each | each unpick]
+	self changeListItems do: [:each | each unpick].

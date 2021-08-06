@@ -1,3 +1,4 @@
 accessing
-afterCrashHelper: anObject
-	afterCrashHelper := anObject
+afterCrashHelper: aCRAfterCrashHelper
+
+	afterCrashHelper := aCRAfterCrashHelper.

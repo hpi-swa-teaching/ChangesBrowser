@@ -1,6 +1,7 @@
 accessing
 versionDescriptions
 	
-	self selectedGroup
-		ifNotNil: [^ self selectedGroup versionDescriptions]
-		ifNil: [^ OrderedCollection new]
+	^ self selectedGroup
+		ifNil: [OrderedCollection new]
+		ifNotNil: [self selectedGroup versionDescriptions]
+		

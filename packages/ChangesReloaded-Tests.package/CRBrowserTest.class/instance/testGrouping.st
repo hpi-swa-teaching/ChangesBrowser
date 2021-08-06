@@ -7,4 +7,4 @@ testGrouping
 			self changesBrowser versionIndex: j.
 			self 
 				assert: (self changesBrowser changeListItems at: correctChangeListItemIndex) 
-				equals: self changesBrowser selectedChangeListItem]]
+				equals: self changesBrowser selectedChangeListItem]].

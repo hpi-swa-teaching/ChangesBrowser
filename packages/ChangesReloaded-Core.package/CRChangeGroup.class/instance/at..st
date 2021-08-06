@@ -1,4 +1,4 @@
 accessing
-at: anInteger
+at: aNumber
 
-	^ self changeListItems at: anInteger
+	^ self changeListItems at: aNumber

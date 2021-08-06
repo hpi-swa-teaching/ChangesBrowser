@@ -1,7 +1,7 @@
 instance-creation
-setCategoryAndAttributesOf: aChangeListItem
+setCategoryAndAttributesOf: aCRChangeListItem
 	
 	| categoryAttributesTuple |	
-	categoryAttributesTuple := (self categoryAndAttributesFor: aChangeListItem).
-	aChangeListItem category: categoryAttributesTuple first.
-	aChangeListItem attributes: categoryAttributesTuple second
+	categoryAttributesTuple := (self categoryAndAttributesFor: aCRChangeListItem).
+	aCRChangeListItem category: categoryAttributesTuple first.
+	aCRChangeListItem attributes: categoryAttributesTuple second.

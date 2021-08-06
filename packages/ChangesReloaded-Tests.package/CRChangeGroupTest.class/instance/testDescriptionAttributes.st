@@ -1,12 +1,12 @@
 testing
 testDescriptionAttributes
 
-	self assertCorrectPickedAttributes: self changeGroup description.
+	self assert: (CRBrowserTest hasPickedAttributes: self changeGroup description).
 	
 	self changeGroup unpickAll.
-	self assertCorrectUnpickedAttributes: self changeGroup description.
+	self assert: (CRBrowserTest hasUnpickedAttributes: self changeGroup description).
 	
 	self changeGroup chooseVersionAt: 1.
-	self assertCorrectPickedAttributes: self changeGroup description.
+	self assert: (CRBrowserTest hasPickedAttributes: self changeGroup description).
 
 	

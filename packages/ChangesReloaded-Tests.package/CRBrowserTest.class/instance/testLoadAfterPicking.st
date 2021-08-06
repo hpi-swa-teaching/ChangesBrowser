@@ -8,4 +8,4 @@ testLoadAfterPicking
 	self assert: 4 equals: self changesBrowser numberOfPickedChangeListItems.
 	
 	self changesBrowser loadPickedChanges.
-	self assert: self expectedFiledInChanges equals: (changeListItems collect: [:each | each filedIn]).
+	self assert: self expectedFiledInStatusOfChanges equals: (changeListItems collect: [:each | each filedIn]).

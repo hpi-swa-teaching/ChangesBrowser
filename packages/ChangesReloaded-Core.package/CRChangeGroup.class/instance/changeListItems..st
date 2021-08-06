@@ -1,3 +1,4 @@
 accessing
-changeListItems: anObject
-	changeListItems := anObject
+changeListItems: anOrderedCollection
+
+	changeListItems := anOrderedCollection.

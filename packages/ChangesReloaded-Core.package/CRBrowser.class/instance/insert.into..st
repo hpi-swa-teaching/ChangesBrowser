@@ -1,4 +1,5 @@
 initialize-release
-insert: aChangeListItem into: aDictionary
+insert: aCRChangeListItem into: aDictionary
 
-	(self groupOf: aChangeListItem in: aDictionary) add: aChangeListItem
+	(self groupOf: aCRChangeListItem in: aDictionary) 
+		add: aCRChangeListItem.

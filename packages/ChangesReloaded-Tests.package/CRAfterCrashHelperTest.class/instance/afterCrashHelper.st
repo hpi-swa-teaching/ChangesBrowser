@@ -1,3 +1,4 @@
 accessing
 afterCrashHelper
+
 	^ afterCrashHelper

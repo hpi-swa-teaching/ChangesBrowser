@@ -1,4 +1,5 @@
 launching
 startUp: resuming
 
-	(resuming and: [self canRestoreChanges]) ifTrue: [self open].
+	(resuming and: [self canRestoreChanges.]) 
+		ifTrue: [self open.].

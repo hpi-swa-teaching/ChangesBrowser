@@ -1,6 +1,6 @@
 initialize-release
-groupOf: aChangeListItem in: aDictionary
+groupOf: aCRChangeListItem in: aDictionary
 
-	^ aChangeListItem shouldBeGrouped
-			ifTrue: [aDictionary at: aChangeListItem groupID ifAbsentPut: [self newGroup]]
+	^ aCRChangeListItem shouldBeGrouped
+			ifTrue: [aDictionary at: aCRChangeListItem groupID ifAbsentPut: [self newGroup]]
 			ifFalse: [self newGroup]

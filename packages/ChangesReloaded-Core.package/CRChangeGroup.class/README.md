@@ -4,4 +4,4 @@ Instance Variables
 	changeListItems:		OrderedCollectioin of ChangeListItems
 
 changeListItems
-	- the changeListItems in chronological order
+	- the changeListItems of this group in chronological order. The user chooses one change, but also gets older changes as versions in version history.
