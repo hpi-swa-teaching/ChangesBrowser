@@ -2,6 +2,4 @@ initialize-release
 initializeWith: aMultiByteFileStream
 
 	super initialize.
-	self
-		changesFileStream: aMultiByteFileStream;
-		initializeChanges.
+	self	initializeChangesWith: aMultiByteFileStream.

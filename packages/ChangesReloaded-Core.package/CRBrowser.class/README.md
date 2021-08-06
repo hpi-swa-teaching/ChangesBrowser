@@ -1,10 +1,22 @@
-A CRBrowser is a tool to recover changes stored in the changes file back into the image. The main element is a change list that shows changes which are not in the Image in chronological order, with the latest change first.
+A CRBrowser is a tool to recover changes that happened in the last coding session, which weren't saved due to a crash. 
 
-On initialization, the CRBrowser creates a ChangeList to read all wanted changes as instances of ChangeRecord from the changes file. After that, it turns the OrderedCollection of ChangeRecords into an OrderedCollection of CRChangeListItems. That makes it possible to store a selection state for each ChangeRecord. The ChangeList is not needed after this step anymore and gets deleted. The CRBrowser performs future operations directly on the OrderedCollection of CRChangeListItems.
+It has an OrderedCollection of CRChangeListItems which is also grouped in different CRChangeGroups. It creates the groups and adds the corresponding ChangeListItems to each group. It communicates with the ChangeListItems over the CRChangeGroups, but when it needs to load the changes, it uses the OrderedCollection that has the chronological order of these changes.
+
 
 Instance Variables
 	changeListItems					OrderedCollection of CRChangeListItems
-	changeListSelectionIndex		Index of the currently selected item in the ChangeList for viewing in detail
-	changeGroups
-	groupIndex
-	versionIndex
+	groups								OrderedCollection of CRChangeGroups
+	groupIndex							Integer
+	versionIndex						Integer
+						
+changeListItems:
+	- The CRChangeListItems with chronological order.
+
+groups:
+	- The CRChangeGroups.
+	
+groupIndex:
+	- Index of selected group. It is controlled by the user selection.
+	
+versionIndex:
+	- Index of selected version. groupIndex has to be a valid number. It is also controlled by the user selection.
