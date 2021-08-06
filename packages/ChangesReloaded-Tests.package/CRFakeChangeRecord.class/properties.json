@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"filedIn" ],
+	"name" : "CRFakeChangeRecord",
+	"pools" : [
+		 ],
+	"super" : "ChangeRecord",
+	"type" : "normal" }
