@@ -1,10 +1,11 @@
 testing
 testBrowseChanges
 
-	self assert:  (World submorphs contains: [:a | (a model class) = CRAfterCrashHelper]).
+	self assert:  (World submorphsSatisfying: [:a | (a model class) = CRAfterCrashHelper]) notEmpty.
 	
 	self afterCrashHelper browseChanges.
-	self deny:  (World submorphs contains: [:a | (a model class) = CRAfterCrashHelper]).
-	self assert:  (World submorphs contains: [:a | (a model class) = CRBrowser]).
+	self assert:  (World submorphsSatisfying: [:a | (a model class) = CRAfterCrashHelper]) isEmpty.
+	self assert:  (World submorphsSatisfying: [:a | (a model class) = CRBrowser]) notEmpty.
 	
-	(World submorphs do: [:a | ((a model class) = CRBrowser) ifTrue: [a closeBoxHit]]).
+	(World submorphsDo: [:a | ((a model class) = CRBrowser) 
+		ifTrue: [a closeBoxHit]]).
