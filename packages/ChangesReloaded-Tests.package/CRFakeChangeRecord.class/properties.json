@@ -1,0 +1,14 @@
+{
+	"category" : "ChangesReloaded-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "abd 8/6/2021 15:36",
+	"instvars" : [
+		"filedIn" ],
+	"name" : "CRFakeChangeRecord",
+	"pools" : [
+		 ],
+	"super" : "ChangeRecord",
+	"type" : "normal" }

@@ -6,6 +6,4 @@ newWith: aChangeRecord
 	changeListItem := self new changeRecord: aChangeRecord.
 	self setCategoryAndAttributesOf: changeListItem.
 	
-	^ changeListItem 
-			pick; 
-			yourself
+	^ changeListItem

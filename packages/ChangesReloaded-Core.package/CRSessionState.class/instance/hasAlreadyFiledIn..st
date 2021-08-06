@@ -1,4 +1,4 @@
 accessing
-hasAlreadyFiledIn: aBoolean
+hasAlreadyFiledIn: aBool
 	
-	hasAlreadyFiledIn := aBoolean.
+	hasAlreadyFiledIn := aBool.

@@ -1,3 +1,4 @@
 accessing
-changeRecords: anObject
-	changeRecords := anObject
+changeRecords: anOrderedCollection
+
+	changeRecords := anOrderedCollection.

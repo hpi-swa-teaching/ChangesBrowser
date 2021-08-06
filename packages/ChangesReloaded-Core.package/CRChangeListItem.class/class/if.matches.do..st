@@ -1,4 +1,5 @@
 utility
-if: anMatcher matches: aString do: aBlock
+if: aMatcher matches: aString do: aBlock
 	
-	^ (anMatcher matches: aString) ifTrue: [^ aBlock value: anMatcher]
+	^ (aMatcher matches: aString) 
+		ifTrue: [^ aBlock value: aMatcher]

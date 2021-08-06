@@ -1,4 +1,4 @@
 button-actions
 closeWindow
 
-	self window delete
+	self window delete.

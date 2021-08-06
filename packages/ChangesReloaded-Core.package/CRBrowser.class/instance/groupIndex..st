@@ -4,4 +4,6 @@ groupIndex: aNumber
 	groupIndex := aNumber.
 	self
 		changed: #groupIndex;
-		changedSelectedGroup.
+		versionIndex: 0;
+		changedSelection;
+		changedVersionDescriptions.

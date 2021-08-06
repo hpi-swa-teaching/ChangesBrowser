@@ -3,5 +3,5 @@ classCommentPriorSource
 
 	| aClass |
 	(aClass := Smalltalk classNamed: (self attributes at: #class))
-		ifNil: [^''].
+		ifNil: [^ nil].
 	^ aClass comment asString

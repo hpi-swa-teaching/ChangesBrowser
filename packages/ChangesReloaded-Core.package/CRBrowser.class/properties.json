@@ -4,11 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "abd 6/16/2021 11:15",
+	"commentStamp" : "abd 8/6/2021 15:44",
 	"instvars" : [
-		"changesFileStream",
 		"changeListItems",
-		"groupDescriptions",
 		"groups",
 		"groupIndex",
 		"versionIndex" ],

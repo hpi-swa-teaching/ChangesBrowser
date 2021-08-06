@@ -1,10 +1,10 @@
 testing-functionality
 testNumberOfPickedChangeListItems
 
-	self assert: (self changesBrowser numberOfPickedChangeListItems = 0).
+	self assert: 0 equals: self changesBrowser numberOfPickedChangeListItems.
 
 	self selectFirstChangeListItem.
 	self changesBrowser selectedChangeListItem pick.
 	self selectSecondChangeListItem.
 	self changesBrowser selectedChangeListItem pick.
-	self assert: (self changesBrowser numberOfPickedChangeListItems = 2).
+	self assert: 2 equals: self changesBrowser numberOfPickedChangeListItems.

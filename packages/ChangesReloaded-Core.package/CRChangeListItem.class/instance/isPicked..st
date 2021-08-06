@@ -1,4 +1,4 @@
 accessing
-isPicked: aBoolean
+isPicked: aBool
 
-	isPicked := aBoolean.
+	isPicked := aBool.

@@ -2,7 +2,7 @@ buttons
 pickButtonLabel
 
 	^ (self hasSelectedGroup)
-		ifFalse: ['Pick or unpick changes']
 		ifTrue: [self hasSelectedChangeListItem
-			ifTrue: ['Pick']
-			ifFalse: ['Unpick All Versions']]
+			ifTrue: ['Choose This Version']
+			ifFalse: ['Reject All Versions']]
+		ifFalse: ['Choose Versions']

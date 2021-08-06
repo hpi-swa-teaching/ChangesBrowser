@@ -1,7 +1,7 @@
 mocking
 mockChangesFileStreamWithAllTypesOfChanges
 
-	^ CRFakeFileStream new string:  '
+	^ self new string:  '
 	
 !CRChangesDummyClass methodsFor: ''category'' stamp: ''sv 26/7/2020 13:46''!
 functionOrder5

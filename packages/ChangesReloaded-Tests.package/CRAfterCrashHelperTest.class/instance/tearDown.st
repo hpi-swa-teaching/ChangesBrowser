@@ -1,4 +1,4 @@
 running
 tearDown
 
-	self afterCrashHelper closeWindow
+	self afterCrashHelper closeWindow.

@@ -1,8 +1,8 @@
 testing-functionality
 testIsPickButtonEnabled
 	
-	self assert: (self changesBrowser isPickButtonEnabled not).
+	self deny: self changesBrowser isPickButtonEnabled.
 	
 	self selectFirstChangeListItem.
-	self assert: (self changesBrowser isPickButtonEnabled).
+	self assert: self changesBrowser isPickButtonEnabled.
 	

@@ -14,4 +14,4 @@ testPickedChangeListItems
 	self changesBrowser selectedChangeListItem pick.
 	testPickedItems add: self changesBrowser selectedChangeListItem.
 
-	self assert: (self changesBrowser pickedChangeListItems = testPickedItems)
+	self assert: testPickedItems equals: self changesBrowser pickedChangeListItems.

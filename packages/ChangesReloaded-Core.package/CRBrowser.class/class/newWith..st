@@ -1,4 +1,4 @@
 instance-creation
 newWith: aMultiByteFileStream
 
-	^ self basicNew initializeWith: aMultiByteFileStream
+	^ self new initializeChangesWith: aMultiByteFileStream

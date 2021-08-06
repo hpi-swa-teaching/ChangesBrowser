@@ -3,4 +3,4 @@ loadPickedChanges
 
 	self 
 		fileInPickedChanges;
-		prepareChanges.
+		cleanBrowser.

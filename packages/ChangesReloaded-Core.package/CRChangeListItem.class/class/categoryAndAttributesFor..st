@@ -1,8 +1,8 @@
 categories & attributes
-categoryAndAttributesFor: aChangeListItem
-	aChangeListItem type caseOf: {
-		[#method] -> [^ self methodCategoryAndAttributesFor: aChangeListItem].
-		[#classComment] -> [^ self classCommentCategoryAndAttributesFor: aChangeListItem].
-		[#doIt] -> [^ self doItCategoryAndAttributesFor: aChangeListItem].
+categoryAndAttributesFor: aCRChangeListItem
+	
+	aCRChangeListItem type caseOf: {
+		[#method] -> [^ self methodCategoryAndAttributesFor: aCRChangeListItem].
+		[#classComment] -> [^ self classCommentCategoryAndAttributesFor: aCRChangeListItem].
+		[#doIt] -> [^ self doItCategoryAndAttributesFor: aCRChangeListItem].
 	}.
-	"otherwise: [^ 'MISC should be removed ']"
